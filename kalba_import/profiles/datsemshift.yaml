@@ -1,0 +1,18 @@
+contract: kalba-neo4j/1.1
+dataset_id: datsemshift
+path_name: datsemshift
+title: DatSemShift
+profile_version: 0.1.0
+verified: true
+input:
+  kind: cldf
+  metadata_glob: cldf/cldf-metadata.json
+  require_exactly_one_metadata: true
+  extra_files: []
+requires:
+  authorities: [glottolog, concepticon]
+semantics:
+  local_id_identity:
+    Local_ID: "DatSemShift source-local lexeme number; not a cross-dataset lexeme key"
+    Shifts: "source-local semantic shift identifiers (shiftNNNN); a shared shift ID links realizations, not lexical identity"
+  table_intent: "Semantic shift realizations: forms record polysemy or derivation between source-local concepts; Linked_Concepts and Target_Concepts are derived shift summaries, not independent evidence."

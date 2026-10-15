@@ -1,0 +1,1743 @@
+# Sodo sąsaja: pl (numeris<TAB>vertimas; numeriai – iš raktai.tsv)
+1	(ograniczone do pojęć z koszyka)
+2	(Ctrl+Numpad + / −)
+3	(jeszcze {0} – po jednym języku)
+4	(łącznie {0} z tą samą najlepszą wartością {1}; ich kolejność jest losowa)
+5	(wyprowadzone z tekstu)
+6	(jako {0})
+8	(wniosek modelu)
+9	(omijając zakazane relacje)
+10	(brak display_name)
+11	(ukryto {0})
+13	(sama analiza sugerowała {0})
+14	(polarny
+15	(pokazywany po zaznaczeniu „rekordy techniczne“).
+16	(pokazano pierwsze {0})
+17	(przy ukrywaniu dotknięci sąsiedzi zostają)
+18	({0} w próbce)
+19	({0} nie uwzględniono)
+20	) jest używany taki, jaki jest; każda inna nazwa staje się relacją
+21	) oznaczone ƒ. Reguła
+22	). Wcześniejsze zapytania programu zostają w pamięci podręcznej, ale nie pasują do nowego modelu grafu.
+23	, jeszcze {0} – klikaj węzły „+“
+25	, które najlepiej odpowiadają {0}. poziomowi drzewa (ARI {1})
+26	, zostawiono {0} dotkniętych
+27	, potrzebne połączenie z internetem. Obecnie: {0}.
+28	, więc lepiej zgadza się też ze słownictwem.
+29	, {0} uwag
+30	100 % wspólnych kognatów
+34	; razem – {0}
+36	; {0} bez współrzędnych nie pokazano
+51	Obie osie – percentyl stabilności (w prawo i w górę – stabilniej). Linie dzielą na pół. Kliknij pojęcie – jego dane poniżej.
+53	Adres
+56	objaśniane
+57	objaśniane…
+59	Alt + kółko myszy
+60	Alt+Numpad +/−
+61	Analiza: {0} obiektów, {1} właściwości, {2} twierdzeń, {3} relacji
+62	segmenty analizy
+63	Adres API
+64	Klucz API
+66	Scalono identycznych par: {0}
+67	Scalono dwa zbiory danych
+68	Scalono dwa zbiory danych: {0} – kliknij
+69	Scal identyczne
+70	Scal wszystkie identyczne
+72	Czy graf sam wydobywa stabilne grupy pojęć?
+73	Łączyć w jeden indeks? {0} (1. składowa wyjaśnia {1})
+74	Czy języki, które mają więcej wspólnych kognatów, stoją też bliżej w drzewie Glottolog? Porównuje się bliskość leksykalną każdej pary języków z ich odległością w drzewie, widma obu grafów i grupy, drzewo leksykalne z gałęziami Glottolog; znajdowane są języki i pary sprzeczne z drzewem. W koszyku: rodzina lub gałąź Glottolog, języki, pojęcia (ograniczają znaczenia) – albo nic (wszystkie języki z danymi o kognatach).
+75	Czy składowe opowiadają to samo?
+76	czy różne rodziny łączą pojęcie z tymi samymi innymi znaczeniami (śr. Jaccard)
+77	Czy badać też zrekonstruowane formy prajęzyków (oznaczone *, np. *méh₁n̥s). Zapisuje się je inaczej niż formy poświadczone i nie mają miejsca jednego języka, dlatego zwykle się je pomija.
+78	lub zmienna środowiskowa OPENAI_API_KEY
+79	ARI z kognatami
+80	ARI z {0}. poziomem drzewa
+81	ARI między {0} grupami leksykalnymi a gałęziami Glottolog na każdym poziomie poniżej wspólnego przodka{1}.
+82	Armenia
+83	najbliższe wg słownictwa
+84	relacje najbliższego sąsiada
+85	najbliższe w drzewie
+86	Pary najbliższe w drzewie (odległość {0}) dzielą średnio (mediana) {1} znaczeń kognatami, najdalsze (odległość {2}) – {3}. Szeroki pas przy jednej odległości pokazuje, że ta sama odległość w drzewie nie oznacza tego samego czasu: jedne gałęzie rozdzieliły się wcześniej, inne później, a drzewo tego nie mierzy.
+88	Otwórz
+91	zgodność γ
+95	Wykonane badania
+98	Odśwież
+99	Odśwież Neo4j
+104	ostrożnie: część różnic może wynikać z tego, jak dobrze pojęcie zbadano.
+111	odległości (MDS)
+112	odległość 0
+113	odległość w drzewie
+114	Macierz odległości
+118	Otwórz w ogrodzie
+120	Anuluj
+124	Azerbejdżan
+126	Oś – udział wspólnych kognatów w tym połączeniu.
+127	Bangladesz
+128	Bez nich węzły lokalne nie będą miały dodatkowych danych (ExternalIdentifier „pending“).
+129	bez modelu
+131	Zakaz
+132	Zakaz: nie przechodzić przez {0}
+133	Zakaz: relacje {0} nie są używane w szukaniu ścieżek
+134	Zakazane relacje (ścieżki przez nie nie przechodzą)
+135	głębokość wspólnego przodka
+136	wspólnych znaczeń
+137	BIPA rozpoznał {0}, inne systemy CLTS jednoznacznie – {1}, w przybliżeniu (bez niektórych diakrytyków) – {2}, nierozpoznane – {3}. Rozpoznane dźwięki porównuje się według cech fonetycznych (m i n różnią się mniej niż m i a); nierozpoznane – tylko jako ten sam lub inny symbol.
+140	liczba krawędzi
+141	liczba krawędzi w drzewie (pierwsza próba)
+142	kreskowana
+143	Zostaną usunięte
+144	stan
+146	Wyśrodkuj
+147	Klucz ChatGPT zapisuje się do pliku .raktas w folderze projektu (zob. API_raktas.md)
+148	dźwięk CLTS
+149	odległość edycyjna ważona cechami CLTS, podzielona przez długość dłuższej formy
+154	Ctrl + przeciąganie
+155	Ctrl + 🗺
+158	Ctrl+Alt+Shift+Numpad +/−
+161	Ctrl+Numpad +/−
+162	Ctrl+Shift + kółko myszy
+164	Ctrl+Shift+Numpad +/−
+166	Teraz: {0} węzłów, {1} ograniczeń, indeksy: {2}.
+169	Jeszcze nic nie badałeś.
+174	dataset = "lkezdb"
+175	Brak danych DatSemShift.
+176	W sieci znaczeń DatSemShift oprócz polisemii (jedno słowo – kilka znaczeń) liczyć też derywację (znaczenie przeszło na słowo pochodne). Sieć jest gęstsza, ale mniej czysta.
+177	DatSemShift nie ma tego pojęcia.
+178	DatSemShift: polisemia w {0} rodzinach, najczęstsi sąsiedzi –
+179	Najwięcej form
+180	Najwięcej węzłów w ogrodzie
+181	Najwięcej relacji z jednego węzła
+182	Najwięcej relacji w ogrodzie
+183	mnożnik dla wszystkich relacji (i grubości typów); Ctrl+Shift + kółko myszy
+185	Dostosowywany motyw
+186	Prawy przycisk
+187	Prawy przycisk → Zwiń
+188	Prawy przycisk myszy – działania · środkowy na węźle lub relacji – jego panel sterowania · dwuklik – rozwiń · Shift + przeciąganie – zaznacz prostokątem.
+189	Duży skok po k-tej wartości pokazuje, że dane dzielą się na k grup. Pomarańczowe – wybrane k.
+190	Większe grupy kognatów nie dzielą się na kilka grup dźwiękowych.
+191	największy węzeł
+192	Największy węzeł
+193	największy rozmiar węzłów ±
+194	największa przerwa jest między {0}. a {1}. wartością własną ({2} → {3})
+197	dwa osobne węzły
+199	po dwukliku
+200	Dwuklik
+201	Zbiory danych
+207	Brak danych o tym węźle
+208	w bazie danych
+209	typ w bazie danych
+210	Typ w bazie danych (np.
+211	Nie znaleziono pamięci podręcznej danych:
+212	Rozmiar wg
+213	Z powodu limitu nie wzięto jeszcze {0} form.
+216	Kolejka
+217	Kolejka jest pusta.
+218	w kolejce
+219	nr
+222	E-mail
+233	etc/orthography.tsv nie dał żadnego dźwięku.
+234	etc/orthography.tsv nie zna znaków {0}; wymowy nie wymyślamy.
+235	etykieta
+236	Wyspy Owcze
+237	Fidżi
+239	Filtr, np. Lithuanian
+240	filtruj: forma, język, gałąź, kognat…
+241	filtruj: język, gałąź…
+242	filtruj: pojęcie, pole…
+244	Forma
+245	Forma i znaczenie
+246	Forma nie ma ani segmentów, ani zapisanej formy.
+247	Forma: klasy kognatów IE-CoR
+248	Stabilność formy i znaczenia –
+249	Składowe formy korelują ze sobą średnio ρ {0},
+250	Stabilność formy – {0} pojęć IE-CoR w {1} językach ({2} gałęzi Glottolog). Stabilność znaczenia – {3} z nich znaleziono w sieci DatSemShift ({4} pojęć, {5} par polisemii, {6} rodzin językowych; przestrzeń spektralna – największa spójna część, {7} pojęć). DatSemShift podaje tylko znalezione przesunięcia, a nie wszystkie badane języki, dlatego liczby polisemii pokazują jednocześnie, jak dobrze pojęcie zbadano i jak bardzo jest „ruchliwe“ – to ważne przy ocenie składowej polisemii.
+251	Formy posortowane według grup (kolorowy pasek z lewej i u góry). Ciemniej – podobniej brzmią. Wyraźne ciemne kwadraty na przekątnej – spójne grupy; ciemne plamy poza nimi – podobieństwo między grupami.
+253	Spektralna klasteryzacja form według podobieństwa brzmienia
+254	zbadanych form
+255	może być przypadkowe
+256	Dozwolone: {0}; domyślnie: „{1}“.
+257	dość podobne
+258	Dźwięki i CLTS
+259	Dźwięki są łączone z CLTS…
+260	Ogród dźwięków
+261	grup dźwiękowych{0}
+262	Pobierz listę modeli
+263	Miara odległości genealogicznej zmienia obraz: głębokość przodka ρ {0}, krawędzie ρ {1}
+264	Graf
+265	osie wykresu po lewej można zmienić.)
+266	Plan grafu (JSON)
+267	Plan grafu: {0} węzłów, {1} relacji
+268	Ułóż plan grafu na nowo według zapisanego objaśnienia, bez modelu językowego
+269	Gryzonia (Szwajcaria)
+273	ścisły schemat odpowiedzi (jeśli model go nie obsługuje – wyłącza się sam)
+274	czystość grup
+277	grupa
+278	Grupa
+282	grupa {0} · sylwetka {1}{2}{3}
+286	Grupy
+288	Grupy i poziomy drzewa
+292	grupy {0} i {1}
+293	Grupy {0}: {1} form jest w grupie kognatów większości swojej grupy
+295	Grupy, kognaty i gałęzie językowe
+296	W grupach mieszają się słowa różnego pochodzenia, a grupy kognatów się rozpadają:
+301	Czystość pokazuje, czy do jednej grupy dźwiękowej nie trafiają słowa różnego pochodzenia.
+302	Przywrócono ustawienia domyślne
+303	Przywróć domyślne
+307	Brak danych IE-CoR.
+308	Języki IE-CoR, {0} gałęzi
+309	IE-CoR nie ma tego pojęcia.
+310	Szukane są najkrótsze ścieżki, bez względu na ich długość.
+311	Szukanie ścieżek: {0} ⇝ {1}…
+312	szukanie wszystkich relacji „{0}“…
+314	do celu
+315	Import
+316	Diagnostyka importu
+317	zaimportuj ponownie także te, które już są w Neo4j
+318	Importuj zaznaczone
+319	Wszystkie węzły w próbce mają zrozumiałe dla człowieka nazwy.
+320	a składowe wchodzą w nią w różnych kierunkach
+321	i dołącz
+322	z bazy danych
+324	Z co najmniej ilu różnych rodzin językowych muszą być poświadczone powiązania pojęcia w sieci DatSemShift, by liczyć stabilność jego znaczenia.
+325	Drzewo zbudowane z odległości leksykalnych (grupowanie metodą średnich połączeń, UPGMA). Gałąź jest spójna, jeśli wszystkie jej języki łączą się w niej wcześniej niż z jakimkolwiek innym.
+326	z Neo4j usunięto wszystkie dane LKEŽDB: {0}
+327	objaśnione
+328	objaśnij
+329	Objaśnij
+330	Objaśnij ponownie
+331	Objaśnij zaznaczone
+332	Objaśnij zaznaczone{0}
+333	Objaśnić {0} słów modelem językowym? Każde słowo to osobne (płatne) zapytanie.
+334	objaśnione, ale nie dołączone do Neo4j. Kliknij „Dołącz do Neo4j“.
+335	Rozmieść ponownie
+336	Rozmieść ogród ponownie
+337	Wyjmij
+338	Wyjmij wszystkie węzły z koszyka (w ogrodzie zostają)
+340	Wyłącz mapę
+342	Przetrwanie w dalekich gałęziach
+343	więcej
+345	Zapisano
+346	Zapisano: {0}
+347	Zapisz
+348	Zapisz jako SVG
+352	Właściwości wyliczane
+353	Rozdziel
+354	Rozwijane są wszystkie te węzły; ich relacje pokazywane są z tego węzła. Na mapie pokazuje się je osobno – każdy w miejscu swojego języka.
+355	Rozwiń
+356	rozwiń węzeł
+359	Zbadano {0}
+360	ciągła
+361	Usuwane są tylko węzły dołączone tym narzędziem i ich relacje (także relacje do Glottolog i Concepticon). Inne zbiory danych, ograniczenia i indeksy pozostają nietknięte. Objaśnienia zostają w pamięci podręcznej SQLite – można je dołączyć ponownie.
+362	Usunięto {0} węzłów, {1} relacji
+366	Usuń
+374	Usuń relację
+378	Usuń badanie
+379	Usuń wszystko
+380	Usuń wszystkie dane LKEŽDB
+381	Usuń wszystkie dane Neo4j
+382	Usuń wszystkie dane Neo4j…
+387	Wyczyść ukończone i nieudane
+388	Opróżnij koszyk
+389	Wyczyść tymczasowe wyniki
+390	Wyczyść ogród
+391	wyprowadzone z etc/orthography.tsv
+393	już w Neo4j
+394	Już wczytane zbiory (te same pliki i profil) są pomijane; sprawdzenie trwa kilka sekund.
+396	Jeśli to samo słowo rozprzestrzeniło się w kilku gałęziach (zapożyczenie lub wspólne dziedzictwo), grupa dźwiękowa obejmuje kilka gałęzi.
+398	Wyjaśnia tylko {0} zróżnicowania
+399	Wyjaśnia {0} ogólnego zróżnicowania, a wszystkie składowe wchodzą w nią w tym samym kierunku – wspólny indeks stabilności byłby uzasadniony.
+400	nie mierzą one tylko stopnia zbadania.
+402	Schemat JSON
+403	oba ruchliwe
+404	Wielka Brytania
+405	Stany Zjednoczone
+411	Stabilność sąsiedztwa
+412	Jak szybko w grafie drzewa słabnie związek dwóch języków: waga exp(−odległość/τ). Małe τ – łączą się prawie tylko najbliższe języki, duże – także dalekie gałęzie.
+413	Jak mierzona jest odległość dwóch języków w drzewie Glottolog. „Głębokość wspólnego przodka“: im głębiej w drzewie jest najbliższy wspólny przodek, tym języki są bliższe. „Liczba krawędzi“: ile gałęzi trzeba przejść od jednego języka do drugiego – zniekształca, gdy gałęzie drzewa są nierówno drobno podzielone.
+414	jak znaleziono
+415	Jak to obliczono
+416	Z lewej – języki według słownictwa (udziału wspólnych kognatów), z prawej – według drzewa Glottolog. Kolor – gałąź drzewa. Po najechaniu na język jest on wyróżniany w obu. „Odległości“ rozmieszcza języki tak, by odległości na ekranie jak najlepiej odpowiadały rzeczywistym (MDS); „Widmo“ – drugi i trzeci wektor własny znormalizowanego laplasjanu, jak w pierwszej próbie.
+417	Język nie jest powiązany z Glottolog (CORRESPONDS_TO lub glottocode), więc jego miejsce w drzewie jest nieznane.
+418	relacje językowe
+419	Dla języków ze znaną flagą państwa lub regionu dodaj reguły Languoid · display_name → flaga (flag-icons, potrzebny internet). Istniejące reguły nie są zmieniane, dostają podpowiedzi z krajem.
+420	Języki
+422	Model językowy
+423	Języki połączone według odległości leksykalnej (UPGMA): im dalej w prawo połączenie, tym mniej wspólnych kognatów. Linia gałęzi jest kolorowa, jeśli wszystkie jej języki pochodzą z tej samej gałęzi Glottolog.
+424	Języki posortowane według drzewa Glottolog (kolorowy pasek – gałąź). Ciemniej – więcej wspólnych kognatów; puste – za mało wspólnych znaczeń. Ciemne kwadraty na przekątnej – gałęzie; ciemne plamy poza nimi – bliskość między gałęziami.
+425	Języki, których słownictwo najmniej podąża za drzewem
+426	języków
+427	udział języków, w których to samo słowo oznacza też inne pojęcie IE-CoR
+428	udział języków, których słowo należy do najszerzej rozpowszechnionej klasy kognatów
+429	Bliskość leksykalna języków a drzewo genealogiczne
+430	gałąź językowa nieznana
+431	rodzin językowych w sieci znaczeń
+432	liczba rodzin językowych, w których poświadczono polisemię z innym znaczeniem
+433	Mapy języków: według słownictwa i według drzewa
+434	języków{0}
+437	raz
+438	razy
+448	Ścieżka
+449	Szukanie ścieżki
+450	szukanie ścieżki trwało za długo – spróbuj dodać zakazane relacje (relacje, przez które nie przechodzić)
+451	Brak ścieżki między tymi węzłami{0}
+452	Kilka gałęzi łączy się tu niekoniecznie z powodu wspólnego pochodzenia: UPGMA łączy je, bo wszystkie są podobnie daleko od innych.
+454	Cztery rodzaje pojęć
+455	Ile ogólnego zróżnicowania wyjaśnia każdy kierunek; poniżej – jak składowe wchodzą w pierwszy.
+456	Ile wspólnych kognatów zostaje, gdy idzie się dalej po drzewie
+457	Ile najwyżej form wziąć z węzłów koszyka; pozostałe są pomijane (z powiadomieniem). Porównuje się wszystkie pary form, więc praca rośnie z kwadratem: 600 form – około 180 000 par.
+458	Ile grup?
+459	Ile razy w teście Mantela losowo przemieszać języki, by oszacować wartość p: czy zgodność bliskości leksykalnej i odległości w drzewie nie jest przypadkowa. 0 – p nie jest liczone; 999 – p z dokładnością do 0,001; więcej – dłuższe liczenie.
+460	Ile form każdej grupy należy do grupy kognatów
+461	Ile form każdej grupy pochodzi z gałęzi językowej (Glottolog)
+462	W co najmniej ilu językach (mających miejsce w drzewie Glottolog) słowo pojęcia musi być zakodowane kognatami IE-CoR, by liczyć stabilność jego formy. Rzadziej poświadczone pojęcia nie są oceniane.
+463	Co najmniej ile tych samych znaczeń (pojęć) musi być zakodowanych w obu językach, by para była porównywana w grafie leksykalnym. Słabiej poświadczone pary nie są łączone; język bez żadnej takiej pary nie trafia do badania.
+464	Ile pierwszych wektorów własnych laplasjanu użyć do opisu położenia pojęcia w sieci znaczeń. Mniej – widać tylko ogólną strukturę; więcej – drobniejsze różnice, ale i więcej szumu.
+465	każdy motyw ma własne kolory; przy dostosowywaniu pokazywany jest podgląd dostosowywanego motywu
+466	Dla każdej pary form liczy się odległość edycyjną: zamiana dźwięku kosztuje tyle, jaki udział ich cech CLTS się różni (0–1), wstawienie lub opuszczenie – 0,5; wynik dzieli się przez długość dłuższej formy. Dla form z kilkoma wariantami bierze się najmniejszą odległość. Z odległości buduje się graf podobieństwa, wektory własne jego laplasjanu umieszczają formy w przestrzeni, gdzie grupuje się je metodą k-średnich. Na rysunku formy rozmieszczono klasycznym skalowaniem wielowymiarowym – im bliżej, tym podobniej brzmią.
+467	Sprawdzono dla każdego języka: gdy drzewo mówi, że język A jest mu bliższy niż B, czy słownictwo mówi to samo? γ = 1 – zawsze, 0 – jak losowo, < 0 – częściej odwrotnie. Najmniejsza zgodność:
+468	Dla każdej odległości – pudełko bliskości par języków: środkowa połowa par (od 25. do 75. percentyla), linia – mediana, wąsy – najmniejsza i największa.
+469	Dla każdego pola semantycznego Concepticon sprawdzono, czy jego pojęcia są stabilniejsze (lub bardziej ruchliwe) niż losowa próbka tylu samo pojęć (2000 losowych próbek).
+471	Dla węzła każdego typu można wybrać kolor, kształt i obrazek (PNG, SVG, JPG, WebP; do 2 MB). Rozmiar – w sekcji „Limity i rozmiary“.
+472	inny system CLTS
+473	Inne ogrody
+480	brak innych relacji
+481	brak innych ogrodów
+482	Błąd:
+483	Liczba klastrów
+487	grupa kognatów
+488	nie mają informacji o kognatach
+489	Zachowanie kognatów
+490	Jakość
+491	Jakość według liczby grup
+492	Składowe osobno
+493	Współrzędne przez relacje
+494	Kopia
+496	wczytywanie…
+497	pojęcia z koszyka
+498	Pojęcia z koszyka
+499	Formy pojęć z koszyka (lub znaczeń, leksemów, grup kognatów, form) grupuje się według tego, jak podobnie brzmią. Dźwięki porównuje się według cech fonetycznych CLTS, grupy znajduje się metodą spektralną, a potem porównuje z kognatami IE-CoR i gałęziami językowymi Glottolog.
+500	Pojęcia z koszyka nie mają odpowiednika w Concepticon, więc nie można ograniczyć znaczeń.
+501	Działania koszyka
+502	W koszyku nie ma form: włóż pojęcie, znaczenie, leksem, grupę kognatów lub formy.
+503	Koszyk opróżniony ({0} węzł.)
+504	koszyk jest pusty
+505	Koszyk jest pusty. W ogrodzie kliknij węzeł prawym przyciskiem → „Dodaj do koszyka“ i wróć tutaj.
+506	Im bliżej formy, tym podobniej brzmią. Po najechaniu – dane formy.
+507	Im dalej w drzewie, tym mniej wspólnych kognatów
+508	Któremu poziomowi drzewa grupy są najbliższe
+509	Budowanie sieci znaczeń (DatSemShift)…
+510	Które pojęcia są stabilne? Osobno mierzy się stabilność formy (czy pojęcie wszędzie wyraża to samo odziedziczone słowo: kognaty IE-CoR w drzewie Glottolog) i stabilność znaczenia (czy pojęcie otaczają te same inne znaczenia: polisemia, położenie spektralne w sieci DatSemShift w różnych rodzinach językowych). Potem sprawdza się, czy graf sam wydobywa części ciała, pokrewieństwo, liczebniki. Pojęcia z koszyka są wyróżniane, gałąź Glottolog ogranicza języki IE-CoR; pusty koszyk – cały graf.
+514	Co by dodatkowo dało:
+515	Co oznacza ten parametr
+517	bardzo podobne
+524	Languoid · display_name · Lithuanian
+525	Wartości własne laplasjanu
+526	Wartości własne laplasjanu
+531	Pole z małym p można uznać za „wydobyte“ przez graf; przy sprawdzaniu wielu pól i składowych pojedyncze p < 0,05 mogą być przypadkowe.
+532	dozwolone formaty: {0}
+534	W grafie leksykalnym tylko {0} języki: zmniejsz „Co najmniej wspólnych znaczeń dla pary“.
+535	w drzewie leksykalnym
+536	W drzewie leksykalnym spójnych jest {0} z {1} gałęzi
+537	Macierz bliskości leksykalnej
+538	Przerwa wartości własnych laplasjanu grafu leksykalnego sugeruje
+539	Tempo wymiany leksykalnej
+540	Bliskość leksykalna wg odległości w drzewie
+541	Bliskość leksykalna – jaka część znaczeń zakodowanych w obu językach jest wyrażona kognatami; pary mające mniej niż {0} wspólnych znaczeń nie są oceniane.
+542	graf leksykalny
+543	Drzewo leksykalne
+544	Drzewo leksykalne…
+545	Liczba grup leksykalnych
+546	grupa leksykalna {0} · {1} znaczeń
+547	grupy leksykalne
+548	tabela
+549	Tabele
+553	pozostałe pokazywane są jako węzeł „+N TYP“ – kliknięcie wczytuje więcej
+554	Grubość linii, styl, kolor i obrazek pokazywany przy etykiecie relacji.
+557	Dane LKEŽDB w Neo4j
+558	Nie znaleziono pamięci podręcznej danych LKEŽDB: {0}
+562	Objaśnianie słów LKEŽDB modelem językowym i dołączanie do Neo4j
+563	LKEŽDB ↗
+564	Porównano z typową (medianą) bliskością przy tej samej odległości w drzewie; brane są tylko pary z różnych gałęzi:
+565	Porównywanie składowych…
+569	Moje relacje
+570	Test Mantela: przy losowym przemieszaniu języków taka lub silniejsza korelacja {0}, więc związek jest {1}.
+571	Permutacje testu Mantela
+579	liczbę relacji widocznych w ogrodzie
+580	Węzły i relacje
+582	Węzeł bez własnych współrzędnych dostaje te pierwszego celu ścieżki
+583	Węzeł nie trafił do próbki; znaleziono go w zbiorze danych przez relację. Kliknij dwukrotnie, by zobaczyć wszystkie jego relacje.
+584	Nie znaleziono węzła
+585	Typ węzła
+586	węzły ze współrzędnymi można pokazać na mapie
+587	Węzłów
+588	Rozmiar węzłów
+589	rozmiar węzłów
+590	rozmiar węzłów ±
+591	rozmiar etykiet węzłów i relacji ±
+592	rozmiar etykiet węzłów i relacji ± (lub Ctrl+Alt+Numpad, jeśli system go przechwytuje)
+593	Wygląd węzłów
+594	Typy węzłów w ogrodzie
+596	pokaż / ukryj etykiety węzłów
+597	etykiety węzłów, px; etykiety relacji proporcjonalnie; Alt+Numpad +/− lub Alt + kółko myszy
+598	Co najmniej wspólnych znaczeń dla pary
+599	Co najmniej języków dla pojęcia (forma)
+600	Co najmniej rodzin dla pojęcia (znaczenie)
+601	najmniejsza liczba zmian klasy kognatów w drzewie na język
+602	najmniejszy węzeł
+603	Najmniejszy węzeł
+604	mediana {0} · środkowa połowa {1}–{2}
+605	Drzewo i słownictwo się zgadzają: ρ = {0} ({1} korelacja)
+606	graf drzewa
+607	grupy grafu drzewa
+608	waga grafu drzewa exp(−odległość/τ)
+609	Skala wagi drzewa τ
+610	udział gałęzi drzewa, które zachowały tę klasę
+611	Metoda
+613	mieszane
+614	Odpowiedź modelu bez weryfikacji
+615	Model
+616	Niebieskie – stabilne razem, czerwone – przeciwnie, szare – niezwiązane.
+622	przeglądarka
+623	Używaj mapy
+625	Użyto {0} znaczeń zakodowanych kognatami
+627	Nowe zapytanie
+633	Nowa relacja
+635	Nowy ogród (Ctrl – w nowej karcie)
+636	Nowy ogród z pustym koszykiem (Ctrl – w nowej karcie)
+637	Nowy ogród: koszyk jest pusty. Węzły wkładaj do niego w ogrodzie.
+640	W nowej karcie
+642	Brak nowych flag – wszystkie języki mają już obrazki
+644	Nieobsłużony błąd:
+645	nierozpoznany
+648	nie przechodzić przez {0}
+649	nieobjaśnione
+654	niewydobyte. Można je pobrać z LKEŽDB z pomocą sztucznej inteligencji – kliknij „Objaśnij“ (zapytanie do modelu językowego jest płatne).
+657	Neo4j jest niedostępne.
+658	Neo4j niedostępne
+659	Schemat Neo4j niedostępny:
+660	Neo4j {0}: {1} węzłów · {2} zbiory danych · {3} ograniczenia
+661	Neo4j ✓ {0} zbiory danych
+662	Neo4j ✗ {0}
+663	Neo4j: sprawdzanie…
+664	Neo4j: {0} węzłów, {1} relacji
+665	za mało danych
+666	nie wystąpiła ani razu w {0} losowych przemieszaniach (p ≤ {1})
+670	niezaznaczony i nie ma w Neo4j
+671	Nie zaznaczono żadnego węzła
+672	Nie zaznaczono żadnego węzła – zaznacz węzły do włożenia do koszyka
+673	Nie znaleziono znaczeń zakodowanych kognatami dla tych języków.
+674	Nie odnotowano problemów.
+677	Nieoczekiwane pary
+678	Nie oceniono {0}: drzewo prawie nie rozróżnia, które inne języki są im bliższe (samotna gałąź ze słabo poświadczoną siostrą).
+681	Nieuwzględnione warianty: {0}.
+682	Brak nieuwzględnionych form.
+683	Brak nieuwzględnionych języków.
+684	nie do oceny
+685	nieznane badanie: {0}
+687	nic nie zaznaczono
+688	Nic nie znaleziono
+690	Nic nie znaleziono.
+699	Skopiowano
+700	Nie udało się skopiować
+701	Domyślnie: {0}.
+702	Ustawienia domyślne
+703	Kolor domyślny
+705	od {0} do {1}
+711	podaj nazwę relacji
+712	Ustawienia
+718	Żadne pole nie wyróżnia się istotnie stabilnością.
+719	brak
+720	brak tekstu formy
+721	brak odpowiednika w Glottolog
+722	Brak węzłów powiązanych tylko z tym węzłem
+723	brak relacji semantycznych
+724	a ze składowymi znaczenia – ρ {0}.
+725	p dla stabilności {0} · dla ruchliwości {1}
+726	wyjaśnia jeden wspólny kierunek
+727	objaśnienie
+729	Według drzewa
+730	według linków
+733	Według słońca
+734	Według słownictwa
+735	Analiza głównych składowych szuka jednego kierunku, w którym wszystkie składowe zmieniają się razem.
+736	Główne składowe
+740	Szukaj: początek słowa…
+741	Szukaj… (Ctrl+F)
+742	pole wyszukiwania
+746	Zmieniony
+747	Skorygowany indeks Randa porównuje dwa grupowania: 1 – zgadzają się całkowicie, 0 – nie bardziej niż losowo. Podobieństwo brzmienia nie dowodzi pochodzenia: zgodność pokazuje, że kognaty często nadal brzmią podobnie, a niezgodności – gdzie dźwięki się oddaliły lub podobieństwo jest przypadkowe.
+751	Błąd uruchomienia:
+752	Dotknięte węzły zostają przy ukrywaniu relacji
+755	Porównano {0} i {1} ich par
+757	Dodatkowych danych o tym obiekcie szuka się w zbiorze danych
+758	Uzupełnienia
+760	Stanowisko
+761	pokazuje zaznaczony węzeł
+762	pokazuje cały ogród
+763	Pokazano {0}
+764	pokaż ukryte węzły
+765	Pokaż na mapie
+766	Wyróżnienie
+767	Wyróżnij sąsiadów
+768	wyróżnione pole
+769	wyróżnij pole
+770	Osiągnięto limit ({0} węzłów / {1} relacji): nie pokazano {2} węzłów, {3} relacji.
+771	wybierz lub wpisz
+772	wybierz lub wpisz, np. podobny do
+773	Wybierz plik
+774	Wybierz zbiór danych po lewej
+775	Wybierz typ węzła, potem jego właściwość i wartość spośród tych w bazie danych (można też wpisać ręcznie). Jeśli właściwość węzła ma tę wartość, obok węzła pokazuje się obrazek. Właściwości wyliczane (np.
+777	Wybierz słowo po lewej.
+778	wystąpiła {0} {1} z {2} losowych przemieszań (p = {3})
+781	ostatni import: {0}
+787	Ukryj
+788	Ukryj zaznaczone
+790	Ukryto {0} – nie liczą się już do limitów ogrodu. Przywrócenie: prawy przycisk na tle → „Pokaż ukryte“ lub Shift+H
+794	ukryj zaznaczone węzły
+797	Kliknij węzeł lub relację, aby zobaczyć wszystkie jego właściwości.
+798	Uwaga
+800	Stabilna i forma, i znaczenie:
+801	Stabilne znaczenie, ale słowo jest wymieniane:
+802	oba stabilne
+803	stabilne tylko X
+804	stabilne tylko Y
+805	Percentyle stabilności
+806	Percentyle stabilności (100 % – najstabilniejsze z badanych):
+809	Sprawdzenie: związek sąsiedztwa i składowej spektralnej z tym, w ilu rodzinach pojęcie w ogóle poświadczono, wynosi ρ {0} i {1} –
+810	Aby potwierdzić, wpisz
+811	Potwierdź, wpisując IŠTRINTI.
+813	Nazwa
+819	Obrazek
+820	Obrazek z węzła docelowego
+825	Obrazek przy etykiecie
+826	obrazek jest pusty lub większy niż 2 MB
+832	przykładowa wartość
+833	Przykłady: {0}. Wewnątrz grupy formy {1} (średnia odległość {2}, do innych grup {3}). {4}; {5}.
+834	Usuń z ogrodu
+835	Usuń relację z ogrodu
+836	Usunięto {0} węzłów i {1} relacji (wspólne z innymi słowami – pozostawiono)
+837	Usuń
+839	Usuń z Neo4j
+840	usuń sąsiadów powiązanych tylko z tym węzłem
+841	Usuń sąsiadów powiązanych tylko z tym węzłem
+842	usuń zaznaczone z ogrodu
+843	Usuń tę relację
+850	Zaznacz dwa węzły (Shift + kliknięcie) lub włóż dwa do koszyka
+851	Zaznacz dwa węzły do szukania ścieżki (lub zaznacz je w ogrodzie z Shift).
+852	Zaznacz dokładnie dwa węzły (Shift + kliknięcie)
+853	Zaznaczono węzłów: {0}
+854	zaznaczono {0}
+855	zaznaczony do importu
+856	Zaznaczony węzeł (Home)
+857	Zaznacz
+859	zaznacz kilka węzłów
+860	zaznacz pierwszy / następny znaleziony węzeł
+861	zaznacz widoczne
+862	zaznacz prostokątem
+863	Zaznacz wszystkie węzły
+865	Zaznacz {0}
+869	za mało wspólnych znaczeń
+870	Za mało pojęć z danymi: zmniejsz „Co najmniej języków dla pojęcia“ lub poszerz gałąź koszyka.
+873	Ułóż plan ponownie
+878	Przeliczanie
+879	Przeliczanie z {0} grupami…
+880	Przelicz w ogrodzie
+881	Zmieniono nazwę
+884	zobacz
+889	Republika Południowej Afryki
+890	Korea Południowa
+893	W pełni odczytane źródła odniesienia: {0} języków / społeczności, {1} pojęć / cech, {2} kodów, {3} grup kognatów. Każdy wiersz tabeli zapisywany jest też jako techniczny
+894	W pierwszej próbie odległością była liczba krawędzi w drzewie Glottolog. Gałęzie mają jednak bardzo różną liczbę węzłów pośrednich: języki indoaryjskie są oddalone od korzenia o 10 i więcej węzłów, albański czy tocharskie – o kilka. Wtedy dalekie języki z „płytkich“ gałęzi wyglądają na bliskie. Głębokość wspólnego przodka (ile poziomów poniżej korzenia jest ostatni wspólny przodek) nie popełnia tego błędu
+895	Plan: {0} węzłów, {1} relacji
+896	szerokość i długość geograficzną, np. forma – swojego języka (przez leksem). Po wyłączeniu mapy formy jednego CognateSet o tej samej nazwie pokazywane są jako jeden węzeł „forma ×N“.
+897	Najszersza klasa kognatów „{0}“ – {1} z {2} języków, {3} z {4} gałęzi; w drzewie co najmniej {5} zmiany.
+898	Pod węzłami Glottolog z koszyka nie znaleziono języków z danymi leksykalnymi.
+901	Polisemia w {0} rodzinach; najczęściej: {1}.
+906	podgałąź
+907	Rozpoczynanie…
+908	Zacznij od wyszukiwania u góry (Ctrl+F). Po kilku sekundach wyniki pojawią się tymczasowo w ogrodzie; wybierz węzeł, aby pozostał.
+909	Francja
+936	Dodaj do koszyka
+941	przyczyna
+946	Zależności
+960	profil niepotwierdzony
+964	W profilu zadeklarowano zależność; w tym zbiorze danych nie znaleziono bezpośrednich kluczy obcych.
+967	Błędy i ostrzeżenia programu
+971	Np.: {0}
+972	Wyniki tymczasowo pokazano w ogrodzie – wybierz węzeł, aby pozostał
+973	Rozmiar czcionki
+974	rozmiar czcionki
+976	Znaleziono {0} grup dźwiękowych
+977	Znaleziono {0}{1} najkrótszych ścieżek, długość {2}
+985	Istotnie bardziej ruchliwe:
+986	Istotnie stabilniejsze:
+987	znaczeń
+988	Licz w sieci znaczeń także derywację
+989	znaczenie
+990	Znaczenie
+991	Znaczenie: sąsiedzi w DatSemShift (liczba rodzin)
+992	remove: {0} słów
+993	Zbieranie kognatów IE-CoR…
+994	Zbieranie form…
+995	Zbieranie języków i znaczeń…
+996	wynik / błąd
+997	Tryb
+998	Limity
+999	Limity i rozmiary
+1000	Limity: {0}–{1}; domyślnie: {2}{3}.
+1003	pokazywana jest plakietka 📍. Po kliknięciu jej (lub w menu węzła) – „Pokaż na mapie“: mapa włącza się tak, że ten węzeł zostaje na miejscu, a inne węzły ogrodu się nie przesuwają. Inne węzły ze współrzędnymi przenoszone są na swoje miejsca, a węzły bez miejsca na mapie są ukrywane – po wyłączeniu mapy wracają tam, gdzie były. Na mapie węzły ze współrzędnymi są zablokowane. Wyłączenie – przycisk 🗺 u góry. Kafelki mapy –
+1004	Pokazywane są tylko zapytania napisane dla schematu odpowiedzi tego programu (ze znacznikiem
+1005	Pokaż najważniejsze
+1006	Pokaż wszystko
+1008	Pokaż osobno
+1009	pokaż więcej ({0} z {1})
+1010	Pokaż próbkę
+1011	Pokaż jako dwa osobne węzły
+1012	Pokaż koszyk
+1015	Pokaż w ogrodzie
+1016	pokaż wszystkie
+1017	Pokaż na mapie
+1019	Przygotowywanie SVG…
+1020	Przygotowywanie segmentów analizy…
+1021	Relacje ({0}; techniczne nie są pokazywane)
+1022	Relacje w bazie danych
+1023	Relacje według typu
+1028	nazwa relacji za długa (najwyżej {0} znaków)
+1030	typ relacji
+1031	typ relacji: wielkie litery, cyfry i _, np. SIMILAR_TO
+1032	Nie narysowałeś jeszcze relacji.
+1033	Wygląd relacji
+1035	grubość relacji
+1036	Grubość relacji
+1037	grubość relacji ±
+1038	Typy relacji
+1039	Typy relacji w próbce
+1040	Typy relacji w ogrodzie
+1042	pokaż / ukryj etykiety relacji
+1043	Relacja
+1044	Relacja usunięta
+1046	nie znaleziono relacji
+1047	nie znaleziono relacji (usunąć można tylko relacje narysowane w ogrodzie)
+1050	relacja musi łączyć dwa różne węzły
+1060	Obrazki właściwości
+1061	obrazki właściwości
+1062	obrazki właściwości ±
+1063	Właściwość
+1064	właściwość
+1065	Właściwość jest wyliczana ścieżką w grafie od węzła
+1066	Właściwości
+1067	właściwości
+1068	nazwa właściwości
+1072	za mało wartości własnych
+1073	Schemat
+1074	Segmenty bierze się z danych pierwotnych, a nie zgaduje:
+1076	źródło segmentów
+1081	Pola semantyczne
+1083	serwer niedostępny
+1084	Serwer niedostępny
+1085	Shift + kółko myszy
+1086	Shift + kliknięcie
+1087	Shift + przeciąganie
+1088	Shift+H
+1089	Shift+Home
+1090	Sylwetka – jak bardzo grupy są rozdzielone; ARI – jak bardzo zgadzają się z kognatami IE-CoR. Kliknij k, aby przeliczyć.
+1098	odczyt próbki…
+1099	Obliczanie…
+1100	Obliczanie odległości genealogicznych i leksykalnych…
+1101	Obliczanie odległości {0} par form…
+1103	odpowiedniki w różnych zbiorach danych
+1104	Języki różnych gałęzi, leksykalnie bliższe, niż pozwala drzewo
+1105	Różne gałęzie, ale leksykalnie bliskie (możliwe kontakty)
+1114	Słowenia
+1115	ukryj
+1116	Ukryj koszyk
+1117	Ukryj wszystkie {0}
+1118	Ukryj relacje tego typu
+1124	Ogród bez nazwy…
+1128	nie znaleziono ogrodu – najpierw coś w nim posadź
+1131	Ogród jest pusty
+1132	Sodas · Zbiory danych
+1138	W ogrodzie nie ma jeszcze węzłów.
+1140	węzły zostają w ogrodzie
+1142	W ogrodzie nie ma węzłów z szerokością i długością geograficzną
+1143	W ogrodzie zaznaczono {0} relacji {1}
+1145	W ogrodzie nie ma relacji {0}; rozwiń węzły, które je mają
+1146	Węzła ogrodu „{0}“ nie można rozwinąć: hasła LKEŽDB tego słowa jeszcze {1} Gdy słowo zostanie dołączone, wróć do ogrodu i rozwiń węzeł ponownie.
+1147	Nie udało się uruchomić ogrodu:
+1148	Nazwa ogrodu – wpisz nową lub wybierz istniejący ogród
+1151	brak ogrodów
+1154	Kolor
+1155	Kolory
+1156	kliknij – otwórz tutaj, Ctrl – w nowej karcie
+1157	Korelacje Spearmana między składowymi
+1158	ρ Spearmana porównuje odległość par języków w drzewie Glottolog z odległością leksykalną (1 − bliskość): 1 – kolejność całkowicie ta sama, 0 – brak związku.
+1159	widmo (wektory własne)
+1160	Analiza spektralna sama zasugerowała {0}: {1}. Im większa taka przerwa, tym wyraźniej dane dzielą się na tyle grup.
+1161	Analiza spektralna…
+1162	Przestrzeń spektralna sieci znaczeń ({0} pojęć)…
+1163	Wymiary przestrzeni spektralnej
+1164	Stabilność położenia spektralnego
+1165	kliknij – wyróżnij grupę
+1169	odznacz węzły w prostokącie
+1170	Styl
+1171	Grubość
+1175	Z kognatami IE-CoR grupy {0} (ARI {1})
+1176	Nie ma z żadnym innym językiem co najmniej {0} znaczeń zakodowanych w obu (najwyżej {1}), więc nie trafia do grafu leksykalnego.
+1177	Z gałęziami językowymi grupy {0} (ARI {1})
+1178	z odpowiednikiem w innym zbiorze danych
+1179	z innymi
+1181	Połącz jednakowe
+1182	Zamień kierunek
+1187	Utworzono ogród „Vaiva · {0}“
+1189	Utwórz
+1191	Utwórz relację
+1193	Łączenie
+1194	Połącz z autorytetami
+1195	Połącz lokalne Languoid/Concept z autorytetami Glottolog/Concepticon przez wspólne ExternalIdentifier
+1196	powiązane
+1197	Zwiń
+1198	częściowo się zgadzają
+1199	nadaje obrazek samemu językowi – przejmują go wszystkie słowa tego języka.
+1200	Najważniejsze
+1216	Nie rozpoznano pliku SVG
+1217	Interfejs
+1218	rozmiar czcionki interfejsu ±
+1219	pojęcie
+1220	rozrzut położenia pojęcia w przestrzeni spektralnej między rodzinami
+1221	Pojęcia najdalej w tym kierunku:
+1222	pojęć
+1223	pojęć ({0} z siecią znaczeń)
+1224	Semantyczna stabilność pojęć
+1225	Tadżykistan
+1226	To potwierdza, że „stabilne pojęcie“ i „stabilne słowo“ to nie to samo: pojęcie może zachować miejsce wśród innych znaczeń, choć języki nazywają je coraz innymi słowami, i odwrotnie.
+1227	To sprawdza, czy kodowanie kognatów i klasyfikacja Glottolog opowiadają tę samą historię, ale nie dowodzi żadnej z nich.
+1228	usuń też wewnętrzne indeksy LOOKUP Neo4j (niezalecane: bez nich wyszukiwanie po etykiecie staje się bardzo wolne, trzeba je będzie odtworzyć ręcznie)
+1232	Na tym poziomie jest {0} gałęzi Glottolog, np. {1}; grupy leksykalne z nimi {2}.
+1233	Ciemny
+1234	To samo słowo oznacza też: {0}.
+1235	kropkowana
+1236	rekordy techniczne (SourceRecord)
+1239	Telefon
+1241	Motyw
+1242	Przy podziale samego grafu drzewa na tyle samo grup oba podziały {0} (ARI {1}).
+1243	Dostawca
+1244	tylko błędy i ostrzeżenia
+1246	tylko sąsiedzi z nim powiązani
+1247	Na pewno przywrócić?
+1249	Na pewno usunąć?
+1250	Na pewno wyczyścić?
+1252	Na pewno? Zostanie usunięte z bazy danych
+1253	Sprawdzanie korelacji (test Mantela)…
+1254	oczekiwano
+1256	Typ
+1257	Badaj
+1258	Do badania nadaje się tylko {0} form z {1}: za mało do klasteryzacji.
+1259	panel sterowania tego węzła / relacji
+1260	węzły o tej samej nazwie
+1264	Języki tej samej gałęzi, leksykalnie dalsze, niż pozwala drzewo
+1265	Ta sama gałąź, ale leksykalnie dalekie
+1269	Najkrótsza ścieżka między dwoma zaznaczonymi węzłami
+1270	Skróty
+1271	Usuwanie
+1272	brak
+1273	Brakuje autorytetów, których nie ma ani w Neo4j, ani wśród zaznaczonych:
+1274	brak segmentacji
+1275	Ma szerokość i długość geograficzną – kliknij
+1277	Turkmenistan
+1278	puste
+1279	puste – prawym przyciskiem „Dodaj do koszyka“
+1280	puste – według przerwy wartości własnych
+1281	puste – wybiera sam według przerwy wartości własnych
+1285	Zarządzaj ogrodami
+1286	Zarządzaj ogrodami…
+1289	Badanie
+1301	Zamknij
+1302	zamknij menu
+1305	Zapytanie
+1306	żądanie z innej witryny odrzucone
+1307	Zapytanie do modelu
+1308	nie znaleziono zapytania
+1309	Zapytanie wybrane
+1310	żądanie za duże
+1311	Zapytanie wgrane i wybrane
+1313	Na początku zapytania musi być znacznik {0}: pokazuje, że zapytanie pasuje do schematu odpowiedzi tego programu.
+1315	etykiety
+1316	rozmiar etykiet
+1317	Rozmiar etykiet
+1319	Vaiva · {0}
+1320	Warsztat Vaivy
+1321	Warsztat Vaivy – badania z węzłami koszyka
+1322	Warsztat Vaivy – {0}
+1323	Widok
+1335	Wyczyść dziennik
+1336	Imię
+1340	Silnik i zapytanie
+1354	menu działań
+1356	Walia (Wielka Brytania)
+1357	śr. percentyl {0} ({1} pojęć)
+1358	Środkowy przycisk na węźle / relacji
+1359	Średni percentyl stabilności pojęć pola dla każdej składowej. ● – istotnie stabilniejsze lub bardziej ruchliwe niż losowa próbka (p < 0,05).
+1360	średnia sylwetka
+1361	Średnia sylwetka {0} (od −1 do 1; powyżej 0,5 – grupy wyraźne, około 0 – zlewające się).
+1362	średnio podobne
+1363	średnia
+1364	nie znaleziono jednego z węzłów
+1366	Jednakowy rozmiar
+1367	Położenie („według słońca“)
+1374	po przekroczeniu nowe węzły nie są już pokazywane, wpis w dzienniku
+1375	Cały JSON, według którego zbudowano graf
+1376	Cały ogród
+1377	Cały ogród (Shift+Home)
+1379	wszystkie ograniczenia
+1380	wszystkie indeksy
+1381	wszystkie rozdzielone odpowiedniki
+1382	wszystkie węzły i relacje
+1383	wszystkie węzły tej samej wielkości
+1386	wszystkie relacje + źródło
+1387	Wszystko
+1390	Wszystkie zbadane formy
+1391	wszystkie języki z danymi o kognatach
+1392	Wszystkie pojęcia
+1393	wszystkich jego węzłów
+1394	Rozmiar wszystkich węzłów
+1395	rozmiar wszystkich węzłów
+1396	liczbę wszystkich relacji w bazie danych
+1397	Wygląd wszystkich {0}
+1398	w toku…
+1400	Flagi przypisano {0} nazwom języków
+1401	flagi przypisano {0} nazwom języków
+1403	{0} (nie ma w tym typie)
+1404	{0} - Sodas
+1405	{0} - Vaiva
+1406	{0} wspólnych kognatów
+1407	{0} form
+1408	{0} form, {1} gr.
+1409	{0} grup (podałeś {1})
+1410	{0} grup
+1411	{0} z {1} języków grupy
+1412	{0} z {1} haseł wysyła się do modelu (odsyłacze i puste – bez modelu)
+1413	{0} z nich należy do grupy kognatów „{1}“
+1414	{0} języków, {1} klas, w drzewie co najmniej {2} zmian. {3}
+1415	{0} języków
+1416	{0} języków, ρ {1}
+1417	{0} innych węzłów ze współrzędnymi przeniesiono na ich miejsca na mapie; węzły bez miejsca na mapie są ukryte
+1418	poziom {0} · {1} gałęzi
+1419	{0} węzłów i {1} relacji z
+1420	{0} węzłów przeniesiono do nowego ogrodu „{1}“{2}
+1421	{0} węzłów · {1}
+1422	{0} węzłów, {1} relacji w próbce
+1423	{0} węzłów, {1} relacji{2}
+1424	{0} modeli
+1426	{0} par
+1431	{0} różnych dźwięków połączono z CLTS
+1434	{0} haseł ·
+1435	{0} pojęcie
+1436	{0} pojęcia
+1437	{0} pojęć
+1438	{0} między grupami
+1440	{0} {1} węzły o tej samej nazwie{2}
+1441	{0} · scalone zbiory danych: {1}
+1442	{0} · Concepticon {1}
+1443	{0} · w drzewie {1}
+1444	{0} · {1} · {2}{3} · {4}, ≥ {5} wspólnych znaczeń
+1446	{0} gał.
+1447	{0} języków tej grupy pochodzi z gałęzi {1}
+1448	{0} słów dodano do kolejki
+1449	{0} słów · {1} haseł · objaśniono {2} · dołączono {3}
+1450	{0} – część
+1451	{0} – {1} (śr. percentyl {2}, p = {3})
+1452	{0} – {1} {2} zamiast ~{3}
+1453	{0} – wtrąca się {1}{2}
+1454	kierunek {0}: {1} zróżnicowania
+1455	{0}. wartość własna
+1456	{0}: scalono z odpowiednikiem
+1457	{0}: rozwijanie {1} węzłów…
+1458	{0}: pokazano {1} relacji
+1459	{0}: pokazano {1} relacji{2}
+1461	{0}: ukryto {1}{2}
+1462	{0}: najstabilniejsze – {1}
+1463	{0}: limit
+1464	{0}: zwinięto, usunięto {1} węzłów
+1465	{0}: {1} słów
+1466	{0}–{1} z {2}
+1467	© OpenStreetMap
+1471	· nieprawidłowe: {0}
+1475	· z derywacją
+1479	· {0} znaczeń z pojęć koszyka
+1480	· {0} relacji
+1482	Czechy
+1483	Do osobnego ogrodu
+1484	Do osobnego ogrodu – przenieś zaznaczone węzły do nowego ogrodu
+1486	Na ile grup dzielić formy. Puste – program wybiera sam: tam, gdzie przerwa między sąsiednimi wartościami własnymi laplasjanu jest największa (wybór z 2–12). Więcej grup – drobniejsze, ale mniej wiarygodne różnice dźwiękowe.
+1487	Na ile grup dzielić języki metodą spektralną (w grafie leksykalnym i drzewa – tyle samo). Puste – wybierane tam, gdzie przerwa między sąsiednimi wartościami własnymi jest największa (2–12).
+1488	Dodano do koszyka: {0} (łącznie {1})
+1489	Do koszyka – zaznaczone węzły; jeśli nic nie zaznaczono – pokaż zawartość koszyka
+1492	Dodano do kolejki
+1494	Wgraj i użyj
+1496	Wgraj…
+1504	wpisz IŠTRINTI
+1505	wpisz nowe, jeśli chcesz zmienić
+1512	wtrącają się: {0}{1}
+1513	Wtrącenia najczęściej pokazują kontakt (zapożyczenia), skąpe dane lub to, że gałąź dzieli dawne dziedzictwo z sąsiadką.
+1514	dołączono do Neo4j
+1516	dołącz
+1517	Uwzględnij zrekonstruowane (*) formy
+1518	Dołącz do Neo4j
+1519	dołącz do Neo4j
+1520	wzorzec
+1521	wzorzec musi zaczynać się od (n) lub (n:Etykieta), mieć cel (t) i być tylko opisem ścieżki
+1522	gałąź
+1523	gałąź: {0}
+1524	Gałęzie bierze się z drzewa Glottolog poniżej „{0}“.
+1525	Gałęzie bierze się z drzewa Glottolog.
+1526	Gałęzie: ile wspólnych kognatów wewnątrz i z innymi gałęziami
+1527	gałęzi spójnych w drzewie leksykalnym
+1528	Obok węzłów z właściwościami
+1529	Rekord źródłowy
+1530	W tym badaniu koszyk nie jest konieczny: bez niego badane są wszystkie języki z danymi o kognatach.
+1534	W tym badaniu użyto: {0}.
+1535	dziś: wschód słońca {0}, zachód {1}{2}
+1536	Macedonia Północna
+1537	Te węzły są już w koszyku
+1538	Ten zbiór danych nie tworzy tego węzła, więc prowadząca do niego relacja nie zostanie zapisana.
+1540	Wygląd relacji tego typu
+1541	Brak wizualizacji dla tego badania.
+1544	Te formy są podobne także do form innej grupy, więc ich miejsce jest niejasne:
+1546	Ten zbiór danych nie opiera się na innych zbiorach.
+1547	Ten zbiór danych przechowuje tylko klucze obce (◆ ExternalIdentifier). Bardziej szczegółowe dane o tych obiektach są w innych zbiorach danych; po imporcie „Połącz z autorytetami“ tworzy relacje
+1549	Ten węzeł nie ma szerokości i długości geograficznej
+1550	Ten profil nie tworzy węzłów semantycznych – zostaną zapisane tylko SourceRecord.
+1552	ten ogród
+1562	Szkocja (Wielka Brytania)
+1563	Sri Lanka
+1564	skok od poprzedniej: {0}
+1565	Skok po k-tej wartości pokazuje k grup. Kliknij k, aby przeliczyć z tyloma grupami.
+1566	Szwecja
+1567	Szwajcaria
+1568	Jasny
+1569	jasność
+1571	Żmudź (Litwa)
+1572	Niskie ARI wynika głównie nie z mieszania, lecz z rozpadu:
+1573	Žemė
+1575	Žemė – zbiory danych i LKEŽDB, z których rosną ogrody
+1576	Žemė – zbiory danych, z których rosną ogrody
+1577	Jasność mapy
+1578	Mapa
+1579	Mapa wyłączona w ustawieniach
+1580	mapa nie jest pokazywana
+1581	mapa jest pokazywana
+1591	słowo
+1592	słowo jeszcze nie objaśnione
+1593	Słowo przetrwało, ale znaczenie jest ruchliwe:
+1594	nie znaleziono słowa
+1595	Słownictwo dzieli się na {0} grup
+1596	Słowa
+1597	objaśnienie słowa nie powiodło się: {0}
+1600	Dziennik
+1601	Forma oznaczona gwiazdką nie jest bezpośrednio poświadczona; bada się ją tylko po zaznaczeniu „uwzględnij zrekonstruowane formy“.
+1602	ρ drzewo ↔ słownictwo{0}
+1605	– znajdziesz go na liście ogrodów
+1608	– jeden indeks ukryłby, że składowe mierzą różne rzeczy.
+1609	– nie nadaje się do tego badania
+1610	— wybierz —
+1611	„{0}“: {1} relacji w zbiorze danych{2}, dodano {3} węzłów
+1616	⇝ Znajdź najkrótsze ścieżki
+1618	☀ Jasny
+1619	☾ Ciemny
+1622	✓ dotknięty
+1625	＋ Ścieżka
+1627	＋ Nowa właściwość wyliczana
+1628	＋ Nowa reguła
+1629	＋ Nowy ogród
+1631	＋ Dodaj do koszyka
+1636	🏳 Przypisz językom flagi
+1639	📍 Pokaż na mapie
+1647	🗑 Opróżnij koszyk
+1648	🗑 Na pewno opróżnić koszyk?
+1649	🧺 Koszyk
+1650	🧺 Koszyk badania
+1651	🧺 Do koszyka
+1652	Wstecz
+1653	Wstecz (Alt+←)
+1656	Litewski
+1658	Dalej
+1659	Dalej (Alt+→)
+1660	Język interfejsu
+1670	. W tabeli ich sylwetka jest ujemna.
+1671	. Przyczyną może być dużo zapożyczeń, mało zakodowanych znaczeń, archaiczność (dawno poświadczony język) lub sporne miejsce w drzewie.
+1672	. To kandydaci do badania kontaktów i zapożyczeń; genealogia niczego tu nie wyjaśnia.
+1673	. Tak bywa, gdy jeden język mocno odnowił słownictwo albo jeden z nich jest słabo poświadczony (mały zbiór wspólnych znaczeń).
+1674	. Tego działania nie można cofnąć.
+1675	. Wewnątrz języki dzielą średnio {0} znaczeń.
+1676	. Słowa jednego pochodzenia oddaliły się brzmieniowo w językach, więc tworzą kilka grup dźwiękowych.
+1678	W ogrodzie włóż węzły do koszyka (prawy przycisk myszy → „Dodaj do koszyka“), na przykład pojęcie moon. Tu wybierz badanie i kliknij „Badaj“. Owoce każdego badania zostają na liście po lewej.
+1680	autorytet
+1681	Po dwukrotnym kliknięciu węzła w zbiorze danych wyszukuje się i pokazuje wszystkie jego relacje (do 150).
+1682	Węzły {0}/{1}{2} · dotknięte {3} · Relacje {4}/{5}
+1683	opiera się na: {0}
+1684	wszystkie
+1685	(i jeszcze {0})
+1686	(opcjonalne)
+1688	(pokazano największe grupy)
+1689	, {0} z błędem
+1691	1 − odległość / największa
+1692	ładunek na 1.
+1693	: {0} par
+1694	oba wysokie
+1695	oba niskie
+1696	Segmenty analizy pochodzą z Form.segments, potem IE-CoR Phonemic_Segments, potem etc/orthography.tsv zbioru danych; forma bez żadnego z nich nie jest uwzględniana (wymowa nie jest wymyślana). Każdy segment łączy się z dźwiękiem CLTS. Wstawienie lub pominięcie kosztuje 0,5, wynik dzieli się przez długość dłuższej formy (0–1); dla form z kilkoma wariantami brana jest najmniejsza odległość.
+1697	Nagłówek owocu
+1698	Ogranicz według innego
+1699	czy najbliższe według jednej miary są najbliższe także według drugiej
+1700	Czy pary dwóch miar idą w parze: ρ Spearmana po wszystkich parach i test permutacyjny Mantela.
+1701	Czy sąsiednie języki dzielą więcej kognatów niż odległe? Porównanie z geografią i z drzewem; nieoczekiwanie bliskie pary.
+1702	Czy języki dzielące więcej kognatów stoją bliżej także w drzewie Glottolog? Koszyk jest opcjonalny.
+1703	Czy średni wskaźnik którejś grupy (np. pól semantycznych) jest wyższy lub niższy, niż byłby przypadkiem.
+1704	Czy wskaźniki opowiadają tę samą historię: korelacje Spearmana i składowe główne (czy uzasadnione jest połączenie w jeden indeks).
+1705	Czy pojęcie otaczają te same inne znaczenia: polisemia DatSemShift, stabilność sąsiedztwa, stabilność pozycji spektralnej między rodzinami językowymi.
+1706	Czy pojęcie wszędzie wyraża to samo odziedziczone słowo: zachowanie kognatów, przetrwanie w odległych gałęziach, tempo wymiany leksykalnej (Fitch), polisemia IE-CoR.
+1707	Czy badać także zrekonstruowane formy prajęzyków (oznaczone *). Zapisuje się je inaczej niż formy poświadczone, więc zwykle pozostają na boku.
+1708	Czy najbliższe jednostce według jednej miary są najbliższe także według drugiej: γ Goodmana–Kruskala dla każdej jednostki.
+1709	Albo klawisz Delete.
+1710	ARI (skorygowany indeks Randa): 1 – podziały się pokrywają, 0 – nie bardziej niż przypadkiem. Czystość – udział jednostek w najczęstszej grupie B swojej grupy A.
+1711	ARI z gałęziami Glottolog na każdym poziomie poniżej „{0}”.
+1712	ARI z „{0}”
+1713	Połączenia najbliższych sąsiadów
+1714	bliżej
+1715	Zgodność z poziomami drzewa
+1716	Zgodność z drzewem (γ)
+1717	zgodność z drzewem γ
+1718	Pobierz układ jako plik
+1719	Odległości (np. w drzewie)
+1720	Odległości / podobieństwa
+1721	Odległości lub podobieństwa jako kolorowa tabela, jednostki uporządkowane według grup.
+1722	Odległości → graf: bliskie jednostki łączą się silnie, dalekie słabo; każda jednostka ma własną skalę.
+1723	Odległości → graf: połączenie słabnie wykładniczo, im dalej są jednostki.
+1724	Odległości → podobieństwa
+1725	Odległość = 1 − podobieństwo.
+1726	Odległość w kilometrach między współrzędnymi języków (lub ich form) po kole wielkim.
+1727	Otwórz układ
+1728	Cofnij (Ctrl+Z)
+1730	Oprócz polisemii (jedno słowo – kilka znaczeń) liczyć też derywację (znaczenie przeszło na wyraz pochodny). Sieć jest gęstsza, ale mniej czysta.
+1731	cokolwiek z jednostkami
+1733	liczba krawędzi w drzewie
+1734	Pojęcia Concepticon, które IE-CoR koduje kognatami. Pojęcia z koszyka są oznaczane (cecha „w koszyku”), gałąź Glottolog w koszyku ogranicza języki.
+1737	Jeszcze {0} mniejszych grup.
+1738	Sieć DatSemShift jest pusta: czy zbiór danych zaimportowano?
+1739	Skalowanie wielowymiarowe (MDS)
+1740	Najwyżej {0} wierszy.
+1741	Najwyżej {0} liści. Grupa jest spójna, jeśli w drzewie jest gałąź ze wszystkimi jej jednostkami i tylko z nimi.
+1742	Najwyżej {0} jednostek. Ciemniej – bliżej (podobniej); puste komórki – nieznane.
+1743	Dendrogram
+1744	Za dużo liści na dendrogram ({0}; najwyżej {1}).
+1745	Oznaczenia elementów muszą być różne.
+1746	element
+1747	Elementy
+1748	wysoki {0}, niski {1}
+1749	Duży skok po k-tej wartości pokazuje, że graf rozpada się na k grup.{0}
+1750	Powiększ
+1751	Największa spójna część ma tylko {0} jednostek: graf prawie nie ma połączeń. Dla podobieństwa leksykalnego zmniejsz „Najmniej wspólnych znaczeń na parę” albo nie bierz pojęć z koszyka (ograniczają znaczenia).
+1752	Największa spójna część grafu
+1753	Największe wybierane k
+1754	Największa luka – po {0}. wartości własnej
+1756	Płótno wyczyszczone. Ctrl+Z – przywróć.
+1757	Płótno jest puste
+1758	Typy danych
+1759	Porównanie dwóch miar (Mantel)
+1760	Kolumny dwóch zestawów wskaźników trafiają do jednej tabeli (według klucza jednostki).
+1761	Wykres rozrzutu dwóch wskaźników
+1762	pudełko – wszystkie pary z tą wartością B
+1763	Wiersze – {0}, kolumny – {1}{2}.
+1764	filtruj: jednostka, powód, element…
+1765	filtruj…
+1766	Formy
+1767	Wskaźniki stabilności formy i znaczenia, ich korelacje i testy pól semantycznych. Koszyk jest opcjonalny.
+1768	Stabilność formy
+1769	Stabilność formy liczy się dla pojęć ze źródła „Pojęcia (IE-CoR)”.
+1770	form
+1771	Odległości dźwiękowe form są ściągane do odległości między językami i porównywane z drzewem Glottolog i geografią.
+1772	Odległości dźwiękowe języków, drzewo i geografia
+1773	Odległość dźwiękowa (CLTS)
+1774	Odległość dźwiękowa liczy się tylko dla form.
+1775	Jądro Gaussa (samostrojące)
+1776	Odległość genealogiczna (Glottolog)
+1777	Odległość geograficzna
+1778	Gałęzie Glottolog
+1779	Grafy
+1780	Graf składa się z {0} niepołączonych części: pierwsze {1} wartości własne są równe 0. Warto dołączyć „Największa spójna część grafu”.
+1781	wartości i wektory własne znormalizowanej macierzy Laplace’a grafu
+1782	Karty grup
+1783	grup spójnych w drzewie
+1784	grup według luki
+1785	Test permutacyjny grup
+1786	Liczba grup
+1787	grupy
+1788	Grupy (np. gałęzie)
+1790	Średnią grupy porównuje się ze średnimi tylu samo losowo wziętych jednostek. Badane są grupy z ≥ 3 jednostkami.
+1791	Drzewo hierarchiczne: najbliższe jednostki i grupy łączą się najpierw (metoda średnich połączeń).
+1792	hierarchiczne drzewo jednostek (dendrogram)
+1793	szukaj elementu…
+1794	Do 400 znaków.
+1795	Do ilu grup
+1797	W ilu rodzinach co najmniej muszą być poświadczone powiązania pojęcia, aby liczyć stabilność jego sąsiedztwa i pozycji spektralnej.
+1798	Z par innych jednostek, które porządkuje pierwsza miara (remisy pominięte), udział uporządkowany tak samo także przez drugą (γ: 1 – wszystkie, 0 – jak przypadkiem, −1 – odwrotnie). Niskie γ – język, którego słownictwo nie pasuje do jego miejsca w drzewie (kontakty, zapożyczenia, luki w danych).
+1799	Rozmieszczenie
+1800	Wyczyść
+1801	Wyczyść płótno
+1802	Wyjścia
+1804	Połączenie w jeden indeks proponuje się, gdy pierwsza składowa główna wyjaśnia ≥ 50 % i wszystkie wskaźniki wchodzą do niej w tym samym kierunku.
+1805	Połączenie
+1806	Połączenie z nieistniejącym elementem.
+1807	Twój tekst wśród owoców: do czego jest ten układ, co sprawdzasz, co zauważyłeś.
+1808	Gdy k jest wybierane samo, szuka się między 2 a tą liczbą.
+1809	Połączenie z sąsiadem do odległości
+1810	Sąsiadów dla skali
+1811	Jak pracować
+1812	Jak szybko słabnie połączenie. Małe τ – łączą się prawie tylko najbliższe, duże – także dalekie. Dla głębokości drzewa pasuje 2–8, dla kilometrów – setki.
+1813	Jak mierzyć
+1814	Jak w badaniu „Stabilność semantyczna pojęć”. Języki – ze źródła „Pojęcia (IE-CoR)” (gałąź w koszyku je ogranicza).
+1815	Jak w badaniu „Stabilność semantyczna pojęć”: sieć rozkłada się współrzędnymi błądzenia losowego; z punktu widzenia rodziny pozycja pojęcia to średnia pozycji jego sąsiadów w tej rodzinie, stabilność – ich rozrzut.
+1816	Jak przeliczyć
+1817	jak na wejściu
+1818	Język bez odpowiednika w Glottolog nie jest uwzględniany (nie znamy jego miejsca w drzewie). Cechy: nazwa w Glottolog, współrzędne, liczba zakodowanych znaczeń.
+1819	Języki ograniczone węzłami Glottolog z koszyka ({0} języków).
+1820	Języki ze znaczeniami zakodowanymi kognatami IE-CoR. W koszyku: rodzina lub gałąź Glottolog, języki, pojęcia (ograniczają znaczenia); bez koszyka – wszystkie takie języki.
+1821	języków
+1822	Co zostaje
+1823	Ile najwyżej form wziąć z węzłów koszyka; reszta jest pomijana (zostaniesz o tym poinformowany). Odległość dźwiękowa porównuje wszystkie pary form, więc praca rośnie kwadratowo.
+1824	Ile razy losowo przemieszać jednostki, by oszacować p. 0 – p nie jest liczone.
+1825	O ile każda jednostka jest bliżej swojej grupy niż najbliższej innej: od −1 (nie w swojej grupie) do 1.
+1826	Ile jednostek każdej grupy A trafia do każdej grupy B; ARI i czystość.
+1827	W ilu językach co najmniej (z miejscem w drzewie Glottolog) słowo pojęcia musi być zakodowane kognatami.
+1828	Ile co najmniej tych samych znaczeń musi być zakodowanych w obu językach, by podobieństwo pary było znane. Podobieństwo słabiej poświadczonych par uznaje się za nieznane (w grafie się ich nie łączy).
+1829	Ile pierwszych wektorów własnych macierzy Laplace’a wyznacza pozycję pojęcia w sieci.
+1830	Jak różnie brzmią dwie formy: odległość edycyjna, w której zamiana dźwięku kosztuje udział różnych cech CLTS.
+1831	Jak daleko od siebie stoją dwie jednostki (języki lub ich formy) w drzewie Glottolog.
+1832	o ile jednostka jest bliżej swojej grupy niż innych
+1833	Każda grupa: wielkość, najbardziej typowa jednostka (medoid), przykłady, jak bliskie wewnątrz i do innych, skład.
+1834	Każda {0}.
+1835	Zostawia każdej jednostce tylko k najsilniejszych połączeń (przerzedza gęsty graf).
+1836	Każdy wskaźnik zamienia się w percentyl 0–1, gdzie 1 – „najlepszy” (najstabilniejszy); tak wszystkie wskazują w tę samą stronę.
+1837	Każda jednostka to punkt według dwóch wskaźników; ćwiartki według median (np. forma stabilna, znaczenie zmienne).
+1838	Skala σᵢ każdej jednostki to odległość do tylu-tego najbliższego sąsiada (Zelnik-Manor i Perona, 2004). Waga exp(−d² / σᵢσⱼ). Mniejsza – graf bardziej rozpada się na gęste grupy.
+1839	odległość każdej pary jednostek: 0 – to samo, więcej – dalej
+1840	podobieństwo każdej pary jednostek: więcej – podobniej
+1841	zakodowanych znaczeń
+1842	grupy kognatów
+1843	Jaki udział znaczeń zakodowanych w obu językach ma wspólną grupę kognatów: S = C / M.
+1844	Współrzędne – szerokość i długość geograficzna języka (Glottolog lub zbiór danych). Jednostki bez współrzędnych nie są uwzględniane.
+1846	Formy pojęć z koszyka (i powiązanych przez CORRESPONDS_TO), znaczeń, leksemów, grup kognatów lub same formy.
+1847	Formy pojęć z koszyka grupuje się według tego, jak podobnie brzmią; grupy porównuje się z kognatami i gałęziami.
+1848	w koszyku
+1849	Koszyk
+1850	Koszyk sam niczego nie bada: mówi źródłom, co brać. Po lewej w Vaivie możesz odznaczyć węzły, których tym razem nie chcesz.
+1851	Koszyk trafia do układu przez element „Koszyk”; bez niego koszyk nie jest używany.
+1852	Tabela krzyżowa
+1853	Które jednostki
+1854	Które grupy B rozpadają się na kilka grup A
+1855	Czyje wiersze zostają. Brakujące wartości są nieznane.
+1856	Co ograniczyć
+1857	Co filtrować
+1858	najlepiej pasujący poziom (ARI {0}, {1} gałęzi)
+1859	Najmniejsze wartości własne macierzy Laplace’a: duży skok po k-tej pokazuje, że graf rozpada się na k grup.
+1860	Spektrum Laplace’a
+1861	Czeka na element, który się nie powiódł.
+1862	czeka na nieudany element
+1863	Podobieństwo leksykalne
+1864	Podobieństwo leksykalne liczy się dla języków ze źródła „Języki”.
+1865	Zostało {0} z {1}.
+1866	Poziomy liczy się od wspólnego przodka wszystkich jednostek. „Pierwszy poziom z 3 … n/2 gałęziami” – jak w badaniu „Drzewo języków”; „pierwszy podział” – pierwszy poziom, na którym jednostki się rozchodzą.
+1867	Porównywane (np. leksykalne)
+1868	M – znaczenia (Concepticon) zakodowane w obu językach; C – ile z nich ma wspólną grupę kognatów. Każde znaczenie liczy się raz.
+1869	Test Mantela ({0} permutacji)…
+1870	Skala τ
+1871	Miary
+1872	Miara A
+1873	Miara B
+1874	Macierz
+1875	Za dużo jednostek na macierz ({0}; najwyżej {1}).
+1876	niski {0}, wysoki {1}
+1877	Mniejsze podobieństwa uznaje się za zero. 0 – brane są wszystkie znane.
+1878	niżej
+1879	Mniej niż {0} języków ze słowem zakodowanym kognatami.
+1880	Najmniej języków na pojęcie
+1881	Najmniej rodzin na pojęcie
+1882	Pomniejsz
+1883	Małe wartości własne i ich wektory opisują ogólną budowę grafu: ile wartości zerowych – tyle oddzielnych kawałków, duża luka po k-tej – graf rozpada się na k grup.
+1884	mediana {0} ({1}–{2})
+1885	Drzewo (UPGMA)
+1886	Drzewo z liśćmi pokolorowanymi według podziału; które grupy są spójne w drzewie i co się w nie wciska.
+1887	Drzewo nie ma poziomów poniżej wspólnego przodka.
+1888	Poziom drzewa
+1889	Drzewa nie można ograniczyć: ogranicz odległości przed zbudowaniem drzewa.
+1890	Za dużo jednostek na drzewo (najwyżej 2000).
+1891	nie w największej spójnej części
+1892	to nie układ
+1894	Nie udało się narysować: {0}
+1895	Bez połączenia – wszystkie pojęcia sieci DatSemShift z numerem Concepticon.
+1896	Nie znaleziono pojęć zakodowanych kognatami.
+1897	Nieodpowiedni plik: {0}
+1898	Grupy niespójne
+1899	Pominięto jednostek: {0} (zob. pod owocami)
+1900	nieznane
+1901	Nieznany element: {0}
+1902	nieznany
+1903	Nieznane odległości (np. języki różnych rodzin) nie dają połączenia.
+1904	Wartości i wektory własne znormalizowanej macierzy Laplace’a L = I − D^-½ W D^-½.
+1905	Przeciągnij element z listy po lewej albo wczytaj gotowy układ.
+1906	Przeciągnij element z listy po lewej na płótno (albo kliknij: zostanie dołączony do zaznaczonego).
+1907	Przeciągnij na płótno albo kliknij.
+1908	Żadna grupa nie wyróżnia się istotnie
+1909	Żaden język nie ma miejsca w drzewie Glottolog.
+1910	Żadne pojęcie nie ma dość języków.
+1911	Żadnego pojęcia nie ma w sieci DatSemShift.
+1912	brak w sieci DatSemShift
+1913	brak współrzędnych
+1914	Brak par, w których znane są obie miary.
+1915	Brak wskaźnika „{0}”. Dostępne: {1}.
+1916	brak miejsca w drzewie Glottolog
+1917	Pomarańczowe – wybrane k.
+1918	p (wyżej) {0}, p (niżej) {1}
+1919	wyjaśnia (1, 2, 3 …)
+1920	wyjaśnia 1. składowa
+1921	Według której cechy łączyć. Np. ściągając odległości dźwiękowe form według języka, otrzymuje się odległości dźwiękowe języków, które można porównać z genealogicznymi lub geograficznymi.
+1922	Według czego
+1923	Składowe główne ({0} jednostek)
+1925	Zostawia tylko największą spójną część grafu; odcięte jednostki nie są uwzględniane.
+1926	Zostawia tylko jednostki, które są też na drugim wejściu (np. odległości w drzewie – tylko dla języków grafu leksykalnego).
+1927	Zostawia jednostki, których cecha spełnia warunek (np. language = Lithuanian; reconstructed = ne; grupė = 2).
+1928	Porównaj z (ARI)
+1929	podobniej
+1930	Podobieństwa
+1931	Podobieństwa zamienia się w odległości (1 − s), więc dodatnie ρ zawsze znaczy, że miary się zgadzają. Porównuje się tylko pary, w których znane są obie miary. Na wykresie – wartości A według B (pudełka, jeśli B ma niewiele różnych wartości).
+1932	Podobieństwa zamienia się w odległości 1 − s. Ponad ~1500 jednostek liczy się długo.
+1933	Podobieństwa zamienia się w odległości 1 − s. Nieznane odległości uznaje się za największe.
+1934	Podobieństwa → odległości
+1935	Podobieństwa → graf
+1936	podobieństwo
+1937	Podobieństwo = 1 − odległość (albo największa odległość − odległość).
+1938	Podobieństwo staje się wagą połączenia; nieznane i mniejsze od progu podobieństwa nie dają połączenia.
+1939	Podobieństwo – {0}, odległość – {1}, grupy – {2}.
+1940	Pokazano {0} z {1}.
+1941	Pokaż ten element w układzie
+1942	Gotowe badania z własną prezentacją
+1943	Gotowe układy
+1944	Wybrane k
+1945	Usuń element
+1946	Usuń połączenie
+1947	Zaznacz k
+1948	Za dużo form ({0}; najwyżej {1}): ogranicz koszyk albo liczbę form.
+1949	za mało języków
+1950	Za mało jednostek na graf.
+1951	Za mało jednostek na spektrum.
+1952	Za mało jednostek z grupą w obu podziałach.
+1953	Permutacji
+1954	pierwszy poziom z 3 … n/2 gałęziami
+1955	Sieć polisemii: pojęcia są połączone, jeśli przynajmniej w jednej rodzinie językowej to samo słowo znaczy oba; waga – ile rodzin to poświadcza.
+1956	liczba rodzin polisemii
+1957	Pary nie są niezależne (każda jednostka bierze udział w wielu), więc p bierze się z permutacji, nie ze wzoru.
+1958	Pary, których podobieństwo jest dużo wyższe lub niższe niż oczekiwane dla ich odległości: z różnych grup, a podobne (możliwe kontakty), i z tej samej grupy, a odległe.
+1959	par
+1960	Cechy: pole semantyczne (Concepticon), liczba języków, w koszyku (taip / ne). Z tymi pojęciami pracują „Stabilność formy” i „Stabilność znaczenia”.
+1961	Nazwa cechy: cognate (grupa kognatów IE-CoR), language, dataset, glottolog_name, field (pole semantyczne), focus, reconstructed …
+1962	Cecha
+1963	Cecha „{0}” ma mniej niż dwie wartości.
+1964	Dla cechy „grupė” dołącz podział.
+1965	Najłatwiej zacząć od gotowego układu po lewej. Przeciąganie pustego płótna – przesuwanie, kółko myszy – skala, Delete – usuń, Ctrl+Z – cofnij, Ctrl+D – kopia.
+1966	pominięto: czeka na nieudany element
+1967	Pominięto: czeka na nieudany element.
+1968	Gdy dołączone są odległości, każda jednostka łączy się z najbliższym sąsiadem, jeśli ich odległość nie jest większa niż ta.
+1969	Gdy dołączony jest inny podział, grup bierze się tyle, ile w nim (np. podzielić graf drzewa na tyle grup, ile znalazł leksykalny).
+1970	Gdy dołączony jest podział, można filtrować według cechy „grupė” (numer grupy jak w owocach).
+1971	Dołącz przynajmniej jeden owoc (grupa „Owoce”).
+1972	Dołącz przynajmniej jeden owoc i naciśnij „Badaj”.
+1973	Przez filtr nie przeszła żadna jednostka.
+1974	Percentyle
+1975	Np. kognaty lub gałęzie: ile jednostek każdej grupy należy do każdej z ich grup.
+1976	Potrzeba przynajmniej dwóch wskaźników z ≥ 5 znanymi wartościami.
+1977	Potrzeba przynajmniej dwóch wskaźników.
+1978	Istotnie się wyróżnia
+1979	Poziom istotności
+1980	istotnych różnic (p < {0})
+1981	Sieć znaczeń (DatSemShift)
+1982	Znaczenia ograniczone pojęciami z koszyka ({0} pojęć Concepticon).
+1983	Stabilność znaczenia
+1984	stabilność znaczenia
+1985	Porządkuj według
+1986	Wskaźniki
+1987	Wskaźniki A
+1988	Wskaźniki B
+1990	Wskaźniki, w których mniej znaczy lepiej (np. tempo wymiany, polisemia), są odwracane. Równe wartości dostają średnią rangę.
+1991	Nazwa wskaźnika (np. retention); puste – pierwszy.
+1992	Korelacje wskaźników
+1993	Zestawy wskaźników nie mają wspólnych jednostek.
+1994	Pokaż cały układ
+1995	Połączeń na jednostkę
+1996	Połączenie zostaje, jeśli jest wśród k najsilniejszych przynajmniej jednej z dwóch jednostek.
+1997	Wartości własne
+1998	luka wartości własnych
+1999	Filtry
+2000	Filtr działa na każdy typ danych z jednostkami: jednostki, odległości, graf, podział, wskaźniki. Spektrum i drzewa nie można filtrować – filtruj przed nimi.
+2001	Sylwetka
+2002	Sylwetka – jak bardzo grupy są oddzielone; ARI – jak bardzo pokrywają się z dołączonym podziałem (np. kognatami).
+2003	Dla sylwetki
+2004	Podział
+2005	Podział A (wiersze)
+2006	Podział B (kolumny)
+2007	Podział według cechy
+2008	Podział {0} z drzewem na poziomie {1}
+2009	Liczyć też derywację
+2010	Z różnych grup, a podobniejsze niż oczekiwano (możliwe kontakty, zapożyczenia)
+2011	Odległość między jednostkami różnych rodzin jest nieznana. Jednostki bez miejsca w drzewie Glottolog nie są uwzględniane.
+2012	Różnice nie przekraczają tego, co byłoby przypadkiem.
+2013	Próg
+2014	Kolorowy pasek – grupy.
+2015	Rozmieszczenie spektralne
+2016	Analiza spektralna
+2017	Analiza spektralna ma sens dla spójnego grafu: oddzielne kawałki dałyby po zerowej wartości własnej i „grupy”, które są tylko oddzielnymi kawałkami.
+2018	Badanie analizy spektralnej złożone z elementów: źródeł, miar, grafów, filtrów, analizy spektralnej, wskaźników i owoców.
+2019	Grupy spektralne
+2020	Spektrum nie można ograniczyć: ogranicz graf przed obliczeniem spektrum.
+2021	Kliknij element i ustaw po prawej jego parametry.
+2022	Kliknij k, aby przeliczyć z tyloma grupami.
+2023	Budowanie drzewa…
+2024	Najsilniejsze połączenia
+2025	W grafie niepołączona z innymi jednostkami (albo tylko z małym kawałkiem).
+2026	Z czym porównywać (dla „znany” i „nieznany” niepotrzebne).
+2027	Z którym poziomem drzewa Glottolog (rodzina, gałąź, podgałąź …) podział pokrywa się najbardziej (ARI dla każdego poziomu).
+2028	Skład według
+2029	Połącz wskaźniki
+2030	Łącz: przeciągnij od kropki wyjścia po prawej do wejścia w tym samym kolorze po lewej. Pasujące wejścia są podświetlane.
+2031	Utworzono ogród „{0}”
+2032	Ściągnij według cechy
+2033	graf ważony: jednostki – wierzchołki, waga – siła połączenia
+2034	Waga exp(−odległość / τ)
+2035	Warunek
+2036	Układ jest za duży (najwyżej {0} elementów i {1} połączeń).
+2037	Układ jest pusty: przeciągnij elementy do warsztatu i połącz je.
+2038	Układ wczytany.
+2039	Układ nie ma żadnego owocu: dodaj element z grupy „Owoce” i dołącz go.
+2040	Układ ma zamkniętą pętlę: element nie może dostać własnego wyniku.
+2041	Nazwa układu
+2042	Formy pojęcia znajduje się przez Sense → Lexeme → Form. Każda forma ma cechy: język, grupa kognatów (IE-CoR), zbiór danych, zrekonstruowana (taip / ne), miejsce języka w drzewie Glottolog i współrzędne.
+2043	Pojęcia
+2044	Pojęcia (IE-CoR)
+2045	Pojęcia rozpoznaje się po numerze Concepticon (gdy go brak – po numerze DatSemShift), więc sieć można ograniczyć do pojęć IE-CoR (element „Ogranicz według innego”).
+2046	pojęć
+2047	Tak macierz odległości dźwiękowych staje się grafem do analizy spektralnej. Nieznane odległości uznaje się za bardzo duże.
+2048	To daje podstawę porównania: czy grupy spektralne pokrywają się z kognatami, gałęziami, polami.
+2049	punkt – para (do 3000 losowych)
+2050	Informacje techniczne
+2051	Tekst
+2052	Te same wektory własne podzielone na 2 … 12 grup: luka wartości własnych, sylwetka, zgodność z innym podziałem.
+2053	Te same wektory własne podzielone na k grup.{0}
+2054	Tyle grup, ile tutaj
+2055	Przy sprawdzaniu wielu grup i wskaźników kilka „istotnych” może wyjść przypadkiem (próg {0}).
+2056	oczekiwane
+2057	Oczekiwane podobieństwo – mediana wszystkich par w tej samej odległości (dla odległości ciągłych – 12 równej wielkości przedziałów).
+2058	Pasuje do podobieństw od 0 do 1 (np. leksykalnego). Nieznane podobieństwo pozostaje nieznaną odległością.
+2059	Sieć: {0} pojęć, {1} połączeń, największa spójna część – {2}, {3} rodzin.
+2060	Liczyć w sieci oprócz polisemii także derywację. Sieć jest gęstsza, ale mniej czysta.
+2061	Najbardziej typowa:
+2062	badane jednostki (formy, języki, pojęcia) z ich cechami
+2063	Do badania nadaje się tylko {0} form z {1}.
+2064	Z tej samej grupy, a mniej podobne niż oczekiwano
+2065	zawiera tekst
+2066	Puste – drugi.
+2067	Puste – wybierane tam, gdzie luka między sąsiednimi wartościami własnymi jest największa.
+2068	Badania
+2069	Badanie złożone z elementów
+2070	Notatka
+2071	Po najechaniu – cechy jednostki; kliknięcie grupy w legendzie ją wyróżnia. „Otwórz w ogrodzie” tworzy nowy ogród z tymi węzłami w tych samych miejscach i kolorach.
+2072	Owoce
+2073	owoc gotowy
+2074	Warsztat Vaivy · {0} · {1} elementów, {2} owoców {3}
+2075	Warsztat Vaivy – układ z elementów
+2076	średnia {0} (wszystkich {1})
+2077	Średnia sylwetka powyżej 0,5 – grupy wyraźne, około 0 – zlewające się; ujemna – jednostka między grupami.
+2078	Jednostki
+2079	Jednostki rozpoznaje się po kluczu (formy, języki, pojęcia Concepticon). Kolejność zostaje z pierwszego wejścia.
+2080	Jednostki bez miejsca w drzewie Glottolog zostają bez grupy.
+2081	Jednostki nie mają współrzędnych.
+2082	Jednostki nie mają cechy „{0}”. Dostępne: {1}.
+2083	Jednostki na płaszczyźnie według rozmieszczenia, pokolorowane według podziału; można otworzyć w ogrodzie.
+2084	Jednostki dzieli się według gałęzi Glottolog, do której należy ich język.
+2085	Jednostki dzieli się według cechy: grupa kognatów, język, pole semantyczne, zbiór danych …
+2086	Jednostki dzieli się na k grup: k-średnich w przestrzeni pierwszych k wektorów własnych (Ng, Jordan, Weiss).
+2087	Jednostki muszą mieć miejsce w drzewie Glottolog (formy lub języki). Poziomy liczy się od wspólnego przodka wszystkich.
+2088	Nazwa cechy jednostki: language, cognate, dataset, reconstructed, glottolog_name, field, focus, meanings, languages, name, key; z podziałem – grupė. W tabeli jednostek widać wszystkie cechy.
+2089	jednostek
+2090	Tabela jednostek
+2091	Ściąga pary jednostek do par ich cechy (np. języka): odległość dwóch języków – średnia odległość ich form.
+2092	Filtr jednostek
+2093	podział jednostek na grupy
+2094	Pozycje jednostek według 2. i 3. wektora własnego.
+2095	pozycje jednostek na płaszczyźnie
+2096	Pozycje jednostek na płaszczyźnie, najlepiej zachowujące ich odległości (klasyczne MDS).
+2097	Wewnątrz jednej grupy odległość uznaje się za 0 (podobieństwo – średnie). Po ściągnięciu według języka nowe jednostki to języki, które dziedziczą miejsce w Glottolog i współrzędne.
+2099	Wszystkie jednostki z cechami, grupą i wskaźnikami; z sortowaniem i filtrem.
+2100	Wskaźnik X
+2101	Wskaźnik Y
+2102	{0} elementów nie powiodło się lub pominięto
+2103	{0} grup
+2104	{0} języków, {1} gałęzi.
+2105	{0} liści
+2106	{0} węzłów
+2107	{0} wskaźników, {1} jednostek
+2108	{0} wartości własnych
+2109	{0} punktów
+2110	{0} wierzchołków, {1} krawędzi
+2111	{0} → {1}. Im większa taka luka, tym wyraźniej graf rozpada się na tyle grup. Wartości zerowych jest tyle, ile niepołączonych części grafu.
+2112	{0}. poziom poniżej wspólnego przodka
+2113	{0}. poziom poniżej „{1}”: {2} gałęzi.
+2114	{0}. Ciemniej – {1}; puste komórki – nieznane. {2}
+2115	{0}: wciskają się {1}{2}
+2116	{0}; oś – wysokość połączenia (odległość).
+2118	· bez koszyka
+2119	· z pamięci
+2120	· koszyk: {0}{1}
+2121	· pominięto {0}
+2122	· kolory: {0}
+2123	· wewnątrz {0}, do innych {1}
+2124	Do „{0}” pasuje {1}, a tu jest {2}.
+2125	Wczytano układ „{0}”. Ctrl+Z – przywróć poprzedni.
+2126	Wczytano; nieznane elementy pominięto: {0}
+2127	Wczytaj plik układu
+2128	wciskają się
+2129	Wejścia
+2130	Wejścia nie mają wspólnych jednostek.
+2131	gałęzi
+2132	Źródła
+2133	węzły z koszyka ogrodu tej karty
+2134	Węzły z koszyka ogrodu tej karty (w ogrodzie: prawy przycisk → „Dodaj do koszyka”).
+2135	Poniżej „{0}” na {1}. poziomie jest {2} gałęzi (np. {3}); ARI {4}.
+2136	Za dużo punktów na mapę ({0}; najwyżej {1}).
+2137	Znak dobiera się tak, by największa współrzędna była dodatnia (żeby przy powtórce było to samo). Mapy spektralne grafów drzew często ściągają wiele jednostek do kilku punktów – wtedy wyraźniejsze jest MDS.
+2138	znany
+2139	Znane jest podobieństwo {0} z {1} par (co najmniej {2} wspólnych znaczeń).
+2141	„1 − odległość” pasuje do odległości od 0 do 1 (dźwiękowej). Dla innych (km, głębokość drzewa) – podziel przez największą.
+2142	„Głębokość wspólnego przodka”: im głębiej w drzewie najbliższy wspólny przodek, tym bliżej (0 – najgłębszy). „Liczba krawędzi”: ile gałęzi przejść od jednego do drugiego – zniekształca, gdy gałęzie są nierówno drobno podzielone.
+2143	„równe” i „różne” przyjmują kilka wartości rozdzielonych średnikiem; wielkość liter nie ma znaczenia.
+2144	„{0}” i „{1}”: {2} par.
+2145	„{0}” i „{1}”; porównano {2} jednostek.
+2146	„{0}” oczekuje {1}, a dostaje {2}
+2147	„{0}” musi być między {1} a {2}
+2148	„{0}” → „{1}”: nie ma takiego gniazda.
+2149	„{0}”: niepołączone {1}.
+2150	„{0}”: do wejścia idzie tylko jedno połączenie.
+2151	▲ – średnia grupy istotnie wyższa, ▼ – niższa (p < {0}).
+2152	▶ Badaj
+2153	⬆ Wczytaj
+2154	⬇ Pobierz
+2155	🍎 Owoce
+2157	🔧 Warsztat
+2158	🔧 Układ
+2159	🔧 {0} owoców{1}
+2160	Układ warsztatu
+2161	1 − odległość
+2162	Concepticon
+2163	zbiory danych
+2164	zbiór danych
+2165	obecne przynajmniej w jednym
+2166	język Glottolog
+2167	języki Glottolog
+2168	długość geograficzna
+2169	język
+2170	języki
+2173	równe
+2175	różne
+2176	nie zawiera tekstu
+2177	pierwszy podział
+2178	szerokość geograficzna
+2179	zrekonstruowana
+2180	segmenty
+2181	pola semantyczne
+2182	pole semantyczne
+2184	tylko obecne w obu
+2185	jednostka
+2186	wszystkie jednostki A
+2187	Odległości
+2188	Drzewo
+2189	liczbowe wskaźniki każdej jednostki
+2190	Spektrum
+2191	Czystość {0}: część grup jest mieszana.
+2192	Czystość {0}: grupy prawie się nie mieszają.
+2193	Połączenie w jeden indeks nie jest uzasadnione
+2194	Połączenie w jeden indeks jest uzasadnione
+2195	Prawie brak korelacji (ρ = {0})
+2196	Pierwsza składowa główna wyjaśnia {0} ({1} jednostek ze wszystkimi wskaźnikami).
+2197	Wskaźniki wchodzą do niej w różnych kierunkach.
+2198	Wskaźnik
+2199	Wszystkie wskaźniki wchodzą do niej w tym samym kierunku.
+2200	{0} grup (według luki wartości własnych byłoby {1}).
+2201	{0} grup – według luki wartości własnych.
+2202	{0} różnych dźwięków: BIPA {1}, inny system CLTS {2}, w przybliżeniu {3}, nierozpoznane {4}.
+2203	ARI
+2204	prawie żadna
+2205	prawie się nie pokrywają
+2206	prawie się pokrywają
+2207	w dużej mierze się pokrywają
+2208	czystość
+2209	bardzo silna
+2210	Podobieństwo leksykalne i geografia
+2211	p Mantela
+2212	słaba
+2213	sylwetka
+2214	ρ Spearmana
+2215	silna
+2216	Polisemia DatSemShift
+2217	Polisemia IE-CoR
+2219	Pobierz {0}
+2220	Bibliografia
+2221	Bibliografia: SODAS i zbiory danych użyte w tym ogrodzie (BibTeX, RIS, …)
+2222	CSL-JSON (Zotero, Mendeley, Pandoc)
+2223	Nie użyto jeszcze zbiorów danych – podano tylko wpis SODAS.
+2225	szkic jest za duży
+2226	Ogród przysłany przez kogoś (plik JSON) stanie się Twoim nowym ogrodem
+2227	Ogród przysłany przez kogoś stanie się Twoim nowym ogrodem
+2228	Kopiuj
+2229	Użyte dane:
+2231	Nieodpowiedni plik: {0}
+2232	nieznany format: {0}
+2233	nieznany szkic
+2237	RIS (EndNote, Zotero, Mendeley)
+2238	Ogród pobrany – plik możesz wysłać innemu ogrodnikowi
+2239	SODAS i zbiory danych użyte w tym badaniu: BibTeX, RIS, CSL-JSON, tekst
+2240	Opis SODAS jest na razie wstępny: DOI i repozytorium programu są jeszcze przygotowywane.
+2242	Bibliografia ogrodu: SODAS i użyte w nim zbiory danych
+2243	Plik ogrodu jest uszkodzony: węzły i relacje muszą być listami.
+2244	W pliku ogrodu nie ma węzłów.
+2246	Bibliografia ogrodu „{0}“
+2248	to nie jest plik Sodas (oczekiwano „sodo-byla/1“)
+2249	Tekst (APA)
+2250	Bibliografia badania „{0}“
+2254	Wczytany ogród
+2255	Wczytano ogród „{0}“ ({1} węzłów)
+2256	wczytano ogród „{0}“ ({1} węzłów)
+2257	Ten ogród zapisano, zanim zaczęto śledzić użyte dane – listę utworzono na podstawie węzłów, które są w nim teraz.
+2258	To badanie wykonano, zanim zaczęto śledzić użyte dane – listę utworzono na podstawie jego koszyka i rodzaju badania.
+2259	Ten ogród z jego węzłami, relacjami i listą użytych danych – do pliku, który możesz komuś wysłać
+2260	⬆ Wczytaj ogród z pliku…
+2261	⬇ Pobierz ten ogród (JSON)
+2262	⬇ Plik
+2263	📚 Bibliografia
+2266	Utworzono indeksy wyszukiwania Neo4j: {0}
+2267	Strona pracuje…
+2268	, w ogrodzie ukryto {0} węzłów
+2269	Zbiór danych
+2271	wyłączone zbiory: {0}{1}
+2272	Wyłącz wszystkie
+2274	Neo4j jest niedostępna – brak listy zbiorów.
+2275	Włączony
+2276	Włącz wszystkie
+2277	Węzły w tym ogrodzie
+2278	⚙ → Zbiory danych
+2279	; pokazano pierwsze {0} z {1}
+2281	Ctrl+🗺
+2282	Ctrl+🗺 – także niewczytane
+2283	Wyłącz mapę i przywróć ogród
+2285	węzłów
+2286	Lista węzłów
+2287	to nie wiązka
+2288	nieprawidłowa wiązka
+2289	nieprawidłowe źródło wiązki
+2290	nieprawidłowe źródło
+2291	node.multi, node.bundle
+2292	Żaden z tych węzłów nie ma szerokości i długości geograficznej
+2293	zbyt głęboka wiązka
+2294	Wiązka od
+2295	Węzły wiązki nie są wczytywane do ogrodu, więc pozostaje lekki. Po rozwinięciu pokazuje sąsiadów ich wszystkich (z tego węzła); na mapie – wszystkie jego węzły (Sense – ich leksemy), a po przybliżeniu – z danego obszaru.
+2296	Pokaż więcej ({0} z {1})
+2298	Przygotowywanie mapy…
+2299	Relacje
+2300	tyle lub więcej sąsiadów o jednej nazwie pokazuje się jako jeden węzeł „nazwa ×N” bez ich wczytywania (powyżej 1000 – zawsze)
+2301	wszystkie węzły zaznaczonego scalonego węzła (×N) na mapie (Sense – ich leksemy); przybliżenie pokazuje węzły obszaru
+2302	Wszystkie na mapie
+2303	{0} węzłów {1} o tej samej nazwie{2}
+2304	{0}: pokazano {1} z {2} w tym obszarze (łącznie {3}) – przybliż, by zobaczyć pozostałe
+2305	{0}: w ogrodzie {1} węzłów
+2306	{0}: dodano do ogrodu
+2307	{0}: w tym obszarze {1} z {2}
+2309	Dodaj ten węzeł do ogrodu
+2310	Nie znaleziono tych węzłów
+2311	W widoku mapy węzły nie są rozwijane – wróć do ogrodu (🗺)
+2312	📍 Wszystkie na mapie
+2313	Śmiało połączone węzły: {0}; ta sama nazwa i język
+2314	Śmiało łączyć węzły
+2315	Łączenie węzłów
+2316	formy i leksemy (Form, Lexeme) o tej samej nazwie i z tego samego języka ze wszystkich zbiorów danych są pokazywane jako jeden węzeł
+2317	Połączono {0} węzłów w „{1}” – tylko w tym ogrodzie
+2318	Połącz zaznaczone
+2319	Połączono {0} węzłów: ta sama nazwa i język – kliknij
+2320	Połącz {0} węzły
+2321	Ctrl + 🗺: zaznacz węzeł Sense (wszystkie formy jego pojęcia) lub węzeł połączony (×N) – wszystkie jego węzły zostaną pokazane na mapie
+2322	OK
+2323	Lematy na mapie
+2324	lematów
+2325	Formy na mapie
+2326	form
+2327	nieznany tryb mapy: {0}
+2328	Nazwy się różnią. Którą pokazać? Połączony węzeł należy tylko do tego ogrodu – w bazie danych nic się nie zmienia.
+2329	Zaznacz co najmniej dwa węzły (Shift + kliknięcie) do połączenia
+2330	Zmień nazwę
+2331	Zmień nazwę połączonego węzła
+2332	{0} węzłów połączonych ręcznie (tylko w tym ogrodzie) – kliknij
+2333	{0} węzłów połączonych ręcznie – tylko w tym ogrodzie
+2334	Pokaż mapę (zaznaczony lub pierwszy węzeł ze współrzędnymi). Zaznaczony Sense – jego lematy, Concept – wszystkie lematy pojęcia, zbiór kognatów – jego formy. Ctrl – wszystkie formy pojęcia zaznaczonego Sense, wszystkie węzły węzła połączonego (×N)
+2335	własna nazwa:
+2336	tylko w tym ogrodzie
+2337	Wszystkie formy pojęcia na mapie
+2338	wszystkie formy pojęcia – {0}
+2339	{0} węzłów o tej samej nazwie – kliknij
+2340	{0}: na mapie {1}{2}{3}. Przybliż, aby zobaczyć węzły danego obszaru. Ogród jest chwilowo ukryty: 🗺 – powrót.
+2341	Nie znaleziono form tego pojęcia
+2342	Ten zbiór kognatów nie ma form
+2343	Ten Sense nie ma ani lematów, ani form
+2344	Tych węzłów nie można połączyć
+2345	mapa potrzebuje węzłów jednego rodzaju
+2346	Drugi panel
+2347	przygaszony tekst
+2348	Przygaszony tekst
+2349	Przygaszony tekst na panelu
+2350	Tło
+2351	Przywróć obliczony kolor
+2352	Przywróć wszystkie obliczone kolory
+2353	jak bardzo różnią się tło, panele, etykiety i linie (50 – jak wcześniej)
+2354	Inny
+2355	Błąd
+2356	Kontrast
+2357	Sprawdzenie kontrastu
+2358	Linie na panelu
+2359	Linie, obramowania
+2360	Przycisk
+2361	Zmień kolor
+2362	Wyróżnienie na panelu
+2363	Tło wyróżnienia
+2364	tło wyróżnienia
+2365	Tło wyróżnienia na panelu
+2366	Przykład
+2367	Dla zbyt podobnych kolorów zwiększ „Kontrast”, zmień jasność interfejsu albo wybierz ten kolor ręcznie.
+2368	zbyt podobne (potrzeba ≥ {0})
+2369	Relacje na tle ogrodu
+2370	Panel
+2371	Panel i tło
+2372	Tło ogrodu
+2373	Kolory pojedynczo
+2374	Kliknij kolor, aby zmienić go ręcznie; kolor wybrany ręcznie nie zmienia się już z suwakami (× – cofnij). {0}
+2375	Tekst na tle
+2376	Tekst na wyróżnieniu
+2377	Tekst na tle wyróżnienia
+2378	Tekst na panelu
+2379	Ostrzeżenie
+2380	etykieta
+2381	Etykieta na panelu
+2382	Etykieta, grupa przycisków
+2383	⚠ ostrzeżenie
+2384	✓ dobrze
+2385	✕ błąd
+2386	O Sodas
+2387	środowisko do badania danych językowych. Języki, słowa, ich znaczenia, pojęcia i słowa pokrewne z wielu zbiorów danych (Glottolog, Concepticon, IE-CoR, Lexibank, WOLD, CLICS, LKEŽDB i in.) połączono w jeden graf, w którym badacz szuka, porównuje i widzi powiązania.
+2388	Nie udało się pobrać danych do cytowania.
+2389	zbiory danych: wczytywanie i zarządzanie, objaśnianie słów LKEŽDB.
+2390	Instytucja
+2391	Jak cytować
+2392	Inne formaty…
+2393	Kontakty nie zostały jeszcze wpisane.
+2394	Kod programu
+2395	Kontakt
+2396	Strona internetowa
+2397	badania na węzłach ogrodu: odpowiedniości głosowe, drzewa językowe, warsztat do składania własnych badań.
+2398	ogród badawczy: graf węzłów i relacji, który rośnie przez rozwijanie słów, znaczeń i pojęć; tożsame węzły są łączone i można je pokazać na mapie.
+2399	Imię i nazwisko
+2400	Wersja {0}
+2401	Znak
+2404	Lematy pojęcia na mapie
+2405	Nie znaleziono lematów tego pojęcia
+2406	Pobierz
+2407	Pobierz ogród: SVG, PNG lub JSON
+2408	Zapisz jako PNG
+2409	Nazwy węzłów
+2410	obraz – do wystąpień i slajdów
+2411	obraz zbyt duży
+2412	PNG nie powiódł się: {0}
+2413	Widok
+2414	Widok: etykiety węzłów i relacji, typy węzłów i relacji w ogrodzie (odznaczone są ukryte)
+2415	Przygotowywanie PNG…
+2416	Nazwy relacji
+2417	dane ogrodu – można je ponownie wczytać w „Zarządzaj ogrodami”
+2418	Z mapą – widoczny widok
+2419	Nie udało się narysować SVG
+2420	Etykiety
+2421	obraz wektorowy – można powiększać, edytować w Inkscape
+2422	relacje {0} ukryte (przywrócisz przez 👁 „Widok”)
+2423	{0}: ukryto {1} węzłów z ich relacjami (przywrócisz przez 👁 „Widok”)
+2424	Bez bibliografii nie można pobrać ogrodu – spróbuj ponownie
+2425	Każdy plik zawiera całą bibliografię: SVG i PNG pod ogrodem i w metadanych, JSON w polu „bibliografija”.
+2426	Ogród bez nazwy
+2427	„{0}” – Sodas, {1}. Źródła, które trzeba zacytować:
+2430	ok. 2 min; Esc – przerwać
+2431	odłożona
+2432	Pobierz
+2433	Zakończ
+2434	Zakończ lekcję (Esc)
+2435	Prawy przycisk na węźle – wszystkie jego działania (rozwiń, zwiń, mapa, koszyk…). Środkowy przycisk – panel węzła. Shift + kliknięcie – zaznacz kilka węzłów: zaznaczone można połączyć w jeden lub połączyć relacją.
+2436	Twoje ogrody
+2437	Gdy ogród ma węzły z miejscem (języki, słowa), na pasku pojawia się 🗺: węzły trafiają na swoje miejsca na mapie. Gdy zaznaczone jest pojęcie lub znaczenie (Sense), mapa pokazuje wszystkie ich słowa.
+2438	Inne części
+2439	Węzły to słowa, znaczenia, języki, pojęcia; linie to relacje między nimi. Podwójne kliknięcie rozwija węzeł: pojawiają się jego sąsiedzi. Kółkiem przybliżasz ogród, przeciągając – przesuwasz.
+2440	Opis węzła
+2441	Nie teraz
+2442	Wyszukiwanie
+2443	Lekcja
+2444	Lekcja zawsze pod ręką
+2445	Lekcję znajdziesz w każdej chwili, klikając znak SODAS.
+2446	Zrób to za mnie
+2448	Tu widać właściwości zaznaczonego węzła, jego relacje w bazie i rekord źródłowy. Flaga przy węźle to jego język, znaczek ⧉ – połączone węzły.
+2449	Mysz w ogrodzie
+2450	Pierwszy raz w Sodas?
+2451	Posadźmy pierwsze słowo. Wpisz w wyszukiwarce np. saulė i kliknij pierwszy wynik na liście, która się pojawi – pojawi się on w ogrodzie. Można też szukać języków, pojęć lub zbiorów wyrazów pokrewnych.
+2452	Rozpocznij lekcję
+2453	Rozpocznij lekcję ogrodu
+2455	słońce
+2456	Nazwa ogrodu i Twoje inne ogrody; ＋ – nowy ogród. Każdy ogród to osobne badanie.
+2457	Ogród można pobrać jako SVG, PNG lub JSON. Do każdego pliku dołączane są opisy bibliograficzne użytych danych i samego Sodas. 📚 – te same opisy osobno.
+2458	Kliknij znak SODAS, aby dowiedzieć się o środowisku, jak je cytować, i powtórzyć tę lekcję. Udanego ogrodnictwa!
+2459	Witaj w Sodas!
+2461	Dalej
+2462	Krótka lekcja pokaże, jak szukać słów, hodować własny ogród i go badać (ok. 2 min).
+2463	Tu hodujesz swój ogród badawczy – graf języków, słów, ich znaczeń i pojęć z wielu zbiorów danych. Lekcja trwa około dwóch minut. Możesz ją przerwać w każdej chwili (Esc) i powtórzyć, klikając znak SODAS.
+2464	Lekcja tej strony jest w przygotowaniu. Lekcja ogrodu jest w ogrodzie – kliknij tam znak SODAS.
+2466	👁 – nazwy węzłów i relacji oraz typy w ogrodzie: odznacz typ, by go ukryć i uczynić ogród czytelniejszym.
+2467	🗺 pojawia się, gdy ogród ma węzły z miejscem: trafiają na swoje miejsca na mapie. Gdy zaznaczone jest pojęcie lub znaczenie (Sense), mapa pokazuje wszystkie ich słowa.
+2468	🧺 – koszyk badawczy: węzły tu odłożone są tymi, z którymi później pracują badania Vaivy (np. odpowiedniości głosowe, drzewa językowe).
+2469	Wróć obok objaśnianej części
+2470	Przeciągnij, aby przesunąć
+2471	; wartość – nazwa celu. Dozwolony jest tylko opis ścieżki, zapytanie wykonywane jest tylko do odczytu.
+2472	jeszcze nie pobrany
+2485	utworzono relację {0}: {1} → {2}
+2492	{0} · {1} · ~{2} MB
+2493	źródło ↗
+2494	⭳ Pobierz
+2495	⭳ Pobierz wszystkie brakujące
+2496	Niepobrane zbiory danych: {0} (~{1} MB). Zbiory danych nie są dołączone do programu – pobierz je (potrzebny internet), potem zaznacz i zaimportuj do Neo4j. Każdy zbiór ma własną licencję: większość CC BY 4.0, D-PLACE i NoRaRe – CC BY-NC 4.0 (do użytku niekomercyjnego).
+2497	Nie podano hasła Neo4j (neo4j.yaml lub KALBA_NEO4J_PASSWORD)
+2498	Pobierz ogród jako plik (JSON), który inny ogrodnik będzie mógł wczytać do swojego Sodasa
+2499	CUSTOM: relacja nazwana przez ciebie
+2500	Zbiór danych można tymczasowo wyłączyć, np. gdy praca nie wymaga ciężkich zbiorów. Węzły wyłączonego zbioru nie są wyszukiwane, rozwijane ani pokazywane w ścieżkach i na mapie, a te w ogrodzie są ukrywane (nie usuwane). Po ponownym włączeniu od razu wracają. Nic nie jest usuwane z Neo4j ani importowane ponownie: to tylko przełącznik.
+2501	Usunąć relację „{0}” z bazy danych?
+2502	Język i ustawienia
+2503	Tymczasowo wyłącz zbiory danych
+2504	narysowana w ogrodzie · {0}
+2505	narysowana {0}
+2506	Błędy i ostrzeżenia programu (także błędy, które wystąpiły w przeglądarce).
+2507	Relacje, które narysowałeś w ogrodzie (zaznacz dwa węzły i naciśnij Ctrl+J). Są zapisane w Neo4j (zbiór „Papildymai”) i pokazywane jak każda inna relacja – po rozwinięciu węzła, w wyszukiwaniu ścieżek.
+2508	Relacja jest zapisywana w Neo4j (zbiór „Papildymai”); ich lista – ⚙ → Moje relacje.
+2509	relacja nazwana przez ciebie (typ CUSTOM)
+2510	Ogrody zapisują się same. Litery – język interfejsu; ⚙ – ustawienia: motyw, kolory, wygląd węzłów, zbiory danych, zarządzanie ogrodami.
+2512	Relacje narysowane w ogrodzie (Ctrl+J)
+2513	W pliku ogrodu – jego węzły, relacje, widok i lista użytych zbiorów danych (do bibliografii).
+2514	z tym napisem – w ogrodzie zobaczysz go zamiast typu.
+2515	Utworzono relację „{0}”
+2516	utwórz relację między dwoma zaznaczonymi węzłami (zapisywana w Neo4j, zbiór „Papildymai”)
+2517	Wszystkie ustawienia (motyw, kolory, obrazki, limity) wracają do tych, z którymi program jest dostarczany; wyłączone zbiory danych pozostają wyłączone.
+2518	Žemė – zbiory danych, z których rosną ogrody; Vaiva – badania z węzłami koszyka.

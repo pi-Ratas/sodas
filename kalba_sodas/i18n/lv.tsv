@@ -1,0 +1,1743 @@
+# Sodo sąsaja: lv (numeris<TAB>vertimas; numeriai – iš raktai.tsv)
+1	(ierobežots ar groza jēdzieniem)
+2	(Ctrl+Numpad + / −)
+3	(vēl {0} – pa vienai valodai)
+4	(kopā {0} ar to pašu labāko vērtību {1}; to secība ir nejauša)
+5	(atvasināts no teksta)
+6	(kā {0})
+8	(modeļa secinājums)
+9	(neejot caur aizliegtajām saitēm)
+10	(nav display_name)
+11	(paslēpti {0})
+13	(pati analīze ieteica {0})
+14	(polārā
+15	(rāda, atzīmējot „tehniskie ieraksti“).
+16	(rādīti pirmie {0})
+17	(slēpjot aizskartie kaimiņi paliek)
+18	({0} izlasē)
+19	({0} nav iekļauti)
+20	) tiek izmantots, kāds tas ir; jebkurš cits nosaukums kļūst par saiti
+21	) atzīmētas ar ƒ. Noteikums
+22	). Iepriekšējie programmas vaicājumi paliek kešatmiņā, bet neder jaunajam grafa modelim.
+23	, vēl {0} – spiediet „+“ mezglus
+25	, kas vislabāk atbilst koka {0}. līmenim (ARI {1})
+26	, atstāti {0} aizskartie
+27	, vajadzīgs interneta savienojums. Pašlaik: {0}.
+28	, tāpēc arī ar vārdu krājumu sakrīt labāk.
+29	, {0} piezīmes
+30	100 % kopīgu kognātu
+34	; kopā – {0}
+36	; {0} bez koordinātām netiek rādīti
+51	Abas asis – stabilitātes procentile (pa labi un augšup – stabilāk). Līnijas dala uz pusēm. Noklikšķiniet uz jēdziena – tā dati zemāk.
+53	Adrese
+56	tiek skaidrots
+57	tiek skaidrots…
+59	Alt + peles ritenītis
+60	Alt+Numpad +/−
+61	Analīze: {0} objekti, {1} īpašības, {2} apgalvojumi, {3} saites
+62	analīzes segmenti
+63	API adrese
+64	API atslēga
+66	Apvienoti identiski pāri: {0}
+67	Apvienotas divas datu kopas
+68	Apvienotas divas datu kopas: {0} – noklikšķiniet
+69	Apvienot identiskos
+70	Apvienot visus identiskos
+72	Vai grafs pats izceļ stabilas jēdzienu grupas?
+73	Vai apvienot vienā indeksā? {0} (1. komponente izskaidro {1})
+74	Vai valodas, kurām ir vairāk kopīgu kognātu, arī Glottolog kokā atrodas tuvāk? Katra valodu pāra leksiskais tuvums tiek salīdzināts ar attālumu kokā, abu grafu spektri un grupas, leksiskais koks ar Glottolog zariem; tiek atrastas kokam pretrunīgas valodas un pāri. Grozā: Glottolog saime vai zars, valodas, jēdzieni (ierobežo nozīmes) – vai nekas (visas valodas ar kognātu datiem).
+75	Vai komponentes stāsta to pašu?
+76	vai dažādas saimes saista jēdzienu ar tām pašām citām nozīmēm (vid. Jaccard)
+77	Vai pētīt arī rekonstruētās pirmvalodu formas (atzīmētas ar *, piem., *méh₁n̥s). Tās pieraksta citādi nekā apliecinātās formas, un tām nav vienas valodas vietas, tāpēc parasti tās atstāj malā.
+78	vai vides mainīgais OPENAI_API_KEY
+79	ARI ar kognātiem
+80	ARI ar koka {0}. līmeni
+81	ARI starp {0} leksiskajām grupām un Glottolog zariem katrā līmenī zem kopīgā priekšteča{1}.
+82	Armēnija
+83	tuvākā pēc vārdu krājuma
+84	tuvākā kaimiņa saites
+85	tuvākās kokā
+86	Kokā tuvākie pāri (attālums {0}) vidēji (mediāna) dala {1} nozīmju ar kognātiem, tālākie (attālums {2}) – {3}. Plata josla pie viena attāluma rāda, ka tas pats koka attālums nenozīmē to pašu laiku: daži zari atdalījās agrāk, citi vēlāk, un koks to nemēra.
+88	Atvērt
+91	atbilstība γ
+95	Veiktie pētījumi
+98	Atjaunināt
+99	Atjaunināt Neo4j
+104	uzmanīgi: daļu atšķirību var noteikt tas, cik jēdziens ir pētīts.
+111	attālumi (MDS)
+112	attālums 0
+113	attālums kokā
+114	Attālumu matrica
+118	Atvērt dārzā
+120	Atcelt
+124	Azerbaidžāna
+126	Ass – kopīgo kognātu daļa šajā savienojumā.
+127	Bangladeša
+128	Bez tiem vietējiem mezgliem nebūs papildu datu (ExternalIdentifier „pending“).
+129	bez modeļa
+131	Aizliegtā saite
+132	Aizliegts: neiet caur {0}
+133	Aizliegts: {0} saites ceļu meklēšanā netiek izmantotas
+134	Aizliegtās saites (ceļi caur tām neiet)
+135	kopīgā priekšteča dziļums
+136	kopīgu nozīmju
+137	BIPA atpazina {0}, citas CLTS sistēmas viennozīmīgi – {1}, aptuveni (bez dažām diakritiskajām zīmēm) – {2}, neatpazīti – {3}. Atpazītās skaņas salīdzina pēc fonētiskajām pazīmēm (m un n atšķiras mazāk nekā m un a); neatpazītās – tikai kā tas pats vai cits simbols.
+140	šķautņu skaits
+141	šķautņu skaits kokā (pirmais mēģinājums)
+142	svītrota
+143	Tiks dzēsti
+144	statuss
+146	Centrēt
+147	ChatGPT atslēga tiek ierakstīta failā .raktas projekta mapē (sk. API_raktas.md)
+148	CLTS skaņa
+149	rediģēšanas attālums, svērts ar CLTS pazīmēm un dalīts ar garākās formas garumu
+154	Ctrl + vilkšana
+155	Ctrl + 🗺
+158	Ctrl+Alt+Shift+Numpad +/−
+161	Ctrl+Numpad +/−
+162	Ctrl+Shift + peles ritenītis
+164	Ctrl+Shift+Numpad +/−
+166	Tagad: {0} mezgli, {1} ierobežojumi, indeksi: {2}.
+169	Jūs vēl neko neesat pētījis.
+174	dataset = "lkezdb"
+175	DatSemShift datu nav.
+176	DatSemShift nozīmju tīklā bez polisēmijas (viens vārds – vairākas nozīmes) skaitīt arī derivāciju (nozīme pārgāja uz atvasinātu vārdu). Tīkls ir blīvāks, bet mazāk tīrs.
+177	DatSemShift šī jēdziena nav.
+178	DatSemShift: polisēmija {0} saimēs, biežākie kaimiņi –
+179	Visvairāk formu
+180	Visvairāk mezglu dārzā
+181	Visvairāk saišu no viena mezgla
+182	Visvairāk saišu dārzā
+183	reizinātājs visām saitēm (un tipu biezumiem); Ctrl+Shift + peles ritenītis
+185	Pielāgojamā tēma
+186	Labā poga
+187	Labā poga → Sakļaut
+188	Labā peles poga – darbības · vidējā uz mezgla vai saites – tā vadības panelis · dubultklikšķis – izvērst · Shift + vilkšana – atlasīt ar taisnstūri.
+189	Liels lēciens pēc k-tās vērtības rāda, ka dati sadalās k grupās. Oranžā – izvēlētais k.
+190	Lielākās kognātu grupas nesadalās vairākās skaņu grupās.
+191	lielākais mezgls
+192	Lielākais mezgls
+193	lielākais mezglu izmērs ±
+194	lielākā atstarpe ir starp {0}. un {1}. īpašvērtību ({2} → {3})
+197	divi atsevišķi mezgli
+199	ar dubultklikšķi
+200	Dubultklikšķis
+201	Datu kopas
+207	Datu par šo mezglu nav
+208	datubāzē
+209	datubāzes tips
+210	Datubāzes tips (piem.,
+211	Datu kešatmiņa nav atrasta:
+212	Izmērs pēc
+213	Robežas dēļ vēl {0} formas netika ņemtas.
+216	Rinda
+217	Rinda ir tukša.
+218	rindā
+219	nr.
+222	E-pasts
+233	etc/orthography.tsv nedeva nevienu skaņu.
+234	etc/orthography.tsv nezina rakstzīmes {0}; izrunu mēs neizdomājam.
+235	etiķete
+236	Fēru salas
+237	Fidži
+239	Filtrs, piem., Lithuanian
+240	filtrēt: forma, valoda, zars, kognāts…
+241	filtrēt: valoda, zars…
+242	filtrēt: jēdziens, lauks…
+244	Forma
+245	Forma un nozīme
+246	Formai nav ne segmentu, ne pierakstītas formas.
+247	Forma: IE-CoR kognātu klases
+248	Formas un nozīmes stabilitāte –
+249	Formas komponentes savstarpēji korelē vidēji ρ {0},
+250	Formas stabilitāte – {0} IE-CoR jēdzieni {1} valodās ({2} Glottolog zari). Nozīmes stabilitāte – {3} no tiem atrasti DatSemShift tīklā ({4} jēdzieni, {5} polisēmijas pāri, {6} valodu saimes; spektrālā telpa – lielākā saistītā daļa, {7} jēdzieni). DatSemShift sniedz tikai atrastās nobīdes, nevis visas pētītās valodas, tāpēc polisēmijas skaitļi rāda reizē to, cik jēdziens pētīts un cik tas „kustīgs“ – tas ir svarīgi, vērtējot polisēmijas komponenti.
+251	Formas sakārtotas pēc grupām (krāsaina josla kreisajā pusē un augšā). Tumšāk – līdzīgāk skan. Spilgti tumši kvadrāti diagonālē – vienotas grupas; tumši plankumi ārpus tiem – līdzība starp grupām.
+253	Formu skaņas līdzības spektrālā klasterizācija
+254	formas izpētītas
+255	var būt nejaušs
+256	Atļauts: {0}; noklusējums: „{1}“.
+257	diezgan līdzīgas
+258	Skaņas un CLTS
+259	Skaņas tiek sasaistītas ar CLTS…
+260	Skaņu dārzs
+261	skaņu grupas{0}
+262	Iegūt modeļu sarakstu
+263	Ģenealoģiskā attāluma mērs maina ainu: priekšteča dziļums ρ {0}, šķautnes ρ {1}
+264	Grafs
+265	diagrammā kreisajā pusē asis var mainīt.)
+266	Grafa plāns (JSON)
+267	Grafa plāns: {0} mezgli, {1} saites
+268	Sastādīt grafa plānu no jauna pēc saglabātā skaidrojuma, bez valodas modeļa
+269	Graubindene (Šveice)
+273	stingra atbildes shēma (ja modelis to neatbalsta – izslēdzas pati)
+274	grupu tīrība
+277	grupa
+278	Grupa
+282	grupa {0} · siluets {1}{2}{3}
+286	Grupas
+288	Grupas un koka līmeņi
+292	grupas {0} un {1}
+293	Grupas {0}: {1} formu ir savas grupas vairākuma kognātu grupā
+295	Grupas, kognāti un valodu zari
+296	Grupās jaucas dažādas izcelsmes vārdi, turklāt kognātu grupas sadalās:
+301	Tīrība rāda, vai vienā skaņu grupā nenonāk dažādas izcelsmes vārdi.
+302	Atjaunoti noklusējuma iestatījumi
+303	Atjaunot noklusējumus
+307	IE-CoR datu nav.
+308	IE-CoR valodas, {0} zari
+309	IE-CoR šī jēdziena nav.
+310	Tiek meklēti īsākie ceļi, lai cik gari tie būtu.
+311	Tiek meklēti ceļi: {0} ⇝ {1}…
+312	tiek meklētas visas „{0}“ saites…
+314	līdz mērķim
+315	Imports
+316	Importa diagnostika
+317	importēt no jauna arī tās, kas jau ielādētas Neo4j
+318	Importēt atlasītās
+319	Visiem izlases mezgliem ir cilvēkam saprotami nosaukumi.
+320	un komponentes tajā ieiet dažādos virzienos
+321	un iekļaut
+322	no datubāzes
+324	Vismaz no cik dažādām valodu saimēm jābūt apliecinātām jēdziena saitēm DatSemShift tīklā, lai tiktu skaitīta tā nozīmes stabilitāte.
+325	No leksiskajiem attālumiem veidots koks (vidējās saites grupēšana, UPGMA). Zars ir vienots, ja visas tā valodas tajā savienojas agrāk nekā ar jebkuru citu.
+326	no Neo4j dzēsti visi LKEŽDB dati: {0}
+327	izskaidrots
+328	izskaidrot
+329	Izskaidrot
+330	Izskaidrot no jauna
+331	Izskaidrot atlasītos
+332	Izskaidrot atlasītos{0}
+333	Izskaidrot {0} vārdus ar valodas modeli? Katrs vārds ir atsevišķs (maksas) pieprasījums.
+334	izskaidroti, bet nav iekļauti Neo4j. Spiediet „Iekļaut Neo4j“.
+335	Izkārtot no jauna
+336	Izkārtot dārzu no jauna
+337	Izņemt
+338	Izņemt visus mezglus no groza (dārzā tie paliek)
+340	Izslēgt karti
+342	Saglabāšanās tālos zaros
+343	sīkāk
+345	Saglabāts
+346	Saglabāts: {0}
+347	Saglabāt
+348	Saglabāt kā SVG
+352	Aprēķinātās īpašības
+353	Atdalīt
+354	Visi šie mezgli tiek izvērsti; to saites tiek rādītas no šī mezgla. Kartē tie tiek rādīti atsevišķi – katrs savas valodas vietā.
+355	Izvērst
+356	izvērst mezglu
+359	Izpētīti {0}
+360	nepārtraukta
+361	Tiek dzēsti tikai ar šo rīku iekļautie mezgli un to saites (arī saites uz Glottolog un Concepticon). Citas datu kopas, ierobežojumi un indeksi netiek skarti. Skaidrojumi SQLite kešatmiņā paliek – tos var iekļaut atkal.
+362	Dzēsti {0} mezgli, {1} saites
+366	Dzēst
+374	Dzēst saiti
+378	Dzēst pētījumu
+379	Dzēst visu
+380	Dzēst visus LKEŽDB datus
+381	Dzēst visus Neo4j datus
+382	Dzēst visus Neo4j datus…
+387	Notīrīt pabeigtos un neizdevušos
+388	Iztukšot grozu
+389	Notīrīt pagaidu atradumus
+390	Notīrīt dārzu
+391	atvasināts no etc/orthography.tsv
+393	jau Neo4j
+394	Jau ielādētās kopas (tie paši faili un profils) tiek izlaistas; pārbaude dažās sekundēs.
+396	Ja tas pats vārds izplatījies vairākos zaros (aizguvums vai kopīgs mantojums), skaņu grupa aptver vairākus zarus.
+398	Tā izskaidro tikai {0} daudzveidības
+399	Tā izskaidro {0} kopējās daudzveidības, un visas komponentes tajā ieiet vienā virzienā – kopīgs stabilitātes indekss būtu pamatots.
+400	tās nemēra tikai izpētītību.
+402	JSON shēma
+403	abi kustīgi
+404	Apvienotā Karaliste
+405	Amerikas Savienotās Valstis
+411	Apkārtnes stabilitāte
+412	Cik ātri koka grafā vājinās divu valodu saite: svars exp(−attālums/τ). Mazs τ – tiek savienotas gandrīz tikai tuvākās valodas, liels – arī tāli zari.
+413	Kā tiek mērīts divu valodu attālums Glottolog kokā. „Kopīgā priekšteča dziļums“: jo dziļāk kokā ir tuvākais kopīgais priekštecis, jo valodas tuvākas. „Šķautņu skaits“: cik zaru jāšķērso no vienas valodas līdz otrai – tas kropļo, ja koka zari sadalīti nevienmērīgi sīki.
+414	kā atrasts
+415	Kā tas aprēķināts
+416	Kreisajā pusē – valodas pēc vārdu krājuma (kopīgo kognātu daļas), labajā – pēc Glottolog koka. Krāsa – koka zars. Uzvedot uz valodas, tā tiek izcelta abās pusēs. „Attālumi“ izkārto valodas tā, lai attālumi ekrānā pēc iespējas atbilstu īstajiem (MDS); „Spektrs“ – normalizētā Laplasa otrais un trešais īpašvektors, kā pirmajā mēģinājumā.
+417	Valoda nav saistīta ar Glottolog (CORRESPONDS_TO vai glottocode), tāpēc tās vieta kokā nav zināma.
+418	valodnieciskās saites
+419	Valodām, kurām ir zināms valsts vai reģiona karogs, pievienot noteikumus Languoid · display_name → karogs (flag-icons, vajadzīgs internets). Esošie noteikumi netiek mainīti, tiem tiek pievienoti mājieni ar valsti.
+420	Valodas
+422	Valodas modelis
+423	Valodas savienotas pēc leksiskā attāluma (UPGMA): jo tālāk pa labi savienojums, jo mazāk kopīgu kognātu. Zara līnija ir krāsaina, ja visas tā valodas ir no viena Glottolog zara.
+424	Valodas sakārtotas pēc Glottolog koka (krāsaina josla – zars). Tumšāk – vairāk kopīgu kognātu; tukšs – pārāk maz kopīgu nozīmju. Tumši kvadrāti diagonālē – zari; tumši plankumi ārpus tiem – tuvums starp zariem.
+425	Valodas, kuru vārdu krājums vismazāk seko kokam
+426	valodas
+427	to valodu daļa, kurās tas pats vārds nozīmē arī citu IE-CoR jēdzienu
+428	to valodu daļa, kuru vārds pieder visplašāk izplatītajai kognātu klasei
+429	Valodu leksiskais tuvums un ģenealoģiskais koks
+430	valodu zars nav zināms
+431	valodu saimes nozīmju tīklā
+432	to valodu saimju skaits, kurās apliecināta polisēmija ar citu nozīmi
+433	Valodu kartes: pēc vārdu krājuma un pēc koka
+434	valodas{0}
+437	reizi
+438	reizes
+448	Ceļš
+449	Ceļa meklēšana
+450	ceļa meklēšana ilga pārāk ilgi – mēģiniet pievienot aizliegtās saites (saites, caur kurām neiet)
+451	Ceļa starp šiem mezgliem nav{0}
+452	Vairāki zari šeit savienojas ne obligāti kopīgas izcelsmes dēļ: UPGMA tos savieno, jo tie visi ir līdzīgi tālu no citiem.
+454	Četri jēdzienu veidi
+455	Cik lielu kopējās daudzveidības daļu izskaidro katrs virziens; zemāk – kā komponentes ieiet pirmajā.
+456	Cik kopīgu kognātu paliek, ejot pa koku tālāk
+457	Cik formu ņemt no groza mezgliem augstākais; pārējās tiek izlaistas (par to tiek paziņots). Tiek salīdzināti visi formu pāri, tāpēc darbs aug kvadrātā: 600 formas – ap 180 000 pāru.
+458	Cik grupu?
+459	Cik reizes Mantel testā nejauši sajaukt valodas, lai novērtētu p vērtību: vai leksiskā tuvuma un attāluma kokā sakritība nav nejauša. 0 – p netiek aprēķināts; 999 – p precizitāte līdz 0,001; vairāk – ilgāk rēķina.
+460	Cik katras grupas formu pieder kognātu grupai
+461	Cik katras grupas formu ir no valodu zara (Glottolog)
+462	Vismaz cik valodās (kurām ir vieta Glottolog kokā) jēdziena vārdam jābūt kodētam ar IE-CoR kognātiem, lai tiktu aprēķināta tā formas stabilitāte. Retāk apliecināti jēdzieni netiek vērtēti.
+463	Vismaz cik vienādām nozīmēm (jēdzieniem) jābūt kodētām abās valodās, lai pāris tiktu salīdzināts leksiskajā grafā. Vājāk apliecināti pāri netiek savienoti; valoda bez neviena šāda pāra pētījumā neiekļūst.
+464	Cik pirmos Laplasa matricas īpašvektorus izmantot jēdziena vietas aprakstam nozīmju tīklā. Mazāk – redzama tikai rupja struktūra; vairāk – smalkākas atšķirības, bet arī vairāk trokšņa.
+465	katrai tēmai ir savas krāsas; pielāgojot tiek rādīts pielāgojamās tēmas priekšskatījums
+466	Katram formu pārim tiek aprēķināts rediģēšanas attālums: skaņas aizstāšana maksā tik, cik liela daļa to CLTS pazīmju atšķiras (0–1), ievietošana vai izlaišana – 0,5; rezultātu dala ar garākās formas garumu. Formām ar vairākiem variantiem ņem mazāko attālumu. No attālumiem veido līdzības grafu, tā Laplasa matricas īpašvektori novieto formas telpā, kur tās grupē ar k-vidējiem. Attēlā formas izkārtotas ar klasisko daudzdimensiju mērogošanu – jo tuvāk, jo līdzīgāk skan.
+467	Katrai valodai pārbaudīts: kad koks saka, ka valoda A tai ir tuvāka par B, vai arī vārdu krājums tā saka? γ = 1 – vienmēr, 0 – kā nejauši, < 0 – biežāk otrādi. Vismazāk sakrīt:
+468	Katram attālumam – valodu pāru tuvuma kaste: vidējā puse pāru (no 25. līdz 75. procentilei), līnija – mediāna, ūsas – mazākais un lielākais.
+469	Katram Concepticon semantiskajam laukam pārbaudīts, vai tā jēdzieni ir stabilāki (vai kustīgāki) par nejaušu tikpat lielu jēdzienu izlasi (2000 nejaušu izlašu).
+471	Katra tipa mezglam var izvēlēties krāsu, formu un attēlu (PNG, SVG, JPG, WebP; līdz 2 MB). Izmērs – sadaļā „Robežas un izmēri“.
+472	cita CLTS sistēma
+473	Citi dārzi
+480	citu saišu nav
+481	citu dārzu nav
+482	Kļūda:
+483	Klasteru skaits
+487	kognātu grupa
+488	kognātu informācijas tām nav
+489	Kognātu saglabāšanās
+490	Kvalitāte
+491	Kvalitāte pēc grupu skaita
+492	Komponentes atsevišķi
+493	Koordinātas caur saitēm
+494	Kopija
+496	ielādē…
+497	groza jēdzieni
+498	Groza jēdzieni
+499	Groza jēdzienu (vai nozīmju, leksēmu, kognātu grupu, formu) formas tiek sagrupētas pēc tā, cik līdzīgi tās skan. Skaņas salīdzina pēc CLTS fonētiskajām pazīmēm, grupas atrod ar spektrālo metodi, un tad tās salīdzina ar IE-CoR kognātiem un Glottolog valodu zariem.
+500	Groza jēdzieniem nav Concepticon atbilsmes, tāpēc nozīmes ierobežot nevar.
+501	Groza darbības
+502	Grozā nav formu: ielieciet jēdzienu, nozīmi, leksēmu, kognātu grupu vai formas.
+503	Grozs iztukšots ({0} mezgl.)
+504	grozs ir tukšs
+505	Grozs ir tukšs. Dārzā ar labo peles pogu noklikšķiniet uz mezgla → „Pievieno grozam“ un atgriezieties šeit.
+506	Jo tuvāk formas, jo līdzīgāk tās skan. Uzvedot – formas dati.
+507	Jo tālāk kokā, jo mazāk kopīgu kognātu
+508	Kuram koka līmenim grupas ir vistuvākās
+509	Tiek veidots nozīmju tīkls (DatSemShift)…
+510	Kuri jēdzieni ir stabili? Atsevišķi tiek mērīta formas stabilitāte (vai jēdzienu visur izsaka tas pats mantotais vārds: IE-CoR kognāti Glottolog kokā) un nozīmes stabilitāte (vai jēdzienu ieskauj tās pašas citas nozīmes: polisēmija, DatSemShift tīkla spektrālā vieta dažādās valodu saimēs). Tad tiek pārbaudīts, vai grafs pats izceļ ķermeņa daļas, radniecību, skaitļus. Groza jēdzieni tiek izcelti, Glottolog zars ierobežo IE-CoR valodas; tukšs grozs – viss grafs.
+514	Ko tas papildus dotu:
+515	Ko nozīmē šis parametrs
+517	ļoti līdzīgas
+524	Languoid · display_name · Lithuanian
+525	Laplasa matricas īpašvērtības
+526	Laplasa īpašvērtības
+531	Lauku ar mazu p var uzskatīt par grafa „izceltu“; pārbaudot daudzus laukus un komponentes, atsevišķi p < 0,05 var būt arī nejauši.
+532	atļautie formāti: {0}
+534	Leksiskajā grafā tikai {0} valodas: samaziniet „Vismaz kopīgu nozīmju pārim“.
+535	leksiskajā kokā
+536	Leksiskajā kokā vienoti {0} no {1} zariem
+537	Leksiskā tuvuma matrica
+538	Leksiskā grafa Laplasa īpašvērtību atstarpe iesaka
+539	Leksiskās aizstāšanas biežums
+540	Leksiskais tuvums pēc attāluma kokā
+541	Leksiskais tuvums – cik liela daļa abās valodās kodēto nozīmju izteikta ar kognātiem; pāri, kuriem ir mazāk par {0} kopīgām nozīmēm, netiek vērtēti.
+542	leksiskais grafs
+543	Leksiskais koks
+544	Leksiskais koks…
+545	Leksisko grupu skaits
+546	leksiskā grupa {0} · {1} nozīmes
+547	leksiskās grupas
+548	tabula
+549	Tabulas
+553	pārējie tiek rādīti kā „+N TIPS“ mezgls – noklikšķinot ielādē vairāk
+554	Līnijas biezums, stils, krāsa un attēls, kas tiek rādīts pie saites uzraksta.
+557	LKEŽDB dati Neo4j
+558	LKEŽDB datu kešatmiņa nav atrasta: {0}
+562	LKEŽDB vārdu skaidrošana ar valodas modeli un iekļaušana Neo4j
+563	LKEŽDB ↗
+564	Salīdzināts ar tipisko (mediānas) tuvumu tajā pašā koka attālumā; ņemti tikai dažādu zaru pāri:
+565	Tiek salīdzinātas komponentes…
+569	Manas saites
+570	Mantel tests: nejauši sajaucot valodas, tikpat stipra vai stiprāka korelācija {0}, tāpēc sakarība ir {1}.
+571	Mantel testa permutācijas
+579	dārzā redzamo saišu skaitu
+580	Mezgli un saites
+582	Mezgls bez savām koordinātām saņem pirmā ceļa mērķa
+583	Mezgls nenonāca izlasē; atrasts datu kopā pēc saites. Veiciet dubultklikšķi, lai redzētu visas tā saites.
+584	Mezgls nav atrasts
+585	Mezgla tips
+586	mezglus ar koordinātām var rādīt kartē
+587	Mezglu
+588	Mezglu izmērs
+589	mezglu izmērs
+590	mezglu izmērs ±
+591	mezglu un saišu uzrakstu izmērs ±
+592	mezglu un saišu uzrakstu izmērs ± (vai Ctrl+Alt+Numpad, ja sistēma to pārtver)
+593	Mezglu izskats
+594	Mezglu tipi dārzā
+596	rādīt / slēpt mezglu uzrakstus
+597	mezglu uzraksti, px; saišu uzraksti proporcionāli; Alt+Numpad +/− vai Alt + peles ritenītis
+598	Vismaz kopīgu nozīmju pārim
+599	Vismaz valodu jēdzienam (forma)
+600	Vismaz saimju jēdzienam (nozīme)
+601	mazākais kognātu klases maiņu skaits kokā vienai valodai
+602	mazākais mezgls
+603	Mazākais mezgls
+604	mediāna {0} · vidējā puse {1}–{2}
+605	Koks un vārdu krājums sakrīt: ρ = {0} ({1} korelācija)
+606	koka grafs
+607	koka grafa grupas
+608	koka grafa svars exp(−attālums/τ)
+609	Koka svara mērogs τ
+610	to koka zaru daļa, kas saglabājuši šo klasi
+611	Metode
+613	jauktas
+614	Modeļa atbilde bez pārbaudes
+615	Modelis
+616	Zils – stabili kopā, sarkans – pretēji, pelēks – nesaistīti.
+622	pārlūks
+623	Izmantot karti
+625	Izmantotas {0} ar kognātiem kodētas nozīmes
+627	Jauns vaicājums
+633	Jauna saite
+635	Jauns dārzs (Ctrl – jaunā cilnē)
+636	Jauns dārzs ar tukšu grozu (Ctrl – jaunā cilnē)
+637	Jauns dārzs: grozs ir tukšs. Mezglus tajā lieciet dārzā.
+640	Jaunā cilnē
+642	Jaunu karogu nav – visām valodām jau ir attēli
+644	Neapstrādāta kļūda:
+645	neatpazīts
+648	neiet caur {0}
+649	nav izskaidroti
+654	nav iegūti. Tos var pieprasīt no LKEŽDB ar mākslīgā intelekta palīdzību – spiediet „Izskaidrot“ (valodas modeļa pieprasījums ir maksas).
+657	Neo4j nav sasniedzama.
+658	Neo4j nav sasniedzams
+659	Neo4j shēma nav pieejama:
+660	Neo4j {0}: {1} mezgli · {2} datu kopas · {3} ierobežojumi
+661	Neo4j ✓ {0} datu kopas
+662	Neo4j ✗ {0}
+663	Neo4j: pārbauda…
+664	Neo4j: {0} mezgli, {1} saites
+665	nepietiek datu
+666	negadījās ne reizi {0} nejaušās sajaukšanās (p ≤ {1})
+670	nav atlasīts un nav Neo4j
+671	Nav atlasīts neviens mezgls
+672	Nav atlasīts neviens mezgls – atlasiet mezglus, ko likt grozā
+673	Šīm valodām nav atrastas ar kognātiem kodētas nozīmes.
+674	Problēmas nav reģistrētas.
+677	Negaidīti pāri
+678	Nav novērtēti {0}: koks gandrīz neizšķir, kuras citas valodas tām ir tuvākas (vientuļš zars ar vāji apliecinātu māsu).
+681	Neiekļautie varianti: {0}.
+682	Neiekļautu formu nav.
+683	Neiekļautu valodu nav.
+684	nav novērtējams
+685	nezināms pētījums: {0}
+687	nekas nav atlasīts
+688	Nekas nav atrasts
+690	Nekas nav atrasts.
+699	Nokopēts
+700	Nokopēt neizdevās
+701	Noklusējums: {0}.
+702	Noklusējuma iestatījumi
+703	Noklusējuma krāsa
+705	no {0} līdz {1}
+711	norādiet saites nosaukumu
+712	Iestatījumi
+718	Neviens lauks būtiski neizceļas ar stabilitāti.
+719	nav
+720	nav formas teksta
+721	nav Glottolog atbilsmes
+722	Nav mezglu, kas saistīti tikai ar šo mezglu
+723	nav semantisko saišu
+724	bet ar nozīmes komponentēm – ρ {0}.
+725	p stabilitātei {0} · kustīgumam {1}
+726	izskaidro viens kopīgs virziens
+727	skaidrojums
+729	Pēc koka
+730	pēc saitēm
+733	Pēc saules
+734	Pēc vārdu krājuma
+735	Galveno komponentu analīze meklē vienu virzienu, kurā visas komponentes mainās kopā.
+736	Galvenās komponentes
+740	Meklēšana: vārda sākums…
+741	Meklēšana… (Ctrl+F)
+742	meklēšanas lauks
+746	Mainīts
+747	Koriģētais Randa indekss salīdzina divus grupējumus: 1 – pilnīgi sakrīt, 0 – ne vairāk kā nejauši. Skaņu līdzība nav izcelsmes pierādījums: sakritība rāda, ka kognāti bieži joprojām skan līdzīgi, bet nesakritības – kur skaņas attālinājušās vai līdzība ir nejauša.
+751	Palaišanas kļūda:
+752	Aizskartie mezgli paliek, slēpjot saites
+755	Salīdzinātas {0} un {1} to pāru
+757	Papildu dati par šo objektu tiek meklēti datu kopā
+758	Papildinājumi
+760	Amats
+761	parāda atlasīto mezglu
+762	parāda visu dārzu
+763	Parādīti {0}
+764	parādīt slēptos mezglus
+765	Parādīt kartē
+766	Izcēlums
+767	Izcelt kaimiņus
+768	izcelts lauks
+769	izcelt lauku
+770	Sasniegta robeža ({0} mezgli / {1} saites): nav parādīti {2} mezgli, {3} saites.
+771	izvēlieties vai ierakstiet
+772	izvēlieties vai ierakstiet, piem., līdzīgs
+773	Izvēlieties failu
+774	Izvēlieties datu kopu kreisajā pusē
+775	Izvēlieties mezgla tipu, tad tā īpašību un vērtību no datubāzē esošajām (var arī ierakstīt ar roku). Ja mezgla īpašībai ir šī vērtība, blakus mezglam tiek rādīts attēls. Aprēķinātās īpašības (piem.,
+777	Izvēlieties vārdu kreisajā pusē.
+778	gadījās {0} {1} no {2} nejaušām sajaukšanām (p = {3})
+781	pēdējais imports: {0}
+787	Paslēpt
+788	Paslēpt atlasītos
+790	Paslēpti {0} – tie vairs netiek skaitīti dārza robežās. Atgriezt: labā poga uz fona → „Rādīt paslēptos“ vai Shift+H
+794	paslēpt atlasītos mezglus
+797	Noklikšķiniet uz mezgla vai saites, lai redzētu visas tā īpašības.
+798	Piezīme
+800	Stabila gan forma, gan nozīme:
+801	Stabila nozīme, bet vārds tiek aizstāts:
+802	stabili abi
+803	stabils tikai X
+804	stabils tikai Y
+805	Stabilitātes procentiles
+806	Stabilitātes procentiles (100 % – stabilākais no pētītajiem):
+809	Pārbaude: apkārtnes un spektrālās komponentes saistība ar to, cik saimēs jēdziens vispār apliecināts, ir ρ {0} un {1} –
+810	Apstiprināšanai ievadiet
+811	Apstipriniet, ierakstot IŠTRINTI.
+813	Nosaukums
+819	Attēls
+820	Attēls no mērķa mezgla
+825	Attēls pie uzraksta
+826	attēls ir tukšs vai lielāks par 2 MB
+832	parauga vērtība
+833	Piemēri: {0}. Grupas iekšienē formas {1} (vidējais attālums {2}, līdz citām grupām {3}). {4}; {5}.
+834	Noņemt no dārza
+835	Noņemt saiti no dārza
+836	Noņemti {0} mezgli un {1} saites (kopīgie ar citiem vārdiem – atstāti)
+837	Noņemt
+839	Noņemt no Neo4j
+840	noņemt kaimiņus, kas saistīti tikai ar šo mezglu
+841	Noņemt kaimiņus, kas saistīti tikai ar šo mezglu
+842	noņemt atlasītos no dārza
+843	Noņemt šo saiti
+850	Atlasiet divus mezglus (Shift + klikšķis) vai ielieciet divus grozā
+851	Atlasiet divus mezglus ceļa meklēšanai (vai atlasiet tos dārzā ar Shift).
+852	Atlasiet tieši divus mezglus (Shift + klikšķis)
+853	Atlasīti mezgli: {0}
+854	atlasīti {0}
+855	atlasīts importam
+856	Atlasītais mezgls (Home)
+857	Atlasīt
+859	atlasīt vairākus mezglus
+860	atlasīt pirmo / nākamo atrasto mezglu
+861	atlasīt redzamos
+862	atlasīt ar taisnstūri
+863	Atlasīt visus mezglus
+865	Atlasīt {0}
+869	pārāk maz kopīgu nozīmju
+870	Pārāk maz jēdzienu ar datiem: samaziniet „Vismaz valodu jēdzienam“ vai paplašiniet groza zaru.
+873	Pārtaisīt plānu
+878	Pārrēķina
+879	Pārrēķina ar {0} grupām…
+880	Pārrēķināt dārzā
+881	Pārdēvēts
+884	skatīt
+889	Dienvidāfrika
+890	Dienvidkoreja
+893	Pilnībā nolasīti atsauču avoti: {0} valodas / sabiedrības, {1} jēdzieni / pazīmes, {2} kodi, {3} kognātu grupas. Katra tabulas rinda tiek ierakstīta arī kā tehnisks
+894	Pirmajā mēģinājumā attālums bija šķautņu skaits Glottolog kokā. Taču zariem ir ļoti atšķirīgs starpmezglu skaits: indoāriešu valodas no saknes attālinātas par 10 un vairāk mezgliem, albāņu vai toharu – par dažiem. Tad tālas, bet „seklos“ zaros esošas valodas izskatās tuvas. Kopīgā priekšteča dziļums (cik līmeņu zem saknes ir pēdējais kopīgais priekštecis) šo kļūdu nepieļauj
+895	Plāns: {0} mezgli, {1} saites
+896	platumu un garumu, piem., forma – savas valodas (caur leksēmu). Izslēdzot karti, viena CognateSet formas ar vienādu nosaukumu tiek rādītas kā viens mezgls „forma ×N“.
+897	Plašākā kognātu klase „{0}“ – {1} no {2} valodām, {3} no {4} zariem; kokā vismaz {5} maiņas.
+898	Zem groza Glottolog mezgliem nav atrastas valodas ar leksiskajiem datiem.
+901	Polisēmija {0} saimēs; visvairāk: {1}.
+906	apakšzars
+907	Sāk…
+908	Sāciet ar meklēšanu augšā (Ctrl+F). Pēc dažām sekundēm atradumi uz laiku tiek parādīti dārzā; izvēlieties mezglu, lai tas paliktu.
+909	Francija
+936	Pievieno grozam
+941	iemesls
+946	Atkarības
+960	profils nav apstiprināts
+964	Profilā deklarēta atkarība; šajā datu kopā tiešas ārējās atslēgas nav atrastas.
+967	Programmas kļūdas un brīdinājumi
+971	Piem.: {0}
+972	Atradumi uz laiku parādīti dārzā – izvēlieties mezglu, lai tas paliktu
+973	Burtu izmērs
+974	burtu izmērs
+976	Atrastas {0} skaņu grupas
+977	Atrasti {0}{1} īsākie ceļi, garums {2}
+985	Būtiski kustīgāki:
+986	Būtiski stabilāki:
+987	nozīmes
+988	Nozīmju tīklā skaitīt arī derivāciju
+989	nozīme
+990	Nozīme
+991	Nozīme: DatSemShift kaimiņi (saimju skaits)
+992	remove: {0} vārdi
+993	Tiek vākti IE-CoR kognāti…
+994	Tiek vāktas formas…
+995	Tiek vāktas valodas un nozīmes…
+996	rezultāts / kļūda
+997	Režīms
+998	Robežas
+999	Robežas un izmēri
+1000	Robežas: {0}–{1}; noklusējums: {2}{3}.
+1003	tiek rādīta zīmīte 📍. Noklikšķinot uz tās (vai mezgla izvēlnē) – „Rādīt kartē“: karte tiek ieslēgta tā, lai šis mezgls paliktu savā vietā un citi dārza mezgli nepakustētos. Citi mezgli ar koordinātām tiek pārvietoti uz savām vietām, bet mezgli bez vietas kartē tiek paslēpti – izslēdzot karti, tie atgriežas tur, kur bija. Kartē mezgli ar koordinātām ir bloķēti. Izslēgt – poga 🗺 augšā. Kartes flīzes –
+1004	Tiek rādīti tikai šīs programmas atbildes shēmai rakstītie vaicājumi (ar atzīmi
+1005	Rādīt svarīgāko
+1006	Rādīt visu
+1008	Rādīt atsevišķi
+1009	rādīt vairāk ({0} no {1})
+1010	Rādīt izlasi
+1011	Rādīt kā divus atsevišķus mezglus
+1012	Rādīt grozu
+1015	Rādīt dārzā
+1016	rādīt visus
+1017	Rādīt kartē
+1019	Gatavo SVG…
+1020	Gatavo analīzes segmentus…
+1021	Saites ({0}; tehniskās netiek rādītas)
+1022	Saites datubāzē
+1023	Saites pēc tipa
+1028	saites nosaukums pārāk garš (ne vairāk kā {0} rakstzīmes)
+1030	saites tips
+1031	saites tips: lielie burti, cipari un _, piem., SIMILAR_TO
+1032	Saites vēl neesat novilcis.
+1033	Saišu izskats
+1035	saišu biezums
+1036	Saišu biezums
+1037	saišu biezums ±
+1038	Saišu tipi
+1039	Saišu tipi izlasē
+1040	Saišu tipi dārzā
+1042	rādīt / slēpt saišu uzrakstus
+1043	Saite
+1044	Saite dzēsta
+1046	saite nav atrasta
+1047	saite nav atrasta (dzēst var tikai dārzā novilktās saites)
+1050	saitei jāsavieno divi dažādi mezgli
+1060	Īpašību attēli
+1061	īpašību attēli
+1062	īpašību attēli ±
+1063	Īpašība
+1064	īpašība
+1065	Īpašību aprēķina ar ceļu grafā no mezgla
+1066	Īpašības
+1067	īpašības
+1068	īpašības nosaukums
+1072	pārāk maz īpašvērtību
+1073	Shēma
+1074	Segmenti tiek ņemti no primārajiem datiem, nevis minēti:
+1076	segmentu avots
+1081	Semantiskie lauki
+1083	serveris nav sasniedzams
+1084	Serveris nav sasniedzams
+1085	Shift + peles ritenītis
+1086	Shift + klikšķis
+1087	Shift + vilkšana
+1088	Shift+H
+1089	Shift+Home
+1090	Siluets – cik grupas nodalītas; ARI – cik sakrīt ar IE-CoR kognātiem. Noklikšķiniet uz k, lai pārrēķinātu.
+1098	lasa izlasi…
+1099	Rēķina…
+1100	Tiek rēķināti ģenealoģiskie un leksiskie attālumi…
+1101	Tiek rēķināti {0} formu pāru attālumi…
+1103	dažādu datu kopu atbilsmes
+1104	Dažādu zaru valodas, leksiski tuvākas, nekā pieļauj koks
+1105	Dažādi zari, bet leksiski tuvas (iespējami kontakti)
+1114	Slovēnija
+1115	slēpt
+1116	Slēpt grozu
+1117	Slēpt visus {0}
+1118	Slēpt šī tipa saites
+1124	Dārzs bez nosaukuma…
+1128	dārzs nav atrasts – vispirms tajā kaut ko iestādiet
+1131	Dārzs ir tukšs
+1132	Sodas · Datu kopas
+1138	Dārzā vēl nav mezglu.
+1140	dārzā mezgli paliek
+1142	Dārzā nav mezglu ar platumu un garumu
+1143	Dārzā atlasītas {0} {1} saites
+1145	Dārzā nav {0} saišu; izvērsiet mezglus, kuriem tās ir
+1146	Dārza mezglu „{0}“ izvērst nevar: šī vārda LKEŽDB šķirkļi vēl {1} Kad vārds būs iekļauts, atgriezieties dārzā un izvērsiet mezglu vēlreiz.
+1147	Dārza palaišana neizdevās:
+1148	Dārza nosaukums – rakstiet jaunu vai izvēlieties esošu dārzu
+1151	dārzu vēl nav
+1154	Krāsa
+1155	Krāsas
+1156	klikšķis – atvērt šeit, Ctrl – jaunā cilnē
+1157	Spīrmena korelācijas starp komponentēm
+1158	Spīrmena ρ salīdzina valodu pāru attālumu Glottolog kokā ar leksisko attālumu (1 − tuvums): 1 – secība pilnīgi tā pati, 0 – nekādas sakarības.
+1159	spektrs (īpašvektori)
+1160	Spektrālā analīze pati ieteica {0}: {1}. Jo lielāka šāda atstarpe, jo skaidrāk dati sadalās tik grupās.
+1161	Spektrālā analīze…
+1162	Nozīmju tīkla spektrālā telpa ({0} jēdzieni)…
+1163	Spektrālās telpas dimensijas
+1164	Spektrālās vietas stabilitāte
+1165	klikšķis – izcelt grupu
+1169	noņemt atlasi taisnstūrī esošajiem mezgliem
+1170	Stils
+1171	Biezums
+1175	Ar IE-CoR kognātiem grupas {0} (ARI {1})
+1176	Nevienai citai valodai nav vismaz {0} abās kodētu nozīmju (augstākais {1}), tāpēc leksiskajā grafā neiekļūst.
+1177	Ar valodu zariem grupas {0} (ARI {1})
+1178	ar citas datu kopas atbilsmi
+1179	ar citām
+1181	Apvienot vienādos
+1182	Samainīt virzienu
+1187	Izveidots dārzs „Vaiva · {0}“
+1189	Izveidot
+1191	Izveidot saiti
+1193	Sasaiste
+1194	Sasaistīt ar autoritātēm
+1195	Sasaistīt vietējos Languoid/Concept ar Glottolog/Concepticon autoritātēm caur kopīgiem ExternalIdentifier
+1196	saistīti
+1197	Sakļaut
+1198	daļēji sakrīt
+1199	piešķir attēlu pašai valodai – to pārņem visi šīs valodas vārdi.
+1200	Svarīgākais
+1216	SVG fails nav atpazīts
+1217	Saskarne
+1218	saskarnes burtu izmērs ±
+1219	jēdziens
+1220	jēdziena vietas izkliede spektrālajā telpā starp saimēm
+1221	Jēdzieni, kas visattālākie šajā virzienā:
+1222	jēdzieni
+1223	jēdzieni ({0} ar nozīmju tīklu)
+1224	Jēdzienu semantiskā stabilitāte
+1225	Tadžikistāna
+1226	Tas apstiprina, ka „stabils jēdziens“ un „stabils vārds“ nav viens un tas pats: jēdziens var saglabāt vietu starp citām nozīmēm, lai gan valodas to sauc arvien citiem vārdiem, un otrādi.
+1227	Tas pārbauda, vai kognātu kodēšana un Glottolog klasifikācija stāsta vienu un to pašu stāstu, bet nepierāda nevienu no tām.
+1228	dzēst arī Neo4j iekšējos LOOKUP indeksus (nav ieteicams: bez tiem meklēšana pēc etiķetes kļūst ļoti lēna, tie būs jāatjauno ar roku)
+1232	Šajā līmenī ir {0} Glottolog zari, piem., {1}; leksiskās grupas ar tiem {2}.
+1233	Tumša
+1234	Tas pats vārds nozīmē arī: {0}.
+1235	punktēta
+1236	tehniskie ieraksti (SourceRecord)
+1239	Tālrunis
+1241	Tēma
+1242	Sadalot pašu koka grafu tikpat grupās, abi sadalījumi {0} (ARI {1}).
+1243	Piegādātājs
+1244	tikai kļūdas un brīdinājumi
+1246	tikai ar to saistītie kaimiņi
+1247	Tiešām atjaunot?
+1249	Tiešām dzēst?
+1250	Tiešām notīrīt?
+1252	Tiešām? Tiks dzēsts no datubāzes
+1253	Pārbauda korelāciju (Mantel tests)…
+1254	gaidīts
+1256	Tips
+1257	Pētīt
+1258	Pētīšanai der tikai {0} formas no {1}: pārāk maz klasterizācijai.
+1259	šī mezgla / saites vadības panelis
+1260	mezglus ar vienādu nosaukumu
+1264	Viena zara valodas, leksiski tālākas, nekā pieļauj koks
+1265	Viens zars, bet leksiski tālas
+1269	Īsākais ceļš starp diviem atlasītiem mezgliem
+1270	Saīsnes
+1271	Dzēšana
+1272	trūkst
+1273	Trūkst autoritāšu, kuru nav ne Neo4j, ne atlasīto vidū:
+1274	trūkst segmentācijas
+1275	Ir platums un garums – noklikšķiniet
+1277	Turkmenistāna
+1278	tukšs
+1279	tukšs – ar labo pogu „Pievieno grozam“
+1280	tukšs – pēc īpašvērtību atstarpes
+1281	tukšs – izvēlas pats pēc īpašvērtību atstarpes
+1285	Pārvaldīt dārzus
+1286	Pārvaldīt dārzus…
+1289	Pētījums
+1301	Aizvērt
+1302	aizvērt izvēlni
+1305	Vaicājums
+1306	pieprasījums no citas vietnes noraidīts
+1307	Vaicājums modelim
+1308	vaicājums nav atrasts
+1309	Vaicājums izvēlēts
+1310	pieprasījums pārāk liels
+1311	Vaicājums augšupielādēts un izvēlēts
+1313	Vaicājuma sākumā jābūt atzīmei {0}: tā rāda, ka vaicājums der šīs programmas atbildes shēmai.
+1315	uzraksti
+1316	uzrakstu izmērs
+1317	Uzrakstu izmērs
+1319	Vaiva · {0}
+1320	Vaivas darbnīca
+1321	Vaivas darbnīca – pētījumi ar groza mezgliem
+1322	Vaivas darbnīca – {0}
+1323	Skats
+1335	Notīrīt žurnālu
+1336	Vārds
+1340	Dzinējs un vaicājums
+1354	darbību izvēlne
+1356	Velsa (Apvienotā Karaliste)
+1357	vid. procentile {0} ({1} jēdzieni)
+1358	Vidējā poga uz mezgla / saites
+1359	Lauka jēdzienu vidējā stabilitātes procentile katrai komponentei. ● – būtiski stabilāks vai kustīgāks par nejaušu izlasi (p < 0,05).
+1360	vidējais siluets
+1361	Vidējais siluets {0} (no −1 līdz 1; virs 0,5 – grupas skaidras, ap 0 – saplūstošas).
+1362	vidēji līdzīgas
+1363	vidēja
+1364	viens no mezgliem nav atrasts
+1366	Vienāds izmērs
+1367	Atrašanās vieta („pēc saules“)
+1374	pārsniedzot jauni mezgli vairs netiek rādīti, ieraksts žurnālā
+1375	Viss JSON, pēc kura veidots grafs
+1376	Viss dārzs
+1377	Viss dārzs (Shift+Home)
+1379	visi ierobežojumi
+1380	visi indeksi
+1381	visas atdalītās atbilsmes
+1382	visi mezgli un saites
+1383	visi mezgli vienāda izmēra
+1386	visas saites + avots
+1387	Viss
+1390	Visas pētītās formas
+1391	visas valodas ar kognātu datiem
+1392	Visi jēdzieni
+1393	visu tā mezglu
+1394	Visu mezglu izmērs
+1395	visu mezglu izmērs
+1396	visu datubāzes saišu skaitu
+1397	Visu {0} izskats
+1398	notiek…
+1400	Karogi piešķirti {0} valodu nosaukumiem
+1401	karogi piešķirti {0} valodu nosaukumiem
+1403	{0} (nav šajā tipā)
+1404	{0} - Sodas
+1405	{0} - Vaiva
+1406	{0} kopīgu kognātu
+1407	{0} formas
+1408	{0} formas, {1} gr.
+1409	{0} grupas (jūs norādījāt {1})
+1410	{0} grupas
+1411	{0} no {1} grupas valodām
+1412	{0} no {1} šķirkļiem tiek sūtīti modelim (savstarpējās norādes un tukšie – bez modeļa)
+1413	{0} no tām pieder kognātu grupai „{1}“
+1414	{0} valodas, {1} klases, kokā vismaz {2} maiņas. {3}
+1415	{0} valodas
+1416	{0} valodas, ρ {1}
+1417	{0} citi mezgli ar koordinātām pārvietoti uz savām vietām kartē; mezgli bez vietas kartē ir paslēpti
+1418	{0}. līmenis · {1} zari
+1419	{0} mezgli un {1} saites ar
+1420	{0} mezgli pārvietoti uz jaunu dārzu „{1}“{2}
+1421	{0} mezgli · {1}
+1422	{0} mezgli, {1} saites izlasē
+1423	{0} mezgli, {1} saites{2}
+1424	{0} modeļi
+1426	{0} pāri
+1431	{0} dažādas skaņas sasaistītas ar CLTS
+1434	{0} šķirkļi ·
+1435	{0} jēdziens
+1436	{0} jēdzieni
+1437	{0} jēdzieni
+1438	{0} starp grupām
+1440	{0} {1} mezgli ar vienādu nosaukumu{2}
+1441	{0} · apvienotas datu kopas: {1}
+1442	{0} · Concepticon {1}
+1443	{0} · kokā {1}
+1444	{0} · {1} · {2}{3} · {4}, ≥ {5} kopīgu nozīmju
+1446	{0} zari
+1447	{0} šīs grupas valodas ir no zara {1}
+1448	{0} vārdi ielikti rindā
+1449	{0} vārdi · {1} šķirkļi · izskaidroti {2} · iekļauti {3}
+1450	{0} – daļa
+1451	{0} – {1} (vid. procentile {2}, p = {3})
+1452	{0} – {1} {2} vietā ~{3}
+1453	{0} – iespraucas {1}{2}
+1454	{0}. virziens: {1} daudzveidības
+1455	{0}. īpašvērtība
+1456	{0}: apvienots ar atbilsmi
+1457	{0}: izvērš {1} mezglus…
+1458	{0}: parādītas {1} saites
+1459	{0}: parādītas {1} saites{2}
+1461	{0}: paslēpti {1}{2}
+1462	{0}: stabilākie – {1}
+1463	{0}: robeža
+1464	{0}: sakļauts, noņemti {1} mezgli
+1465	{0}: {1} vārdi
+1466	{0}–{1} no {2}
+1467	© OpenStreetMap
+1471	· nederīgi: {0}
+1475	· ar derivāciju
+1479	· {0} nozīmes no groza jēdzieniem
+1480	· {0} saites
+1482	Čehija
+1483	Uz atsevišķu dārzu
+1484	Uz atsevišķu dārzu – pārvietot atlasītos mezglus uz jaunu dārzu
+1486	Cik grupās dalīt formas. Tukšs – programma izvēlas pati: tur, kur lielākā atstarpe starp blakus esošām Laplasa matricas īpašvērtībām (izvēlas no 2–12). Vairāk grupu – smalkākas, bet mazāk ticamas skaņu atšķirības.
+1487	Cik grupās dalīt valodas ar spektrālo metodi (leksiskajā un koka grafā – tikpat). Tukšs – izvēlas tur, kur lielākā atstarpe starp blakus esošām īpašvērtībām (2–12).
+1488	Grozā ielikti: {0} (kopā {1})
+1489	Grozā – atlasītos mezglus; ja nekas nav atlasīts – parādīt groza saturu
+1492	Ielikts rindā
+1494	Augšupielādēt un izmantot
+1496	Augšupielādēt…
+1504	ierakstiet IŠTRINTI
+1505	ierakstiet jaunu, ja vēlaties mainīt
+1512	iespraucas: {0}{1}
+1513	Iespraukumi visbiežāk rāda kontaktu (aizguvumus), trūcīgus datus vai to, ka zars dala senu mantojumu ar kaimiņu.
+1514	iekļauts Neo4j
+1516	iekļaut
+1517	Iekļaut rekonstruētās (*) formas
+1518	Iekļaut Neo4j
+1519	iekļaut Neo4j
+1520	šablons
+1521	šablonam jāsākas ar (n) vai (n:Etiķete), jābūt mērķim (t) un tam jābūt tikai ceļa aprakstam
+1522	zars
+1523	zars: {0}
+1524	Zari tiek ņemti no Glottolog koka zem „{0}“.
+1525	Zari tiek ņemti no Glottolog koka.
+1526	Zari: cik kopīgu kognātu iekšienē un ar citiem zariem
+1527	zari vienoti leksiskajā kokā
+1528	Blakus mezgliem ar īpašībām
+1529	Avota ieraksts
+1530	Šim pētījumam grozs nav obligāts: bez tā tiek pētītas visas valodas ar kognātu datiem.
+1534	Šajā pētījumā izmantots: {0}.
+1535	šodien: saullēkts {0}, saulriets {1}{2}
+1536	Ziemeļmaķedonija
+1537	Šie mezgli jau ir grozā
+1538	Šo mezglu šī datu kopa neveido, tāpēc uz to vedošā saite netiks ierakstīta.
+1540	Šī tipa saišu izskats
+1541	Šim pētījumam attēlojuma nav.
+1544	Šīs formas ir līdzīgas arī citas grupas formām, tāpēc to vieta nav skaidra:
+1546	Šī datu kopa nebalstās uz citām datu kopām.
+1547	Šī datu kopa glabā tikai ārējās atslēgas (◆ ExternalIdentifier). Sīkāki dati par šiem objektiem ir citās datu kopās; pēc importa „Sasaistīt ar autoritātēm“ izveido saites
+1549	Šim mezglam nav platuma un garuma
+1550	Šis profils semantiskos mezglus neveido – tiks ierakstīti tikai SourceRecord.
+1552	šis dārzs
+1562	Skotija (Apvienotā Karaliste)
+1563	Šrilanka
+1564	lēciens no iepriekšējās: {0}
+1565	Lēciens pēc k-tās vērtības rāda k grupas. Noklikšķiniet uz k, lai pārrēķinātu ar tik grupām.
+1566	Zviedrija
+1567	Šveice
+1568	Gaiša
+1569	gaišums
+1571	Žemaitija (Lietuva)
+1572	Zemo ARI galvenokārt nosaka nevis jaukšanās, bet sadalīšanās:
+1573	Žemė
+1575	Žemė – datu kopas un LKEŽDB, no kurām aug dārzi
+1576	Žemė – datu kopas, no kurām aug dārzi
+1577	Kartes spilgtums
+1578	Karte
+1579	Karte izslēgta iestatījumos
+1580	karte netiek rādīta
+1581	karte tiek rādīta
+1591	vārds
+1592	vārds vēl nav izskaidrots
+1593	Vārds saglabājas, bet nozīme ir kustīga:
+1594	vārds nav atrasts
+1595	Vārdu krājums sadalās {0} grupās
+1596	Vārdi
+1597	vārda skaidrošana neizdevās: {0}
+1600	Žurnāls
+1601	Ar zvaigznīti atzīmēta forma nav tieši apliecināta; tā tiek pētīta tikai, atzīmējot „iekļaut rekonstruētās formas“.
+1602	ρ koks ↔ vārdu krājums{0}
+1605	– to atradīsiet dārzu sarakstā
+1608	– viens indekss slēptu, ka komponentes mēra dažādas lietas.
+1609	– šim pētījumam neder
+1610	— izvēlieties —
+1611	„{0}“: {1} saites datu kopā{2}, pievienoti {3} mezgli
+1616	⇝ Atrast īsākos ceļus
+1618	☀ Gaiša
+1619	☾ Tumša
+1622	✓ aizskarts
+1625	＋ Ceļš
+1627	＋ Jauna aprēķinātā īpašība
+1628	＋ Jauns noteikums
+1629	＋ Jauns dārzs
+1631	＋ Pievienot grozam
+1636	🏳 Piešķirt valodām karogus
+1639	📍 Rādīt kartē
+1647	🗑 Iztukšot grozu
+1648	🗑 Tiešām iztukšot grozu?
+1649	🧺 Grozs
+1650	🧺 Pētījuma grozs
+1651	🧺 Uz grozu
+1652	Atpakaļ
+1653	Atpakaļ (Alt+←)
+1656	Lietuviešu
+1658	Uz priekšu
+1659	Uz priekšu (Alt+→)
+1660	Saskarnes valoda
+1670	. Tabulā to siluets ir negatīvs.
+1671	. Iemesli var būt daudzi aizguvumi, maz kodētu nozīmju, arhaiskums (sen apliecināta valoda) vai apstrīdama vieta kokā.
+1672	. Tie ir kandidāti kontaktu un aizguvumu pētīšanai; ģenealoģija šeit neko neizskaidro.
+1673	. Tā notiek, ja viena valoda stipri atjaunojusi vārdu krājumu vai viena no tām ir vāji apliecināta (maza kopīgu nozīmju kopa).
+1674	. Darbību nevar atsaukt.
+1675	. Iekšienē valodām vidēji kopīgas {0} nozīmju.
+1676	. Vienas izcelsmes vārdi valodās skaniski attālinājušies, tāpēc veido vairākas skaņu grupas.
+1678	Dārzā salieciet mezglus grozā (labā peles poga → „Pievieno grozam“), piemēram, jēdzienu moon. Šeit izvēlieties pētījumu un spiediet „Pētīt“. Katra pētījuma augļi paliek sarakstā kreisajā pusē.
+1680	autoritāte
+1681	Divreiz noklikšķinot uz mezgla, datu kopā tiek atrastas un parādītas visas tā saites (līdz 150).
+1682	Mezgli {0}/{1}{2} · aizskarti {3} · Saites {4}/{5}
+1683	balstās uz: {0}
+1684	visas
+1685	(un vēl {0})
+1686	(nav obligāti)
+1688	(parādītas lielākās grupas)
+1689	, {0} ar kļūdu
+1691	1 − attālums / lielākais
+1692	slodze uz 1.
+1693	: {0} pāri
+1694	abi augsti
+1695	abi zemi
+1696	Analīzes segmenti tiek ņemti no Form.segments, tad IE-CoR Phonemic_Segments, tad datu kopas etc/orthography.tsv; forma bez neviena no tiem netiek iekļauta (izruna netiek izdomāta). Katrs segments tiek sasaistīts ar CLTS skaņu. Ievietošana vai izlaišana maksā 0,5, rezultāts tiek dalīts ar garākās formas garumu (0–1); formām ar vairākiem variantiem ņem mazāko attālumu.
+1697	Augļa virsraksts
+1698	Ierobežot pēc cita
+1699	vai tuvākie pēc viena mēra ir tuvākie arī pēc otra
+1700	Vai divu mēru pāri iet kopā: Spīrmena ρ pa visiem pāriem un Mantela permutāciju tests.
+1701	Vai kaimiņvalodām ir vairāk kopīgu kognātu nekā attālām? Salīdzināts ar ģeogrāfiju un koku; negaidīti tuvi pāri.
+1702	Vai valodas ar vairāk kopīgiem kognātiem stāv tuvāk arī Glottolog kokā? Grozs nav obligāts.
+1703	Vai kādas grupas (piem., semantisko lauku) vidējais rādītājs ir augstāks vai zemāks, nekā būtu nejauši.
+1704	Vai rādītāji stāsta vienu stāstu: Spīrmena korelācijas un galvenās komponentes (vai pamatoti tos apvienot vienā indeksā).
+1705	Vai jēdzienu ieskauj tās pašas citas nozīmes: polisēmija DatSemShift, apkaimes noturība, spektrālās pozīcijas noturība starp valodu saimēm.
+1706	Vai jēdzienu visur izsaka tas pats mantotais vārds: kognātu saglabāšanās, izdzīvošana tālos zaros, leksiskās nomaiņas biežums (Fitch), polisēmija IE-CoR.
+1707	Vai pētīt arī rekonstruētās pirmvalodu formas (atzīmētas ar *). Tās raksta citādi nekā apliecinātās formas, tāpēc parasti atstāj malā.
+1708	Vai vienības tuvākie pēc viena mēra ir tuvākie arī pēc otra: Gudmena–Kraskala γ katrai vienībai.
+1709	Vai taustiņš Delete.
+1710	ARI (koriģētais Randa indekss): 1 – sadalījumi sakrīt, 0 – ne vairāk kā nejauši. Tīrība – vienību daļa, kas ir savas A grupas biežākajā B grupā.
+1711	ARI ar Glottolog zariem katrā līmenī zem „{0}”.
+1712	ARI ar „{0}”
+1713	Tuvāko kaimiņu saites
+1714	tuvāk
+1715	Atbilstība koka līmeņiem
+1716	Atbilstība kokam (γ)
+1717	atbilstība kokam γ
+1718	Lejupielādēt shēmu kā failu
+1719	Attālumi (piem., kokā)
+1720	Attālumi / līdzības
+1721	Attālumi vai līdzības kā krāsaina tabula, vienības sakārtotas pa grupām.
+1722	Attālumi → grafs: tuvas vienības savieno stipri, tālas – vāji; katrai vienībai savs mērogs.
+1723	Attālumi → grafs: saite vājinās eksponenciāli, jo tālāk vienības.
+1724	Attālumi → līdzības
+1725	Attālums = 1 − līdzība.
+1726	Attālums kilometros starp valodu (vai to formu) koordinātām pa lielo riņķi.
+1727	Atvērt shēmu
+1728	Atsaukt (Ctrl+Z)
+1730	Bez polisēmijas (viens vārds – vairākas nozīmes) skaitīt arī derivāciju (nozīme pārgāja uz atvasinātu vārdu). Tīkls blīvāks, bet mazāk tīrs.
+1731	jebkas ar vienībām
+1733	šķautņu skaits kokā
+1734	Concepticon jēdzieni, ko IE-CoR kodē ar kognātiem. Groza jēdzieni tiek atzīmēti (pazīme „grozā”), Glottolog zars grozā ierobežo valodas.
+1737	Vēl {0} mazākas grupas.
+1738	DatSemShift tīkls ir tukšs: vai datu kopa ir importēta?
+1739	Daudzdimensiju mērogošana (MDS)
+1740	Ne vairāk kā {0} rindas.
+1741	Ne vairāk kā {0} lapas. Grupa ir vienota, ja kokā ir zars ar visām tās vienībām un tikai tām.
+1742	Ne vairāk kā {0} vienības. Tumšāks – tuvāk (līdzīgāk); tukšas šūnas – nezināms.
+1743	Dendrogramma
+1744	Pārāk daudz lapu dendrogrammai ({0}; ne vairāk kā {1}).
+1745	Detaļu apzīmējumiem jābūt atšķirīgiem.
+1746	detaļa
+1747	Detaļas
+1748	augsts {0}, zems {1}
+1749	Liels lēciens pēc k-tās vērtības rāda, ka grafs sadalās k grupās.{0}
+1750	Tuvināt
+1751	Lielākajai saistītajai daļai ir tikai {0} vienības: grafā gandrīz nav saišu. Leksiskajai līdzībai samaziniet „Mazākais kopīgo nozīmju skaits pārim” vai neņemiet groza jēdzienus (tie ierobežo nozīmes).
+1752	Grafa lielākā saistītā daļa
+1753	Lielākais izvēlamais k
+1754	Lielākā sprauga – pēc {0}. īpašvērtības
+1756	Audekls notīrīts. Ctrl+Z – atjaunot.
+1757	Audekls ir tukšs
+1758	Datu tipi
+1759	Divu mēru salīdzinājums (Mantels)
+1760	Divu rādītāju kopu kolonnas tiek saliktas vienā tabulā (pēc vienības atslēgas).
+1761	Divu rādītāju izkliede
+1762	kaste – visi pāri ar šo B vērtību
+1763	Rindas – {0}, kolonnas – {1}{2}.
+1764	filtrēt: vienība, iemesls, detaļa…
+1765	filtrēt…
+1766	Formas
+1767	Formas un nozīmes noturības rādītāji, to korelācijas un semantisko lauku testi. Grozs nav obligāts.
+1768	Formas noturība
+1769	Formas noturību aprēķina jēdzieniem no avota „Jēdzieni (IE-CoR)”.
+1770	formas
+1771	Formu skaņu attālumi tiek savilkti valodu attālumos un salīdzināti ar Glottolog koku un ģeogrāfiju.
+1772	Valodu skaņu attālumi, koks un ģeogrāfija
+1773	Skaņu attālums (CLTS)
+1774	Skaņu attālumu aprēķina tikai formām.
+1775	Gausa kodols (pašregulējošs)
+1776	Ģenealoģiskais attālums (Glottolog)
+1777	Ģeogrāfiskais attālums
+1778	Glottolog zari
+1779	Grafi
+1780	Grafs sastāv no {0} nesaistītām daļām: pirmās {1} īpašvērtības ir 0. Varbūt vērts pievienot „Grafa lielākā saistītā daļa”.
+1781	grafa normalizētās Laplasa matricas īpašvērtības un īpašvektori
+1782	Grupu kartītes
+1783	grupas kokā vienotas
+1784	grupas pēc spraugas
+1785	Grupu permutāciju tests
+1786	Grupu skaits
+1787	grupas
+1788	Grupas (piem., zari)
+1790	Grupas vidējo salīdzina ar tikpat daudz nejauši ņemtu vienību vidējiem. Tiek pārbaudītas grupas ar ≥ 3 vienībām.
+1791	Hierarhisks koks: tuvākās vienības un grupas savieno vispirms (vidējās saites metode).
+1792	vienību hierarhisks koks (dendrogramma)
+1793	meklēt detaļu…
+1794	Līdz 400 zīmēm.
+1795	Līdz cik grupām
+1797	Cik saimēs vismaz jābūt apliecinātām jēdziena saitēm, lai aprēķinātu tā apkaimes un spektrālās pozīcijas noturību.
+1798	No citu vienību pāriem, ko sakārto pirmais mērs (vienādie izlaisti), daļa, ko tāpat sakārto arī otrais (γ: 1 – visi, 0 – kā nejauši, −1 – pretēji). Zems γ – valoda, kuras vārdu krājums neatbilst tās vietai kokā (kontakti, aizguvumi, datu robi).
+1799	Izkārtojums
+1800	Notīrīt
+1801	Notīrīt audeklu
+1802	Izejas
+1804	Apvienot vienā indeksā ieteicams, ja pirmā galvenā komponente izskaidro ≥ 50 % un visi rādītāji tajā ieiet vienā virzienā.
+1805	Saite
+1806	Saite uz neesošu detaļu.
+1807	Jūsu teksts starp augļiem: kam šī shēma, ko pārbaudāt, ko pamanījāt.
+1808	Ja k izvēlas automātiski, meklē starp 2 un šo skaitli.
+1809	Kaimiņa saite līdz attālumam
+1810	Kaimiņi mērogam
+1811	Kā strādāt
+1812	Cik ātri vājinās saite. Mazs τ – savieno gandrīz tikai tuvākos, liels – arī tālos. Koka dziļumam der 2–8, kilometriem – simti.
+1813	Kā mērīt
+1814	Kā pētījumā „Jēdzienu semantiskā noturība”. Valodas – no avota „Jēdzieni (IE-CoR)” (zars grozā tās ierobežo).
+1815	Kā pētījumā „Jēdzienu semantiskā noturība”: tīkls tiek izvērsts ar nejaušās klejošanas koordinātām; no saimes skatpunkta jēdziena pozīcija ir tā kaimiņu pozīciju vidējais šajā saimē, noturība – to izkliede.
+1816	Kā pārvērst
+1817	kā ieejā
+1818	Valoda bez Glottolog atbilstības netiek iekļauta (tās vieta kokā nav zināma). Pazīmes: Glottolog nosaukums, koordinātas, kodēto nozīmju skaits.
+1819	Valodas ierobežotas ar groza Glottolog mezgliem ({0} valodas).
+1820	Valodas ar nozīmēm, kas kodētas ar IE-CoR kognātiem. Grozā: Glottolog saime vai zars, valodas, jēdzieni (ierobežo nozīmes); bez groza – visas šādas valodas.
+1821	valodas
+1822	Kas paliek
+1823	Cik daudz formu ņemt no groza mezgliem; pārējās tiek izlaistas (par to tiek paziņots). Skaņu attālums salīdzina visus formu pārus, tāpēc darbs pieaug kvadrātiski.
+1824	Cik reižu nejauši sajaukt vienības, lai novērtētu p. 0 – p netiek aprēķināts.
+1825	Cik katra vienība ir tuvāk savai grupai nekā tuvākajai citai: no −1 (ne savā grupā) līdz 1.
+1826	Cik katras A grupas vienību nonāk katrā B grupā; ARI un tīrība.
+1827	Cik valodās vismaz (ar vietu Glottolog kokā) jēdziena vārdam jābūt kodētam ar kognātiem.
+1828	Cik vismaz to pašu nozīmju jābūt kodētām abās valodās, lai pāra līdzība būtu zināma. Vājāk apliecinātu pāru līdzība tiek uzskatīta par nezināmu (grafā tos nesavieno).
+1829	Cik pirmo Laplasa īpašvektoru nosaka jēdziena pozīciju tīklā.
+1830	Cik atšķirīgi skan divas formas: rediģēšanas attālums, kur skaņas aizstāšana maksā atšķirīgo CLTS pazīmju daļu.
+1831	Cik tālu viena no otras Glottolog kokā stāv divas vienības (valodas vai to formas).
+1832	cik vienība tuvāk savai grupai nekā citām
+1833	Katra grupa: lielums, tipiskākā vienība (medoīds), piemēri, cik tuvas iekšā un līdz citām, sastāvs.
+1834	Katra {0}.
+1835	Katrai vienībai atstāj tikai k stiprākās saites (retina blīvu grafu).
+1836	Katrs rādītājs kļūst par procentili 0–1, kur 1 – „labākais” (noturīgākais); tā visi rāda vienā virzienā.
+1837	Katra vienība – punkts pēc diviem rādītājiem; kvadranti pēc mediānām (piem., forma noturīga, nozīme mainīga).
+1838	Katras vienības mērogs σᵢ – attālums līdz tik-tajam tuvākajam kaimiņam (Zelnik-Manor un Perona, 2004). Svars exp(−d² / σᵢσⱼ). Mazāks – grafs vairāk sadalās blīvās grupās.
+1839	katra vienību pāra attālums: 0 – tas pats, vairāk – tālāk
+1840	katra vienību pāra līdzība: vairāk – līdzīgāk
+1841	kodētās nozīmes
+1842	kognātu grupas
+1843	Kāda abās valodās kodēto nozīmju daļa ir ar kopīgu kognātu grupu: S = C / M.
+1844	Koordinātas – valodas platums un garums (Glottolog vai datu kopa). Vienības bez koordinātām netiek iekļautas.
+1846	Groza jēdzienu (un ar CORRESPONDS_TO saistīto), nozīmju, leksēmu, kognātu grupu formas vai pašas formas.
+1847	Groza jēdzienu formas grupē pēc tā, cik līdzīgi tās skan; grupas salīdzina ar kognātiem un zariem.
+1848	grozā
+1849	Grozs
+1850	Grozs pats neko nepēta: tas saka avotiem, ko ņemt. Vaivā pa kreisi varat noņemt atzīmi mezgliem, kurus šoreiz nevēlaties.
+1851	Grozs nonāk shēmā caur detaļu „Grozs”; bez tās grozs netiek izmantots.
+1852	Šķērstabula
+1853	Kuras vienības
+1854	Kuras B grupas sadalās vairākās A grupās
+1855	Kuru rindas paliek. Trūkstošās vērtības nav zināmas.
+1856	Ko ierobežot
+1857	Ko filtrēt
+1858	vislabāk atbilstošais līmenis (ARI {0}, {1} zari)
+1859	Laplasa matricas mazākās īpašvērtības: liels lēciens pēc k-tās rāda, ka grafs sadalās k grupās.
+1860	Laplasa spektrs
+1861	Gaida detaļu, kas neizdevās.
+1862	gaida neizdevušos detaļu
+1863	Leksiskā līdzība
+1864	Leksisko līdzību aprēķina valodām no avota „Valodas”.
+1865	Paliek {0} no {1}.
+1866	Līmeņus skaita no visu vienību kopīgā senča. „Pirmais līmenis ar 3 … n/2 zariem” – kā pētījumā „Valodu koks”; „pirmā sazarošanās” – pirmais līmenis, kurā vienības šķiras.
+1867	Salīdzināmie (piem., leksiskie)
+1868	M – nozīmes (Concepticon), kodētas abās valodās; C – cik no tām ir ar kopīgu kognātu grupu. Katru nozīmi skaita vienreiz.
+1869	Mantela tests ({0} permutācijas)…
+1870	Mērogs τ
+1871	Mēri
+1872	Mērs A
+1873	Mērs B
+1874	Matrica
+1875	Pārāk daudz vienību matricai ({0}; ne vairāk kā {1}).
+1876	zems {0}, augsts {1}
+1877	Mazākas līdzības uzskata par nulli. 0 – ņem visas zināmās.
+1878	zemāk
+1879	Mazāk nekā {0} valodas ar ar kognātiem kodētu vārdu.
+1880	Mazākais valodu skaits jēdzienam
+1881	Mazākais saimju skaits jēdzienam
+1882	Tālināt
+1883	Mazās īpašvērtības un to vektori apraksta grafa vispārējo uzbūvi: cik nulles vērtību – tik atsevišķu gabalu, liela sprauga pēc k-tās – grafs sadalās k grupās.
+1884	mediāna {0} ({1}–{2})
+1885	Koks (UPGMA)
+1886	Koks ar lapām, iekrāsotām pēc sadalījuma; kuras grupas kokā ir vienotas un kas tajās iespraucas.
+1887	Kokā nav līmeņu zem kopīgā senča.
+1888	Koka līmenis
+1889	Koku nevar ierobežot: ierobežojiet attālumus pirms koka būvēšanas.
+1890	Pārāk daudz vienību kokam (ne vairāk kā 2000).
+1891	nav lielākajā saistītajā daļā
+1892	nav shēma
+1894	Neizdevās uzzīmēt: {0}
+1895	Ja nav pievienots – visi DatSemShift tīkla jēdzieni ar Concepticon numuru.
+1896	Ar kognātiem kodēti jēdzieni nav atrasti.
+1897	Nederīgs fails: {0}
+1898	Nevienotas grupas
+1899	Neiekļautas vienības: {0} (sk. zem augļiem)
+1900	nezināms
+1901	Nezināma detaļa: {0}
+1902	nezināms
+1903	Nezināmi attālumi (piem., dažādu saimju valodas) saiti nedod.
+1904	Normalizētās Laplasa matricas L = I − D^-½ W D^-½ īpašvērtības un īpašvektori.
+1905	Velciet detaļu no saraksta pa kreisi vai ielādējiet gatavu shēmu.
+1906	Velciet detaļu no saraksta pa kreisi uz audekla (vai noklikšķiniet: tā tiks pievienota iezīmētajai).
+1907	Velciet uz audekla vai noklikšķiniet.
+1908	Neviena grupa būtiski neizceļas
+1909	Nevienai valodai nav vietas Glottolog kokā.
+1910	Nevienam jēdzienam nav pietiekami daudz valodu.
+1911	Neviens jēdziens nav DatSemShift tīklā.
+1912	nav DatSemShift tīklā
+1913	nav koordinātu
+1914	Nav pāru, kuriem zināmi abi mēri.
+1915	Nav rādītāja „{0}”. Pieejami: {1}.
+1916	nav vietas Glottolog kokā
+1917	Oranžs – izvēlētais k.
+1918	p (augstāk) {0}, p (zemāk) {1}
+1919	izskaidro (1, 2, 3 …)
+1920	izskaidro 1. komponente
+1921	Pēc kuras pazīmes apvienot. Piem., savelkot formu skaņu attālumus pēc valodas, iegūst valodu skaņu attālumus, ko var salīdzināt ar ģenealoģiskajiem vai ģeogrāfiskajiem.
+1922	Pēc kā
+1923	Galvenās komponentes ({0} vienības)
+1925	Atstāj tikai grafa lielāko saistīto daļu; atdalītās vienības netiek iekļautas.
+1926	Atstāj tikai vienības, kas ir arī otrā ieejā (piem., koka attālumus – tikai leksiskā grafa valodām).
+1927	Atstāj vienības, kuru pazīme atbilst nosacījumam (piem., language = Lithuanian; reconstructed = ne; grupė = 2).
+1928	Salīdzināt ar (ARI)
+1929	līdzīgāk
+1930	Līdzības
+1931	Līdzības pārvērš attālumos (1 − s), tāpēc pozitīvs ρ vienmēr nozīmē, ka mēri saskan. Salīdzina tikai pārus, kuriem zināmi abi mēri. Diagrammā – A vērtības pēc B (kastes, ja B ir maz dažādu vērtību).
+1932	Līdzības pārvērš attālumos 1 − s. Vairāk nekā ~1500 vienību aprēķina ilgi.
+1933	Līdzības pārvērš attālumos 1 − s. Nezināmos attālumus uzskata par lielākajiem.
+1934	Līdzības → attālumi
+1935	Līdzības → grafs
+1936	līdzība
+1937	Līdzība = 1 − attālums (vai lielākais attālums − attālums).
+1938	Līdzība kļūst par saites svaru; nezināmas un zem sliekšņa esošas līdzības saiti nedod.
+1939	Līdzība – {0}, attālums – {1}, grupas – {2}.
+1940	Parādīts {0} no {1}.
+1941	Parādīt šo detaļu shēmā
+1942	Gatavi pētījumi ar savu attēlojumu
+1943	Gatavas shēmas
+1944	Izvēlētais k
+1945	Noņemt detaļu
+1946	Noņemt saiti
+1947	Atzīmēt k
+1948	Pārāk daudz formu ({0}; ne vairāk kā {1}): ierobežojiet grozu vai formu skaitu.
+1949	par maz valodu
+1950	Par maz vienību grafam.
+1951	Par maz vienību spektram.
+1952	Par maz vienību ar grupu abos sadalījumos.
+1953	Permutācijas
+1954	pirmais līmenis ar 3 … n/2 zariem
+1955	Polisēmijas tīkls: jēdzieni savienoti, ja vismaz vienā valodu saimē viens vārds nozīmē abus; svars – cik saimes to apliecina.
+1956	polisēmijas saimju skaits
+1957	Pāri nav neatkarīgi (katra vienība piedalās daudzos), tāpēc p ņem no permutācijām, nevis no formulas.
+1958	Pāri, kuru līdzība ir daudz lielāka vai mazāka, nekā gaidāms to attālumam: no dažādām grupām, bet līdzīgi (iespējami kontakti), un no vienas grupas, bet tāli.
+1959	pāri
+1960	Pazīmes: semantiskais lauks (Concepticon), valodu skaits, grozā (taip / ne). Ar šiem jēdzieniem strādā „Formas noturība” un „Nozīmes noturība”.
+1961	Pazīmes nosaukums: cognate (IE-CoR kognātu grupa), language, dataset, glottolog_name, field (semantiskais lauks), focus, reconstructed …
+1962	Pazīme
+1963	Pazīmei „{0}” ir mazāk nekā divas vērtības.
+1964	Pazīmei „grupė” pievienojiet sadalījumu.
+1965	Visvieglāk sākt ar gatavu shēmu pa kreisi. Tukša audekla vilkšana – pārvietot, peles ritenis – mērogs, Delete – noņemt, Ctrl+Z – atsaukt, Ctrl+D – kopija.
+1966	izlaists: gaida neizdevušos detaļu
+1967	Izlaists: gaida neizdevušos detaļu.
+1968	Ja pievienoti attālumi, katru vienību savieno ar tuvāko kaimiņu, ja to attālums nav lielāks par šo.
+1969	Ja pievienots cits sadalījums, grupu ņem tik, cik tajā (piem., sadalīt koka grafu tik grupās, cik atrada leksiskais).
+1970	Ja pievienots sadalījums, var filtrēt pēc pazīmes „grupė” (grupas numurs, kā augļos).
+1971	Pievienojiet vismaz vienu augli (grupa „Augļi”).
+1972	Pievienojiet vismaz vienu augli un nospiediet „Pētīt”.
+1973	Caur filtru neizgāja neviena vienība.
+1974	Procentiles
+1975	Piem., kognāti vai zari: cik katras grupas vienību pieder katrai to grupai.
+1976	Vajag vismaz divus rādītājus ar ≥ 5 zināmām vērtībām.
+1977	Vajag vismaz divus rādītājus.
+1978	Būtiski izceļas
+1979	Nozīmības līmenis
+1980	būtiskas atšķirības (p < {0})
+1981	Nozīmju tīkls (DatSemShift)
+1982	Nozīmes ierobežotas ar groza jēdzieniem ({0} Concepticon jēdzieni).
+1983	Nozīmes noturība
+1984	nozīmes noturība
+1985	Kārtot pēc
+1986	Rādītāji
+1987	Rādītāji A
+1988	Rādītāji B
+1990	Rādītājus, kur mazāk ir labāk (piem., nomaiņas biežums, polisēmija), apgriež. Vienādas vērtības saņem vidējo rangu.
+1991	Rādītāja nosaukums (piem., retention); tukšs – pirmais.
+1992	Rādītāju korelācijas
+1993	Rādītāju kopām nav kopīgu vienību.
+1994	Rādīt visu shēmu
+1995	Saites vienībai
+1996	Saite paliek, ja tā ir starp k stiprākajām vismaz vienai no abām vienībām.
+1997	Īpašvērtības
+1998	īpašvērtību sprauga
+1999	Filtri
+2000	Filtrs darbojas ar jebkuru datu tipu, kam ir vienības: vienības, attālumi, grafs, sadalījums, rādītāji. Spektru un koku filtrēt nevar – filtrējiet pirms tiem.
+2001	Siluets
+2002	Siluets – cik atdalītas grupas; ARI – cik tās sakrīt ar pievienoto sadalījumu (piem., kognātiem).
+2003	Siluetam
+2004	Sadalījums
+2005	Sadalījums A (rindas)
+2006	Sadalījums B (kolonnas)
+2007	Sadalījums pēc pazīmes
+2008	Sadalījums {0} ar koku {1}. līmenī
+2009	Skaitīt arī derivāciju
+2010	No dažādām grupām, bet līdzīgāki nekā gaidīts (iespējami kontakti, aizguvumi)
+2011	Attālums starp dažādu saimju vienībām nav zināms. Vienības bez vietas Glottolog kokā netiek iekļautas.
+2012	Atšķirības nepārsniedz to, kas būtu nejauši.
+2013	Slieksnis
+2014	Krāsainā josla – grupas.
+2015	Spektrālais izkārtojums
+2016	Spektrālā analīze
+2017	Spektrālā analīze ir jēgpilna saistītam grafam: atsevišķi gabali dotu katrs nulles īpašvērtību un „grupas”, kas ir tikai atsevišķi gabali.
+2018	Spektrālās analīzes pētījums, salikts no detaļām: avotiem, mēriem, grafiem, filtriem, spektrālās analīzes, rādītājiem un augļiem.
+2019	Spektrālās grupas
+2020	Spektru nevar ierobežot: ierobežojiet grafu pirms spektra aprēķināšanas.
+2021	Noklikšķiniet uz detaļas un pa labi iestatiet tās parametrus.
+2022	Noklikšķiniet uz k, lai pārrēķinātu ar tik grupām.
+2023	Būvē koku…
+2024	Stiprākās saites
+2025	Grafā nav savienota ar citām vienībām (vai tikai ar mazu gabalu).
+2026	Ar ko salīdzināt (nosacījumiem „zināms” un „nezināms” nevajag).
+2027	Ar kuru Glottolog koka līmeni (saime, zars, apakšzars …) sadalījums sakrīt visvairāk (ARI katram līmenim).
+2028	Sastāvs pēc
+2029	Apvienot rādītājus
+2030	Savienojiet: velciet no izejas punkta pa labi līdz tās pašas krāsas ieejai pa kreisi. Derīgās ieejas tiek izceltas.
+2031	Izveidots dārzs „{0}”
+2032	Savilkt pēc pazīmes
+2033	svērts grafs: vienības – virsotnes, svars – saites stiprums
+2034	Svars exp(−attālums / τ)
+2035	Nosacījums
+2036	Shēma ir par lielu (ne vairāk kā {0} detaļas un {1} saites).
+2037	Shēma ir tukša: ievelciet detaļas darbnīcā un savienojiet tās.
+2038	Shēma ielādēta.
+2039	Shēmā nav neviena augļa: pievienojiet detaļu no grupas „Augļi” un savienojiet to.
+2040	Shēmā ir slēgts loks: detaļa nevar saņemt pati savu rezultātu.
+2041	Shēmas nosaukums
+2042	Jēdziena formas atrod caur Sense → Lexeme → Form. Katrai formai ir pazīmes: valoda, kognātu grupa (IE-CoR), datu kopa, rekonstruēta (taip / ne), valodas vieta Glottolog kokā un koordinātas.
+2043	Jēdzieni
+2044	Jēdzieni (IE-CoR)
+2045	Jēdzienus atpazīst pēc Concepticon numura (ja tā nav – pēc DatSemShift numura), tāpēc tīklu var ierobežot ar IE-CoR jēdzieniem (detaļa „Ierobežot pēc cita”).
+2046	jēdzieni
+2047	Tā skaņu attālumu matrica kļūst par grafu spektrālajai analīzei. Nezināmos attālumus uzskata par ļoti lieliem.
+2048	Tā rodas salīdzināšanas pamats: vai spektrālās grupas sakrīt ar kognātiem, zariem, laukiem.
+2049	punkts – pāris (līdz 3000 nejaušiem)
+2050	Tehniskā informācija
+2051	Teksts
+2052	Tie paši īpašvektori, sadalīti 2 … 12 grupās: īpašvērtību sprauga, siluets, sakritība ar citu sadalījumu.
+2053	Tie paši īpašvektori, sadalīti k grupās.{0}
+2054	Tik grupu, cik šeit
+2055	Pārbaudot daudzas grupas un rādītājus, dažas „būtiskas” var iznākt nejauši (slieksnis {0}).
+2056	gaidāms
+2057	Gaidāmā līdzība – visu pāru ar to pašu attālumu mediāna (nepārtrauktiem attālumiem – 12 vienāda lieluma intervāli).
+2058	Der līdzībām no 0 līdz 1 (piem., leksiskajai). Nezināma līdzība paliek nezināms attālums.
+2059	Tīkls: {0} jēdzieni, {1} saites, lielākā saistītā daļa – {2}, {3} saimes.
+2060	Tīklā bez polisēmijas skaitīt arī derivāciju. Tīkls blīvāks, bet mazāk tīrs.
+2061	Tipiskākā:
+2062	pētāmās vienības (formas, valodas, jēdzieni) ar savām pazīmēm
+2063	Pētīšanai derīgas tikai {0} formas no {1}.
+2064	No vienas grupas, bet mazāk līdzīgi nekā gaidīts
+2065	satur tekstu
+2066	Tukšs – otrais.
+2067	Tukšs – izvēlas tur, kur sprauga starp blakus īpašvērtībām ir lielākā.
+2068	Pētījumi
+2069	Pētījums, salikts no detaļām
+2070	Piezīme
+2071	Uzbraucot – vienības pazīmes; klikšķis uz grupas leģendā to izceļ. „Atvērt dārzā” izveido jaunu dārzu ar šiem mezgliem tajās pašās vietās un krāsās.
+2072	Augļi
+2073	auglis gatavs
+2074	Vaivas darbnīca · {0} · {1} detaļas, {2} augļi {3}
+2075	Vaivas darbnīca – shēma no detaļām
+2076	vidējais {0} (visu {1})
+2077	Vidējais siluets virs 0,5 – grupas skaidras, ap 0 – saplūstošas; negatīvs – vienība starp grupām.
+2078	Vienības
+2079	Vienības atpazīst pēc atslēgas (formas, valodas, Concepticon jēdzieni). Secība paliek pirmās ieejas.
+2080	Vienības bez vietas Glottolog kokā paliek bez grupas.
+2081	Vienībām nav koordinātu.
+2082	Vienībām nav pazīmes „{0}”. Pieejamas: {1}.
+2083	Vienības plaknē pēc izkārtojuma, iekrāsotas pēc sadalījuma; var atvērt dārzā.
+2084	Vienības sadala pēc Glottolog zara, kam pieder to valoda.
+2085	Vienības sadala pēc pazīmes: kognātu grupa, valoda, semantiskais lauks, datu kopa …
+2086	Vienības sadala k grupās: k-vidējo pirmo k īpašvektoru telpā (Ng, Jordan, Weiss).
+2087	Vienībām jābūt vietai Glottolog kokā (formas vai valodas). Līmeņus skaita no visu kopīgā senča.
+2088	Vienības pazīmes nosaukums: language, cognate, dataset, reconstructed, glottolog_name, field, focus, meanings, languages, name, key; ar sadalījumu – grupė. Vienību tabulā redzamas visas pazīmes.
+2089	vienības
+2090	Vienību tabula
+2091	Savelk vienību pārus to pazīmes (piem., valodas) pāros: divu valodu attālums – to formu vidējais attālums.
+2092	Vienību filtrs
+2093	vienību sadalījums grupās
+2094	Vienību vietas pēc 2. un 3. īpašvektora.
+2095	vienību vietas plaknē
+2096	Vienību vietas plaknē, kas vislabāk saglabā to attālumus (klasiskā MDS).
+2097	Vienas grupas iekšienē attālumu uzskata par 0 (līdzība – vidējā). Savelkot pēc valodas, jaunās vienības ir valodas un manto to vietu Glottolog un koordinātas.
+2099	Visas vienības ar pazīmēm, grupu un rādītājiem; kārtojams un filtrējams.
+2100	X rādītājs
+2101	Y rādītājs
+2102	{0} detaļas neizdevās vai izlaistas
+2103	{0} grupas
+2104	{0} valodas, {1} zari.
+2105	{0} lapas
+2106	{0} mezgli
+2107	{0} rādītāji, {1} vienības
+2108	{0} īpašvērtības
+2109	{0} punkti
+2110	{0} virsotnes, {1} šķautnes
+2111	{0} → {1}. Jo lielāka šāda sprauga, jo skaidrāk grafs sadalās tik grupās. Nulles vērtību ir tik, cik grafa nesaistīto daļu.
+2112	{0}. līmenis zem kopīgā senča
+2113	{0}. līmenis zem „{1}”: {2} zari.
+2114	{0}. Tumšāks – {1}; tukšas šūnas – nezināms. {2}
+2115	{0}: iespraucas {1}{2}
+2116	{0}; ass – savienošanas augstums (attālums).
+2118	· bez groza
+2119	· no atmiņas
+2120	· grozs: {0}{1}
+2121	· neiekļauts {0}
+2122	· krāsas: {0}
+2123	· iekšā {0}, līdz citām {1}
+2124	„{0}” der {1}, bet šeit ir {2}.
+2125	Ielādēta shēma „{0}”. Ctrl+Z – atjaunot iepriekšējo.
+2126	Ielādēts; nezināmās detaļas izlaistas: {0}
+2127	Ielādēt shēmas failu
+2128	iespraucas
+2129	Ieejas
+2130	Ieejām nav kopīgu vienību.
+2131	zari
+2132	Avoti
+2133	šīs cilnes dārza groza mezgli
+2134	Šīs cilnes dārza groza mezgli (dārzā: labā poga → „Pievieno grozam”).
+2135	Zem „{0}” {1}. līmenī ir {2} zari (piem., {3}); ARI {4}.
+2136	Pārāk daudz punktu kartei ({0}; ne vairāk kā {1}).
+2137	Zīmi izvēlas tā, lai lielākā koordināta būtu pozitīva (lai atkārtojot būtu tas pats). Koku grafu spektrālās kartes bieži savelk daudzas vienības dažos punktos – tad skaidrāka ir MDS.
+2138	zināms
+2139	Zināma {0} no {1} pāru līdzība (vismaz {2} kopīgas nozīmes).
+2141	„1 − attālums” der attālumiem no 0 līdz 1 (skaņu). Citiem (km, koka dziļums) – dalīt ar lielāko.
+2142	„Kopīgā senča dziļums”: jo dziļāk kokā tuvākais kopīgais sencis, jo tuvāk (0 – dziļākais). „Šķautņu skaits”: cik zaru jāiziet no viena līdz otram – izkropļo, ja zari sadalīti nevienādi sīki.
+2143	„vienāds” un „nevienāds” pieņem vairākas vērtības, atdalītas ar semikolu; lielie un mazie burti nav svarīgi.
+2144	„{0}” un „{1}”: {2} pāri.
+2145	„{0}” un „{1}”; salīdzinātas {2} vienības.
+2146	„{0}” gaida {1}, bet saņem {2}
+2147	„{0}” jābūt starp {1} un {2}
+2148	„{0}” → „{1}”: nav tādas ligzdas.
+2149	„{0}”: nav pievienots {1}.
+2150	„{0}”: ieejā iet tikai viena saite.
+2151	▲ – grupas vidējais būtiski augstāks, ▼ – zemāks (p < {0}).
+2152	▶ Pētīt
+2153	⬆ Ielādēt
+2154	⬇ Lejupielādēt
+2155	🍎 Augļi
+2157	🔧 Darbnīca
+2158	🔧 Shēma
+2159	🔧 {0} augļi{1}
+2160	Darbnīcas shēma
+2161	1 − attālums
+2162	Concepticon
+2163	datu kopas
+2164	datu kopa
+2165	ir vismaz vienā
+2166	Glottolog valoda
+2167	Glottolog valodas
+2168	garums
+2169	valoda
+2170	valodas
+2173	vienāds
+2175	nevienāds
+2176	nesatur tekstu
+2177	pirmā sazarošanās
+2178	platums
+2179	rekonstruēta
+2180	segmenti
+2181	semantiskie lauki
+2182	semantiskais lauks
+2184	tikai abos esošās
+2185	vienība
+2186	visas A vienības
+2187	Attālumi
+2188	Koks
+2189	katras vienības skaitliskie rādītāji
+2190	Spektrs
+2191	Tīrība {0}: daļa grupu jaukta.
+2192	Tīrība {0}: grupas gandrīz nejaucas.
+2193	Apvienot vienā indeksā nav pamatoti
+2194	Apvienot vienā indeksā ir pamatoti
+2195	Korelācijas gandrīz nav (ρ = {0})
+2196	Pirmā galvenā komponente izskaidro {0} ({1} vienības ar visiem rādītājiem).
+2197	Rādītāji tajā ieiet dažādos virzienos.
+2198	Rādītājs
+2199	Visi rādītāji tajā ieiet vienā virzienā.
+2200	{0} grupas (pēc īpašvērtību spraugas būtu {1}).
+2201	{0} grupas – pēc īpašvērtību spraugas.
+2202	{0} dažādas skaņas: BIPA {1}, cita CLTS sistēma {2}, aptuveni {3}, neatpazītas {4}.
+2203	ARI
+2204	gandrīz nekāda
+2205	gandrīz nesakrīt
+2206	gandrīz sakrīt
+2207	lielā mērā sakrīt
+2208	tīrība
+2209	ļoti stipra
+2210	Leksiskā līdzība un ģeogrāfija
+2211	Mantela p
+2212	vāja
+2213	siluets
+2214	Spīrmena ρ
+2215	stipra
+2216	Polisēmija DatSemShift
+2217	Polisēmija IE-CoR
+2219	Lejupielādēt {0}
+2220	Bibliogrāfija
+2221	Bibliogrāfija: SODAS un šajā dārzā izmantotās datu kopas (BibTeX, RIS, …)
+2222	CSL-JSON (Zotero, Mendeley, Pandoc)
+2223	Datu kopas vēl nav izmantotas – dots tikai SODAS ieraksts.
+2225	melnraksts ir pārāk liels
+2226	Kāda atsūtīts dārzs (JSON fails) kļūs par jūsu jaunu dārzu
+2227	Kāda atsūtīts dārzs kļūs par jūsu jaunu dārzu
+2228	Kopēt
+2229	Izmantotie dati:
+2231	Nederīgs fails: {0}
+2232	nezināms formāts: {0}
+2233	nezināms melnraksts
+2237	RIS (EndNote, Zotero, Mendeley)
+2238	Dārzs lejupielādēts – failu varat nosūtīt citam dārzniekam
+2239	SODAS un šajā pētījumā izmantotās datu kopas: BibTeX, RIS, CSL-JSON, teksts
+2240	SODAS ieraksts pagaidām ir provizorisks: DOI un programmas repozitorijs vēl tiek gatavoti.
+2242	Dārza bibliogrāfija: SODAS un tajā izmantotās datu kopas
+2243	Dārza fails ir bojāts: mezgliem un saitēm jābūt sarakstiem.
+2244	Dārza failā nav mezglu.
+2246	Dārza „{0}“ bibliogrāfija
+2248	tas nav Sodas fails (gaidīts „sodo-byla/1“)
+2249	Teksts (APA)
+2250	Pētījuma „{0}“ bibliogrāfija
+2254	Augšupielādēts dārzs
+2255	Augšupielādēts dārzs „{0}“ ({1} mezgli)
+2256	augšupielādēts dārzs „{0}“ ({1} mezgli)
+2257	Šis dārzs saglabāts, pirms sāka sekot izmantotajiem datiem – saraksts veidots pēc tajā tagad esošajiem mezgliem.
+2258	Šis pētījums veikts, pirms sāka sekot izmantotajiem datiem – saraksts veidots pēc tā groza un pētījuma veida.
+2259	Šo dārzu ar tā mezgliem, saitēm un izmantoto datu sarakstu – failā, ko varat kādam nosūtīt
+2260	⬆ Augšupielādēt dārzu no faila…
+2261	⬇ Lejupielādēt šo dārzu (JSON)
+2262	⬇ Fails
+2263	📚 Bibliogrāfija
+2266	Neo4j izveidoti meklēšanas indeksi: {0}
+2267	Lapa strādā…
+2268	, dārzā paslēpti {0} mezgli
+2269	Datu kopa
+2271	izslēgtas datu kopas: {0}{1}
+2272	Izslēgt visas
+2274	Neo4j nav sasniedzama – datu kopu saraksta nav.
+2275	Ieslēgta
+2276	Ieslēgt visas
+2277	Mezgli šajā dārzā
+2278	⚙ → Datu kopas
+2279	; parādīti pirmie {0} no {1}
+2281	Ctrl+🗺
+2282	Ctrl+🗺 – arī neielādētie
+2283	Izslēgt karti un atgriezt dārzu
+2285	mezgli
+2286	Mezglu saraksts
+2287	nav kūlis
+2288	nederīgs kūlis
+2289	nederīgs kūļa avots
+2290	nederīgs avots
+2291	node.multi, node.bundle
+2292	Nevienam no šiem mezgliem nav platuma un garuma
+2293	pārāk dziļš kūlis
+2294	Kūlis no
+2295	Kūļa mezgli dārzā nav ielādēti, tāpēc tas paliek viegls. Izvēršot rāda visu to kaimiņus (no šī mezgla); kartē – visus tā mezglus (Sense – to leksēmas), tuvinot – tā apgabala.
+2296	Rādīt vēl ({0} no {1})
+2298	Gatavo karti…
+2299	Saites
+2300	tik daudz vai vairāk viena nosaukuma kaimiņu rāda kā vienu mezglu “nosaukums ×N”, tos neielādējot (virs 1000 – vienmēr)
+2301	visi atlasītā apvienotā mezgla (×N) mezgli kartē (Sense – to leksēmas); tuvinot rāda tā apgabala mezglus
+2302	Visi kartē
+2303	{0} {1} mezgli ar to pašu nosaukumu{2}
+2304	{0}: rāda {1} no {2} šajā apgabalā (kopā {3}) – tuviniet, lai redzētu citus
+2305	{0}: dārzā {1} mezgli
+2306	{0}: ielādēts dārzā
+2307	{0}: šajā apgabalā {1} no {2}
+2309	Ielādēt šo mezglu dārzā
+2310	Šie mezgli nav atrasti
+2311	Kartes skatā mezglus neizvērš – atgriezieties dārzā (🗺)
+2312	📍 Visi kartē
+2313	Drosmīgi apvienoti mezgli: {0}; tas pats nosaukums un valoda
+2314	Drosmīgi apvienot mezglus
+2315	Mezglu apvienošana
+2316	vienāda nosaukuma un tās pašas valodas formas un leksēmas (Form, Lexeme) no visām datu kopām tiek rādītas kā viens mezgls
+2317	{0} mezgli apvienoti “{1}” – tikai šajā dārzā
+2318	Apvienot atzīmētos
+2319	Apvienoti {0} mezgli: tas pats nosaukums un valoda – noklikšķiniet
+2320	Apvienot {0} mezglus
+2321	Ctrl + 🗺: atzīmējiet Sense mezglu (visas tā jēdziena formas) vai apvienotu mezglu (×N) – visi tā mezgli tiks parādīti kartē
+2322	Labi
+2323	Lemmas kartē
+2324	lemmu
+2325	Formas kartē
+2326	formu
+2327	nezināms kartes veids: {0}
+2328	Nosaukumi atšķiras. Kuru rādīt? Apvienotais mezgls pieder tikai šim dārzam – datubāzē nekas netiek mainīts.
+2329	Atzīmējiet vismaz divus mezglus (Shift + klikšķis), ko apvienot
+2330	Pārdēvēt
+2331	Pārdēvēt apvienoto mezglu
+2332	{0} mezgli apvienoti ar roku (tikai šajā dārzā) – noklikšķiniet
+2333	{0} mezgli apvienoti ar roku – tikai šajā dārzā
+2334	Rādīt karti (atzīmētais vai pirmais mezgls ar koordinātām). Atzīmēts Sense – tā lemmas, Concept – visas jēdziena lemmas, kognātu kopa – tās formas. Ctrl – visas atzīmētā Sense jēdziena formas, visi apvienotā mezgla (×N) mezgli
+2335	savs nosaukums:
+2336	tikai šajā dārzā
+2337	Visas jēdziena formas kartē
+2338	visas jēdziena formas – {0}
+2339	{0} vienāda nosaukuma mezgli – noklikšķiniet
+2340	{0}: kartē {1}{2}{3}. Pietuviniet, lai redzētu apgabala mezglus. Dārzs uz laiku paslēpts: 🗺 – atpakaļ.
+2341	Šī jēdziena formas nav atrastas
+2342	Šai kognātu kopai nav formu
+2343	Šim Sense nav ne lemmu, ne formu
+2344	Šos mezglus nevar apvienot
+2345	kartei vajag viena veida mezglus
+2346	Otrais panelis
+2347	blāvs teksts
+2348	Blāvs teksts
+2349	Blāvs teksts uz paneļa
+2350	Fons
+2351	Atgriezt aprēķināto krāsu
+2352	Atgriezt visas aprēķinātās krāsas
+2353	cik atšķiras fons, paneļi, birkas un līnijas (50 – kā iepriekš)
+2354	Cits
+2355	Kļūda
+2356	Kontrasts
+2357	Kontrasta pārbaude
+2358	Līnijas uz paneļa
+2359	Līnijas, rāmji
+2360	Poga
+2361	Mainīt krāsu
+2362	Izcēlums uz paneļa
+2363	Izcēluma fons
+2364	izcēluma fons
+2365	Izcēluma fons uz paneļa
+2366	Paraugs
+2367	Pārāk līdzīgām krāsām palieliniet “Kontrasts”, mainiet saskarnes gaišumu vai izvēlieties šo krāsu ar roku.
+2368	pārāk līdzīgas (vajag ≥ {0})
+2369	Saites uz dārza fona
+2370	Panelis
+2371	Panelis un fons
+2372	Dārza fons
+2373	Krāsas pa vienai
+2374	Noklikšķiniet uz krāsas, lai to mainītu ar roku; ar roku izvēlēta krāsa vairs neseko slīdņiem (× – atgriezt). {0}
+2375	Teksts uz fona
+2376	Teksts uz izcēluma
+2377	Teksts uz izcēluma fona
+2378	Teksts uz paneļa
+2379	Brīdinājums
+2380	birka
+2381	Birka uz paneļa
+2382	Birka, pogu grupa
+2383	⚠ brīdinājums
+2384	✓ labi
+2385	✕ kļūda
+2386	Par Sodas
+2387	vide valodas datu pētīšanai. Daudzu datu kopu (Glottolog, Concepticon, IE-CoR, Lexibank, WOLD, CLICS, LKEŽDB u. c.) valodas, vārdi, to nozīmes, jēdzieni un radniecīgi vārdi apvienoti vienā grafā, kurā pētnieks meklē, salīdzina un redz saites.
+2388	Neizdevās iegūt citēšanas datus.
+2389	datu kopas: to ielāde un pārvaldība, LKEŽDB vārdu skaidrošana.
+2390	Iestāde
+2391	Kā citēt
+2392	Citi formāti…
+2393	Kontakti vēl nav ierakstīti.
+2394	Programmas kods
+2395	Sazināties
+2396	Tīmekļa vietne
+2397	pētījumi ar dārza mezgliem: skaņu atbilsmes, valodu koki, darbnīca savu pētījumu salikšanai.
+2398	pētnieka dārzs: mezglu un saišu grafs, kas aug, izvēršot vārdus, nozīmes un jēdzienus; identiski mezgli tiek apvienoti, tos var rādīt kartē.
+2399	Vārds, uzvārds
+2400	Versija {0}
+2401	Zīme
+2404	Jēdziena lemmas kartē
+2405	Šī jēdziena lemmas nav atrastas
+2406	Lejupielādēt
+2407	Lejupielādēt dārzu: SVG, PNG vai JSON
+2408	Saglabāt kā PNG
+2409	Mezglu nosaukumi
+2410	attēls – priekšlasījumiem un slaidiem
+2411	attēls par lielu
+2412	PNG neizdevās: {0}
+2413	Skats
+2414	Skats: mezglu un saišu uzraksti, dārzā esošie mezglu un saišu tipi (neatzīmētie ir paslēpti)
+2415	Gatavo PNG…
+2416	Saišu nosaukumi
+2417	dārza dati – atkal ielādējami “Pārvaldīt dārzus”
+2418	Ar karti – redzamais skats
+2419	SVG neizdevās uzzīmēt
+2420	Uzraksti
+2421	vektorattēls – var palielināt, labot Inkscape
+2422	{0} saites paslēptas (atgriež 👁 “Skats”)
+2423	{0}: paslēpti {1} mezgli ar to saitēm (atgriež 👁 “Skats”)
+2424	Bez bibliogrāfijas dārzu lejupielādēt nevar – mēģiniet vēlreiz
+2425	Katrā failā ir visa bibliogrāfija: SVG un PNG – zem dārza un metadatos, JSON – laukā “bibliografija”.
+2426	Dārzs bez nosaukuma
+2427	“{0}” – Sodas, {1}. Avoti, kas obligāti jācitē:
+2430	ap. 2 min.; Esc – pārtraukt
+2431	atlikta
+2432	Lejupielāde
+2433	Beigt
+2434	Beigt nodarbību (Esc)
+2435	Labā poga uz mezgla – visas tā darbības (izvērst, sakļaut, karte, grozs…). Vidējā poga – mezgla panelis. Shift + klikšķis – atzīmēt vairākus mezglus: atzīmētos var apvienot vai savienot ar saiti.
+2436	Jūsu dārzi
+2437	Kad dārzā ir mezgli ar vietu (valodas, vārdi), joslā parādās 🗺: mezgli pārceļas uz savām vietām kartē. Ja atzīmēts jēdziens vai nozīme (Sense), kartē redzami visi to vārdi.
+2438	Citas daļas
+2439	Mezgli ir vārdi, nozīmes, valodas, jēdzieni; līnijas – saites starp tiem. Dubultklikšķis izvērš mezglu: parādās tā kaimiņi. Ar ritentiņu dārzu tuvina, velkot – pārvieto.
+2440	Mezgla apraksts
+2441	Ne tagad
+2442	Meklēšana
+2443	Nodarbība
+2444	Nodarbība vienmēr pa rokai
+2445	Nodarbību jebkurā brīdī atradīsiet, noklikšķinot uz zīmes SODAS.
+2446	Izdari to manā vietā
+2448	Šeit redzamas atzīmētā mezgla īpašības, saites datubāzē un avota ieraksts. Karodziņš pie mezgla ir tā valoda, zīme ⧉ – apvienoti mezgli.
+2449	Pele dārzā
+2450	Pirmo reizi Sodas?
+2451	Iestādīsim pirmo vārdu. Meklēšanas laukā ierakstiet, piem., saulė un parādītajā sarakstā noklikšķiniet uz pirmā rezultāta – tas parādīsies dārzā. Var meklēt arī valodas, jēdzienus vai radniecīgu vārdu kopas.
+2452	Sākt nodarbību
+2453	Sākt dārza nodarbību
+2455	saule
+2456	Dārza nosaukums un citi jūsu dārzi; ＋ – jauns dārzs. Katrs dārzs ir atsevišķs pētījums.
+2457	Dārzu var lejupielādēt kā SVG, PNG vai JSON. Katram failam pievieno izmantoto datu un paša Sodas bibliogrāfiskos ierakstus. 📚 – tie paši ieraksti atsevišķi.
+2458	Noklikšķiniet uz zīmes SODAS, lai uzzinātu par vidi, kā to citēt, un atkārtotu šo nodarbību. Veiksmīgu dārzkopību!
+2459	Laipni lūdzam Sodas!
+2461	Tālāk
+2462	Īsa nodarbība parādīs, kā meklēt vārdus, audzēt savu dārzu un to pētīt (ap. 2 min.).
+2463	Šeit jūs audzējat savu pētījuma dārzu – valodu, vārdu, to nozīmju un jēdzienu grafu no daudzām datu kopām. Nodarbība ilgst apmēram divas minūtes. To var jebkurā brīdī pārtraukt (Esc) un atkārtot, noklikšķinot uz zīmes SODAS.
+2464	Šīs lapas nodarbība tiek gatavota. Dārza nodarbība ir dārzā – noklikšķiniet tur uz zīmes SODAS.
+2466	👁 – mezglu un saišu nosaukumi un dārzā esošie tipi: noņemot ķeksīti, tips tiek paslēpts un dārzs kļūst skaidrāks.
+2467	🗺 parādās, kad dārzā ir mezgli ar vietu: tie pārceļas uz savām vietām kartē. Ja atzīmēts jēdziens vai nozīme (Sense), kartē redzami visi to vārdi.
+2468	🧺 – pētījuma grozs: šeit ieliktie mezgli ir tie, ar kuriem vēlāk strādā Vaivas pētījumi (piem., skaņu atbilsmes, valodu koki).
+2469	Atpakaļ pie skaidrojamās daļas
+2470	Velciet, lai pārvietotu
+2471	; vērtība – mērķa nosaukums. Atļauts tikai ceļa apraksts, vaicājums tiek izpildīts tikai lasīšanai.
+2472	vēl nav lejupielādēts
+2485	izveidota saite {0}: {1} → {2}
+2492	{0} · {1} · ~{2} MB
+2493	avots ↗
+2494	⭳ Lejupielādēt
+2495	⭳ Lejupielādēt visas trūkstošās
+2496	Nav lejupielādētas datu kopas: {0} (~{1} MB). Datu kopas netiek piegādātas kopā ar programmu – lejupielādējiet tās (vajadzīgs internets), tad atlasiet un importējiet Neo4j. Katrai datu kopai ir sava licence: lielākā daļa CC BY 4.0, D-PLACE un NoRaRe – CC BY-NC 4.0 (nekomerciālai lietošanai).
+2497	Neo4j parole nav norādīta (neo4j.yaml vai KALBA_NEO4J_PASSWORD)
+2498	Lejupielādēt dārzu kā failu (JSON), ko cits dārznieks varēs augšupielādēt savā Sodas
+2499	CUSTOM: paša nosaukta saite
+2500	Datu kopu var uz laiku izslēgt, piem., ja darbam nav vajadzīgas smagās datu kopas. Izslēgtas datu kopas mezgli netiek meklēti, izvērsti, rādīti ceļos un kartē, bet dārzā esošie tiek paslēpti (ne izņemti). Ieslēdzot atkal, tie uzreiz atgriežas. No Neo4j nekas netiek dzēsts un no jauna importēts: tas ir tikai slēdzis.
+2501	Dzēst saiti “{0}” no datubāzes?
+2502	Valoda un iestatījumi
+2503	Uz laiku izslēgt datu kopas
+2504	uzzīmēta dārzā · {0}
+2505	uzzīmēta {0}
+2506	Programmas kļūdas un brīdinājumi (arī pārlūkā notikušās kļūdas).
+2507	Saites, ko uzzīmējāt dārzā (atlasiet divus mezglus un nospiediet Ctrl+J). Tās ierakstītas Neo4j (datu kopa “Papildymai”) un rādītas kā visas citas saites – izvēršot mezglu, ceļu meklēšanā.
+2508	Saite tiek ierakstīta Neo4j (datu kopa “Papildymai”); to saraksts – ⚙ → Manas saites.
+2509	paša nosaukta saite (tips CUSTOM)
+2510	Dārzi saglabājas paši. Burti – saskarnes valoda; ⚙ – iestatījumi: tēma, krāsas, mezglu izskats, datu kopas, dārzu pārvaldība.
+2512	Dārzā uzzīmētās saites (Ctrl+J)
+2513	Dārza failā – tā mezgli, saites, skats un izmantoto datu kopu saraksts (bibliogrāfijai).
+2514	ar šo uzrakstu – dārzā redzēsiet to tipa vietā.
+2515	Izveidota saite “{0}”
+2516	izveidot saiti starp diviem atlasītiem mezgliem (ierakstās Neo4j, datu kopa “Papildymai”)
+2517	Visi iestatījumi (tēma, krāsas, attēli, robežas) tiek atjaunoti uz tiem, ar kuriem programma tiek piegādāta; izslēgtās datu kopas paliek izslēgtas.
+2518	Žemė – datu kopas, no kurām aug dārzi; Vaiva – pētījumi ar groza mezgliem.

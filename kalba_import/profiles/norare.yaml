@@ -1,0 +1,17 @@
+contract: kalba-neo4j/1.1
+dataset_id: norare
+path_name: norare-data
+title: NoRaRe
+profile_version: 0.1.0
+verified: true
+input:
+  kind: csvw
+  metadata_glob: datasets/**/*.tsv-metadata.json
+  require_metadata: true
+  extra_files:
+    - norare.tsv
+    - references/references.bib
+requires:
+  authorities: [concepticon]
+semantics:
+  table_intent: "Ratings and norm measurements, preserving measure columns separately."

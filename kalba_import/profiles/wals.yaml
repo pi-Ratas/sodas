@@ -1,0 +1,14 @@
+contract: kalba-neo4j/1.1
+dataset_id: wals
+path_name: wals
+title: WALS
+profile_version: 0.1.0
+verified: true
+input:
+  kind: cldf
+  metadata_glob: cldf/StructureDataset-metadata.json
+  require_exactly_one_metadata: true
+requires:
+  authorities: [glottolog]
+semantics:
+  table_intent: "StructureDataset features and values; WALS feature IDs are namespace-local."

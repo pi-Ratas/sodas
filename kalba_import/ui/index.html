@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<script src="/sodas/i18n.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sodas · Duomenynai</title>
+<link rel="icon" type="image/svg+xml" href="/sodas/ikonos/zenkliukas.svg">
+<link rel="stylesheet" href="/sodas/theme.css">
+<script src="/sodas/theme.js"></script>
+<script src="/cytoscape.min.js"></script>
+<style>
+:root{
+  --bg:#f6f5f2; --panel:#fff; --ink:#1d1d1b; --muted:#6b6a66; --line:#e3e1dc; --accent:#2f5d8a;
+  --ok:#2e7d4f; --warn:#b26a00; --err:#b3261e; --info:#4a6fa5; --chip:#efede8;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size:var(--fs,14px); color:var(--ink);
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);height:100vh;display:flex;flex-direction:column}
+header{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+header h1{font-size:16px;margin:0 12px 0 0;font-weight:650}
+.pill{padding:3px 10px;border-radius:99px;background:var(--chip);font-size:12px;color:var(--muted)}
+.pill.ok{background:#e5f2ea;color:var(--ok)} .pill.bad{background:#fbe9e7;color:var(--err)}
+.spacer{flex:1}
+button{color:var(--ink);font:inherit;border:1px solid var(--line);background:var(--panel);border-radius:6px;padding:6px 12px;cursor:pointer}
+button:hover{border-color:#bdbab3}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+button.danger{background:#fff;border-color:#e0b4b0;color:var(--err)}
+button.danger.solid{background:var(--err);color:#fff;border-color:var(--err)}
+button:disabled{opacity:.45;cursor:not-allowed}
+main{flex:1;display:grid;grid-template-columns:330px 1fr;min-height:0}
+aside{border-right:1px solid var(--line);background:var(--panel);display:flex;flex-direction:column;min-height:0}
+.dslist{overflow:auto;flex:1}
+.ds{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;padding:9px 14px;border-bottom:1px solid var(--line);cursor:pointer}
+.ds:hover{background:var(--chip)} .ds.active{background:var(--accent-soft,#eef3f8)}
+.ds .t{font-weight:600} .ds .meta{grid-column:2;display:flex;gap:6px;flex-wrap:wrap;font-size:11px;color:var(--muted)}
+.tag{padding:1px 7px;border-radius:99px;background:var(--chip)}
+.tag.ok{background:#e5f2ea;color:var(--ok)} .tag.bad{background:#fbe9e7;color:var(--err)} .tag.warn{background:#fdf0dc;color:var(--warn)}
+.dlbox{padding:10px 14px 0} button.small{padding:1px 8px;font-size:11px}
+.selbox{padding:12px 14px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+.warnbox{font-size:12px;background:#fdf0dc;color:#6d4300;padding:8px 10px;border-radius:6px}
+.joblog{font:12px ui-monospace,monospace;background:#1f1f1d;color:#e8e6e1;padding:8px;border-radius:6px;max-height:180px;overflow:auto;white-space:pre-wrap}
+section.work{display:flex;flex-direction:column;min-width:0;min-height:0}
+.toolbar{display:flex;gap:8px;align-items:center;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--panel);flex-wrap:wrap}
+.toolbar h2{margin:0 10px 0 0;font-size:15px}
+input[type=text],select{font:inherit;padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink)}
+.tabs{display:flex;gap:2px;padding:0 16px;background:var(--panel);border-bottom:1px solid var(--line)}
+.tab{padding:8px 12px;cursor:pointer;border-bottom:2px solid transparent;color:var(--muted)}
+.tab.active{color:var(--ink);border-bottom-color:var(--accent)}
+.tab .n{font-size:11px;margin-left:4px;padding:0 6px;border-radius:99px;background:var(--chip)}
+.tab .n.err{background:#fbe9e7;color:var(--err)}
+.pane{flex:1;min-height:0;overflow:auto;padding:16px}
+.pane.graph{padding:0;display:grid;grid-template-columns:1fr 340px}
+#cy{width:100%;height:100%;min-height:400px;background:var(--graph-bg,#fbfaf8)}
+.detail{border-left:1px solid var(--line);background:var(--panel);overflow:auto;padding:12px;font-size:12px}
+.detail h3{margin:0 0 4px;font-size:14px}
+.legend{position:absolute;left:10px;top:10px;display:flex;flex-wrap:wrap;gap:5px;max-width:70%;z-index:5}
+.legend .chip{font-size:11px;padding:2px 8px;border-radius:99px;background:#fff;border:1px solid var(--line);cursor:pointer;display:flex;gap:5px;align-items:center}
+.legend .chip.off{opacity:.35}
+.dot{width:9px;height:9px;border-radius:50%}
+table{border-collapse:collapse;width:100%}
+td,th{border-bottom:1px solid var(--line);padding:5px 6px;text-align:left;vertical-align:top}
+th{font-weight:600;color:var(--muted);font-size:12px}
+td.k{color:var(--muted);white-space:nowrap}
+td.v{word-break:break-word}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin-bottom:12px}
+.card h4{margin:0 0 6px;font-size:14px}
+.sev{font-size:11px;font-weight:600;padding:1px 7px;border-radius:99px}
+.sev.error{background:#fbe9e7;color:var(--err)} .sev.warning{background:#fdf0dc;color:var(--warn)} .sev.info{background:#e8eef7;color:var(--info)}
+.muted{color:var(--muted)} .mono{font-family:ui-monospace,monospace;font-size:12px}
+.empty{color:var(--muted);padding:40px;text-align:center}
+.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center;z-index:50}
+.modal{background:var(--panel);border-radius:10px;padding:20px;width:min(520px,92vw);display:flex;flex-direction:column;gap:12px}
+.modal h3{margin:0;color:var(--err)}
+.pattern{font-family:ui-monospace,monospace;font-size:12px}
+.spinner{display:inline-block;width:14px;height:14px;border:2px solid var(--line);border-top-color:var(--accent);border-radius:50%;animation:spin 1s linear infinite;vertical-align:middle}
+@keyframes spin{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+<script>
+  // inside the settings (section „Duomenynai“) the page is embedded: the shared header is already above it
+  if (new URLSearchParams(location.search).has("embed")) document.body.classList.add("embedded");
+</script>
+<style>body.embedded .kalba-brand, body.embedded .kalba-nav { display: none; } body.embedded { height: 100%; }</style>
+<header class="kalba-bar">
+  <span class="kalba-brand">Sodas</span>
+  <nav class="kalba-nav"><a href="/zeme" class="active">Žemė</a><a href="/">Sodas</a><a href="/vaiva">Vaiva</a></nav>
+  <span id="neo" class="pill">Neo4j: tikrinama…</span>
+  <span class="spacer"></span>
+  <button id="btnResolve" title="Susieti vietinius Languoid/Concept su Glottolog/Concepticon autoritetais per bendrus ExternalIdentifier">Susieti su autoritetais</button>
+  <button id="btnWipe" class="danger">Ištrinti visus Neo4j duomenis…</button>
+</header>
+<main>
+  <aside>
+    <div id="dlbox" class="dlbox"></div>
+    <div class="dslist" id="dslist"></div>
+    <div class="selbox">
+      <div id="depwarn"></div>
+      <button id="btnImport" class="primary" disabled>Importuoti pažymėtus</button>
+      <label class="muted" style="font-size:12px"><input type="checkbox" id="force"> importuoti iš naujo ir tuos, kurie jau įkelti į Neo4j</label>
+      <div class="muted" style="font-size:12px">Jau įkelti rinkiniai (tie patys failai ir profilis) praleidžiami; tikrinama per kelias sekundes.</div>
+      <div id="job"></div>
+    </div>
+  </aside>
+  <section class="work">
+    <div class="toolbar">
+      <h2 id="ptitle">Pasirinkite duomenyną kairėje</h2>
+      <input id="filter" type="text" placeholder="Filtras, pvz. Lithuanian" size="22">
+      <select id="sample"><option>10</option><option selected>25</option><option>50</option><option>100</option></select>
+      <button id="btnPreview">Rodyti imtį</button>
+      <label class="muted"><input type="checkbox" id="showTech"> techniniai įrašai (SourceRecord)</label>
+      <span id="pstatus" class="muted"></span>
+    </div>
+    <div class="tabs" id="tabs">
+      <div class="tab active" data-tab="graph">Grafas</div>
+      <div class="tab" data-tab="schema">Mazgai ir ryšiai</div>
+      <div class="tab" data-tab="deps">Priklausomybės<span class="n" id="nDeps">0</span></div>
+      <div class="tab" data-tab="quality">Kokybė<span class="n" id="nQual">0</span></div>
+      <div class="tab" data-tab="tables">Lentelės</div>
+    </div>
+    <div class="pane graph" id="pane-graph">
+      <div style="position:relative;min-height:0"><div class="legend" id="legend"></div><div id="cy"></div></div>
+      <div class="detail" id="detail"><p class="muted">Paspauskite mazgą arba ryšį, kad pamatytumėte visas jo savybes.</p><p class="muted">Dukart paspaudus mazgą, duomenyne surandami ir parodomi visi jo ryšiai (iki 150).</p></div>
+    </div>
+    <div class="pane" id="pane-schema" hidden></div>
+    <div class="pane" id="pane-deps" hidden></div>
+    <div class="pane" id="pane-quality" hidden></div>
+    <div class="pane" id="pane-tables" hidden></div>
+  </section>
+</main>
+
+<div class="modal-bg" id="wipeModal" hidden>
+  <div class="modal">
+    <h3>Ištrinti visus Neo4j duomenis</h3>
+    <div>Bus ištrinti <b>visi mazgai ir ryšiai</b>, <b>visi apribojimai</b> ir <b>visi indeksai</b> duomenų bazėje <span class="mono" id="wipeDb"></span>. Veiksmo atšaukti negalima.</div>
+    <div class="muted" id="wipeCounts"></div>
+    <label><input type="checkbox" id="wipeLookup"> taip pat ištrinti Neo4j vidinius LOOKUP indeksus (nerekomenduojama: be jų paieška pagal etiketę tampa labai lėta, juos teks atkurti ranka)</label>
+    <div>Patvirtinimui įveskite <b class="mono" id="wipeWord"></b>:</div>
+    <input type="text" id="wipeInput" autocomplete="off">
+    <div style="display:flex;gap:8px;justify-content:flex-end">
+      <button id="wipeCancel">Atšaukti</button>
+      <button id="wipeGo" class="danger solid" disabled>Ištrinti viską</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const COLORS = {Languoid:"#2f6f9f",Society:"#1f8a8a",Lexeme:"#8a5a2b",Form:"#c0762b",Sense:"#7a4fa0",Concept:"#b0417a",
+  CognateSet:"#3f8f4f",ProtoForm:"#6c9a2f",Feature:"#5a6b8c",FeatureValue:"#8898b8",BorrowingEvent:"#a0522d",
+  ExternalIdentifier:"#d4a017",SourceRecord:"#9e9b94"};
+let state = {datasets:[], neo4j:{}, job:null};
+let selected = new Set(JSON.parse(localStorage.getItem("kalba.selected") || "[]"));
+let current = null, preview = null, cy = null, hidden = new Set(), expanded = new Set();
+
+async function api(path, opts) {
+  const r = await fetch(path, opts);
+  const j = await r.json();
+  if (!r.ok) throw new Error(j.error || r.statusText);
+  return j;
+}
+const post = (path, body) => api(path, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(body||{})});
+
+async function loadState(fresh) {
+  state = await api("/api/state" + (fresh ? "?fresh=1" : ""));
+  renderHeader(); renderList(); renderSelection(); renderJob(state.job);
+}
+
+function renderHeader() {
+  const n = state.neo4j;
+  const el = $("#neo");
+  if (n.ok) { el.className = "pill ok"; el.textContent = `Neo4j ${n.database}: ${n.nodes.toLocaleString(LOCALE)} mazgų · ${n.datasets.length} duomenynai · ${n.constraints} apribojimai`; }
+  else { el.className = "pill bad"; el.textContent = "Neo4j nepasiekiamas"; el.title = n.error || ""; }
+  $("#btnResolve").disabled = !n.ok; $("#btnWipe").disabled = !n.ok;
+}
+
+function renderList() {
+  $("#dslist").innerHTML = state.datasets.map(d => `
+    <div class="ds ${current===d.id?"active":""}" data-id="${d.id}">
+      <input type="checkbox" data-check="${d.id}" ${selected.has(d.id)?"checked":""} ${d.exists?"":"disabled"}>
+      <div><span class="t">${d.order}. ${esc(d.title)}</span> <span class="muted mono">${d.id}</span></div>
+      <div class="meta">
+        ${d.in_neo4j ? '<span class="tag ok">jau Neo4j</span>' : ''}
+        ${d.exists ? '' : '<span class="tag bad">dar neatsisiųstas</span>'}
+        ${d.verified ? '' : '<span class="tag warn">profilis nepatvirtintas</span>'}
+        ${d.authorities.length ? `<span class="tag">remiasi: ${d.authorities.join(", ")}</span>` : '<span class="tag">autoritetas</span>'}
+        ${d.last_import && (d.in_neo4j || d.last_import !== "completed") ? `<span class="tag">paskutinis importas: ${esc(d.last_import)}</span>` : ''}
+        ${d.download ? `<span class="tag" title="${esc(d.download.repo)}">${esc(d.download.installed || d.download.version)} · ${esc(d.download.license)} · ~${d.download.size_mb} MB</span>
+          ${d.exists ? '' : `<button class="small" data-dl="${d.id}">⭳ Atsisiųsti</button>`}
+          <a href="${esc(d.download.page)}" target="_blank" rel="noopener" class="muted" onclick="event.stopPropagation()">šaltinis ↗</a>` : ''}
+      </div>
+    </div>`).join("");
+  document.querySelectorAll("[data-check]").forEach(cb => {
+    cb.onclick = e => e.stopPropagation();
+    cb.onchange = () => { cb.checked ? selected.add(cb.dataset.check) : selected.delete(cb.dataset.check);
+      localStorage.setItem("kalba.selected", JSON.stringify([...selected])); renderSelection(); if (preview) renderDeps(); };
+  });
+  document.querySelectorAll(".ds").forEach(row => row.onclick = () => openDataset(row.dataset.id));
+  document.querySelectorAll("[data-dl]").forEach(b => b.onclick = e => { e.stopPropagation(); startDownload([b.dataset.dl]); });
+  renderDownloads();
+}
+
+/** Datasets are not shipped with Sodas: each is downloaded here (a fixed, tested release from GitHub) and then imported. */
+function renderDownloads() {
+  const missing = state.datasets.filter(d => !d.exists && d.download);
+  const running = state.job && state.job.status === "running";
+  const mb = missing.reduce((a, d) => a + d.download.size_mb, 0);
+  $("#dlbox").innerHTML = missing.length ? `<div class="warnbox"><span>Neatsisiųsta duomenynų: ${missing.length} (~${mb} MB). Duomenynai su programa nepateikiami – atsisiųskite juos (reikia interneto), tada pažymėkite ir importuokite į Neo4j. Kiekvienas duomenynas turi savo licenciją: dauguma CC BY 4.0, D-PLACE ir NoRaRe – CC BY-NC 4.0 (ne komerciniam naudojimui).</span>
+      <div style="margin-top:6px"><button id="dlAll" class="primary" ${running ? "disabled" : ""}>⭳ Atsisiųsti visus trūkstamus</button></div></div>`
+    : "";
+  const all = $("#dlAll");
+  if (all) all.onclick = () => startDownload(missing.map(d => d.id));
+}
+async function startDownload(ids) {
+  try { renderJob(await post("/api/download", {datasets: ids})); pollJob(); }
+  catch (e) { alert(e.message); }
+}
+
+function missingAuthorities() {
+  const byId = Object.fromEntries(state.datasets.map(d => [d.id, d]));
+  const out = [];
+  for (const id of selected) for (const a of (byId[id]?.authorities || []))
+    if (!selected.has(a) && !byId[a]?.in_neo4j) out.push([id, a]);
+  return out;
+}
+
+function renderSelection() {
+  const running = state.job && state.job.status === "running";
+  const btn = $("#btnImport");
+  const order = state.datasets.filter(d => selected.has(d.id)).map(d => d.id);
+  btn.disabled = !order.length || running || !state.neo4j.ok;
+  btn.textContent = order.length ? `Importuoti pažymėtus (${order.length}): ${order.join(" → ")}` : "Importuoti pažymėtus";
+  const miss = missingAuthorities();
+  const need = [...new Set(miss.map(m => m[1]))];
+  $("#depwarn").innerHTML = miss.length ? `<div class="warnbox">Trūksta autoritetų, kurių nėra nei Neo4j, nei pažymėtų:<br>
+     ${miss.map(([d,a]) => `<b>${d}</b> → ${a}`).join("<br>")}<br>
+     Be jų vietiniai mazgai liks be papildomų duomenų (ExternalIdentifier „pending“).
+     <div style="margin-top:6px"><button id="addMissing">Pažymėti ${need.join(", ")}</button></div></div>` : "";
+  const add = $("#addMissing");
+  if (add) add.onclick = () => { need.forEach(a => selected.add(a)); localStorage.setItem("kalba.selected", JSON.stringify([...selected])); renderList(); renderSelection(); };
+}
+
+function renderJob(job) {
+  if (!job) { $("#job").innerHTML = ""; return; }
+  const title = {import:"Importas", wipe:"Trynimas", resolve:"Susiejimas", download:"Atsisiuntimas"}[job.kind] || job.kind;
+  const st = job.status === "running" ? '<span class="spinner"></span> vykdoma' : (job.status === "ok" ? '<span class="tag ok">baigta</span>' : '<span class="tag bad">nepavyko</span>');
+  let extra = "";
+  if (job.status !== "running" && job.result && job.result.log && job.result.log.error) extra = `<div class="warnbox">${esc(job.result.log.error)}</div>`;
+  if (job.status !== "running" && job.result && job.result.status === "blocked" && job.result.preflight) extra = `<div class="warnbox">${job.result.preflight.errors.map(esc).join("<br>")}</div>`;
+  $("#job").innerHTML = `<div><b>${title}</b> ${esc((job.detail.datasets||[]).join(", "))} — ${st}</div>${extra}<div class="joblog" id="joblog">${esc(job.lines.join("\n"))}</div>`;
+  const lg = $("#joblog"); lg.scrollTop = lg.scrollHeight;
+}
+
+/** Ticks taken off (after an import that went through): the list no longer looks as if they still waited. */
+function unselect(ids) {
+  let changed = false;
+  for (const id of ids) changed = selected.delete(id) || changed;
+  if (!changed) return;
+  localStorage.setItem("kalba.selected", JSON.stringify([...selected]));
+  renderList(); renderSelection(); if (preview) renderDeps();
+}
+let polling = null;
+function pollJob() {
+  if (polling) return;
+  polling = setInterval(async () => {
+    const job = await api("/api/job");
+    renderJob(job);
+    if (!job || job.status !== "running") {
+      clearInterval(polling); polling = null; await loadState(true);
+      // an import that went through takes its ticks (and "import again") off; a failed one keeps them for another try
+      if (job && job.kind === "import" && job.status === "ok") { $("#force").checked = false; unselect(job.detail.datasets || []); }
+    }
+  }, 1500);
+}
+
+async function openDataset(id) {
+  current = id; renderList();
+  history.replaceState(null, "", "#" + id + ($("#filter").value ? "/" + encodeURIComponent($("#filter").value) : ""));
+  const d = state.datasets.find(x => x.id === id);
+  $("#ptitle").textContent = `${d.title}`;
+  await loadPreview();
+}
+
+async function loadPreview() {
+  if (!current) return;
+  $("#pstatus").innerHTML = '<span class="spinner"></span> skaitoma imtis…';
+  const q = new URLSearchParams({dataset: current, n: $("#sample").value, filter: $("#filter").value, selected: [...selected].join(",")});
+  try {
+    preview = await api("/api/preview?" + q);
+    $("#pstatus").textContent = `${preview.nodes.filter(n=>!n.technical).length} mazgų, ${preview.edges.filter(e=>!e.technical).length} ryšių imtyje`;
+    hidden = new Set(["SourceRecord"]); expanded = new Set();
+    renderGraph(); renderSchema(); renderDeps(); renderQuality(); renderTables();
+  } catch (e) { $("#pstatus").textContent = "Klaida: " + e.message; }
+}
+
+function renderGraph(focusId) {
+  const showTech = $("#showTech").checked;
+  const nodes = preview.nodes.filter(n => (showTech || !n.technical));
+  const counts = {};
+  nodes.forEach(n => counts[n.label] = (counts[n.label]||0)+1);
+  $("#legend").innerHTML = Object.entries(counts).map(([l,c]) =>
+    `<span class="chip ${hidden.has(l)&&!(l==="SourceRecord"&&showTech)?"off":""}" data-label="${l}"><span class="dot" style="background:${COLORS[l]||"#999"}"></span>${l} ${c}</span>`).join("");
+  document.querySelectorAll(".legend .chip").forEach(ch => ch.onclick = () => {
+    const l = ch.dataset.label; hidden.has(l) ? hidden.delete(l) : hidden.add(l);
+    if (l === "SourceRecord") $("#showTech").checked = !hidden.has(l);
+    renderGraph();
+  });
+  if (showTech) hidden.delete("SourceRecord");
+  const visible = new Set(nodes.filter(n => !hidden.has(n.label)).map(n => n.id));
+  const els = [];
+  for (const n of nodes) if (visible.has(n.id)) {
+    let caption = n.display_name || n.caption || "(nėra display_name)";
+    if (n.label === "ExternalIdentifier") caption = `${n.props.scheme?.split(":")[0]}: ${n.props.value}`;
+    const needs = n.needs && !(selected.has(n.needs) || state.datasets.find(d=>d.id===n.needs)?.in_neo4j);
+    els.push({data:{id:n.id, caption: caption.length>40 ? caption.slice(0,39)+"…" : caption, label:n.label,
+      color: COLORS[n.label]||"#999"}, classes:[n.missing?"missing":"", n.outside_sample?"outside":"", expanded.has(n.id)?"expanded":"", n.technical?"tech":"", n.label==="ExternalIdentifier"?"eid":"", needs?"needs":""].join(" ")});
+  }
+  preview.edges.forEach((e,i) => { if (visible.has(e.source) && visible.has(e.target) && (showTech || !e.technical))
+    els.push({data:{id:"e"+i, source:e.source, target:e.target, type:e.type, idx:i}, classes: e.technical?"tech":""}); });
+  const oldPos = {};
+  if (cy) { cy.nodes().forEach(n => oldPos[n.id()] = {...n.position()}); cy.destroy(); }
+  const anchor = focusId && oldPos[focusId];
+  const keep = Boolean(anchor);
+  if (keep) for (const el of els) if (!el.data.source) {
+    el.position = oldPos[el.data.id] || {x: anchor.x + (Math.random() - .5) * 160, y: anchor.y + (Math.random() - .5) * 160};
+  }
+  cy = cytoscape({container: $("#cy"), elements: els, wheelSensitivity: 0.3,
+    style: [
+      {selector:"node", style:{"background-color":"data(color)", label:"data(caption)", "font-size":10, "text-valign":"bottom",
+        "text-margin-y":3, width:22, height:22, color:"#222", "text-background-color":"#fbfaf8", "text-background-opacity":.8, "text-background-padding":1}},
+      {selector:"node.eid", style:{shape:"diamond", width:18, height:18}},
+      {selector:"node.needs", style:{"border-width":3, "border-color":"#b3261e"}},
+      {selector:"node.missing", style:{"background-opacity":.15, "border-width":1.5, "border-style":"dashed", "border-color":"data(color)"}},
+      {selector:"node.outside", style:{"border-width":1.5, "border-color":"#9e9b94", "border-style":"dotted"}},
+      {selector:"node.expanded", style:{"border-width":3, "border-color":"#2f5d8a", width:28, height:28}},
+      {selector:"node.tech", style:{shape:"round-rectangle", width:14, height:14, "font-size":8, color:"#888"}},
+      {selector:"edge", style:{width:1.3, "line-color":"#b9b5ad", "target-arrow-color":"#b9b5ad", "target-arrow-shape":"triangle",
+        "curve-style":"bezier", label:"data(type)", "font-size":8, color:"#777", "text-rotation":"autorotate", "text-background-color":"#fbfaf8", "text-background-opacity":.8}},
+      {selector:"edge.tech", style:{"line-style":"dotted", label:"", "line-color":"#d6d3cc"}},
+      {selector:":selected", style:{"border-width":3, "border-color":"#1d1d1b", "line-color":"#2f5d8a", "target-arrow-color":"#2f5d8a"}}],
+    layout: keep ? {name:"cose", randomize:false, animate:false, nodeRepulsion: 9000, idealEdgeLength: 70, padding: 30, fit: false}
+                 : {name: visible.size > 700 ? "grid" : "cose", animate:false, nodeRepulsion: 9000, idealEdgeLength: 70, padding: 30}});
+  if (keep) cy.center(cy.getElementById(focusId));
+  cy.on("dbltap", "node", ev => expandNode(ev.target.id()));
+  cy.on("tap", "node", ev => showNode(preview.nodes.find(n => n.id === ev.target.id())));
+  cy.on("tap", "edge", ev => showEdge(preview.edges[ev.target.data("idx")]));
+}
+
+async function expandNode(id) {
+  const n = preview.nodes.find(x => x.id === id);
+  if (!n || n.technical) return;
+  const name = n.display_name || n.caption || id;
+  $("#pstatus").innerHTML = `<span class="spinner"></span> ieškomi visi „${esc(name)}“ ryšiai…`;
+  try {
+    const r = await api("/api/expand?" + new URLSearchParams({dataset: current, key: id}));
+    const byId = new Map(preview.nodes.map((x, i) => [x.id, i]));
+    let added = 0;
+    for (const x of r.nodes) {
+      if (!byId.has(x.id)) { byId.set(x.id, preview.nodes.length); preview.nodes.push(x); added++; }
+      else if (preview.nodes[byId.get(x.id)].missing && !x.missing) preview.nodes[byId.get(x.id)] = x;
+    }
+    const edgeIds = new Set(preview.edges.map(e => e.id));
+    for (const e of r.edges) if (!edgeIds.has(e.id)) { edgeIds.add(e.id); preview.edges.push(e); }
+    expanded.add(id);
+    renderGraph(id);
+    $("#pstatus").textContent = `„${name}“: ${r.relationships} ryšių duomenyne${r.truncated ? ` (rodomi pirmi ${r.limit})` : ""}, pridėta ${added} mazgų`;
+    showNode(preview.nodes[byId.get(id)]);
+  } catch (e) { $("#pstatus").textContent = "Klaida: " + e.message; }
+}
+
+function propTable(props) {
+  return `<table>${Object.entries(props).filter(([k]) => !k.startsWith("_")).map(([k,v]) => {
+    let val = v;
+    if (k === "raw_json") { try { val = JSON.stringify(JSON.parse(v), null, 1); } catch(e){} return `<tr><td class="k">${k}</td><td class="v"><pre class="mono" style="white-space:pre-wrap;margin:0">${esc(val)}</pre></td></tr>`; }
+    if (Array.isArray(v)) val = v.join(" · ");
+    return `<tr><td class="k">${esc(k)}</td><td class="v">${esc(val)}</td></tr>`; }).join("")}</table>`;
+}
+function showNode(n) {
+  if (!n) return;
+  let note = "";
+  if (n.missing) note = `<p class="warnbox">Šio mazgo šis duomenynas nesukuria, todėl į jį vedantis ryšys nebus įrašytas.</p>`;
+  else if (n.outside_sample) note = `<p class="muted">Mazgas nepateko į imtį; surastas duomenyne pagal ryšį. Dukart paspauskite, kad pamatytumėte visus jo ryšius.</p>`;
+  if (n.label === "ExternalIdentifier" && n.needs) {
+    const d = state.datasets.find(x => x.id === n.needs);
+    note = `<p class="${d?.in_neo4j||selected.has(n.needs) ? "muted" : "warnbox"}">Papildomi duomenys apie šį objektą ieškomi duomenyne <b>${n.needs}</b>
+      (${d?.in_neo4j ? "jau Neo4j" : selected.has(n.needs) ? "pažymėtas importui" : "nepažymėtas ir nėra Neo4j"}).</p>`;
+  }
+  $("#detail").innerHTML = `<h3>${esc(n.display_name || n.caption || "(nėra display_name)")}</h3><div class="muted" style="margin-bottom:8px">${n.label}${n.dataset ? " · " + esc(n.dataset) : ""}</div>${note}${propTable(n.props)}`;
+}
+function showEdge(e) {
+  const s = preview.nodes.find(n => n.id === e.source), t = preview.nodes.find(n => n.id === e.target);
+  $("#detail").innerHTML = `<h3>${esc(e.type)}</h3><div class="muted" style="margin-bottom:8px">${esc(s?.display_name)} (${s?.label}) → ${esc(t?.display_name)} (${t?.label})</div>${propTable(e.props)}`;
+}
+
+function renderSchema() {
+  const s = preview.schema;
+  const pats = s.patterns.map(p => `<tr><td class="pattern"><span style="color:${COLORS[p.start]||"#555"}">(${p.start})</span> —[:${p.type}]→ <span style="color:${COLORS[p.end]||"#555"}">(${p.end})</span></td><td>${p.count}</td></tr>`).join("");
+  const labels = Object.entries(s.properties).map(([l, props]) => `<div class="card"><h4><span class="dot" style="display:inline-block;background:${COLORS[l]||"#999"}"></span> ${l} <span class="muted">(${s.labels[l]||0} imtyje)</span></h4>
+     <table><tr><th>savybė</th><th>pavyzdinė reikšmė</th></tr>${Object.entries(props).map(([k,v]) => `<tr><td class="k">${esc(k)}</td><td class="v">${esc(Array.isArray(v)?v.join(" · "):v)}</td></tr>`).join("")}</table></div>`).join("");
+  const ctx = preview.context_sizes;
+  $("#pane-schema").innerHTML = `<div class="card"><h4>Ryšių tipai imtyje</h4><table><tr><th>šablonas</th><th>kiek</th></tr>${pats || '<tr><td class="muted">nėra semantinių ryšių</td></tr>'}</table>
+    <p class="muted">Pilnai perskaityti nuorodų šaltiniai: ${ctx.languages} kalbų / visuomenių, ${ctx.parameters} sąvokų / požymių, ${ctx.codes} kodų, ${ctx.cognatesets} kognatų grupių.
+    Kiekviena lentelės eilutė taip pat įrašoma kaip techninis <span class="mono">SourceRecord</span> (rodomas pažymėjus „techniniai įrašai“).</p></div>${labels || '<p class="empty">Šis profilis semantinių mazgų nekuria – bus įrašyti tik SourceRecord.</p>'}`;
+}
+
+function renderDeps() {
+  const in_db = new Set(state.datasets.filter(d=>d.in_neo4j).map(d=>d.id));
+  const deps = preview.dependencies.map(d => ({...d, in_neo4j: in_db.has(d.authority), selected: selected.has(d.authority)}));
+  const missing = deps.filter(d => !d.in_neo4j && !d.selected).length;
+  $("#nDeps").textContent = deps.length; $("#nDeps").className = "n" + (missing ? " err" : "");
+  $("#pane-deps").innerHTML = deps.length ? `<p class="muted">Šis duomenynas saugo tik išorinius raktus (◆ ExternalIdentifier). Išsamesni duomenys apie šiuos objektus yra kituose duomenynuose; po importo „Susieti su autoritetais“ sukuria ryšius <span class="mono">CORRESPONDS_TO</span> / <span class="mono">ASSOCIATED_WITH</span>.</p>` +
+    deps.map(d => `<div class="card"><h4>${esc(d.authority || "?")} ${d.in_neo4j ? '<span class="tag ok">jau Neo4j</span>' : d.selected ? '<span class="tag ok">pažymėtas importui</span>' : '<span class="tag bad">trūksta</span>'}
+      ${d.authority && !d.in_neo4j && !d.selected && state.datasets.find(x=>x.id===d.authority) ? `<button data-add="${d.authority}" style="margin-left:8px">Pažymėti</button>` : ""}</h4>
+      ${d.scheme ? `<div>Schema <span class="mono">${esc(d.scheme)}</span>: ${Object.entries(d.objects).map(([l,c]) => `${c} × ${l}`).join(", ") || "—"}</div>` : `<div class="muted">Profilyje deklaruota priklausomybė; šiame duomenyne tiesioginių išorinių raktų nerasta.</div>`}
+      ${d.enriches ? `<div style="margin-top:4px"><b>Ką papildomai suteiktų:</b> ${esc(d.enriches)}</div>` : ""}
+      ${d.examples.length ? `<div class="muted" style="margin-top:4px">Pvz.: ${d.examples.map(esc).join("; ")}</div>` : ""}</div>`).join("")
+    : '<p class="empty">Šis duomenynas nesiremia kitais duomenynais.</p>';
+  document.querySelectorAll("[data-add]").forEach(b => b.onclick = () => { selected.add(b.dataset.add); localStorage.setItem("kalba.selected", JSON.stringify([...selected])); renderList(); renderSelection(); renderDeps(); renderGraph(); });
+}
+
+function renderQuality() {
+  const q = preview.quality, diag = preview.diagnostics;
+  const errs = q.filter(x => x.severity !== "info").length + diag.filter(d => d.severity === "error").length;
+  $("#nQual").textContent = errs; $("#nQual").className = "n" + (errs ? " err" : "");
+  $("#pane-quality").innerHTML = (q.length ? q.map(x => `<div class="card"><span class="sev ${x.severity}">${x.severity}</span> <b>${x.label}</b> — ${esc(x.message)} <span class="muted">(${x.count})</span>
+      <div class="mono muted" style="margin-top:4px">${x.examples.map(esc).join(" · ")}</div></div>`).join("")
+    : '<div class="card"><span class="sev info">ok</span> Imtyje visi mazgai turi žmogui suprantamus pavadinimus.</div>') +
+    (diag.length ? `<div class="card"><h4>Importo diagnostika</h4><table>${diag.map(d => `<tr><td><span class="sev ${d.severity==="error"?"error":"warning"}">${d.severity}</span></td><td class="mono">${esc(d.code)}</td><td>${esc(d.message)}</td></tr>`).join("")}</table></div>` : "");
+}
+
+function renderTables() {
+  $("#pane-tables").innerHTML = `<table><tr><th>lentelė</th><th>vaidmuo</th><th>imtyje</th><th>perskaityta</th><th>stulpeliai</th></tr>${preview.tables.map(t =>
+    `<tr><td class="mono">${esc(t.url)}</td><td>${esc(t.role)}</td><td>${t.via_references ? '<span class="muted">pagal nuorodas</span>' : t.sampled}</td><td>${t.scanned}${t.error?` <span class="sev error">${esc(t.error)}</span>`:""}</td><td class="muted">${esc(t.columns.join(", "))}</td></tr>`).join("")}</table>`;
+}
+
+document.querySelectorAll(".tab").forEach(t => t.onclick = () => {
+  document.querySelectorAll(".tab").forEach(x => x.classList.toggle("active", x === t));
+  document.querySelectorAll(".pane").forEach(p => p.hidden = p.id !== "pane-" + t.dataset.tab);
+  if (t.dataset.tab === "graph" && cy) cy.resize();
+});
+$("#btnPreview").onclick = loadPreview;
+$("#filter").onkeydown = e => { if (e.key === "Enter") loadPreview(); };
+$("#showTech").onchange = () => preview && renderGraph();
+$("#btnImport").onclick = async () => {
+  const order = state.datasets.filter(d => selected.has(d.id)).map(d => d.id);
+  try { renderJob(await post("/api/import", {datasets: order, force: $("#force").checked})); pollJob(); renderSelection(); } catch (e) { alert(e.message); }
+};
+$("#btnResolve").onclick = async () => { try { renderJob(await post("/api/resolve")); pollJob(); } catch (e) { alert(e.message); } };
+$("#btnWipe").onclick = async () => {
+  await loadState(true);
+  const n = state.neo4j;
+  $("#wipeDb").textContent = `${n.database} (${n.uri})`;
+  $("#wipeCounts").textContent = `Dabar: ${n.nodes.toLocaleString(LOCALE)} mazgų, ${n.constraints} apribojimai, indeksai: ${Object.entries(n.indexes||{}).map(([k,v])=>`${k} ${v}`).join(", ")}.`;
+  $("#wipeWord").textContent = state.wipe_confirmation;
+  $("#wipeInput").value = ""; $("#wipeGo").disabled = true; $("#wipeModal").hidden = false; $("#wipeInput").focus();
+};
+$("#wipeInput").oninput = () => $("#wipeGo").disabled = $("#wipeInput").value.trim() !== state.wipe_confirmation;
+$("#wipeCancel").onclick = () => $("#wipeModal").hidden = true;
+$("#wipeGo").onclick = async () => {
+  $("#wipeModal").hidden = true;
+  try { renderJob(await post("/api/wipe", {confirmation: $("#wipeInput").value, include_lookup_indexes: $("#wipeLookup").checked})); pollJob(); }
+  catch (e) { alert(e.message); }
+};
+
+loadState().then(() => {
+  if (state.job && state.job.status === "running") pollJob();
+  // datasets already in Neo4j are not left ticked from an earlier import
+  else unselect(state.datasets.filter(d => d.in_neo4j && selected.has(d.id)).map(d => d.id));
+  const [id, filt] = decodeURIComponent(location.hash.slice(1)).split("/");
+  if (id && state.datasets.some(d => d.id === id)) { if (filt) $("#filter").value = filt; openDataset(id); }
+});
+</script>
+</body>
+</html>

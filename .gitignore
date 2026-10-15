@@ -1,0 +1,20 @@
+# Python
+/.venv/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# vietiniai nustatymai ir duomenys (kiekvienas turi savo)
+/neo4j.yaml
+/.raktas
+/sodas-duomenys/
+/build/
+/duomenynai/
+
+# LKEŽDB duomenys negali būti platinami: talpykla (puslapiai.db) ir bet kokios SQLite bylos – niekada į git
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3

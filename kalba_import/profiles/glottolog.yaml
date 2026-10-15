@@ -1,0 +1,23 @@
+contract: kalba-neo4j/1.1
+dataset_id: glottolog
+path_name: glottolog
+title: Glottolog
+profile_version: 0.1.0
+verified: true
+input:
+  kind: files
+  glottolog_tree: true
+  metadata_glob: []
+  require_metadata: false
+  extra_files:
+    - metadata.json
+    - languoids/glottocodes.json
+    - languoids/superseded.csv
+    - languoids/*.md
+    - config/*.ini
+    - references/BIBFILES.ini
+requires:
+  authorities: []
+semantics:
+  authority_ids: [glottolog:glottocode]
+  table_intent: "Languoid catalogue and code history; tree md.ini files are intentionally not bulk-expanded by default."

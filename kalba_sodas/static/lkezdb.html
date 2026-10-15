@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<script src="/sodas/i18n.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LKEŽDB</title>
+<link rel="icon" type="image/svg+xml" href="/sodas/ikonos/zenkliukas.svg">
+<link rel="stylesheet" href="/sodas/theme.css">
+<script src="/sodas/theme.js"></script>
+<style>
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  height: 100vh; display: flex; flex-direction: column; font-size: var(--fs, 14px); }
+body.embedded .kalba-brand, body.embedded .kalba-nav { display: none; }
+button, select, input, textarea { font: inherit; color: var(--ink); }
+button { border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: 5px 12px; cursor: pointer; }
+button:hover { border-color: var(--muted); }
+button.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+button.danger { color: var(--err); border-color: var(--err); }
+button:disabled { opacity: .45; cursor: not-allowed; }
+select, input[type=text], input[type=search], input[type=password], textarea { border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: 5px 8px; }
+.muted { color: var(--muted); } .small { font-size: .86em; } .mono { font-family: ui-monospace, monospace; font-size: .92em; }
+.tabs { display: flex; gap: 2px; padding: 0 14px; background: var(--panel); border-bottom: 1px solid var(--line); }
+.tab { padding: 8px 14px; cursor: pointer; color: var(--muted); border-bottom: 2px solid transparent; }
+.tab.active { color: var(--ink); border-bottom-color: var(--accent); }
+.pill { padding: 2px 10px; border-radius: 99px; background: var(--chip); font-size: .85em; color: var(--muted); }
+main { flex: 1; min-height: 0; }
+.pane { height: 100%; overflow: auto; padding: 16px 20px; }
+.words { display: grid; grid-template-columns: 330px 1fr; height: 100%; padding: 0; }
+.list { border-right: 1px solid var(--line); background: var(--panel); display: flex; flex-direction: column; min-height: 0; }
+.list .tools { padding: 10px; display: flex; flex-direction: column; gap: 6px; border-bottom: 1px solid var(--line); }
+.list .items { overflow: auto; flex: 1; }
+.item { display: grid; grid-template-columns: auto 1fr auto; gap: 6px; align-items: center; padding: 5px 10px; cursor: pointer; border-bottom: 1px solid var(--line); }
+.item:hover { background: var(--chip); } .item.active { background: var(--accent-soft); }
+.item .n { color: var(--muted); font-size: .8em; }
+.badge { font-size: .72em; padding: 1px 6px; border-radius: 99px; background: var(--chip); color: var(--muted); white-space: nowrap; }
+.badge.ok { color: var(--ok); } .badge.run { color: var(--accent); } .badge.err { color: var(--err); }
+.pager { display: flex; justify-content: space-between; align-items: center; padding: 6px 10px; border-top: 1px solid var(--line); }
+.detail { overflow: auto; padding: 16px 22px 60px; min-width: 0; }
+.detail h1 { margin: 0 0 4px; font-size: 1.4em; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0 16px; align-items: center; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; margin-bottom: 12px; }
+.card h3 { margin: 0 0 4px; font-size: 1em; }
+.art-text { line-height: 1.55; margin: 6px 0; }
+.art-text i { color: var(--accent); font-style: italic; }
+.expl { border-left: 3px solid var(--accent); padding: 6px 10px; margin-top: 8px; background: var(--bg); border-radius: 0 6px 6px 0; }
+.card.notice { border-left: 4px solid var(--warn); }
+.warn { border-left: 3px solid var(--warn); padding: 6px 10px; margin: 4px 0; background: var(--bg); font-size: .9em; }
+table.t { border-collapse: collapse; width: 100%; font-size: .9em; }
+table.t th, table.t td { padding: 4px 8px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+table.t th { color: var(--muted); font-weight: 600; }
+pre.json { max-height: 520px; overflow: auto; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px; font-size: .82em; white-space: pre-wrap; }
+details > summary { cursor: pointer; color: var(--muted); margin: 6px 0; }
+.row { display: flex; gap: 10px; align-items: center; margin: 8px 0; flex-wrap: wrap; }
+.row > label:first-child { width: 150px; color: var(--muted); }
+.modal-bg { position: fixed; inset: 0; background: rgba(0,0,0,.4); display: flex; align-items: center; justify-content: center; z-index: 50; }
+.modal { background: var(--panel); border-radius: 10px; padding: 18px; width: min(1000px, 94vw); max-height: 90vh; display: flex; flex-direction: column; gap: 10px; }
+.modal pre { flex: 1; overflow: auto; margin: 0; }
+#toasts { position: fixed; bottom: 16px; right: 16px; display: flex; flex-direction: column; gap: 6px; z-index: 95; }
+.toast { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; box-shadow: 0 4px 14px rgba(0,0,0,.15); max-width: 460px; }
+.toast.error { border-color: var(--err); } .toast.warning { border-color: var(--warn); }
+.rel { font-size: .88em; padding: 2px 0; }
+.rel .t { color: var(--accent); font-family: ui-monospace, monospace; font-size: .9em; }
+.lbl { color: var(--muted); font-size: .8em; }
+</style>
+</head>
+<body>
+<script>if (new URLSearchParams(location.search).has("embed")) document.body.classList.add("embedded");</script>
+<header class="kalba-bar">
+  <span class="kalba-brand">Sodas</span>
+  <nav class="kalba-nav"><a href="/zeme?skiltis=lkezdb" class="active">Žemė</a><a href="/">Sodas</a><a href="/vaiva">Vaiva</a></nav>
+  <strong>LKEŽDB</strong><span id="stats" class="pill">…</span>
+</header>
+<div class="tabs"><div class="tab active" data-tab="words">Žodžiai</div><div class="tab" data-tab="jobs">Eilė <span id="qn"></span></div>
+  <div class="tab" data-tab="engine">Variklis ir užklausa</div><div class="tab" data-tab="neo4j">Neo4j</div></div>
+<main>
+  <section class="pane words" data-pane="words">
+    <div class="list">
+      <div class="tools">
+        <input type="search" id="q" placeholder="Paieška: žodžio pradžia…" autocomplete="off">
+        <div class="row" style="margin:0"><select id="status"><option value="">visi</option><option value="neisaiskinta">neišaiškinti</option>
+          <option value="isaiskinta">išaiškinti</option><option value="itraukta">įtraukti į Neo4j</option></select>
+          <label class="small"><input type="checkbox" id="pickAll"> pažymėti rodomus</label></div>
+        <div class="row" style="margin:0"><button id="bulkExplain" disabled>Išaiškinti pažymėtus</button>
+          <label class="small"><input type="checkbox" id="bulkInclude" checked> ir įtraukti</label></div>
+      </div>
+      <div class="items" id="items"></div>
+      <div class="pager"><button id="prev">‹</button><span id="page" class="small muted"></span><button id="next">›</button></div>
+    </div>
+    <div class="detail" id="detail"><p class="muted">Pasirinkite žodį kairėje.</p></div>
+  </section>
+  <section class="pane" data-pane="jobs" hidden></section>
+  <section class="pane" data-pane="engine" hidden></section>
+  <section class="pane" data-pane="neo4j" hidden></section>
+</main>
+<div id="modal" class="modal-bg" hidden><div class="modal" id="modalBody"></div></div>
+<div id="toasts"></div>
+<script src="/sodas/lkezdb.js"></script>
+</body>
+</html>

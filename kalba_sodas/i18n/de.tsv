@@ -1,0 +1,1743 @@
+# Sodo sąsaja: de (numeris<TAB>vertimas; numeriai – iš raktai.tsv)
+1	(auf die Begriffe im Korb beschränkt)
+2	(Strg+Numpad + / −)
+3	(noch {0} – je eine Sprache)
+4	(insgesamt {0} mit demselben besten Wert {1}; ihre Reihenfolge ist zufällig)
+5	(aus dem Text abgeleitet)
+6	(als {0})
+8	(Schluss des Modells)
+9	(ohne Sperrbeziehungen)
+10	(kein display_name)
+11	({0} ausgeblendet)
+13	(die Analyse selbst schlug {0} vor)
+14	(Polar
+15	(sichtbar, wenn „technische Einträge“ angekreuzt ist).
+16	(erste {0} gezeigt)
+17	(beim Ausblenden bleiben berührte Nachbarn)
+18	({0} in der Stichprobe)
+19	({0} nicht aufgenommen)
+20	) wird so verwendet, wie er ist; jeder andere Name wird zur Beziehung
+21	) sind mit ƒ markiert. Regel
+22	). Frühere Prompts des Programms bleiben im Cache, passen aber nicht zum neuen Graphmodell.
+23	, noch {0} – klicken Sie auf die „+“-Knoten
+25	, die am besten der {0}. Baumebene entsprechen (ARI {1})
+26	, {0} berührte behalten
+27	, eine Internetverbindung ist nötig. Derzeit: {0}.
+28	, daher stimmt er auch mit dem Wortschatz besser überein.
+29	, {0} Anmerkungen
+30	100 % gemeinsame Kognaten
+34	; zusammen – {0}
+36	; {0} ohne Koordinaten nicht gezeigt
+51	Beide Achsen – Stabilitätsperzentil (rechts und oben – stabiler). Die Linien teilen in Hälften. Klicken Sie auf einen Begriff – seine Daten unten.
+53	Adresse
+56	wird erklärt
+57	wird erklärt…
+59	Alt + Mausrad
+60	Alt+Numpad +/−
+61	Analyse: {0} Objekte, {1} Eigenschaften, {2} Aussagen, {3} Beziehungen
+62	Analysesegmente
+63	API-Adresse
+64	API-Schlüssel
+66	Identische Paare zusammengeführt: {0}
+67	Zwei Datensätze zusammengeführt
+68	Zwei Datensätze zusammengeführt: {0} – klicken
+69	Identische zusammenführen
+70	Alle identischen zusammenführen
+72	Hebt der Graph selbst stabile Begriffsgruppen hervor?
+73	Zu einem Index zusammenfassen? {0} (die 1. Komponente erklärt {1})
+74	Stehen Sprachen, die mehr Kognaten teilen, auch im Glottolog-Baum näher beieinander? Verglichen werden die lexikalische Nähe jedes Sprachpaares mit seinem Abstand im Baum, die Spektren beider Graphen und die Gruppen, der lexikalische Baum mit den Glottolog-Zweigen; Sprachen und Paare, die dem Baum widersprechen, werden gefunden. Im Korb: eine Glottolog-Familie oder ein Zweig, Sprachen, Begriffe (sie beschränken die Bedeutungen) – oder nichts (alle Sprachen mit Kognatendaten).
+75	Erzählen die Komponenten dasselbe?
+76	ob verschiedene Familien den Begriff mit denselben anderen Bedeutungen verbinden (mittl. Jaccard)
+77	Ob auch rekonstruierte protosprachliche Formen untersucht werden (mit * markiert, z. B. *méh₁n̥s). Sie werden anders geschrieben als belegte Formen und haben keinen Ort einer einzelnen Sprache, daher bleiben sie gewöhnlich außen vor.
+78	oder die Umgebungsvariable OPENAI_API_KEY
+79	ARI mit Kognaten
+80	ARI mit der {0}. Baumebene
+81	ARI zwischen {0} lexikalischen Gruppen und den Glottolog-Zweigen auf jeder Ebene unter dem gemeinsamen Vorfahren{1}.
+82	Armenien
+83	am nächsten nach Wortschatz
+84	Beziehungen zum nächsten Nachbarn
+85	am nächsten im Baum
+86	Die im Baum nächsten Paare (Abstand {0}) teilen im Mittel (Median) {1} ihrer Bedeutungen als Kognaten, die entferntesten (Abstand {2}) – {3}. Ein breites Band bei einem Abstand zeigt, dass derselbe Baumabstand nicht dieselbe Zeit bedeutet: manche Zweige trennten sich früher, andere später, und der Baum misst das nicht.
+88	Öffnen
+91	Übereinstimmung γ
+95	Durchgeführte Studien
+98	Aktualisieren
+99	Neo4j aktualisieren
+104	Vorsicht: ein Teil der Unterschiede kann davon abhängen, wie gut der Begriff erforscht ist.
+111	Abstände (MDS)
+112	Abstand 0
+113	Abstand im Baum
+114	Abstandsmatrix
+118	Im Garten öffnen
+120	Abbrechen
+124	Aserbaidschan
+126	Die Achse – der Anteil gemeinsamer Kognaten an dieser Verzweigung.
+127	Bangladesch
+128	Ohne sie bleiben die lokalen Knoten ohne zusätzliche Daten (ExternalIdentifier „pending“).
+129	ohne Modell
+131	Sperre
+132	Sperre: nicht über {0} gehen
+133	Sperre: {0}-Beziehungen werden bei der Pfadsuche nicht verwendet
+134	Sperrbeziehungen (Pfade führen nicht über sie)
+135	Tiefe des gemeinsamen Vorfahren
+136	gemeinsame Bedeutungen
+137	BIPA erkannte {0}, andere CLTS-Systeme eindeutig – {1}, annähernd (ohne einige Diakritika) – {2}, nicht erkannt – {3}. Erkannte Laute werden nach phonetischen Merkmalen verglichen (m und n unterscheiden sich weniger als m und a); nicht erkannte – nur als gleiches oder anderes Zeichen.
+140	Anzahl der Kanten
+141	Anzahl der Kanten im Baum (erster Versuch)
+142	gestrichelt
+143	Wird gelöscht
+144	Status
+146	Zentrieren
+147	Der ChatGPT-Schlüssel wird in die Datei .raktas im Projektordner geschrieben (siehe API_raktas.md)
+148	CLTS-Laut
+149	nach CLTS-Merkmalen gewichtete Editierdistanz, geteilt durch die Länge der längeren Form
+154	Strg + Ziehen
+155	Strg + 🗺
+158	Strg+Alt+Umschalt+Numpad +/−
+161	Strg+Numpad +/−
+162	Strg+Umschalt + Mausrad
+164	Strg+Umschalt+Numpad +/−
+166	Jetzt: {0} Knoten, {1} Constraints, Indizes: {2}.
+169	Sie haben noch nichts untersucht.
+174	dataset = "lkezdb"
+175	Keine DatSemShift-Daten.
+176	Im DatSemShift-Bedeutungsnetz neben Polysemie (ein Wort – mehrere Bedeutungen) auch Derivation zählen (die Bedeutung ging auf ein abgeleitetes Wort über). Das Netz ist dichter, aber weniger rein.
+177	DatSemShift hat diesen Begriff nicht.
+178	DatSemShift: Polysemie in {0} Familien, häufigste Nachbarn –
+179	Die meisten Formen
+180	Höchstzahl der Knoten im Garten
+181	Höchstzahl der Beziehungen eines Knotens
+182	Höchstzahl der Beziehungen im Garten
+183	Faktor für alle Beziehungen (und Typbreiten); Strg+Umschalt + Mausrad
+185	Design in Bearbeitung
+186	Rechte Taste
+187	Rechte Taste → Einklappen
+188	Rechte Maustaste – Aktionen · mittlere auf einem Knoten oder einer Beziehung – deren Bedienfeld · Doppelklick – ausklappen · Umschalt + Ziehen – mit einem Rechteck auswählen.
+189	Ein großer Sprung nach dem k-ten Wert zeigt, dass die Daten in k Gruppen zerfallen. Orange – das gewählte k.
+190	Größere Kognatengruppen zerfallen nicht in mehrere Lautgruppen.
+191	größter Knoten
+192	Größter Knoten
+193	größte Knotengröße ±
+194	die größte Lücke liegt zwischen dem {0}. und {1}. Eigenwert ({2} → {3})
+197	zwei getrennte Knoten
+199	bei Doppelklick
+200	Doppelklick
+201	Datensätze
+207	Keine Daten zu diesem Knoten
+208	in der Datenbank
+209	Datenbanktyp
+210	Datenbanktyp (z. B.
+211	Datencache nicht gefunden:
+212	Größe nach
+213	Wegen der Grenze wurden {0} weitere Formen nicht genommen.
+216	Warteschlange
+217	Die Warteschlange ist leer.
+218	in der Warteschlange
+219	Nr.
+222	E-Mail
+233	etc/orthography.tsv lieferte keinen Laut.
+234	etc/orthography.tsv kennt die Zeichen {0} nicht; die Aussprache erfinden wir nicht.
+235	Bezeichnung
+236	Färöer
+237	Fidschi
+239	Filter, z. B. Lithuanian
+240	filtern: Form, Sprache, Zweig, Kognat…
+241	filtern: Sprache, Zweig…
+242	filtern: Begriff, Feld…
+244	Form
+245	Form und Bedeutung
+246	Die Form hat weder Segmente noch eine geschriebene Form.
+247	Form: IE-CoR-Kognatenklassen
+248	Stabilität von Form und Bedeutung –
+249	Die Formkomponenten korrelieren untereinander im Mittel mit ρ {0},
+250	Formstabilität – {0} IE-CoR-Begriffe in {1} Sprachen ({2} Glottolog-Zweige). Bedeutungsstabilität – {3} davon im DatSemShift-Netz gefunden ({4} Begriffe, {5} Polysemiepaare, {6} Sprachfamilien; der Spektralraum ist der größte zusammenhängende Teil, {7} Begriffe). DatSemShift gibt nur die gefundenen Verschiebungen an, nicht alle untersuchten Sprachen, daher zeigen die Polysemiezahlen zugleich, wie gut ein Begriff erforscht und wie „beweglich“ er ist – das ist wichtig für die Bewertung der Polysemiekomponente.
+251	Die Formen sind nach Gruppen sortiert (farbiges Band links und oben). Dunkler – klingen ähnlicher. Deutliche dunkle Quadrate auf der Diagonale – geschlossene Gruppen; dunkle Flecken außerhalb – Ähnlichkeit zwischen Gruppen.
+253	Spektrales Clustering der Formen nach Klangähnlichkeit
+254	Formen untersucht
+255	kann zufällig sein
+256	Erlaubt: {0}; Standard: „{1}“.
+257	ziemlich ähnlich
+258	Laute und CLTS
+259	Laute werden mit CLTS verknüpft…
+260	Lautgarten
+261	Lautgruppen{0}
+262	Liste der Modelle abrufen
+263	Das Maß des genealogischen Abstands verändert das Bild: Vorfahrentiefe ρ {0}, Kanten ρ {1}
+264	Graph
+265	die Achsen des Diagramms links lassen sich ändern.)
+266	Graphplan (JSON)
+267	Graphplan: {0} Knoten, {1} Beziehungen
+268	Den Graphplan aus der gespeicherten Erklärung neu erstellen, ohne Sprachmodell
+269	Graubünden (Schweiz)
+273	strenges Antwortschema (schaltet sich selbst ab, wenn das Modell es nicht unterstützt)
+274	Reinheit der Gruppen
+277	Gruppe
+278	Gruppe
+282	Gruppe {0} · Silhouette {1}{2}{3}
+286	Gruppen
+288	Gruppen und Baumebenen
+292	Gruppen {0} und {1}
+293	Gruppe {0}: {1} der Formen sind in der Kognatengruppe der Mehrheit ihrer Gruppe
+295	Gruppen, Kognaten und Sprachzweige
+296	In den Gruppen mischen sich Wörter verschiedener Herkunft, und die Kognatengruppen zerfallen außerdem:
+301	Die Reinheit zeigt, ob in eine Lautgruppe Wörter verschiedener Herkunft geraten.
+302	Standardeinstellungen wiederhergestellt
+303	Standard wiederherstellen
+307	Keine IE-CoR-Daten.
+308	IE-CoR-Sprachen, {0} Zweige
+309	IE-CoR hat diesen Begriff nicht.
+310	Gesucht werden die kürzesten Pfade, wie lang sie auch sind.
+311	Pfade werden gesucht: {0} ⇝ {1}…
+312	alle „{0}“-Beziehungen werden gesucht…
+314	zum Ziel
+315	Import
+316	Importdiagnose
+317	auch die bereits in Neo4j geladenen erneut importieren
+318	Ausgewählte importieren
+319	Alle Knoten der Stichprobe haben für Menschen verständliche Namen.
+320	und die Komponenten gehen in verschiedenen Richtungen in sie ein
+321	und aufnehmen
+322	aus der Datenbank
+324	In mindestens wie vielen verschiedenen Sprachfamilien die Verbindungen eines Begriffs im DatSemShift-Netz belegt sein müssen, damit seine Bedeutungsstabilität berechnet wird.
+325	Ein aus lexikalischen Abständen gebildeter Baum (Average-Linkage-Clustering, UPGMA). Ein Zweig ist geschlossen, wenn alle seine Sprachen sich in ihm früher verbinden als mit irgendeiner anderen.
+326	alle LKEŽDB-Daten aus Neo4j gelöscht: {0}
+327	erklärt
+328	erklären
+329	Erklären
+330	Erneut erklären
+331	Ausgewählte erklären
+332	Ausgewählte erklären{0}
+333	{0} Wörter mit dem Sprachmodell erklären? Jedes Wort ist eine eigene (kostenpflichtige) Anfrage.
+334	erklärt, aber nicht in Neo4j aufgenommen. Klicken Sie „In Neo4j aufnehmen“.
+335	Neu anordnen
+336	Garten neu anordnen
+337	Herausnehmen
+338	Alle Knoten aus dem Korb nehmen (im Garten bleiben sie)
+340	Karte ausschalten
+342	Erhalt in fernen Zweigen
+343	mehr
+345	Gespeichert
+346	Gespeichert: {0}
+347	Speichern
+348	Als SVG speichern
+352	Berechnete Eigenschaften
+353	Trennen
+354	Alle diese Knoten werden ausgeklappt; ihre Beziehungen werden von diesem Knoten aus gezeigt. Auf der Karte werden sie getrennt gezeigt – jeder am Ort seiner Sprache.
+355	Ausklappen
+356	Knoten ausklappen
+359	{0} untersucht
+360	durchgezogen
+361	Gelöscht werden nur die mit diesem Werkzeug aufgenommenen Knoten und ihre Beziehungen (auch die Beziehungen zu Glottolog und Concepticon). Andere Datensätze, Constraints und Indizes bleiben unberührt. Die Erklärungen bleiben im SQLite-Cache – sie können erneut aufgenommen werden.
+362	{0} Knoten, {1} Beziehungen gelöscht
+366	Löschen
+374	Beziehung löschen
+378	Studie löschen
+379	Alles löschen
+380	Alle LKEŽDB-Daten löschen
+381	Alle Neo4j-Daten löschen
+382	Alle Neo4j-Daten löschen…
+387	Erledigte und fehlgeschlagene entfernen
+388	Korb leeren
+389	Vorläufige Treffer entfernen
+390	Garten leeren
+391	aus etc/orthography.tsv abgeleitet
+393	bereits in Neo4j
+394	Bereits geladene Datensätze (dieselben Dateien und dasselbe Profil) werden übersprungen; geprüft wird in wenigen Sekunden.
+396	Hat sich dasselbe Wort in mehrere Zweige verbreitet (Entlehnung oder gemeinsames Erbe), umfasst die Lautgruppe mehrere Zweige.
+398	Sie erklärt nur {0} der Vielfalt
+399	Sie erklärt {0} der Gesamtvielfalt, und alle Komponenten gehen in derselben Richtung in sie ein – ein gemeinsamer Stabilitätsindex wäre begründet.
+400	sie messen nicht nur den Forschungsstand.
+402	JSON-Schema
+403	beide beweglich
+404	Vereinigtes Königreich
+405	Vereinigte Staaten von Amerika
+411	Stabilität der Nachbarschaft
+412	Wie schnell im Baumgraphen die Verbindung zweier Sprachen schwächer wird: Gewicht exp(−Abstand/τ). Kleines τ – fast nur die nächsten Sprachen werden verbunden, großes – auch ferne Zweige.
+413	Wie der Abstand zweier Sprachen im Glottolog-Baum gemessen wird. „Tiefe des gemeinsamen Vorfahren“: je tiefer im Baum der nächste gemeinsame Vorfahr liegt, desto näher die Sprachen. „Anzahl der Kanten“: wie viele Zweige von einer Sprache zur anderen zu durchlaufen sind – verzerrt, wenn die Zweige des Baums ungleich fein gegliedert sind.
+414	wie gefunden
+415	Wie es berechnet wird
+416	Links – Sprachen nach Wortschatz (Anteil gemeinsamer Kognaten), rechts – nach dem Glottolog-Baum. Farbe – der Baumzweig. Beim Darüberfahren wird eine Sprache in beiden hervorgehoben. „Abstände“ ordnet die Sprachen so an, dass die Abstände auf dem Bildschirm den tatsächlichen möglichst entsprechen (MDS); „Spektrum“ – der zweite und dritte Eigenvektor des normierten Laplace-Operators, wie im ersten Versuch.
+417	Die Sprache ist nicht mit Glottolog verknüpft (CORRESPONDS_TO oder glottocode), daher ist ihr Ort im Baum unbekannt.
+418	sprachliche Beziehungen
+419	Für Sprachen mit bekannter Landes- oder Regionalflagge Regeln Languoid · display_name → Flagge hinzufügen (flag-icons, Internet nötig). Bestehende Regeln werden nicht geändert; sie erhalten Hinweise mit dem Land.
+420	Sprachen
+422	Sprachmodell
+423	Die Sprachen sind nach lexikalischem Abstand verbunden (UPGMA): je weiter rechts die Verbindung, desto weniger gemeinsame Kognaten. Eine Zweiglinie ist farbig, wenn alle ihre Sprachen aus demselben Glottolog-Zweig stammen.
+424	Die Sprachen sind nach dem Glottolog-Baum sortiert (farbiges Band – Zweig). Dunkler – mehr gemeinsame Kognaten; leer – zu wenige gemeinsame Bedeutungen. Dunkle Quadrate auf der Diagonale – Zweige; dunkle Flecken außerhalb – Nähe zwischen Zweigen.
+425	Sprachen, deren Wortschatz dem Baum am wenigsten folgt
+426	Sprachen
+427	Anteil der Sprachen, in denen dasselbe Wort auch einen anderen IE-CoR-Begriff bedeutet
+428	Anteil der Sprachen, deren Wort zur am weitesten verbreiteten Kognatenklasse gehört
+429	Lexikalische Nähe der Sprachen und der genealogische Baum
+430	Sprachzweig unbekannt
+431	Sprachfamilien im Bedeutungsnetz
+432	Anzahl der Sprachfamilien, in denen Polysemie mit einer anderen Bedeutung belegt ist
+433	Sprachkarten: nach Wortschatz und nach Baum
+434	Sprachen{0}
+437	Mal
+438	Mal
+448	Pfad
+449	Pfadsuche
+450	die Pfadsuche dauerte zu lange – fügen Sie Sperrbeziehungen hinzu (Beziehungen, über die nicht gegangen wird)
+451	Zwischen diesen Knoten gibt es keinen Pfad{0}
+452	Mehrere Zweige verbinden sich hier nicht unbedingt wegen gemeinsamer Herkunft: UPGMA verbindet sie, weil alle ähnlich weit von den anderen entfernt sind.
+454	Vier Arten von Begriffen
+455	Wie viel der Gesamtvielfalt jede Richtung erklärt; unten – wie die Komponenten in die erste eingehen.
+456	Wie viele gemeinsame Kognaten weiter entlang des Baums bleiben
+457	Wie viele Formen höchstens aus den Korbknoten genommen werden; die übrigen werden übersprungen (das wird gemeldet). Alle Formpaare werden verglichen, daher wächst die Arbeit quadratisch: 600 Formen – etwa 180 000 Paare.
+458	Wie viele Gruppen?
+459	Wie oft die Sprachen im Mantel-Test zufällig gemischt werden, um den p-Wert zu schätzen: ob die Übereinstimmung von lexikalischer Nähe und Baumabstand nicht zufällig ist. 0 – p wird nicht berechnet; 999 – p genau bis 0,001; mehr – längere Rechnung.
+460	Wie viele Formen jeder Gruppe zu einer Kognatengruppe gehören
+461	Wie viele Formen jeder Gruppe aus einem Sprachzweig (Glottolog) stammen
+462	In mindestens wie vielen Sprachen (mit einem Ort im Glottolog-Baum) das Wort eines Begriffs mit IE-CoR-Kognaten kodiert sein muss, damit seine Formstabilität berechnet wird. Seltener belegte Begriffe werden nicht bewertet.
+463	Mindestens wie viele gleiche Bedeutungen (Begriffe) in beiden Sprachen kodiert sein müssen, damit ein Paar im lexikalischen Graphen verglichen wird. Schwächer belegte Paare werden nicht verbunden; eine Sprache ohne ein solches Paar kommt nicht in die Studie.
+464	Wie viele erste Eigenvektoren des Laplace-Operators die Lage eines Begriffs im Bedeutungsnetz beschreiben. Weniger – nur die grobe Struktur ist sichtbar; mehr – feinere Unterschiede, aber auch mehr Rauschen.
+465	jedes Design hat eigene Farben; beim Anpassen wird eine Vorschau des angepassten Designs gezeigt
+466	Für jedes Formpaar wird eine Editierdistanz berechnet: das Ersetzen eines Lauts kostet so viel, wie der Anteil ihrer unterschiedlichen CLTS-Merkmale (0–1), Einfügen oder Auslassen – 0,5; das Ergebnis wird durch die Länge der längeren Form geteilt. Für Formen mit mehreren Varianten wird der kleinste Abstand genommen. Aus den Abständen entsteht ein Ähnlichkeitsgraph, die Eigenvektoren seines Laplace-Operators legen die Formen in einen Raum, wo sie mit k-Means gruppiert werden. Im Bild sind die Formen mit klassischer multidimensionaler Skalierung angeordnet – je näher, desto ähnlicher klingen sie.
+467	Für jede Sprache geprüft: wenn der Baum sagt, Sprache A sei ihr näher als B, sagt der Wortschatz das auch? γ = 1 – immer, 0 – wie zufällig, < 0 – öfter umgekehrt. Am wenigsten Übereinstimmung:
+468	Für jeden Abstand – eine Box der Nähe der Sprachpaare: die mittlere Hälfte der Paare (vom 25. bis 75. Perzentil), Linie – Median, Whisker – Minimum und Maximum.
+469	Für jedes semantische Feld von Concepticon wurde geprüft, ob seine Begriffe stabiler (oder beweglicher) sind als eine Zufallsauswahl ebenso vieler Begriffe (2000 Zufallsstichproben).
+471	Für Knoten jedes Typs lassen sich Farbe, Form und Bild wählen (PNG, SVG, JPG, WebP; bis 2 MB). Größe – im Abschnitt „Grenzen und Größen“.
+472	ein anderes CLTS-System
+473	Andere Gärten
+480	keine anderen Beziehungen
+481	keine anderen Gärten
+482	Fehler:
+483	Anzahl der Cluster
+487	Kognatengruppe
+488	sie haben keine Kognateninformation
+489	Erhalt der Kognaten
+490	Qualität
+491	Qualität nach Gruppenzahl
+492	Komponenten einzeln
+493	Koordinaten über Beziehungen
+494	Kopie
+496	wird geladen…
+497	Korbbegriffe
+498	Korbbegriffe
+499	Die Formen der Korbbegriffe (oder Bedeutungen, Lexeme, Kognatengruppen, Formen) werden danach gruppiert, wie ähnlich sie klingen. Laute werden nach phonetischen CLTS-Merkmalen verglichen, Gruppen spektral gefunden und dann mit IE-CoR-Kognaten und Glottolog-Sprachzweigen verglichen.
+500	Die Korbbegriffe haben keine Concepticon-Entsprechung, daher lassen sich die Bedeutungen nicht beschränken.
+501	Korbaktionen
+502	Im Korb sind keine Formen: legen Sie einen Begriff, eine Bedeutung, ein Lexem, eine Kognatengruppe oder Formen hinein.
+503	Korb geleert ({0} Knoten)
+504	der Korb ist leer
+505	Der Korb ist leer. Klicken Sie im Garten mit der rechten Maustaste auf einen Knoten → „In den Korb legen“ und kommen Sie hierher zurück.
+506	Je näher die Formen, desto ähnlicher klingen sie. Beim Darüberfahren – die Daten der Form.
+507	Je weiter im Baum, desto weniger gemeinsame Kognaten
+508	Welcher Baumebene die Gruppen am nächsten sind
+509	Das Bedeutungsnetz wird gebaut (DatSemShift)…
+510	Welche Begriffe sind stabil? Getrennt gemessen werden die Formstabilität (ob der Begriff überall durch dasselbe ererbte Wort ausgedrückt wird: IE-CoR-Kognaten im Glottolog-Baum) und die Bedeutungsstabilität (ob den Begriff dieselben anderen Bedeutungen umgeben: Polysemie, spektrale Lage im DatSemShift-Netz in verschiedenen Sprachfamilien). Dann wird geprüft, ob der Graph selbst Körperteile, Verwandtschaft, Zahlen hervorhebt. Korbbegriffe werden hervorgehoben, ein Glottolog-Zweig beschränkt die IE-CoR-Sprachen; ein leerer Korb – der ganze Graph.
+514	Was er zusätzlich brächte:
+515	Was dieser Parameter bedeutet
+517	sehr ähnlich
+524	Languoid · display_name · Lithuanian
+525	Eigenwerte der Laplace-Matrix
+526	Laplace-Eigenwerte
+531	Ein Feld mit kleinem p kann als vom Graphen „hervorgehoben“ gelten; bei vielen geprüften Feldern und Komponenten können einzelne p < 0,05 auch zufällig sein.
+532	erlaubte Formate: {0}
+534	Im lexikalischen Graphen nur {0} Sprachen: senken Sie „Mindestens gemeinsame Bedeutungen pro Paar“.
+535	im lexikalischen Baum
+536	Im lexikalischen Baum sind {0} von {1} Zweigen geschlossen
+537	Matrix der lexikalischen Nähe
+538	Die Eigenwertlücke des Laplace-Operators des lexikalischen Graphen schlägt vor
+539	Rate des lexikalischen Ersatzes
+540	Lexikalische Nähe nach Baumabstand
+541	Lexikalische Nähe – der Anteil der in beiden Sprachen kodierten Bedeutungen, die durch Kognaten ausgedrückt werden; Paare mit weniger als {0} gemeinsamen Bedeutungen werden nicht bewertet.
+542	lexikalischer Graph
+543	Lexikalischer Baum
+544	Lexikalischer Baum…
+545	Anzahl lexikalischer Gruppen
+546	lexikalische Gruppe {0} · {1} Bedeutungen
+547	lexikalische Gruppen
+548	Tabelle
+549	Tabellen
+553	die übrigen werden als Knoten „+N TYP“ gezeigt – ein Klick lädt mehr
+554	Linienbreite, Stil, Farbe und das Bild neben der Beziehungsbeschriftung.
+557	LKEŽDB-Daten in Neo4j
+558	LKEŽDB-Datencache nicht gefunden: {0}
+562	LKEŽDB-Wörter mit einem Sprachmodell erklären und in Neo4j aufnehmen
+563	LKEŽDB ↗
+564	Verglichen mit der typischen (Median-)Nähe beim gleichen Baumabstand; nur Paare aus verschiedenen Zweigen:
+565	Komponenten werden verglichen…
+569	Meine Beziehungen
+570	Mantel-Test: bei zufälligem Mischen der Sprachen trat eine gleich starke oder stärkere Korrelation {0} auf, daher ist der Zusammenhang {1}.
+571	Permutationen des Mantel-Tests
+579	die Anzahl der im Garten sichtbaren Beziehungen
+580	Knoten und Beziehungen
+582	Ein Knoten ohne eigene Koordinaten erhält die des ersten Pfadziels
+583	Der Knoten kam nicht in die Stichprobe; er wurde im Datensatz über eine Beziehung gefunden. Doppelklicken Sie, um alle seine Beziehungen zu sehen.
+584	Knoten nicht gefunden
+585	Knotentyp
+586	Knoten mit Koordinaten lassen sich auf einer Karte zeigen
+587	Knoten
+588	Knotengröße
+589	Knotengröße
+590	Knotengröße ±
+591	Größe der Knoten- und Beziehungsbeschriftungen ±
+592	Größe der Knoten- und Beziehungsbeschriftungen ± (oder Strg+Alt+Numpad, wenn das System sie abfängt)
+593	Darstellung der Knoten
+594	Knotentypen im Garten
+596	Knotenbeschriftungen zeigen / verbergen
+597	Knotenbeschriftungen, px; Beziehungsbeschriftungen anteilig; Alt+Numpad +/− oder Alt + Mausrad
+598	Mindestens gemeinsame Bedeutungen pro Paar
+599	Mindestens Sprachen pro Begriff (Form)
+600	Mindestens Familien pro Begriff (Bedeutung)
+601	kleinste Anzahl von Kognatenklassenwechseln im Baum pro Sprache
+602	kleinster Knoten
+603	Kleinster Knoten
+604	Median {0} · mittlere Hälfte {1}–{2}
+605	Baum und Wortschatz stimmen überein: ρ = {0} ({1} Korrelation)
+606	Baumgraph
+607	Gruppen des Baumgraphen
+608	Gewicht des Baumgraphen exp(−Abstand/τ)
+609	Gewichtsskala des Baums τ
+610	Anteil der Baumzweige, die diese Klasse bewahrt haben
+611	Methode
+613	gemischt
+614	Modellantwort ohne Prüfung
+615	Modell
+616	Blau – gemeinsam stabil, Rot – entgegengesetzt, Grau – unabhängig.
+622	Browser
+623	Karte verwenden
+625	{0} mit Kognaten kodierte Bedeutungen verwendet
+627	Neuer Prompt
+633	Neue Beziehung
+635	Neuer Garten (Strg – in neuem Tab)
+636	Neuer Garten mit leerem Korb (Strg – in neuem Tab)
+637	Neuer Garten: der Korb ist leer. Legen Sie Knoten im Garten hinein.
+640	In neuem Tab
+642	Keine neuen Flaggen – alle Sprachen haben schon Bilder
+644	Unbehandelter Fehler:
+645	nicht erkannt
+648	nicht über {0} gehen
+649	nicht erklärt
+654	nicht extrahiert. Sie können mithilfe künstlicher Intelligenz aus LKEŽDB angefordert werden – klicken Sie „Erklären“ (eine Anfrage an das Sprachmodell ist kostenpflichtig).
+657	Neo4j ist nicht erreichbar.
+658	Neo4j nicht erreichbar
+659	Neo4j-Schema nicht verfügbar:
+660	Neo4j {0}: {1} Knoten · {2} Datensätze · {3} Constraints
+661	Neo4j ✓ {0} Datensätze
+662	Neo4j ✗ {0}
+663	Neo4j: wird geprüft…
+664	Neo4j: {0} Knoten, {1} Beziehungen
+665	nicht genug Daten
+666	trat bei {0} zufälligen Mischungen kein einziges Mal auf (p ≤ {1})
+670	nicht ausgewählt und nicht in Neo4j
+671	Kein Knoten ausgewählt
+672	Kein Knoten ausgewählt – wählen Sie die Knoten aus, die in den Korb sollen
+673	Für diese Sprachen wurden keine mit Kognaten kodierten Bedeutungen gefunden.
+674	Keine Störungen erfasst.
+677	Unerwartete Paare
+678	Nicht bewertet {0}: der Baum unterscheidet kaum, welche anderen Sprachen ihnen näher sind (ein einzelner Zweig mit schwach belegter Schwester).
+681	Nicht aufgenommene Varianten: {0}.
+682	Keine ausgelassenen Formen.
+683	Keine ausgelassenen Sprachen.
+684	nicht bewertbar
+685	unbekannte Studie: {0}
+687	nichts ausgewählt
+688	Nichts gefunden
+690	Nichts gefunden.
+699	Kopiert
+700	Kopieren fehlgeschlagen
+701	Standard: {0}.
+702	Standardeinstellungen
+703	Standardfarbe
+705	von {0} bis {1}
+711	geben Sie den Namen der Beziehung an
+712	Einstellungen
+718	Kein Feld fällt durch Stabilität deutlich auf.
+719	keine
+720	kein Formtext
+721	keine Glottolog-Entsprechung
+722	Keine Knoten, die nur mit diesem Knoten verbunden sind
+723	keine semantischen Beziehungen
+724	und mit den Bedeutungskomponenten – ρ {0}.
+725	p für Stabilität {0} · für Beweglichkeit {1}
+726	erklärt durch eine gemeinsame Richtung
+727	Erklärung
+729	Nach Baum
+730	nach Links
+733	Nach der Sonne
+734	Nach Wortschatz
+735	Die Hauptkomponentenanalyse sucht eine Richtung, in der sich alle Komponenten gemeinsam ändern.
+736	Hauptkomponenten
+740	Suche: Wortanfang…
+741	Suche… (Strg+F)
+742	das Suchfeld
+746	Geändert
+747	Der bereinigte Rand-Index vergleicht zwei Gruppierungen: 1 – sie stimmen völlig überein, 0 – nicht mehr als zufällig. Klangähnlichkeit beweist keine Herkunft: Übereinstimmung zeigt, dass Kognaten oft noch ähnlich klingen, Abweichungen – wo die Laute auseinandergingen oder die Ähnlichkeit zufällig ist.
+751	Startfehler:
+752	Berührte Knoten bleiben beim Ausblenden von Beziehungen
+755	{0} und {1} ihrer Paare verglichen
+757	Weitere Daten zu diesem Objekt werden im Datensatz gesucht
+758	Ergänzungen
+760	Position
+761	zeigt den ausgewählten Knoten
+762	zeigt den ganzen Garten
+763	{0} gezeigt
+764	ausgeblendete Knoten zeigen
+765	Auf der Karte zeigen
+766	Akzent
+767	Nachbarn hervorheben
+768	hervorgehobenes Feld
+769	Feld hervorheben
+770	Grenze erreicht ({0} Knoten / {1} Beziehungen): {2} Knoten, {3} Beziehungen nicht gezeigt.
+771	wählen oder eingeben
+772	wählen oder eingeben, z. B. ähnlich wie
+773	Datei wählen
+774	Wählen Sie links einen Datensatz
+775	Wählen Sie einen Knotentyp, dann seine Eigenschaft und einen Wert aus denen in der Datenbank (Sie können ihn auch eintippen). Hat die Eigenschaft des Knotens diesen Wert, wird neben dem Knoten ein Bild gezeigt. Berechnete Eigenschaften (z. B.
+777	Wählen Sie links ein Wort.
+778	trat {0} {1} von {2} zufälligen Mischungen auf (p = {3})
+781	letzter Import: {0}
+787	Ausblenden
+788	Ausgewählte ausblenden
+790	{0} ausgeblendet – sie zählen nicht mehr zu den Grenzen des Gartens. Zurückholen: rechte Taste auf dem Hintergrund → „Ausgeblendete zeigen“ oder Umschalt+H
+794	ausgewählte Knoten ausblenden
+797	Klicken Sie auf einen Knoten oder eine Beziehung, um alle Eigenschaften zu sehen.
+798	Anmerkung
+800	Form und Bedeutung stabil:
+801	Stabile Bedeutung, aber das Wort wird ersetzt:
+802	beide stabil
+803	nur X stabil
+804	nur Y stabil
+805	Stabilitätsperzentile
+806	Stabilitätsperzentile (100 % – das stabilste der untersuchten):
+809	Prüfung: der Zusammenhang von Nachbarschaft und Spektralkomponente mit der Zahl der Familien, in denen der Begriff überhaupt belegt ist, beträgt ρ {0} und {1} –
+810	Zur Bestätigung eingeben
+811	Bestätigen Sie mit der Eingabe IŠTRINTI.
+813	Name
+819	Bild
+820	Bild vom Zielknoten
+825	Bild bei der Beschriftung
+826	das Bild ist leer oder größer als 2 MB
+832	Beispielwert
+833	Beispiele: {0}. Innerhalb der Gruppe sind die Formen {1} (mittlerer Abstand {2}, zu anderen Gruppen {3}). {4}; {5}.
+834	Aus dem Garten entfernen
+835	Beziehung aus dem Garten entfernen
+836	{0} Knoten und {1} Beziehungen entfernt (die mit anderen Wörtern geteilten blieben)
+837	Entfernen
+839	Aus Neo4j entfernen
+840	Nachbarn entfernen, die nur mit diesem Knoten verbunden sind
+841	Nachbarn entfernen, die nur mit diesem Knoten verbunden sind
+842	ausgewählte aus dem Garten entfernen
+843	Diese Beziehung entfernen
+850	Wählen Sie zwei Knoten aus (Umschalt + Klick) oder legen Sie zwei in den Korb
+851	Wählen Sie zwei Knoten für die Pfadsuche aus (oder markieren Sie sie im Garten mit Umschalt).
+852	Wählen Sie genau zwei Knoten aus (Umschalt + Klick)
+853	Ausgewählte Knoten: {0}
+854	{0} ausgewählt
+855	für den Import ausgewählt
+856	Ausgewählter Knoten (Pos1)
+857	Auswählen
+859	mehrere Knoten auswählen
+860	den ersten / nächsten gefundenen Knoten auswählen
+861	gezeigte auswählen
+862	mit einem Rechteck auswählen
+863	Alle Knoten auswählen
+865	{0} auswählen
+869	zu wenige gemeinsame Bedeutungen
+870	Zu wenige Begriffe mit Daten: senken Sie „Mindestens Sprachen pro Begriff“ oder erweitern Sie den Zweig im Korb.
+873	Plan neu erstellen
+878	Wird neu berechnet
+879	Neuberechnung mit {0} Gruppen…
+880	Im Garten neu berechnen
+881	Umbenannt
+884	ansehen
+889	Südafrika
+890	Südkorea
+893	Vollständig gelesene Referenzquellen: {0} Sprachen / Gesellschaften, {1} Begriffe / Merkmale, {2} Codes, {3} Kognatengruppen. Jede Tabellenzeile wird auch als technischer
+894	Im ersten Versuch war der Abstand die Anzahl der Kanten im Glottolog-Baum. Die Zweige haben aber sehr unterschiedlich viele Zwischenknoten: indoarische Sprachen liegen 10 und mehr Knoten von der Wurzel entfernt, Albanisch oder Tocharisch – wenige. Dann wirken ferne Sprachen aus „flachen“ Zweigen nah. Die Tiefe des gemeinsamen Vorfahren (wie viele Ebenen unter der Wurzel der letzte gemeinsame Vorfahr liegt) macht diesen Fehler nicht
+895	Plan: {0} Knoten, {1} Beziehungen
+896	Breite und Länge, z. B. eine Form – die ihrer Sprache (über das Lexem). Bei ausgeschalteter Karte werden Formen eines CognateSet mit gleichem Namen als ein Knoten „Form ×N“ gezeigt.
+897	Die breiteste Kognatenklasse „{0}“ – {1} von {2} Sprachen, {3} von {4} Zweigen; im Baum mindestens {5} Wechsel.
+898	Unter den Glottolog-Knoten im Korb wurden keine Sprachen mit lexikalischen Daten gefunden.
+901	Polysemie in {0} Familien; am häufigsten: {1}.
+906	Unterzweig
+907	Wird gestartet…
+908	Beginnen Sie mit der Suche oben (Strg+F). Nach einigen Sekunden werden die Treffer vorübergehend im Garten gezeigt; wählen Sie einen Knoten, damit er bleibt.
+909	Frankreich
+936	In den Korb legen
+941	Grund
+946	Abhängigkeiten
+960	Profil nicht bestätigt
+964	Im Profil ist eine Abhängigkeit angegeben; in diesem Datensatz wurden keine direkten Fremdschlüssel gefunden.
+967	Fehler und Warnungen des Programms
+971	Z. B.: {0}
+972	Treffer vorübergehend im Garten gezeigt – wählen Sie einen Knoten, damit er bleibt
+973	Schriftgröße
+974	Schriftgröße
+976	{0} Lautgruppen gefunden
+977	{0}{1} kürzeste Pfade gefunden, Länge {2}
+985	Signifikant beweglicher:
+986	Signifikant stabiler:
+987	Bedeutungen
+988	Im Bedeutungsnetz auch Derivation zählen
+989	Bedeutung
+990	Bedeutung
+991	Bedeutung: DatSemShift-Nachbarn (Anzahl der Familien)
+992	remove: {0} Wörter
+993	IE-CoR-Kognaten werden gesammelt…
+994	Formen werden gesammelt…
+995	Sprachen und Bedeutungen werden gesammelt…
+996	Ergebnis / Fehler
+997	Modus
+998	Grenzen
+999	Grenzen und Größen
+1000	Grenzen: {0}–{1}; Standard: {2}{3}.
+1003	wird das Abzeichen 📍 gezeigt. Ein Klick darauf (oder im Knotenmenü) – „Auf der Karte zeigen“: die Karte wird so eingeschaltet, dass dieser Knoten an seinem Platz bleibt und sich die anderen Knoten des Gartens nicht bewegen. Andere Knoten mit Koordinaten werden an ihre Orte versetzt, Knoten ohne Ort auf der Karte werden ausgeblendet – beim Ausschalten der Karte kehren sie an ihren Platz zurück. Auf der Karte sind Knoten mit Koordinaten fixiert. Ausschalten – Schaltfläche 🗺 oben. Kartenkacheln –
+1004	Es werden nur Prompts gezeigt, die für das Antwortschema dieses Programms geschrieben sind (mit dem Kennzeichen
+1005	Das Wichtigste zeigen
+1006	Alles zeigen
+1008	Getrennt zeigen
+1009	mehr zeigen ({0} von {1})
+1010	Stichprobe zeigen
+1011	Als zwei getrennte Knoten zeigen
+1012	Korb zeigen
+1015	Im Garten zeigen
+1016	alle zeigen
+1017	Auf der Karte zeigen
+1019	SVG wird vorbereitet…
+1020	Analysesegmente werden vorbereitet…
+1021	Beziehungen ({0}; technische nicht gezeigt)
+1022	Beziehungen in der Datenbank
+1023	Beziehungen nach Typ
+1028	der Beziehungsname ist zu lang (höchstens {0} Zeichen)
+1030	Beziehungstyp
+1031	Beziehungstyp: Großbuchstaben, Ziffern und _, z. B. SIMILAR_TO
+1032	Sie haben noch keine Beziehungen gezogen.
+1033	Darstellung der Beziehungen
+1035	Beziehungsbreite
+1036	Beziehungsbreite
+1037	Beziehungsbreite ±
+1038	Beziehungstypen
+1039	Beziehungstypen in der Stichprobe
+1040	Beziehungstypen im Garten
+1042	Beziehungsbeschriftungen zeigen / verbergen
+1043	Beziehung
+1044	Beziehung gelöscht
+1046	Beziehung nicht gefunden
+1047	Beziehung nicht gefunden (löschen lassen sich nur im Garten gezogene Beziehungen)
+1050	eine Beziehung muss zwei verschiedene Knoten verbinden
+1060	Eigenschaftsbilder
+1061	Eigenschaftsbilder
+1062	Eigenschaftsbilder ±
+1063	Eigenschaft
+1064	Eigenschaft
+1065	Die Eigenschaft wird über einen Pfad im Graphen vom Knoten aus berechnet
+1066	Eigenschaften
+1067	Eigenschaften
+1068	Name der Eigenschaft
+1072	zu wenige Eigenwerte
+1073	Schema
+1074	Die Segmente werden aus den Primärdaten genommen, nicht geraten:
+1076	Quelle der Segmente
+1081	Semantische Felder
+1083	der Server ist nicht erreichbar
+1084	Der Server ist nicht erreichbar
+1085	Umschalt + Mausrad
+1086	Umschalt + Klick
+1087	Umschalt + Ziehen
+1088	Umschalt+H
+1089	Umschalt+Pos1
+1090	Silhouette – wie getrennt die Gruppen sind; ARI – wie sehr sie mit den IE-CoR-Kognaten übereinstimmen. Klicken Sie auf k, um neu zu berechnen.
+1098	Stichprobe wird gelesen…
+1099	Wird berechnet…
+1100	Genealogische und lexikalische Abstände werden berechnet…
+1101	Abstände von {0} Formpaaren werden berechnet…
+1103	Entsprechungen in verschiedenen Datensätzen
+1104	Sprachen verschiedener Zweige, lexikalisch näher als der Baum zulässt
+1105	Verschiedene Zweige, aber lexikalisch nah (mögliche Kontakte)
+1114	Slowenien
+1115	ausblenden
+1116	Korb ausblenden
+1117	Alle {0} ausblenden
+1118	Beziehungen dieses Typs ausblenden
+1124	Garten ohne Namen…
+1128	Garten nicht gefunden – pflanzen Sie zuerst etwas hinein
+1131	Der Garten ist leer
+1132	Sodas · Datensätze
+1138	Im Garten sind noch keine Knoten.
+1140	die Knoten bleiben im Garten
+1142	Im Garten gibt es keine Knoten mit Breite und Länge
+1143	Im Garten {0} {1}-Beziehungen ausgewählt
+1145	Im Garten gibt es keine {0}-Beziehungen; klappen Sie Knoten aus, die welche haben
+1146	Der Gartenknoten „{0}“ lässt sich nicht ausklappen: die LKEŽDB-Einträge dieses Wortes sind noch {1} Wenn das Wort aufgenommen ist, kehren Sie in den Garten zurück und klappen den Knoten erneut aus.
+1147	Der Garten konnte nicht starten:
+1148	Gartenname – tippen Sie einen neuen oder wählen Sie einen vorhandenen Garten
+1151	noch keine Gärten
+1154	Farbe
+1155	Farben
+1156	Klick – hier öffnen, Strg – in neuem Tab
+1157	Spearman-Korrelationen zwischen den Komponenten
+1158	Spearmans ρ vergleicht den Abstand von Sprachpaaren im Glottolog-Baum mit dem lexikalischen Abstand (1 − Nähe): 1 – genau dieselbe Reihenfolge, 0 – kein Zusammenhang.
+1159	Spektrum (Eigenvektoren)
+1160	Die Spektralanalyse selbst schlug {0} vor: {1}. Je größer eine solche Lücke, desto klarer zerfallen die Daten in so viele Gruppen.
+1161	Spektralanalyse…
+1162	Spektralraum des Bedeutungsnetzes ({0} Begriffe)…
+1163	Dimensionen des Spektralraums
+1164	Stabilität der spektralen Lage
+1165	Klick – Gruppe hervorheben
+1169	die Knoten im Rechteck abwählen
+1170	Stil
+1171	Breite
+1175	Mit den IE-CoR-Kognaten stimmen die Gruppen {0} (ARI {1})
+1176	Hat mit keiner anderen Sprache mindestens {0} in beiden kodierte Bedeutungen (höchstens {1}), kommt daher nicht in den lexikalischen Graphen.
+1177	Mit den Sprachzweigen stimmen die Gruppen {0} (ARI {1})
+1178	mit einer Entsprechung aus einem anderen Datensatz
+1179	mit anderen
+1181	Gleiche verbinden
+1182	Richtung tauschen
+1187	Garten „Vaiva · {0}“ erstellt
+1189	Erstellen
+1191	Beziehung erstellen
+1193	Verknüpfung
+1194	Mit Normdaten verknüpfen
+1195	Lokale Languoid/Concept über gemeinsame ExternalIdentifier mit den Normdaten Glottolog/Concepticon verknüpfen
+1196	verbunden
+1197	Einklappen
+1198	stimmen teilweise überein
+1199	gibt der Sprache selbst ein Bild – alle Wörter dieser Sprache übernehmen es.
+1200	Das Wichtigste
+1216	SVG-Datei nicht erkannt
+1217	Oberfläche
+1218	Schriftgröße der Oberfläche ±
+1219	Begriff
+1220	Streuung der Lage des Begriffs im Spektralraum über die Familien
+1221	Begriffe, die in dieser Richtung am weitesten liegen:
+1222	Begriffe
+1223	Begriffe ({0} mit Bedeutungsnetz)
+1224	Semantische Stabilität der Begriffe
+1225	Tadschikistan
+1226	Das bestätigt, dass ein „stabiler Begriff“ und ein „stabiles Wort“ nicht dasselbe sind: ein Begriff kann seinen Platz unter anderen Bedeutungen behalten, obwohl die Sprachen ihn mit immer anderen Wörtern bezeichnen, und umgekehrt.
+1227	Das prüft, ob die Kognatenkodierung und die Glottolog-Klassifikation dieselbe Geschichte erzählen, beweist aber keine von beiden.
+1228	auch die internen LOOKUP-Indizes von Neo4j löschen (nicht empfohlen: ohne sie wird die Suche nach Label sehr langsam, sie müssen von Hand neu angelegt werden)
+1232	Auf dieser Ebene gibt es {0} Glottolog-Zweige, z. B. {1}; die lexikalischen Gruppen {2} mit ihnen.
+1233	Dunkel
+1234	Dasselbe Wort bedeutet auch: {0}.
+1235	gepunktet
+1236	technische Einträge (SourceRecord)
+1239	Telefon
+1241	Design
+1242	Wird der Baumgraph selbst in ebenso viele Gruppen geteilt, {0} die beiden Teilungen (ARI {1}).
+1243	Anbieter
+1244	nur Fehler und Warnungen
+1246	nur mit ihm verbundene Nachbarn
+1247	Wirklich wiederherstellen?
+1249	Wirklich löschen?
+1250	Wirklich leeren?
+1252	Wirklich? Es wird aus der Datenbank gelöscht
+1253	Korrelation wird geprüft (Mantel-Test)…
+1254	erwartet
+1256	Typ
+1257	Untersuchen
+1258	Nur {0} von {1} Formen eignen sich für die Studie: zu wenige für ein Clustering.
+1259	Bedienfeld dieses Knotens / dieser Beziehung
+1260	Knoten mit gleichem Namen
+1264	Sprachen desselben Zweigs, lexikalisch ferner als der Baum zulässt
+1265	Derselbe Zweig, aber lexikalisch fern
+1269	Der kürzeste Pfad zwischen zwei ausgewählten Knoten
+1270	Tastenkürzel
+1271	Löschen
+1272	fehlt
+1273	Es fehlen Normdaten, die weder in Neo4j noch ausgewählt sind:
+1274	Segmentierung fehlt
+1275	Hat Breite und Länge – klicken
+1277	Turkmenistan
+1278	leer
+1279	leer – rechte Taste „In den Korb legen“
+1280	leer – nach der Eigenwertlücke
+1281	leer – wird selbst nach der Eigenwertlücke gewählt
+1285	Gärten verwalten
+1286	Gärten verwalten…
+1289	Studie
+1301	Schließen
+1302	Menü schließen
+1305	Prompt
+1306	Anfrage von einer anderen Website abgelehnt
+1307	Prompt für das Modell
+1308	Prompt nicht gefunden
+1309	Prompt ausgewählt
+1310	Anfrage zu groß
+1311	Prompt hochgeladen und ausgewählt
+1313	Am Anfang des Prompts muss das Kennzeichen {0} stehen: es zeigt, dass der Prompt zum Antwortschema dieses Programms passt.
+1315	Beschriftungen
+1316	Beschriftungsgröße
+1317	Beschriftungsgröße
+1319	Vaiva · {0}
+1320	Vaivas Werkstatt
+1321	Vaivas Werkstatt – Studien mit den Knoten im Korb
+1322	Vaivas Werkstatt – {0}
+1323	Ansicht
+1335	Protokoll leeren
+1336	Vorname
+1340	Engine und Prompt
+1354	Aktionsmenü
+1356	Wales (Vereinigtes Königreich)
+1357	mittl. Perzentil {0} ({1} Begriffe)
+1358	Mittlere Taste auf Knoten / Beziehung
+1359	Das mittlere Stabilitätsperzentil der Begriffe des Felds für jede Komponente. ● – signifikant stabiler oder beweglicher als eine Zufallsstichprobe (p < 0,05).
+1360	mittlere Silhouette
+1361	Mittlere Silhouette {0} (von −1 bis 1; über 0,5 – klare Gruppen, um 0 – verschwimmende).
+1362	mäßig ähnlich
+1363	mittel
+1364	einer der Knoten wurde nicht gefunden
+1366	Gleiche Größe
+1367	Standort („nach der Sonne“)
+1374	bei Überschreitung werden neue Knoten nicht mehr gezeigt, Eintrag im Protokoll
+1375	Das ganze JSON, aus dem der Graph gebaut wurde
+1376	Ganzer Garten
+1377	Ganzer Garten (Umschalt+Pos1)
+1379	alle Constraints
+1380	alle Indizes
+1381	alle getrennten Entsprechungen
+1382	alle Knoten und Beziehungen
+1383	alle Knoten gleich groß
+1386	alle Beziehungen + Quelle
+1387	Alles
+1390	Alle untersuchten Formen
+1391	alle Sprachen mit Kognatendaten
+1392	Alle Begriffe
+1393	aller seiner Knoten
+1394	Größe aller Knoten
+1395	Größe aller Knoten
+1396	die Anzahl aller Beziehungen in der Datenbank
+1397	Darstellung aller {0}
+1398	läuft…
+1400	Flaggen {0} Sprachnamen zugewiesen
+1401	Flaggen {0} Sprachnamen zugewiesen
+1403	{0} (nicht in diesem Typ)
+1404	{0} - Sodas
+1405	{0} - Vaiva
+1406	{0} gemeinsame Kognaten
+1407	{0} Formen
+1408	{0} Formen, {1} Gr.
+1409	{0} Gruppen (Sie gaben {1} an)
+1410	{0} Gruppen
+1411	{0} von {1} Sprachen der Gruppe
+1412	{0} von {1} Einträgen gehen an das Modell (Querverweise und leere – ohne Modell)
+1413	{0} davon gehören zur Kognatengruppe „{1}“
+1414	{0} Sprachen, {1} Klassen, im Baum mindestens {2} Wechsel. {3}
+1415	{0} Sprachen
+1416	{0} Sprachen, ρ {1}
+1417	{0} andere Knoten mit Koordinaten an ihre Orte auf der Karte versetzt; Knoten ohne Ort auf der Karte sind ausgeblendet
+1418	Ebene {0} · {1} Zweige
+1419	{0} Knoten und {1} Beziehungen mit
+1420	{0} Knoten in den neuen Garten „{1}“ verschoben{2}
+1421	{0} Knoten · {1}
+1422	{0} Knoten, {1} Beziehungen in der Stichprobe
+1423	{0} Knoten, {1} Beziehungen{2}
+1424	{0} Modelle
+1426	{0} Paare
+1431	{0} verschiedene Laute mit CLTS verknüpft
+1434	{0} Einträge ·
+1435	{0} Begriff
+1436	{0} Begriffe
+1437	{0} Begriffe
+1438	{0} zwischen Gruppen
+1440	{0} {1} Knoten mit gleichem Namen{2}
+1441	{0} · zusammengeführte Datensätze: {1}
+1442	{0} · Concepticon {1}
+1443	{0} · im Baum {1}
+1444	{0} · {1} · {2}{3} · {4}, ≥ {5} gemeinsame Bedeutungen
+1446	{0} Zw.
+1447	{0} Sprachen dieser Gruppe stammen aus dem Zweig {1}
+1448	{0} Wörter in die Warteschlange gestellt
+1449	{0} Wörter · {1} Einträge · erklärt {2} · aufgenommen {3}
+1450	{0} – Anteil
+1451	{0} – {1} (mittl. Perzentil {2}, p = {3})
+1452	{0} – {1} {2} statt ~{3}
+1453	{0} – dazwischen {1}{2}
+1454	Richtung {0}: {1} der Vielfalt
+1455	{0}. Eigenwert
+1456	{0}: mit der Entsprechung zusammengeführt
+1457	{0}: {1} Knoten werden ausgeklappt…
+1458	{0}: {1} Beziehungen gezeigt
+1459	{0}: {1} Beziehungen gezeigt{2}
+1461	{0}: ausgeblendet {1}{2}
+1462	{0}: die stabilsten – {1}
+1463	{0}: Grenze
+1464	{0}: eingeklappt, {1} Knoten entfernt
+1465	{0}: {1} Wörter
+1466	{0}–{1} von {2}
+1467	© OpenStreetMap
+1471	· ungültig: {0}
+1475	· mit Derivation
+1479	· {0} Bedeutungen aus den Korbbegriffen
+1480	· {0} Beziehungen
+1482	Tschechien
+1483	In einen eigenen Garten
+1484	In einen eigenen Garten – die ausgewählten Knoten in einen neuen Garten verschieben
+1486	In wie viele Gruppen die Formen geteilt werden. Leer – das Programm wählt selbst: dort, wo die Lücke zwischen benachbarten Eigenwerten des Laplace-Operators am größten ist (Wahl aus 2–12). Mehr Gruppen – feinere, aber weniger verlässliche Lautunterschiede.
+1487	In wie viele Gruppen die Sprachen spektral geteilt werden (im lexikalischen und im Baumgraphen gleich viele). Leer – gewählt dort, wo die Lücke zwischen benachbarten Eigenwerten am größten ist (2–12).
+1488	In den Korb gelegt: {0} (insgesamt {1})
+1489	In den Korb – die ausgewählten Knoten; wenn nichts ausgewählt ist – den Inhalt des Korbs zeigen
+1492	In die Warteschlange gestellt
+1494	Hochladen und verwenden
+1496	Hochladen…
+1504	geben Sie IŠTRINTI ein
+1505	geben Sie ein neues ein, wenn Sie es ändern wollen
+1512	dazwischen: {0}{1}
+1513	Dazwischentretende Sprachen zeigen meist Kontakt (Entlehnungen), dünne Daten oder dass der Zweig ein altes Erbe mit einem Nachbarn teilt.
+1514	in Neo4j aufgenommen
+1516	aufnehmen
+1517	Rekonstruierte (*) Formen einbeziehen
+1518	In Neo4j aufnehmen
+1519	in Neo4j aufnehmen
+1520	Muster
+1521	das Muster muss mit (n) oder (n:Label) beginnen, ein Ziel (t) haben und nur ein Pfadmuster sein
+1522	Zweig
+1523	Zweig: {0}
+1524	Die Zweige werden aus dem Glottolog-Baum unter „{0}“ genommen.
+1525	Die Zweige werden aus dem Glottolog-Baum genommen.
+1526	Zweige: wie viele gemeinsame Kognaten innerhalb und mit anderen Zweigen
+1527	Zweige im lexikalischen Baum geschlossen
+1528	Neben Knoten mit Eigenschaften
+1529	Quelleintrag
+1530	Für diese Studie ist der Korb nicht nötig: ohne ihn werden alle Sprachen mit Kognatendaten untersucht.
+1534	In dieser Studie verwendet: {0}.
+1535	heute: Sonnenaufgang {0}, Sonnenuntergang {1}{2}
+1536	Nordmazedonien
+1537	Diese Knoten sind bereits im Korb
+1538	Dieser Datensatz erzeugt diesen Knoten nicht, daher wird die zu ihm führende Beziehung nicht geschrieben.
+1540	Darstellung der Beziehungen dieses Typs
+1541	Für diese Studie gibt es keine Darstellung.
+1544	Diese Formen ähneln auch den Formen einer anderen Gruppe, daher ist ihr Platz unklar:
+1546	Dieser Datensatz stützt sich auf keine anderen Datensätze.
+1547	Dieser Datensatz speichert nur Fremdschlüssel (◆ ExternalIdentifier). Genauere Daten zu diesen Objekten stehen in anderen Datensätzen; nach dem Import erstellt „Mit Normdaten verknüpfen“ Beziehungen
+1549	Dieser Knoten hat keine Breite und Länge
+1550	Dieses Profil erzeugt keine semantischen Knoten – nur SourceRecord wird geschrieben.
+1552	dieser Garten
+1562	Schottland (Vereinigtes Königreich)
+1563	Sri Lanka
+1564	Sprung vom vorigen: {0}
+1565	Ein Sprung nach dem k-ten Wert zeigt k Gruppen. Klicken Sie auf k, um mit so vielen Gruppen neu zu berechnen.
+1566	Schweden
+1567	Schweiz
+1568	Hell
+1569	Helligkeit
+1571	Schemaiten (Litauen)
+1572	Den niedrigen ARI verursacht meist nicht das Mischen, sondern das Zerfallen:
+1573	Žemė
+1575	Žemė – Datensätze und LKEŽDB, aus denen die Gärten wachsen
+1576	Žemė – Datensätze, aus denen die Gärten wachsen
+1577	Kartenhelligkeit
+1578	Karte
+1579	Die Karte ist in den Einstellungen ausgeschaltet
+1580	die Karte wird nicht gezeigt
+1581	die Karte wird gezeigt
+1591	Wort
+1592	das Wort ist noch nicht erklärt
+1593	Das Wort bleibt, aber die Bedeutung ist beweglich:
+1594	Wort nicht gefunden
+1595	Der Wortschatz zerfällt in {0} Gruppen
+1596	Wörter
+1597	das Erklären des Wortes ist fehlgeschlagen: {0}
+1600	Protokoll
+1601	Eine mit Sternchen markierte Form ist nicht direkt belegt; sie wird nur untersucht, wenn „rekonstruierte Formen einbeziehen“ angekreuzt ist.
+1602	ρ Baum ↔ Wortschatz{0}
+1605	– Sie finden ihn in der Liste der Gärten
+1608	– ein einziger Index würde verbergen, dass die Komponenten Verschiedenes messen.
+1609	– für diese Studie ungeeignet
+1610	— wählen —
+1611	„{0}“: {1} Beziehungen im Datensatz{2}, {3} Knoten hinzugefügt
+1616	⇝ Kürzeste Pfade finden
+1618	☀ Hell
+1619	☾ Dunkel
+1622	✓ berührt
+1625	＋ Pfad
+1627	＋ Neue berechnete Eigenschaft
+1628	＋ Neue Regel
+1629	＋ Neuer Garten
+1631	＋ In den Korb legen
+1636	🏳 Sprachen Flaggen zuweisen
+1639	📍 Auf der Karte zeigen
+1647	🗑 Korb leeren
+1648	🗑 Korb wirklich leeren?
+1649	🧺 Korb
+1650	🧺 Studienkorb
+1651	🧺 In den Korb
+1652	Zurück
+1653	Zurück (Alt+←)
+1656	Litauisch
+1658	Vorwärts
+1659	Vorwärts (Alt+→)
+1660	Sprache der Oberfläche
+1670	. In der Tabelle ist ihre Silhouette negativ.
+1671	. Gründe können viele Lehnwörter, wenige kodierte Bedeutungen, Archaik (früh belegte Sprache) oder ein umstrittener Platz im Baum sein.
+1672	. Das sind Kandidaten für die Untersuchung von Kontakten und Entlehnungen; die Genealogie erklärt hier nichts.
+1673	. Das kommt vor, wenn eine Sprache ihren Wortschatz stark erneuert hat oder eine von beiden schwach belegt ist (kleine Menge gemeinsamer Bedeutungen).
+1674	. Die Aktion kann nicht rückgängig gemacht werden.
+1675	. Innerhalb teilen die Sprachen im Mittel {0} ihrer Bedeutungen.
+1676	. Wörter gleicher Herkunft haben sich in den Sprachen lautlich entfernt und bilden daher mehrere Lautgruppen.
+1678	Legen Sie im Garten Knoten in den Korb (rechte Maustaste → „In den Korb legen“), zum Beispiel den Begriff moon. Wählen Sie hier eine Studie und klicken Sie „Untersuchen“. Die Früchte jeder Studie bleiben in der Liste links.
+1680	Normdaten
+1681	Bei Doppelklick auf einen Knoten werden im Datensatz alle seine Beziehungen gesucht und gezeigt (bis 150).
+1682	Knoten {0}/{1}{2} · berührt {3} · Beziehungen {4}/{5}
+1683	stützt sich auf: {0}
+1684	alle
+1685	(und {0} weitere)
+1686	(optional)
+1688	(die größten Gruppen werden gezeigt)
+1689	, {0} mit Fehler
+1691	1 − Abstand / größter
+1692	Ladung auf der 1.
+1693	: {0} Paare
+1694	beide hoch
+1695	beide niedrig
+1696	Analysesegmente stammen aus Form.segments, dann IE-CoR Phonemic_Segments, dann etc/orthography.tsv des Datensatzes; eine Form ohne all dies wird ausgelassen (die Aussprache wird nicht erfunden). Jedes Segment wird mit einem CLTS-Laut verknüpft. Einfügen oder Auslassen kostet 0,5, das Ergebnis wird durch die Länge der längeren Form geteilt (0–1); bei Formen mit mehreren Varianten gilt der kleinste Abstand.
+1697	Überschrift der Frucht
+1698	Nach anderem einschränken
+1699	ob die nächsten nach einem Maß auch nach dem anderen die nächsten sind
+1700	Gehen die Paare zweier Maße zusammen: Spearman ρ über alle Paare und der Mantel-Permutationstest.
+1701	Teilen benachbarte Sprachen mehr Kognaten als entfernte? Verglichen mit Geografie und Baum; unerwartet nahe Paare.
+1702	Stehen Sprachen, die mehr Kognaten teilen, auch im Glottolog-Baum näher? Der Korb ist optional.
+1703	Ist der mittlere Wert einer Gruppe (z. B. semantischer Felder) höher oder niedriger als zufällig?
+1704	Erzählen die Kennzahlen dieselbe Geschichte: Spearman-Korrelationen und Hauptkomponenten (ist ein gemeinsamer Index gerechtfertigt).
+1705	Ist das Konzept von denselben anderen Bedeutungen umgeben: Polysemie DatSemShift, Stabilität der Nachbarschaft, Stabilität der spektralen Position über Sprachfamilien.
+1706	Wird das Konzept überall durch dasselbe ererbte Wort ausgedrückt: Kognatenerhalt, Überleben in fernen Zweigen, Rate lexikalischer Ersetzung (Fitch), Polysemie IE-CoR.
+1707	Ob auch rekonstruierte Formen der Ursprachen (mit * markiert) untersucht werden. Sie werden anders geschrieben als belegte Formen und bleiben daher meist beiseite.
+1708	Sind die nächsten einer Einheit nach einem Maß auch nach dem anderen die nächsten: Goodman–Kruskal γ für jede Einheit.
+1709	Oder die Entf-Taste.
+1710	ARI (bereinigter Rand-Index): 1 – die Partitionen stimmen überein, 0 – nicht mehr als zufällig. Reinheit – Anteil der Einheiten in der häufigsten B-Gruppe ihrer A-Gruppe.
+1711	ARI mit den Glottolog-Zweigen auf jeder Ebene unter „{0}“.
+1712	ARI mit „{0}“
+1713	Verbindungen zu nächsten Nachbarn
+1714	näher
+1715	Übereinstimmung mit den Baumebenen
+1716	Übereinstimmung mit dem Baum (γ)
+1717	Übereinstimmung mit dem Baum γ
+1718	Aufbau als Datei herunterladen
+1719	Abstände (z. B. im Baum)
+1720	Abstände / Ähnlichkeiten
+1721	Abstände oder Ähnlichkeiten als farbige Tabelle, Einheiten nach Gruppen geordnet.
+1722	Abstände → Graph: nahe Einheiten werden stark, ferne schwach verbunden; jede Einheit hat ihren eigenen Maßstab.
+1723	Abstände → Graph: die Verbindung schwächt sich exponentiell ab, je weiter die Einheiten entfernt sind.
+1724	Abstände → Ähnlichkeiten
+1725	Abstand = 1 − Ähnlichkeit.
+1726	Abstand in Kilometern zwischen den Koordinaten von Sprachen (oder ihrer Formen), auf dem Großkreis.
+1727	Aufbau öffnen
+1728	Rückgängig (Strg+Z)
+1730	Außer Polysemie (ein Wort – mehrere Bedeutungen) auch Derivation zählen (eine Bedeutung ging auf ein abgeleitetes Wort über). Das Netz wird dichter, aber weniger rein.
+1731	alles mit Einheiten
+1733	Anzahl der Kanten im Baum
+1734	Concepticon-Konzepte, die IE-CoR nach Kognaten kodiert. Konzepte im Korb werden markiert (Merkmal „im Korb“), ein Glottolog-Zweig im Korb schränkt die Sprachen ein.
+1737	{0} weitere kleinere Gruppen.
+1738	Das DatSemShift-Netz ist leer: wurde der Datensatz importiert?
+1739	Multidimensionale Skalierung (MDS)
+1740	Höchstens {0} Zeilen.
+1741	Höchstens {0} Blätter. Eine Gruppe ist geschlossen, wenn der Baum einen Zweig mit allen ihren Einheiten und nur ihnen hat.
+1742	Höchstens {0} Einheiten. Dunkler – näher (ähnlicher); leere Zellen – unbekannt.
+1743	Dendrogramm
+1744	Zu viele Blätter für ein Dendrogramm ({0}; höchstens {1}).
+1745	Die Kennungen der Bauteile müssen verschieden sein.
+1746	Bauteil
+1747	Bauteile
+1748	hoch {0}, niedrig {1}
+1749	Ein großer Sprung nach dem k-ten Wert zeigt, dass der Graph in k Gruppen zerfällt.{0}
+1750	Vergrößern
+1751	Der größte zusammenhängende Teil hat nur {0} Einheiten: der Graph hat kaum Verbindungen. Für die lexikalische Ähnlichkeit „Mindestens gemeinsame Bedeutungen je Paar“ senken oder die Konzepte des Korbs nicht nehmen (sie schränken die Bedeutungen ein).
+1752	Größter zusammenhängender Teil des Graphen
+1753	Größtes wählbares k
+1754	Größte Lücke – nach dem {0}. Eigenwert
+1756	Arbeitsfläche geleert. Strg+Z – zurückholen.
+1757	Die Arbeitsfläche ist leer
+1758	Datentypen
+1759	Vergleich zweier Maße (Mantel)
+1760	Die Spalten zweier Kennzahlensätze werden in eine Tabelle gelegt (nach dem Schlüssel der Einheit).
+1761	Streuung zweier Kennzahlen
+1762	Box – alle Paare mit diesem Wert von B
+1763	Zeilen – {0}, Spalten – {1}{2}.
+1764	filtern: Einheit, Grund, Bauteil…
+1765	filtern…
+1766	Formen
+1767	Kennzahlen der Form- und Bedeutungsstabilität, ihre Korrelationen und Tests semantischer Felder. Der Korb ist optional.
+1768	Formstabilität
+1769	Die Formstabilität wird für Konzepte aus der Quelle „Konzepte (IE-CoR)“ berechnet.
+1770	Formen
+1771	Lautabstände der Formen werden zu Abständen zwischen Sprachen zusammengezogen und mit dem Glottolog-Baum und der Geografie verglichen.
+1772	Lautabstände der Sprachen, Baum und Geografie
+1773	Lautabstand (CLTS)
+1774	Der Lautabstand wird nur für Formen berechnet.
+1775	Gauß-Kern (selbstabstimmend)
+1776	Genealogischer Abstand (Glottolog)
+1777	Geografischer Abstand
+1778	Glottolog-Zweige
+1779	Graphen
+1780	Der Graph besteht aus {0} unverbundenen Teilen: die ersten {1} Eigenwerte sind 0. Eventuell „Größter zusammenhängender Teil des Graphen“ anschließen.
+1781	Eigenwerte und Eigenvektoren der normalisierten Laplace-Matrix eines Graphen
+1782	Gruppenkarten
+1783	Gruppen im Baum geschlossen
+1784	Gruppen nach der Lücke
+1785	Permutationstest der Gruppen
+1786	Anzahl der Gruppen
+1787	Gruppen
+1788	Gruppen (z. B. Zweige)
+1790	Der Gruppenmittelwert wird mit den Mittelwerten ebenso vieler zufällig gewählter Einheiten verglichen. Getestet werden Gruppen mit ≥ 3 Einheiten.
+1791	Hierarchischer Baum: die nächsten Einheiten und Gruppen werden zuerst verbunden (Average Linkage).
+1792	hierarchischer Baum der Einheiten (Dendrogramm)
+1793	Bauteil suchen…
+1794	Bis zu 400 Zeichen.
+1795	Bis zu wie vielen Gruppen
+1797	In wie vielen Familien mindestens die Verbindungen des Konzepts belegt sein müssen, damit die Stabilität seiner Nachbarschaft und spektralen Position berechnet wird.
+1798	Von den Paaren anderer Einheiten, die das erste Maß ordnet (Gleichstände ausgelassen), der Anteil, den auch das zweite gleich ordnet (γ: 1 – alle, 0 – wie zufällig, −1 – umgekehrt). Niedriges γ – eine Sprache, deren Wortschatz nicht zu ihrem Platz im Baum passt (Kontakte, Entlehnungen, Datenlücken).
+1799	Anordnung
+1800	Leeren
+1801	Arbeitsfläche leeren
+1802	Ausgänge
+1804	Ein gemeinsamer Index wird empfohlen, wenn die erste Hauptkomponente ≥ 50 % erklärt und alle Kennzahlen in gleicher Richtung eingehen.
+1805	Verbindung
+1806	Verbindung zu einem nicht vorhandenen Bauteil.
+1807	Ihr Text zwischen den Früchten: wozu dieser Aufbau dient, was Sie prüfen, was Ihnen auffiel.
+1808	Wird k automatisch gewählt, wird zwischen 2 und dieser Zahl gesucht.
+1809	Nachbarverbindung bis Abstand
+1810	Nachbarn für den Maßstab
+1811	So wird gearbeitet
+1812	Wie schnell die Verbindung schwächer wird. Kleines τ – fast nur die nächsten werden verbunden, großes – auch ferne. Für Baumtiefe passen 2–8, für Kilometer Hunderte.
+1813	Wie messen
+1814	Wie in der Studie „Semantische Stabilität von Konzepten“. Sprachen – aus der Quelle „Konzepte (IE-CoR)“ (ein Zweig im Korb schränkt sie ein).
+1815	Wie in der Studie „Semantische Stabilität von Konzepten“: das Netz wird mit Random-Walk-Koordinaten entfaltet; aus Sicht einer Familie ist die Position des Konzepts der Mittelwert der Positionen seiner Nachbarn dort, die Stabilität – deren Streuung.
+1816	Wie umwandeln
+1817	wie am Eingang
+1818	Eine Sprache ohne Glottolog-Entsprechung wird ausgelassen (ihr Platz im Baum ist unbekannt). Merkmale: Glottolog-Name, Koordinaten, Zahl kodierter Bedeutungen.
+1819	Sprachen durch die Glottolog-Knoten des Korbs eingeschränkt ({0} Sprachen).
+1820	Sprachen mit nach IE-CoR-Kognaten kodierten Bedeutungen. Im Korb: eine Glottolog-Familie oder ein Zweig, Sprachen, Konzepte (sie schränken die Bedeutungen ein); ohne Korb – alle solchen Sprachen.
+1821	Sprachen
+1822	Was bleibt
+1823	Wie viele Formen höchstens aus den Korbknoten genommen werden; die übrigen werden übersprungen (Sie werden informiert). Der Lautabstand vergleicht alle Formpaare, die Arbeit wächst also quadratisch.
+1824	Wie oft die Einheiten zufällig gemischt werden, um den p-Wert zu schätzen. 0 – p wird nicht berechnet.
+1825	Wie viel näher jede Einheit ihrer eigenen Gruppe als der nächsten anderen ist: von −1 (nicht in ihrer Gruppe) bis 1.
+1826	Wie viele Einheiten jeder A-Gruppe in jede B-Gruppe fallen; ARI und Reinheit.
+1827	In wie vielen Sprachen mindestens (mit Platz im Glottolog-Baum) das Wort des Konzepts nach Kognaten kodiert sein muss.
+1828	Wie viele gleiche Bedeutungen mindestens in beiden Sprachen kodiert sein müssen, damit die Ähnlichkeit des Paares bekannt ist. Die Ähnlichkeit schwächer belegter Paare gilt als unbekannt (im Graphen nicht verbunden).
+1829	Wie viele erste Eigenvektoren der Laplace-Matrix die Position des Konzepts im Netz bestimmen.
+1830	Wie verschieden zwei Formen klingen: Editierabstand, bei dem das Ersetzen eines Lauts den Anteil unterschiedlicher CLTS-Merkmale kostet.
+1831	Wie weit zwei Einheiten (Sprachen oder ihre Formen) im Glottolog-Baum voneinander stehen.
+1832	wie viel näher die Einheit ihrer Gruppe als anderen ist
+1833	Jede Gruppe: Größe, typischste Einheit (Medoid), Beispiele, wie nah innen und zu anderen, Zusammensetzung.
+1834	Jede {0}.
+1835	Behält für jede Einheit nur die k stärksten Verbindungen (dünnt einen dichten Graphen aus).
+1836	Jede Kennzahl wird zu einem Perzentil 0–1, wobei 1 das „beste“ (stabilste) ist; so zeigen alle in dieselbe Richtung.
+1837	Jede Einheit ist ein Punkt nach zwei Kennzahlen; Quadranten nach den Medianen (z. B. Form stabil, Bedeutung wechselnd).
+1838	Der Maßstab σᵢ jeder Einheit ist der Abstand zum so vielten nächsten Nachbarn (Zelnik-Manor und Perona, 2004). Gewicht exp(−d² / σᵢσⱼ). Kleiner – der Graph zerfällt stärker in dichte Gruppen.
+1839	der Abstand jedes Einheitenpaars: 0 – gleich, mehr – weiter
+1840	die Ähnlichkeit jedes Einheitenpaars: mehr – ähnlicher
+1841	kodierte Bedeutungen
+1842	Kognatengruppen
+1843	Welcher Anteil der in beiden Sprachen kodierten Bedeutungen eine gemeinsame Kognatengruppe hat: S = C / M.
+1844	Koordinaten – Breite und Länge der Sprache (Glottolog oder Datensatz). Einheiten ohne Koordinaten werden ausgelassen.
+1846	Formen der Korbkonzepte (und der per CORRESPONDS_TO verknüpften), Bedeutungen, Lexeme, Kognatengruppen oder die Formen selbst.
+1847	Formen der Korbkonzepte werden danach gruppiert, wie ähnlich sie klingen; die Gruppen werden mit Kognaten und Zweigen verglichen.
+1848	im Korb
+1849	Korb
+1850	Der Korb untersucht selbst nichts: er sagt den Quellen, was sie nehmen sollen. Links in Vaiva können Sie Knoten abwählen, die Sie diesmal nicht wollen.
+1851	Der Korb kommt über das Bauteil „Korb“ in den Aufbau; ohne es wird der Korb nicht verwendet.
+1852	Kreuztabelle
+1853	Welche Einheiten
+1854	Welche B-Gruppen sich auf mehrere A-Gruppen verteilen
+1855	Wessen Zeilen bleiben. Fehlende Werte sind unbekannt.
+1856	Was einschränken
+1857	Was filtern
+1858	am besten passende Ebene (ARI {0}, {1} Zweige)
+1859	Die kleinsten Eigenwerte der Laplace-Matrix: ein großer Sprung nach dem k-ten zeigt, dass der Graph in k Gruppen zerfällt.
+1860	Laplace-Spektrum
+1861	Wartet auf ein fehlgeschlagenes Bauteil.
+1862	wartet auf ein fehlgeschlagenes Bauteil
+1863	Lexikalische Ähnlichkeit
+1864	Die lexikalische Ähnlichkeit wird für Sprachen aus der Quelle „Sprachen“ berechnet.
+1865	{0} von {1} bleiben.
+1866	Ebenen werden vom gemeinsamen Vorfahren aller Einheiten gezählt. „Erste Ebene mit 3 … n/2 Zweigen“ – wie in der Studie „Sprachbaum“; „erste Spaltung“ – die erste Ebene, auf der sich die Einheiten trennen.
+1867	Verglichen (z. B. lexikalisch)
+1868	M – in beiden Sprachen kodierte Bedeutungen (Concepticon); C – wie viele davon eine gemeinsame Kognatengruppe haben. Jede Bedeutung zählt einmal.
+1869	Mantel-Test ({0} Permutationen)…
+1870	Maßstab τ
+1871	Maße
+1872	Maß A
+1873	Maß B
+1874	Matrix
+1875	Zu viele Einheiten für eine Matrix ({0}; höchstens {1}).
+1876	niedrig {0}, hoch {1}
+1877	Kleinere Ähnlichkeiten gelten als null. 0 – alle bekannten werden genommen.
+1878	niedriger
+1879	Weniger als {0} Sprachen mit nach Kognaten kodiertem Wort.
+1880	Mindestens Sprachen je Konzept
+1881	Mindestens Familien je Konzept
+1882	Verkleinern
+1883	Kleine Eigenwerte und ihre Vektoren beschreiben die grobe Struktur des Graphen: so viele Nullwerte – so viele getrennte Stücke, eine große Lücke nach dem k-ten – der Graph zerfällt in k Gruppen.
+1884	Median {0} ({1}–{2})
+1885	Baum (UPGMA)
+1886	Ein Baum mit nach einer Partition gefärbten Blättern; welche Gruppen im Baum geschlossen sind und was in sie eindringt.
+1887	Der Baum hat keine Ebenen unter dem gemeinsamen Vorfahren.
+1888	Baumebene
+1889	Ein Baum kann nicht eingeschränkt werden: schränken Sie die Abstände ein, bevor Sie den Baum bauen.
+1890	Zu viele Einheiten für einen Baum (höchstens 2000).
+1891	nicht im größten zusammenhängenden Teil
+1892	kein Aufbau
+1894	Zeichnen fehlgeschlagen: {0}
+1895	Nicht angeschlossen – alle Konzepte des DatSemShift-Netzes mit Concepticon-Nummer.
+1896	Keine nach Kognaten kodierten Konzepte gefunden.
+1897	Ungeeignete Datei: {0}
+1898	Nicht geschlossene Gruppen
+1899	Ausgelassene Einheiten: {0} (siehe unter den Früchten)
+1900	unbekannt
+1901	Unbekanntes Bauteil: {0}
+1902	unbekannt
+1903	Unbekannte Abstände (z. B. Sprachen verschiedener Familien) ergeben keine Verbindung.
+1904	Eigenwerte und Eigenvektoren der normalisierten Laplace-Matrix L = I − D^-½ W D^-½.
+1905	Ziehen Sie ein Bauteil aus der Liste links oder laden Sie einen fertigen Aufbau.
+1906	Ziehen Sie ein Bauteil aus der Liste links auf die Arbeitsfläche (oder klicken Sie es an: es wird mit dem markierten verbunden).
+1907	Auf die Arbeitsfläche ziehen oder anklicken.
+1908	Keine Gruppe sticht signifikant hervor
+1909	Keine Sprache hat einen Platz im Glottolog-Baum.
+1910	Kein Konzept hat genug Sprachen.
+1911	Kein Konzept ist im DatSemShift-Netz.
+1912	nicht im DatSemShift-Netz
+1913	keine Koordinaten
+1914	Es gibt keine Paare, bei denen beide Maße bekannt sind.
+1915	Keine Kennzahl „{0}“. Verfügbar: {1}.
+1916	kein Platz im Glottolog-Baum
+1917	Orange – das gewählte k.
+1918	p (höher) {0}, p (niedriger) {1}
+1919	erklärt (1, 2, 3 …)
+1920	von der 1. Komponente erklärt
+1921	Nach welchem Merkmal zusammenfassen. Z. B. ergeben die Lautabstände der Formen, nach Sprache zusammengezogen, Lautabstände der Sprachen, die man mit genealogischen oder geografischen vergleichen kann.
+1922	Wonach
+1923	Hauptkomponenten ({0} Einheiten)
+1925	Behält nur den größten zusammenhängenden Teil des Graphen; abgetrennte Einheiten werden ausgelassen.
+1926	Behält nur die Einheiten, die auch im anderen Eingang sind (z. B. Baumabstände – nur für die Sprachen des lexikalischen Graphen).
+1927	Behält die Einheiten, deren Merkmal eine Bedingung erfüllt (z. B. language = Lithuanian; reconstructed = ne; grupė = 2).
+1928	Vergleichen mit (ARI)
+1929	ähnlicher
+1930	Ähnlichkeiten
+1931	Ähnlichkeiten werden in Abstände umgewandelt (1 − s), daher bedeutet ein positives ρ immer, dass die Maße übereinstimmen. Verglichen werden nur Paare, bei denen beide Maße bekannt sind. Im Diagramm – A-Werte nach B (Boxen, wenn B wenige verschiedene Werte hat).
+1932	Ähnlichkeiten werden in Abstände 1 − s umgewandelt. Mehr als ~1500 Einheiten dauern lange.
+1933	Ähnlichkeiten werden in Abstände 1 − s umgewandelt. Unbekannte Abstände gelten als die größten.
+1934	Ähnlichkeiten → Abstände
+1935	Ähnlichkeiten → Graph
+1936	Ähnlichkeit
+1937	Ähnlichkeit = 1 − Abstand (oder größter Abstand − Abstand).
+1938	Die Ähnlichkeit wird zum Gewicht der Verbindung; unbekannte und unter der Schwelle liegende Ähnlichkeiten ergeben keine Verbindung.
+1939	Ähnlichkeit – {0}, Abstand – {1}, Gruppen – {2}.
+1940	{0} von {1} angezeigt.
+1941	Dieses Bauteil im Aufbau zeigen
+1942	Fertige Studien mit eigener Darstellung
+1943	Fertige Aufbauten
+1944	Gewähltes k
+1945	Bauteil entfernen
+1946	Verbindung entfernen
+1947	k markieren
+1948	Zu viele Formen ({0}; höchstens {1}): schränken Sie den Korb oder die Zahl der Formen ein.
+1949	zu wenige Sprachen
+1950	Zu wenige Einheiten für einen Graphen.
+1951	Zu wenige Einheiten für ein Spektrum.
+1952	Zu wenige Einheiten mit einer Gruppe in beiden Partitionen.
+1953	Permutationen
+1954	erste Ebene mit 3 … n/2 Zweigen
+1955	Polysemienetz: Konzepte sind verbunden, wenn in mindestens einer Sprachfamilie dasselbe Wort beides bedeutet; Gewicht – wie viele Familien es belegen.
+1956	Zahl der Polysemie-Familien
+1957	Die Paare sind nicht unabhängig (jede Einheit nimmt an vielen teil), daher kommt p aus Permutationen, nicht aus einer Formel.
+1958	Paare, deren Ähnlichkeit viel höher oder niedriger ist als für ihren Abstand erwartet: verschiedener Gruppen und doch ähnlich (mögliche Kontakte), derselben Gruppe und doch fern.
+1959	Paare
+1960	Merkmale: semantisches Feld (Concepticon), Zahl der Sprachen, im Korb (taip / ne). Mit diesen Konzepten arbeiten „Formstabilität“ und „Bedeutungsstabilität“.
+1961	Merkmalsname: cognate (IE-CoR-Kognatengruppe), language, dataset, glottolog_name, field (semantisches Feld), focus, reconstructed …
+1962	Merkmal
+1963	Das Merkmal „{0}“ hat weniger als zwei Werte.
+1964	Für das Merkmal „grupė“ eine Partition anschließen.
+1965	Am einfachsten beginnt man mit einem fertigen Aufbau links. Ziehen der leeren Fläche – verschieben, Mausrad – Zoom, Entf – entfernen, Strg+Z – rückgängig, Strg+D – Kopie.
+1966	übersprungen: wartet auf ein fehlgeschlagenes Bauteil
+1967	Übersprungen: wartet auf ein fehlgeschlagenes Bauteil.
+1968	Sind Abstände angeschlossen, wird jede Einheit mit ihrem nächsten Nachbarn verbunden, wenn ihr Abstand nicht größer ist.
+1969	Ist eine andere Partition angeschlossen, werden so viele Gruppen genommen wie dort (z. B. den Baumgraphen in so viele Gruppen teilen, wie der lexikalische fand).
+1970	Ist eine Partition angeschlossen, kann nach dem Merkmal „grupė“ gefiltert werden (Gruppennummer wie in den Früchten).
+1971	Schließen Sie mindestens eine Frucht an (Gruppe „Früchte“).
+1972	Schließen Sie mindestens eine Frucht an und drücken Sie „Untersuchen“.
+1973	Keine Einheit hat den Filter passiert.
+1974	Perzentile
+1975	Z. B. Kognaten oder Zweige: wie viele Einheiten jeder Gruppe zu jeder ihrer Gruppen gehören.
+1976	Mindestens zwei Kennzahlen mit ≥ 5 bekannten Werten nötig.
+1977	Mindestens zwei Kennzahlen nötig.
+1978	Sticht signifikant hervor
+1979	Signifikanzniveau
+1980	signifikante Unterschiede (p < {0})
+1981	Bedeutungsnetz (DatSemShift)
+1982	Bedeutungen durch die Konzepte des Korbs eingeschränkt ({0} Concepticon-Konzepte).
+1983	Bedeutungsstabilität
+1984	Bedeutungsstabilität
+1985	Ordnen nach
+1986	Kennzahlen
+1987	Kennzahlen A
+1988	Kennzahlen B
+1990	Kennzahlen, bei denen weniger besser ist (z. B. Ersetzungsrate, Polysemie), werden umgekehrt. Gleiche Werte erhalten den mittleren Rang.
+1991	Name der Kennzahl (z. B. retention); leer – die erste.
+1992	Korrelationen der Kennzahlen
+1993	Die Kennzahlensätze haben keine gemeinsamen Einheiten.
+1994	Ganzen Aufbau zeigen
+1995	Verbindungen je Einheit
+1996	Eine Verbindung bleibt, wenn sie zu den k stärksten mindestens einer der beiden Einheiten gehört.
+1997	Eigenwerte
+1998	Eigenwertlücke
+1999	Filter
+2000	Ein Filter wirkt auf jeden Datentyp mit Einheiten: Einheiten, Abstände, Graph, Partition, Kennzahlen. Spektrum und Baum lassen sich nicht filtern – filtern Sie davor.
+2001	Silhouette
+2002	Silhouette – wie getrennt die Gruppen sind; ARI – wie sehr sie mit der angeschlossenen Partition übereinstimmen (z. B. Kognaten).
+2003	Für die Silhouette
+2004	Partition
+2005	Partition A (Zeilen)
+2006	Partition B (Spalten)
+2007	Partition nach Merkmal
+2008	Die Partition {0} mit dem Baum auf Ebene {1}
+2009	Auch Derivation zählen
+2010	Verschiedener Gruppen, aber ähnlicher als erwartet (mögliche Kontakte, Entlehnungen)
+2011	Der Abstand zwischen Einheiten verschiedener Familien ist unbekannt. Einheiten ohne Platz im Glottolog-Baum werden ausgelassen.
+2012	Die Unterschiede übersteigen nicht, was zufällig wäre.
+2013	Schwelle
+2014	Der farbige Streifen – Gruppen.
+2015	Spektrale Anordnung
+2016	Spektralanalyse
+2017	Spektralanalyse ist für einen zusammenhängenden Graphen sinnvoll: getrennte Stücke ergäben je einen Eigenwert null und „Gruppen“, die nur getrennte Stücke sind.
+2018	Eine Spektralanalyse-Studie aus Bauteilen: Quellen, Maße, Graphen, Filter, Spektralanalyse, Kennzahlen und Früchte.
+2019	Spektrale Gruppen
+2020	Ein Spektrum kann nicht eingeschränkt werden: schränken Sie den Graphen ein, bevor das Spektrum berechnet wird.
+2021	Klicken Sie ein Bauteil an und stellen Sie rechts seine Parameter ein.
+2022	Klicken Sie auf k, um mit so vielen Gruppen neu zu berechnen.
+2023	Baum wird gebaut…
+2024	Stärkste Verbindungen
+2025	Im Graphen nicht mit anderen Einheiten verbunden (oder nur mit einem kleinen Stück).
+2026	Womit vergleichen (für „bekannt“ und „unbekannt“ nicht nötig).
+2027	Mit welcher Ebene des Glottolog-Baums (Familie, Zweig, Unterzweig …) die Partition am meisten übereinstimmt (ARI für jede Ebene).
+2028	Zusammensetzung nach
+2029	Kennzahlen verbinden
+2030	Verbinden: ziehen Sie vom Ausgangspunkt rechts zu einem Eingang derselben Farbe links. Passende Eingänge werden hervorgehoben.
+2031	Garten „{0}“ angelegt
+2032	Nach Merkmal zusammenziehen
+2033	gewichteter Graph: Einheiten – Knoten, Gewicht – Stärke der Verbindung
+2034	Gewicht exp(−Abstand / τ)
+2035	Bedingung
+2036	Der Aufbau ist zu groß (höchstens {0} Bauteile und {1} Verbindungen).
+2037	Der Aufbau ist leer: ziehen Sie Bauteile in die Werkstatt und verbinden Sie sie.
+2038	Aufbau geladen.
+2039	Der Aufbau hat keine Frucht: fügen Sie ein Bauteil aus der Gruppe „Früchte“ hinzu und schließen Sie es an.
+2040	Der Aufbau hat eine geschlossene Schleife: ein Bauteil kann nicht sein eigenes Ergebnis erhalten.
+2041	Name des Aufbaus
+2042	Die Formen eines Konzepts werden über Sense → Lexeme → Form gefunden. Jede Form hat Merkmale: Sprache, Kognatengruppe (IE-CoR), Datensatz, rekonstruiert (taip / ne), Platz der Sprache im Glottolog-Baum und Koordinaten.
+2043	Konzepte
+2044	Konzepte (IE-CoR)
+2045	Konzepte werden an ihrer Concepticon-Nummer erkannt (fehlt sie – an der DatSemShift-Nummer), daher kann das Netz auf IE-CoR-Konzepte eingeschränkt werden (Bauteil „Nach anderem einschränken“).
+2046	Konzepte
+2047	So wird eine Matrix von Lautabständen zum Graphen für die Spektralanalyse. Unbekannte Abstände gelten als sehr groß.
+2048	Das ergibt eine Vergleichsgrundlage: stimmen die spektralen Gruppen mit Kognaten, Zweigen, Feldern überein.
+2049	Punkt – ein Paar (bis zu 3000 zufällige)
+2050	Technische Angaben
+2051	Text
+2052	Dieselben Eigenvektoren, in 2 … 12 Gruppen geteilt: Eigenwertlücke, Silhouette, Übereinstimmung mit einer anderen Partition.
+2053	Dieselben Eigenvektoren, in k Gruppen geteilt.{0}
+2054	So viele Gruppen wie hier
+2055	Werden viele Gruppen und Kennzahlen getestet, können einige „signifikante“ zufällig auftreten (Niveau {0}).
+2056	erwartet
+2057	Erwartete Ähnlichkeit – der Median aller Paare mit demselben Abstand (bei stetigen Abständen – 12 gleich große Intervalle).
+2058	Passt für Ähnlichkeiten von 0 bis 1 (z. B. lexikalische Ähnlichkeit). Eine unbekannte Ähnlichkeit bleibt ein unbekannter Abstand.
+2059	Netz: {0} Konzepte, {1} Verbindungen, größter zusammenhängender Teil – {2}, {3} Familien.
+2060	Im Netz außer Polysemie auch Derivation zählen. Das Netz wird dichter, aber weniger rein.
+2061	Am typischsten:
+2062	die untersuchten Einheiten (Formen, Sprachen, Konzepte) mit ihren Merkmalen
+2063	Nur {0} von {1} Formen sind untersuchbar.
+2064	Derselben Gruppe, aber weniger ähnlich als erwartet
+2065	enthält Text
+2066	Leer – die zweite.
+2067	Leer – gewählt, wo die Lücke zwischen benachbarten Eigenwerten am größten ist.
+2068	Studien
+2069	Eine aus Bauteilen zusammengesetzte Studie
+2070	Notiz
+2071	Beim Überfahren – die Merkmale der Einheit; Klick auf eine Gruppe in der Legende hebt sie hervor. „Im Garten öffnen“ legt einen neuen Garten mit diesen Knoten an denselben Stellen und in denselben Farben an.
+2072	Früchte
+2073	Frucht bereit
+2074	Vaivas Werkstatt · {0} · {1} Bauteile, {2} Früchte {3}
+2075	Vaivas Werkstatt – ein Aufbau aus Bauteilen
+2076	Mittelwert {0} (aller {1})
+2077	Eine mittlere Silhouette über 0,5 – deutliche Gruppen, um 0 – verschmelzende; negativ – Einheit zwischen Gruppen.
+2078	Einheiten
+2079	Einheiten werden an ihrem Schlüssel erkannt (Formen, Sprachen, Concepticon-Konzepte). Die Reihenfolge bleibt die des ersten Eingangs.
+2080	Einheiten ohne Platz im Glottolog-Baum bleiben ohne Gruppe.
+2081	Die Einheiten haben keine Koordinaten.
+2082	Die Einheiten haben kein Merkmal „{0}“. Verfügbar: {1}.
+2083	Einheiten auf einer Ebene nach einer Anordnung, nach einer Partition gefärbt; kann im Garten geöffnet werden.
+2084	Einheiten werden nach dem Glottolog-Zweig ihrer Sprache aufgeteilt.
+2085	Einheiten werden nach einem Merkmal aufgeteilt: Kognatengruppe, Sprache, semantisches Feld, Datensatz …
+2086	Einheiten werden in k Gruppen geteilt: k-Means im Raum der ersten k Eigenvektoren (Ng, Jordan, Weiss).
+2087	Die Einheiten müssen einen Platz im Glottolog-Baum haben (Formen oder Sprachen). Ebenen werden vom gemeinsamen Vorfahren aller gezählt.
+2088	Name eines Merkmals: language, cognate, dataset, reconstructed, glottolog_name, field, focus, meanings, languages, name, key; mit Partition – grupė. In der Einheitentabelle sind alle Merkmale sichtbar.
+2089	Einheiten
+2090	Einheitentabelle
+2091	Fasst Einheitenpaare zu Paaren ihres Merkmals (z. B. Sprache) zusammen: der Abstand zweier Sprachen – der mittlere Abstand ihrer Formen.
+2092	Einheitenfilter
+2093	eine Aufteilung der Einheiten in Gruppen
+2094	Positionen der Einheiten nach dem 2. und 3. Eigenvektor.
+2095	Positionen der Einheiten in der Ebene
+2096	Positionen der Einheiten in der Ebene, die ihre Abstände möglichst gut wahren (klassisches MDS).
+2097	Innerhalb einer Gruppe gilt der Abstand 0 (Ähnlichkeit – Mittelwert). Nach Sprache zusammengezogen sind die neuen Einheiten Sprachen und erben ihren Glottolog-Platz und ihre Koordinaten.
+2099	Alle Einheiten mit Merkmalen, Gruppe und Kennzahlen; sortier- und filterbar.
+2100	X-Kennzahl
+2101	Y-Kennzahl
+2102	{0} Bauteile fehlgeschlagen oder übersprungen
+2103	{0} Gruppen
+2104	{0} Sprachen, {1} Zweige.
+2105	{0} Blätter
+2106	{0} Knoten
+2107	{0} Kennzahlen, {1} Einheiten
+2108	{0} Eigenwerte
+2109	{0} Punkte
+2110	{0} Knoten, {1} Kanten
+2111	{0} → {1}. Je größer diese Lücke, desto klarer zerfällt der Graph in so viele Gruppen. Es gibt so viele Nullwerte wie unverbundene Teile des Graphen.
+2112	Ebene {0} unter dem gemeinsamen Vorfahren
+2113	Ebene {0} unter „{1}“: {2} Zweige.
+2114	{0}. Dunkler – {1}; leere Zellen – unbekannt. {2}
+2115	{0}: dazwischen {1}{2}
+2116	{0}; Achse – Verbindungshöhe (Abstand).
+2118	· ohne Korb
+2119	· aus dem Speicher
+2120	· Korb: {0}{1}
+2121	· ausgelassen {0}
+2122	· Farben: {0}
+2123	· innen {0}, zu anderen {1}
+2124	In „{0}“ passt {1}, hier aber ist es {2}.
+2125	Aufbau „{0}“ geladen. Strg+Z – den vorigen zurückholen.
+2126	Geladen; unbekannte Bauteile übersprungen: {0}
+2127	Aufbaudatei laden
+2128	dazwischen
+2129	Eingänge
+2130	Die Eingänge haben keine gemeinsamen Einheiten.
+2131	Zweige
+2132	Quellen
+2133	die Knoten im Korb des Gartens dieses Tabs
+2134	Die Knoten im Korb des Gartens dieses Tabs (im Garten: rechte Maustaste → „In den Korb legen“).
+2135	Unter „{0}“ gibt es auf Ebene {1} {2} Zweige (z. B. {3}); ARI {4}.
+2136	Zu viele Punkte für eine Karte ({0}; höchstens {1}).
+2137	Das Vorzeichen wird so gewählt, dass die größte Koordinate positiv ist (damit Wiederholungen übereinstimmen). Spektrale Karten von Baumgraphen ziehen oft viele Einheiten in wenige Punkte – dann ist MDS klarer.
+2138	bekannt
+2139	Die Ähnlichkeit von {0} von {1} Paaren ist bekannt (mindestens {2} gemeinsame Bedeutungen).
+2141	„1 − Abstand“ passt für Abstände von 0 bis 1 (Lautabstand). Für andere (km, Baumtiefe) – durch den größten teilen.
+2142	„Tiefe des gemeinsamen Vorfahren“: je tiefer im Baum der nächste gemeinsame Vorfahr, desto näher (0 – der tiefste). „Anzahl der Kanten“: wie viele Zweige man von einem zum anderen passiert – verzerrt, wenn Zweige ungleich fein gegliedert sind.
+2143	„gleich“ und „ungleich“ nehmen mehrere durch Semikolon getrennte Werte an; Groß- und Kleinschreibung ist egal.
+2144	„{0}“ und „{1}“: {2} Paare.
+2145	„{0}“ und „{1}“; {2} Einheiten verglichen.
+2146	„{0}“ erwartet {1}, bekommt aber {2}
+2147	„{0}“ muss zwischen {1} und {2} liegen
+2148	„{0}“ → „{1}“: kein solcher Anschluss.
+2149	„{0}“: nicht angeschlossen {1}.
+2150	„{0}“: in einen Eingang geht nur eine Verbindung.
+2151	▲ – der Gruppenmittelwert ist signifikant höher, ▼ – niedriger (p < {0}).
+2152	▶ Untersuchen
+2153	⬆ Laden
+2154	⬇ Herunterladen
+2155	🍎 Früchte
+2157	🔧 Werkstatt
+2158	🔧 Aufbau
+2159	🔧 {0} Früchte{1}
+2160	Werkstatt-Aufbau
+2161	1 − Abstand
+2162	Concepticon
+2163	Datensätze
+2164	Datensatz
+2165	in mindestens einem vorhanden
+2166	Glottolog-Sprache
+2167	Glottolog-Sprachen
+2168	Länge
+2169	Sprache
+2170	Sprachen
+2173	gleich
+2175	ungleich
+2176	enthält keinen Text
+2177	erste Spaltung
+2178	Breite
+2179	rekonstruiert
+2180	Segmente
+2181	semantische Felder
+2182	semantisches Feld
+2184	nur in beiden vorhandene
+2185	Einheit
+2186	alle Einheiten von A
+2187	Abstände
+2188	Baum
+2189	numerische Kennzahlen jeder Einheit
+2190	Spektrum
+2191	Reinheit {0}: einige Gruppen sind gemischt.
+2192	Reinheit {0}: die Gruppen mischen sich kaum.
+2193	Ein gemeinsamer Index ist nicht gerechtfertigt
+2194	Ein gemeinsamer Index ist gerechtfertigt
+2195	Fast keine Korrelation (ρ = {0})
+2196	Die erste Hauptkomponente erklärt {0} ({1} Einheiten mit allen Kennzahlen).
+2197	Die Kennzahlen gehen in verschiedener Richtung ein.
+2198	Kennzahl
+2199	Alle Kennzahlen gehen in gleicher Richtung ein.
+2200	{0} Gruppen (nach der Eigenwertlücke wären es {1}).
+2201	{0} Gruppen – nach der Eigenwertlücke.
+2202	{0} verschiedene Laute: BIPA {1}, anderes CLTS-System {2}, näherungsweise {3}, nicht erkannt {4}.
+2203	ARI
+2204	fast keine
+2205	stimmen kaum überein
+2206	stimmen fast überein
+2207	stimmen weitgehend überein
+2208	Reinheit
+2209	sehr stark
+2210	Lexikalische Ähnlichkeit und Geografie
+2211	Mantel-p
+2212	schwach
+2213	Silhouette
+2214	Spearman-ρ
+2215	stark
+2216	Polysemie DatSemShift
+2217	Polysemie IE-CoR
+2219	{0} herunterladen
+2220	Bibliografie
+2221	Bibliografie: SODAS und die in diesem Garten genutzten Datensätze (BibTeX, RIS, …)
+2222	CSL-JSON (Zotero, Mendeley, Pandoc)
+2223	Noch keine Datensätze genutzt – nur der Eintrag für SODAS wird angegeben.
+2225	der Entwurf ist zu groß
+2226	Ein Garten, den Ihnen jemand geschickt hat (JSON-Datei), wird zu einem neuen eigenen Garten
+2227	Ein Garten, den Ihnen jemand geschickt hat, wird zu einem neuen eigenen Garten
+2228	Kopieren
+2229	Genutzte Daten:
+2231	Ungeeignete Datei: {0}
+2232	unbekanntes Format: {0}
+2233	unbekannter Entwurf
+2237	RIS (EndNote, Zotero, Mendeley)
+2238	Garten heruntergeladen – Sie können die Datei einem anderen Gärtner schicken
+2239	SODAS und die in dieser Studie genutzten Datensätze: BibTeX, RIS, CSL-JSON, Text
+2240	Der SODAS-Eintrag ist vorerst vorläufig: DOI und Programmrepositorium werden noch vorbereitet.
+2242	Bibliografie des Gartens: SODAS und die darin genutzten Datensätze
+2243	Die Gartendatei ist beschädigt: Knoten und Beziehungen müssen Listen sein.
+2244	Die Gartendatei enthält keine Knoten.
+2246	Bibliografie des Gartens „{0}“
+2248	das ist keine Sodas-Datei (erwartet „sodo-byla/1“)
+2249	Text (APA)
+2250	Bibliografie der Studie „{0}“
+2254	Hochgeladener Garten
+2255	Garten „{0}“ hochgeladen ({1} Knoten)
+2256	Garten „{0}“ hochgeladen ({1} Knoten)
+2257	Dieser Garten wurde gespeichert, bevor die genutzten Daten verfolgt wurden – die Liste beruht auf den Knoten, die jetzt darin sind.
+2258	Diese Studie wurde durchgeführt, bevor die genutzten Daten verfolgt wurden – die Liste beruht auf ihrem Korb und der Art der Studie.
+2259	Diesen Garten mit seinen Knoten, Beziehungen und der Liste der genutzten Daten – in eine Datei, die Sie jemandem schicken können
+2260	⬆ Garten aus Datei hochladen…
+2261	⬇ Diesen Garten herunterladen (JSON)
+2262	⬇ Datei
+2263	📚 Bibliografie
+2266	Neo4j-Suchindizes erstellt: {0}
+2267	Die Seite arbeitet…
+2268	, im Garten {0} Knoten ausgeblendet
+2269	Datensatz
+2271	ausgeschaltete Datensätze: {0}{1}
+2272	Alle ausschalten
+2274	Neo4j ist nicht erreichbar – keine Liste der Datensätze.
+2275	Ein
+2276	Alle einschalten
+2277	Knoten in diesem Garten
+2278	⚙ → Datensätze
+2279	; die ersten {0} von {1} gezeigt
+2281	Ctrl+🗺
+2282	Strg+🗺 – auch nicht geladene
+2283	Karte ausschalten und Garten zurückholen
+2285	Knoten
+2286	Knotenliste
+2287	kein Bündel
+2288	ungültiges Bündel
+2289	ungültige Bündelquelle
+2290	ungültige Quelle
+2291	node.multi, node.bundle
+2292	Keiner dieser Knoten hat Breite und Länge
+2293	zu tief verschachteltes Bündel
+2294	Bündel ab
+2295	Die Knoten des Bündels werden nicht in den Garten geladen, so bleibt er leicht. Aufgeklappt zeigt es die Nachbarn aller (von diesem Knoten aus); auf der Karte alle seine Knoten (bei Sense deren Lexeme), beim Heranzoomen die der Region.
+2296	Mehr zeigen ({0} von {1})
+2298	Karte wird vorbereitet…
+2299	Beziehungen
+2300	so viele oder mehr Nachbarn eines Namens werden als ein Knoten „Name ×N“ gezeigt, ohne sie zu laden (über 1000 immer)
+2301	alle Knoten des ausgewählten zusammengefassten Knotens (×N) auf der Karte (bei Sense deren Lexeme); Heranzoomen zeigt die Knoten der Region
+2302	Alle auf der Karte
+2303	{0} {1}-Knoten mit demselben Namen{2}
+2304	{0}: {1} von {2} in dieser Region gezeigt (insgesamt {3}) – heranzoomen, um die anderen zu sehen
+2305	{0}: {1} Knoten im Garten
+2306	{0}: in den Garten geladen
+2307	{0}: in dieser Region {1} von {2}
+2309	Diesen Knoten in den Garten laden
+2310	Diese Knoten wurden nicht gefunden
+2311	In der Kartenansicht werden Knoten nicht aufgeklappt – zurück zum Garten (🗺)
+2312	📍 Alle auf der Karte
+2313	{0} Knoten kühn vereint: gleicher Name und gleiche Sprache
+2314	Knoten kühn vereinen
+2315	Vereinen von Knoten
+2316	Formen und Lexeme (Form, Lexeme) mit gleichem Namen und gleicher Sprache aus allen Datensätzen werden als ein Knoten gezeigt
+2317	{0} Knoten zu „{1}“ zusammengeführt – nur in diesem Garten
+2318	Markierte zusammenführen
+2319	{0} Knoten zusammengeführt: gleicher Name und gleiche Sprache – klicken
+2320	{0} Knoten zusammenführen
+2321	Strg + 🗺: einen Sense-Knoten (alle Formen seines Begriffs) oder einen zusammengeführten Knoten (×N) markieren – alle seine Knoten werden auf der Karte gezeigt
+2322	OK
+2323	Lemmata auf der Karte
+2324	Lemmata
+2325	Formen auf der Karte
+2326	Formen
+2327	unbekannte Kartenart: {0}
+2328	Die Namen unterscheiden sich. Welcher soll gezeigt werden? Der zusammengeführte Knoten gehört nur zu diesem Garten – in der Datenbank wird nichts geändert.
+2329	Mindestens zwei Knoten markieren (Umschalt + Klick), die zusammengeführt werden sollen
+2330	Umbenennen
+2331	Zusammengeführten Knoten umbenennen
+2332	{0} Knoten von Hand zusammengeführt (nur in diesem Garten) – klicken
+2333	{0} Knoten von Hand zusammengeführt – nur in diesem Garten
+2334	Karte zeigen (markierter oder erster Knoten mit Koordinaten). Markierter Sense – seine Lemmata, Concept – alle Lemmata des Begriffs, Kognatenmenge – ihre Formen. Strg – alle Formen des Begriffs des markierten Sense, alle Knoten eines zusammengeführten Knotens (×N)
+2335	eigener Name:
+2336	nur in diesem Garten
+2337	Alle Formen des Begriffs auf der Karte
+2338	alle Formen des Begriffs – {0}
+2339	{0} Knoten gleichen Namens – klicken
+2340	{0}: auf der Karte {1}{2}{3}. Heranzoomen zeigt die Knoten einer Region. Der Garten ist vorübergehend ausgeblendet: 🗺 – zurück.
+2341	Keine Formen dieses Begriffs gefunden
+2342	Diese Kognatenmenge hat keine Formen
+2343	Dieser Sense hat weder Lemmata noch Formen
+2344	Diese Knoten können nicht zusammengeführt werden
+2345	die Karte braucht Knoten einer Art
+2346	Zweites Feld
+2347	blasser Text
+2348	Blasser Text
+2349	Blasser Text auf einem Feld
+2350	Hintergrund
+2351	Zur berechneten Farbe zurück
+2352	Alle berechneten Farben zurück
+2353	wie stark sich Hintergrund, Felder, Marken und Linien unterscheiden (50 – wie bisher)
+2354	Anderer
+2355	Fehler
+2356	Kontrast
+2357	Kontrastprüfung
+2358	Linien auf einem Feld
+2359	Linien, Rahmen
+2360	Schaltfläche
+2361	Farbe ändern
+2362	Hervorhebung auf einem Feld
+2363	Hervorhebungshintergrund
+2364	Hervorhebungshintergrund
+2365	Hervorhebungshintergrund auf einem Feld
+2366	Beispiel
+2367	Bei zu ähnlichen Farben „Kontrast“ erhöhen, die Helligkeit der Oberfläche ändern oder die Farbe von Hand wählen.
+2368	zu ähnlich (nötig ≥ {0})
+2369	Beziehungen auf dem Gartenhintergrund
+2370	Feld
+2371	Feld und Hintergrund
+2372	Gartenhintergrund
+2373	Farben einzeln
+2374	Klicken Sie auf eine Farbe, um sie von Hand zu ändern; eine von Hand gewählte Farbe folgt den Schiebereglern nicht mehr (× – zurück). {0}
+2375	Text auf dem Hintergrund
+2376	Text auf der Hervorhebung
+2377	Text auf dem Hervorhebungshintergrund
+2378	Text auf einem Feld
+2379	Warnung
+2380	Marke
+2381	Marke auf einem Feld
+2382	Marke, Schaltflächengruppe
+2383	⚠ Warnung
+2384	✓ gut
+2385	✕ Fehler
+2386	Über Sodas
+2387	eine Umgebung zur Erforschung von Sprachdaten. Sprachen, Wörter, ihre Bedeutungen, Begriffe und verwandte Wörter vieler Datensätze (Glottolog, Concepticon, IE-CoR, Lexibank, WOLD, CLICS, LKEŽDB u. a.) sind in einem Graphen verbunden, in dem man sucht, vergleicht und Zusammenhänge sieht.
+2388	Die Zitierdaten konnten nicht geladen werden.
+2389	Datensätze: Laden und Verwalten, Erklärung von LKEŽDB-Wörtern.
+2390	Institution
+2391	Zitieren
+2392	Weitere Formate…
+2393	Noch keine Kontaktdaten eingetragen.
+2394	Programmcode
+2395	Kontakt
+2396	Webseite
+2397	Untersuchungen mit Gartenknoten: Lautentsprechungen, Sprachbäume, eine Werkstatt für eigene Untersuchungen.
+2398	der Forschungsgarten: ein Graph aus Knoten und Beziehungen, der durch Aufklappen von Wörtern, Bedeutungen und Begriffen wächst; gleiche Knoten werden zusammengeführt und können auf der Karte gezeigt werden.
+2399	Name
+2400	Version {0}
+2401	Zeichen
+2404	Lemmata des Begriffs auf der Karte
+2405	Keine Lemmata dieses Begriffs gefunden
+2406	Herunterladen
+2407	Garten herunterladen: SVG, PNG oder JSON
+2408	Als PNG speichern
+2409	Knotennamen
+2410	Bild – für Vorträge und Folien
+2411	Bild zu groß
+2412	PNG fehlgeschlagen: {0}
+2413	Ansicht
+2414	Ansicht: Beschriftungen von Knoten und Beziehungen, Knoten- und Beziehungstypen im Garten (abgewählte werden ausgeblendet)
+2415	PNG wird vorbereitet…
+2416	Beziehungsnamen
+2417	Gartendaten – in „Gärten verwalten“ wieder hochladbar
+2418	Mit Karte – der sichtbare Ausschnitt
+2419	SVG konnte nicht gezeichnet werden
+2420	Beschriftungen
+2421	Vektorbild – vergrößerbar, in Inkscape bearbeitbar
+2422	{0}-Beziehungen ausgeblendet (zurück über 👁 „Ansicht“)
+2423	{0}: {1} Knoten mit ihren Beziehungen ausgeblendet (zurück über 👁 „Ansicht“)
+2424	Ohne Bibliografie kann der Garten nicht heruntergeladen werden – bitte erneut versuchen
+2425	Jede Datei enthält die ganze Bibliografie: SVG und PNG unter dem Garten und in den Metadaten, JSON im Feld „bibliografija“.
+2426	Garten ohne Namen
+2427	„{0}“ – Sodas, {1}. Quellen, die zitiert werden müssen:
+2430	ca. 2 Min.; Esc – abbrechen
+2431	zurückgestellt
+2432	Herunterladen
+2433	Beenden
+2434	Lektion beenden (Esc)
+2435	Rechte Maustaste auf einem Knoten – alle seine Aktionen (aufklappen, zuklappen, Karte, Korb…). Mittlere Taste – das Feld des Knotens. Umschalt + Klick – mehrere Knoten markieren: markierte lassen sich zusammenführen oder mit einer Beziehung verbinden.
+2436	Ihre Gärten
+2437	Sobald der Garten Knoten mit einem Ort hat (Sprachen, Wörter), erscheint 🗺 in der Leiste: Die Knoten rücken an ihre Orte auf der Karte. Ist ein Begriff oder eine Bedeutung (Sense) markiert, zeigt die Karte alle ihre Wörter.
+2438	Weitere Teile
+2439	Knoten sind Wörter, Bedeutungen, Sprachen, Begriffe; Linien sind Beziehungen zwischen ihnen. Doppelklick auf einen Knoten klappt ihn auf: Seine Nachbarn erscheinen. Mit dem Mausrad zoomen, durch Ziehen verschieben.
+2440	Knotenbeschreibung
+2441	Nicht jetzt
+2442	Suche
+2443	Lektion
+2444	Die Lektion ist immer zur Hand
+2445	Die Lektion finden Sie jederzeit über das SODAS-Zeichen.
+2446	Mach es für mich
+2448	Eigenschaften, Beziehungen in der Datenbank und Quelleintrag des markierten Knotens stehen hier. Die Flagge am Knoten ist seine Sprache, das Zeichen ⧉ – zusammengeführte Knoten.
+2449	Die Maus im Garten
+2450	Zum ersten Mal in Sodas?
+2451	Pflanzen wir das erste Wort. Geben Sie im Suchfeld z. B. saulė ein und klicken Sie im erscheinenden Verzeichnis auf den ersten Treffer – er erscheint im Garten. Man kann auch nach Sprachen, Begriffen oder Gruppen verwandter Wörter suchen.
+2452	Lektion beginnen
+2453	Garten-Lektion beginnen
+2455	Sonne
+2456	Der Name des Gartens und Ihre anderen Gärten; ＋ – ein neuer Garten. Jeder Garten ist eine eigene Untersuchung.
+2457	Der Garten lässt sich als SVG, PNG oder JSON herunterladen. Jeder Datei werden die bibliografischen Angaben der verwendeten Daten und von Sodas selbst beigefügt. 📚 – dieselben Angaben für sich.
+2458	Über das SODAS-Zeichen erfahren Sie mehr über die Umgebung und wie man sie zitiert, und Sie können diese Lektion wiederholen. Viel Freude beim Gärtnern!
+2459	Willkommen in Sodas!
+2461	Weiter
+2462	Eine kurze Lektion zeigt, wie man Wörter sucht, den eigenen Garten anlegt und erkundet (ca. 2 Min.).
+2463	Hier legen Sie Ihren Forschungsgarten an – einen Graphen aus Sprachen, Wörtern, ihren Bedeutungen und Begriffen aus vielen Datensätzen. Die Lektion dauert etwa zwei Minuten. Sie können sie jederzeit abbrechen (Esc) und über das SODAS-Zeichen wiederholen.
+2464	Die Lektion für diese Seite wird vorbereitet. Die Garten-Lektion finden Sie im Garten – klicken Sie dort auf das SODAS-Zeichen.
+2466	👁 – Namen von Knoten und Beziehungen und die Typen im Garten: Wird ein Haken entfernt, ist der Typ ausgeblendet und der Garten übersichtlicher.
+2467	🗺 erscheint, wenn der Garten Knoten mit einem Ort hat: Sie rücken an ihre Orte auf der Karte. Ist ein Begriff oder eine Bedeutung (Sense) markiert, zeigt die Karte alle ihre Wörter.
+2468	🧺 – der Forschungskorb: Hier abgelegte Knoten verwenden später die Untersuchungen in Vaiva (z. B. Lautentsprechungen, Sprachbäume).
+2469	Zurück neben den erklärten Teil
+2470	Zum Verschieben ziehen
+2471	; der Wert ist der Name des Ziels. Nur ein Pfadmuster ist erlaubt, die Abfrage läuft nur lesend.
+2472	noch nicht heruntergeladen
+2485	Beziehung erstellt {0}: {1} → {2}
+2492	{0} · {1} · ~{2} MB
+2493	Quelle ↗
+2494	⭳ Herunterladen
+2495	⭳ Alle fehlenden herunterladen
+2496	Nicht heruntergeladene Datensätze: {0} (~{1} MB). Die Datensätze werden nicht mit dem Programm geliefert – laden Sie sie herunter (Internet nötig), wählen Sie sie dann aus und importieren Sie sie in Neo4j. Jeder Datensatz hat eine eigene Lizenz: die meisten CC BY 4.0, D-PLACE und NoRaRe CC BY-NC 4.0 (nicht kommerziell).
+2497	Neo4j-Passwort nicht angegeben (neo4j.yaml oder KALBA_NEO4J_PASSWORD)
+2498	Den Garten als Datei (JSON) herunterladen, die ein anderer Gärtner in sein eigenes Sodas hochladen kann
+2499	CUSTOM: selbst benannte Beziehung
+2500	Ein Datensatz kann vorübergehend ausgeschaltet werden, z. B. wenn die Arbeit die schweren Datensätze nicht braucht. Knoten eines ausgeschalteten Datensatzes werden nicht gesucht, nicht aufgeklappt, nicht in Pfaden und auf der Karte gezeigt, und die im Garten werden ausgeblendet (nicht entfernt). Wieder eingeschaltet, kommen sie sofort zurück. In Neo4j wird nichts gelöscht oder neu importiert: es ist nur ein Schalter.
+2501	Die Beziehung „{0}“ aus der Datenbank löschen?
+2502	Sprache und Einstellungen
+2503	Datensätze vorübergehend ausschalten
+2504	im Garten gezogen · {0}
+2505	gezogen {0}
+2506	Fehler und Warnungen des Programms (auch Fehler im Browser).
+2507	Beziehungen, die Sie im Garten gezogen haben (zwei Knoten auswählen und Strg+J drücken). Sie stehen in Neo4j (Datensatz „Papildymai“) und erscheinen wie jede andere Beziehung – beim Aufklappen eines Knotens, in der Pfadsuche.
+2508	Die Beziehung wird in Neo4j geschrieben (Datensatz „Papildymai“); ihre Liste – ⚙ → Meine Beziehungen.
+2509	selbst benannte Beziehung (Typ CUSTOM)
+2510	Gärten werden von selbst gespeichert. Die Buchstaben – die Sprache der Oberfläche; ⚙ – Einstellungen: Thema, Farben, Aussehen der Knoten, Datensätze, Gärten verwalten.
+2512	Im Garten gezogene Beziehungen (Strg+J)
+2513	Die Gartendatei enthält seine Knoten, Beziehungen, die Ansicht und die Liste der verwendeten Datensätze (für die Bibliografie).
+2514	mit dieser Beschriftung – im Garten sehen Sie sie statt des Typs.
+2515	Beziehung „{0}“ erstellt
+2516	eine Beziehung zwischen zwei ausgewählten Knoten erstellen (wird in Neo4j geschrieben, Datensatz „Papildymai“)
+2517	Alle Einstellungen (Thema, Farben, Bilder, Grenzen) werden auf die zurückgesetzt, mit denen das Programm geliefert wird; ausgeschaltete Datensätze bleiben aus.
+2518	Žemė – die Datensätze, aus denen die Gärten wachsen; Vaiva – Untersuchungen mit den Knoten des Korbs.

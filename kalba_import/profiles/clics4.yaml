@@ -1,0 +1,17 @@
+contract: kalba-neo4j/1.1
+dataset_id: clics4
+path_name: clics4
+title: CLICS 4
+profile_version: 0.1.0
+verified: true
+input:
+  kind: cldf
+  metadata_glob:
+    - cldf/Wordlist-metadata.json
+    - cldf/StructureDataset-metadata.json
+  require_metadata: true
+  extra_files: []
+requires:
+  authorities: [glottolog, concepticon]
+semantics:
+  table_intent: "Primary forms and concept links come from Wordlist; colexification observations and values come from StructureDataset. Network archives are derived and are not primary evidence."

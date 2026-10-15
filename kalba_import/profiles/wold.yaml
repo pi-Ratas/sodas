@@ -1,0 +1,19 @@
+contract: kalba-neo4j/1.1
+dataset_id: wold
+path_name: wold
+title: WOLD
+profile_version: 0.1.0
+verified: true
+input:
+  kind: cldf
+  metadata_glob: cldf/cldf-metadata.json
+  require_exactly_one_metadata: true
+  extra_files:
+    - raw/Wordlist-metadata.json
+requires:
+  authorities: [glottolog, concepticon]
+semantics:
+  local_id_identity:
+    Local_ID: "WOLD source-local form identifier; donor lexical identity requires explicit Source_Form_ID"
+    WOLD_ID: "language-table local authority code, not a lexeme key"
+  table_intent: "Borrowing observations; donor text is not donor lexeme identity unless explicit source form exists."

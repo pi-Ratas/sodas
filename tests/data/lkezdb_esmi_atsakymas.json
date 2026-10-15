@@ -1,0 +1,32 @@
+{"articles": [{
+  "GUID": "566bbd3d-0ecf-489c-9e37-ee6327d35c88",
+  "paaiskinimas": "Autorius teigia, kad anksčiau baltų kalbose buvo daug atematinių veiksmažodžių formų (pvz. senosios lietuvių esmi, esti), o dabartinėse baltų kalbose jos visos pakeistos tematinėmis.",
+  "entities": [
+    {"id": "e1", "kind": "Form", "written": "esmi", "canonical": null, "language_text": "s. lie.", "language": "senoji lietuvių", "glottocode": "lith1251",
+     "part_of_speech": "verb", "morphology": [{"category": "person", "value": "1"}, {"category": "number", "value": "singular"}, {"category": "tense", "value": "present"}],
+     "lexeme_id": "e3", "homonym_no": null, "is_headword": true, "reconstruction": null, "provenance": "article", "confidence": null, "evidence": "senosios lietuvių kalbos esmi"},
+    {"id": "e2", "kind": "Form", "written": "esti", "canonical": null, "language_text": "s. lie.", "language": "senoji lietuvių", "glottocode": "lith1251",
+     "part_of_speech": "verb", "morphology": [{"category": "person", "value": "3"}, {"category": "tense", "value": "present"}],
+     "lexeme_id": "e3", "homonym_no": null, "is_headword": false, "reconstruction": null, "provenance": "article", "confidence": null, "evidence": "senosios lietuvių kalbos esmi, esti"},
+    {"id": "e3", "kind": "Lexeme", "written": "būti", "canonical": null, "language_text": null, "language": "lietuvių", "glottocode": "lith1251",
+     "part_of_speech": "verb", "morphology": [], "lexeme_id": null, "homonym_no": null, "is_headword": false, "reconstruction": null,
+     "provenance": "llm_inference", "confidence": "high", "evidence": null},
+    {"id": "e4", "kind": "Lexeme", "written": "atematinės veiksmažodžių formos", "canonical": null, "language_text": null, "language": null, "glottocode": null,
+     "part_of_speech": null, "morphology": [], "lexeme_id": null, "homonym_no": null, "is_headword": false, "reconstruction": null,
+     "provenance": "article", "confidence": null, "evidence": "atematinės veiksmažodžių formos"}],
+  "meanings": [{"id": "m1", "gloss": "būti", "language": "lietuvių", "of": ["e3"], "kind": "contextual", "concepticon_gloss": "BE", "evidence": null}],
+  "meaning_groups": [],
+  "features": [
+    {"id": "f1", "feature": "inflection_class", "value": "athematic", "label": "atematinė forma", "applies_to": ["e1", "e2"], "provenance": "article", "confidence": null, "note": null, "evidence": "atematinės veiksmažodžių formos … esmi, esti"},
+    {"id": "f2", "feature": "inflection_class", "value": "thematic", "label": "tematinė forma", "applies_to": [], "provenance": "article", "confidence": null, "note": null, "evidence": "pakeistos tematinėmis"},
+    {"id": "f3", "feature": "Inflection class", "value": "Athematic", "label": "atematinė", "applies_to": ["e1"], "provenance": "article", "confidence": null, "note": null, "evidence": null}],
+  "claims": [
+    {"id": "c1", "type": "morphology", "status": "asserted", "stance": null, "text": "Anksčiau baltų kalbose buvo daug atematinių veiksmažodžių formų, pvz. senosios lietuvių esmi, esti.",
+     "about": ["f1", "e1", "e2"], "supports": [], "contradicts": [], "citations": ["s1"], "evidence": "Anksčiau gausios baltų kalbų atematinės veiksmažodžių formos"},
+    {"id": "c2", "type": "morphology", "status": "asserted", "stance": null, "text": "Dabartinėse baltų kalbose atematinės formos pakeistos tematinėmis.",
+     "about": ["f1", "f2"], "supports": [], "contradicts": [], "citations": [], "evidence": "dabartinėse baltų visos pakeistos tematinėmis"}],
+  "relations": [
+    {"type": "REPLACES", "from": "f2", "to": "f1", "status": "asserted", "claims": ["c2"], "provenance": "article", "confidence": null, "evidence": "pakeistos tematinėmis"},
+    {"type": "REPLACES", "from": "f2", "to": "f3", "status": "asserted", "claims": ["c2"], "provenance": "article", "confidence": null, "evidence": null}],
+  "citations": [{"id": "s1", "raw": "Endzelīns 1971: 205–208", "author": "Endzelīns", "year": "1971", "locator": "205–208", "role": "discussion", "evidence": "aptarimą ir pavyzdžius žr. Endzelīns 1971: 205–208"}],
+  "notes": []}]}

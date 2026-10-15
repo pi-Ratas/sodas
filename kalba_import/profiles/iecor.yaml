@@ -1,0 +1,22 @@
+contract: kalba-neo4j/1.1
+dataset_id: iecor
+path_name: iecor
+title: IE-CoR
+profile_version: 0.2.0
+verified: true
+input:
+  kind: cldf
+  metadata_glob: cldf/cldf-metadata.json
+  require_exactly_one_metadata: true
+requires:
+  authorities: [glottolog, concepticon]
+semantics:
+  lexical_identity: source_entry_only
+  local_id_identity:
+    Local_ID: "source-local lexeme/form identifier; used only inside this release namespace, never across datasets"
+  form_gloss_columns: [Gloss]
+  cognateset_columns:
+    reconstruction: [Root_Form, Root_Form_calc]
+    meaning: [Root_Gloss]
+    language: [Root_Language, Root_Language_calc]
+  table_intent: "Forms, cognate judgements, cognate sets and loans; homonyms stay separate without source identity."

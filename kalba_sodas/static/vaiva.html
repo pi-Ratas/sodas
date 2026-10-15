@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<script src="/sodas/i18n.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vaiva</title>
+<link rel="icon" type="image/svg+xml" href="/sodas/ikonos/zenkliukas.svg">
+<link rel="stylesheet" href="/sodas/theme.css">
+<link rel="stylesheet" href="/sodas/vaiva.css">
+<link rel="stylesheet" href="/sodas/dirbtuves.css">
+<script>window.KALBA_NO_AUTOLOAD = true;</script>
+<script src="/sodas/theme.js"></script>
+<script src="/sodas/bar.js"></script>
+<script src="/cytoscape.min.js"></script>
+</head>
+<body>
+<header class="kalba-bar">
+  <button id="gardenNew" class="name-btn" title="Naujas sodas su tuščiu krepšiu (Ctrl – naujoje kortelėje)">＋</button>
+  <nav class="kalba-nav">
+    <a href="/zeme" data-nav="zeme">Žemė</a><a href="/" id="navGarden" data-nav="sodas">Sodas</a><a href="/vaiva" class="active" data-nav="vaiva">Vaiva</a>
+  </nav>
+  <span class="muted bar-note" id="barNote">Vaivos dirbtuvės</span>
+</header>
+<main class="vaiva">
+  <aside class="side">
+    <div class="mode-tabs"><button data-mode="tyrimai" class="on" title="Paruošti tyrimai su savo vaizdavimu">Tyrimai</button><button data-mode="dirbtuves"
+      title="Tyrimas, surenkamas iš detalių">🔧 Dirbtuvės</button></div>
+    <section>
+      <h3>🧺 Krepšys <span class="muted" id="gardenOf"></span></h3>
+      <div id="basket"></div>
+    </section>
+    <section class="ws-only">
+      <h3>Paruoštos sąrankos</h3>
+      <div id="recipes"></div>
+    </section>
+    <section class="ws-only ws-parts">
+      <h3>Detalės</h3>
+      <input type="search" id="partFilter" placeholder="ieškoti detalės…">
+      <p class="muted small">Nutempkite į drobę arba spustelėkite.</p>
+      <div id="palette"></div>
+    </section>
+    <section class="study-only">
+      <h3>Tyrimas</h3>
+      <select id="study"></select>
+      <p id="studyText" class="muted small"></p>
+      <div id="params"></div>
+      <button id="run" class="primary">Tirti</button>
+      <div id="runState" class="small"></div>
+    </section>
+    <section class="grow">
+      <h3>Atlikti tyrimai</h3>
+      <div id="runs"></div>
+    </section>
+  </aside>
+  <section class="main-area">
+  <div id="wsTabs" class="ws-tabs ws-only"><button data-tab="saranka" class="on">🔧 Sąranka</button><button data-tab="vaisiai">🍎 Vaisiai</button></div>
+  <div id="workshop" class="workshop" hidden>
+    <div class="ws-toolbar">
+      <input type="text" id="wsTitle" placeholder="Sąrankos pavadinimas" maxlength="120">
+      <button id="wsRun" class="primary">▶ Tirti</button><span id="wsState" class="small ws-state"></span>
+      <span class="sep"></span>
+      <button id="wsUndo" title="Atšaukti (Ctrl+Z)">↶</button>
+      <button id="wsClear" title="Išvalyti drobę">Išvalyti</button>
+      <button id="wsSave" title="Atsisiųsti sąranką kaip failą">⬇ Atsisiųsti</button>
+      <button id="wsLoad" title="Įkelti sąrankos failą">⬆ Įkelti</button><input type="file" id="wsFile" accept=".json,application/json" hidden>
+      <span class="sep"></span>
+      <button id="wsZoomOut" title="Mažinti">−</button><span id="wsZoom" class="small muted">100 %</span><button id="wsZoomIn" title="Didinti">+</button>
+      <button id="wsFit" title="Rodyti visą sąranką">⤢</button>
+    </div>
+    <div class="ws-body">
+      <div id="wsCanvas" class="ws-canvas">
+        <div id="wsWorld" class="ws-world"><svg id="wsLinks" class="ws-links"></svg></div>
+        <div id="wsEmpty" class="ws-empty" hidden><h2>Drobė tuščia</h2><p>Nutempkite detalę iš sąrašo kairėje arba įkelkite paruoštą sąranką.</p></div>
+      </div>
+      <aside id="wsInspector" class="ws-inspector"></aside>
+    </div>
+  </div>
+  <section id="result" class="result">
+    <div class="empty">
+      <h2>Vaiva</h2>
+      <p>Sode sudėkite mazgus į krepšį (dešinys pelės klavišas → „Pridėk į krepšį“), pavyzdžiui, sąvoką moon.
+        Čia pasirinkite tyrimą ir spauskite „Tirti“. Kiekvieno tyrimo vaisiai lieka sąraše kairėje.</p>
+    </div>
+  </section>
+  </section>
+</main>
+<div id="tip" class="tip" hidden></div>
+<div id="toasts"></div>
+<script src="/sodas/vaiva.js"></script>
+<script src="/sodas/dirbtuves.js"></script>
+</body>
+</html>

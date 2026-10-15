@@ -1,0 +1,14 @@
+contract: kalba-neo4j/1.1
+dataset_id: phoible
+path_name: phoible
+title: PHOIBLE
+profile_version: 0.1.0
+verified: true
+input:
+  kind: cldf
+  metadata_glob: cldf/StructureDataset-metadata.json
+  require_exactly_one_metadata: true
+requires:
+  authorities: [glottolog, clts]
+semantics:
+  table_intent: "Inventories, phonemes and language links; inventory-local identity."

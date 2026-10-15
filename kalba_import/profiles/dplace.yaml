@@ -1,0 +1,15 @@
+contract: kalba-neo4j/1.1
+dataset_id: dplace
+path_name: dplace-cldf
+title: D-PLACE
+profile_version: 0.2.0
+verified: true
+input:
+  kind: cldf
+  metadata_glob: cldf/StructureDataset-metadata.json
+  require_exactly_one_metadata: true
+requires:
+  authorities: [glottolog]
+semantics:
+  language_table_label: Society
+  table_intent: "Society and cultural/environmental feature assertions; society is not merged with languoid."

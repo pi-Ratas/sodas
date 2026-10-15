@@ -1,0 +1,25 @@
+contract: kalba-neo4j/1.1
+dataset_id: concepticon
+path_name: concepticon-data
+title: Concepticon
+profile_version: 0.2.0
+verified: true
+input:
+  kind: files
+  metadata_glob: []
+  require_metadata: false
+  extra_files:
+    - concepticondata/concepticon.tsv
+    - concepticondata/conceptrelations.tsv
+    - concepticondata/conceptlists.tsv
+    - concepticondata/references/references.bib
+  # Non-CLDF TSVs: declared role + primary key (verified against file headers).
+  table_roles:
+    concepticondata/concepticon.tsv: {role: ConcepticonConceptSet, primary_key: [ID]}
+    concepticondata/conceptrelations.tsv: {role: ConcepticonRelation}
+    concepticondata/conceptlists.tsv: {role: ConcepticonConceptList, primary_key: [ID]}
+requires:
+  authorities: []
+semantics:
+  authority_ids: [concepticon:conceptset]
+  table_intent: "Concepticon concept sets and concept list mappings."

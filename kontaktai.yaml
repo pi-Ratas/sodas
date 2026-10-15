@@ -1,0 +1,12 @@
+# „Sodas“ – susisiekimo duomenys, rodomi lange „Apie Sodą“ (spustelėjus programos ženklą viršuje kairėje).
+# Įrašykite, ką norite rodyti; tuščius laukus programa praleidžia. Byla skaitoma iš naujo, kai ji pasikeičia –
+# programos perkrauti nereikia. Programa ieško jos šalia datasets.yaml, o jei ten nėra – programos aplanke.
+vardas: "Kęstutis Račkaitis (pi-Ratas)"          # pvz. Vardas Pavardė
+pareigos: "Žaliakalnio vaidila, mokslo darbuotojas"        # pvz. mokslo darbuotojas
+institucija: "Lietuvos Energetikos institutas"     # pvz. Lietuvių kalbos institutas
+el_pastas: "rackaitis@gmail.com"       # pvz. vardas@example.lt
+telefonas: ""
+adresas: ""
+tinklalapis: "rask.lt"     # pvz. https://sodas.example.lt
+saugykla: "https://github.com/pi-Ratas/sodas"        # programos kodo saugykla
+pastaba: "Pastabas ir klaidas rašykite el. paštu arba saugyklos skiltyje Issues."         # trumpas tekstas po kontaktais

@@ -1,0 +1,1744 @@
+# Sodo sąsaja: en (numeris<TAB>vertimas; numeriai – iš raktai.tsv)
+1	(limited to the basket's concepts)
+2	(Ctrl+Numpad + / −)
+3	({0} more – one language each)
+4	({0} in total with the same best value {1}; their order is random)
+5	(derived from the text)
+6	(as {0})
+8	(model's conclusion)
+9	(avoiding the no-go relationships)
+10	(no display_name)
+11	({0} hidden)
+13	(the analysis itself suggested {0})
+14	(polar
+15	(shown when “technical records” is ticked).
+16	(first {0} shown)
+17	(when hiding, touched neighbours stay)
+18	({0} in the sample)
+19	({0} not included)
+20	) is used as it is; any other name becomes the relationship
+21	) are marked ƒ. Rule
+22	). Earlier prompts of the program stay in the cache but do not fit the new graph model.
+23	, {0} more – click the “+” nodes
+25	, which best match tree level {0} (ARI {1})
+26	, {0} touched kept
+27	, an internet connection is needed. Currently: {0}.
+28	, so it also agrees better with the vocabulary.
+29	, {0} notes
+30	100 % shared cognates
+34	; together – {0}
+36	; {0} without coordinates not shown
+51	Both axes – stability percentile (right and up – more stable). The lines split them in half. Click a concept – its data below.
+53	Address
+56	being explained
+57	being explained…
+59	Alt + mouse wheel
+60	Alt+Numpad +/−
+61	Analysis: {0} objects, {1} properties, {2} statements, {3} relationships
+62	analysis segments
+63	API address
+64	API key
+66	Identical pairs merged: {0}
+67	Two datasets merged
+68	Two datasets merged: {0} – click
+69	Merge identical
+70	Merge all identical
+72	Does the graph itself bring out stable groups of concepts?
+73	Combine into one index? {0} (the 1st component explains {1})
+74	Do languages that share more cognates also stand closer in the Glottolog tree? The lexical closeness of every pair of languages is compared with their distance in the tree, the spectra of both graphs and the groups, the lexical tree with the Glottolog branches; languages and pairs contradicting the tree are found. In the basket: a Glottolog family or branch, languages, concepts (they limit the meanings) – or nothing (all languages with cognate data).
+75	Do the components tell the same story?
+76	whether different families link the concept to the same other meanings (mean Jaccard)
+77	Whether to study reconstructed proto-language forms too (marked *, e.g. *méh₁n̥s). They are written differently from attested forms and have no place of a single language, so they are usually left aside.
+78	or the environment variable OPENAI_API_KEY
+79	ARI with cognates
+80	ARI with tree level {0}
+81	ARI between {0} lexical groups and the Glottolog branches at each level below the common ancestor{1}.
+82	Armenia
+83	closest by vocabulary
+84	nearest neighbour relationships
+85	closest in the tree
+86	The closest pairs in the tree (distance {0}) share on average (median) {1} of their meanings as cognates, the most distant ones (distance {2}) – {3}. A wide band at one distance shows that the same tree distance does not mean the same time: some branches split earlier, others later, and the tree does not measure it.
+88	Open
+91	agreement γ
+95	Studies done
+98	Refresh
+99	Refresh Neo4j
+104	careful: part of the differences may come from how well the concept has been studied.
+111	distances (MDS)
+112	distance 0
+113	distance in the tree
+114	Distance matrix
+118	Open in the garden
+120	Cancel
+124	Azerbaijan
+126	The axis – the share of shared cognates at that junction.
+127	Bangladesh
+128	Without them the local nodes will have no extra data (ExternalIdentifier “pending”).
+129	without the model
+131	No-go
+132	No-go: do not pass through {0}
+133	No-go: {0} relationships are not used in path search
+134	No-go relationships (paths do not pass through them)
+135	depth of the common ancestor
+136	shared meanings
+137	BIPA recognised {0}, other CLTS systems unambiguously – {1}, approximately (without some diacritics) – {2}, not recognised – {3}. Recognised sounds are compared by phonetic features (m and n differ less than m and a); unrecognised ones – only as the same or a different symbol.
+140	number of edges
+141	number of edges in the tree (first attempt)
+142	dashed
+143	Will be deleted
+144	status
+146	Centre
+147	The ChatGPT key is written to the file .raktas in the project folder (see API_raktas.md)
+148	CLTS sound
+149	edit distance weighted by CLTS features, divided by the length of the longer form
+154	Ctrl + drag
+155	Ctrl + 🗺
+158	Ctrl+Alt+Shift+Numpad +/−
+161	Ctrl+Numpad +/−
+162	Ctrl+Shift + mouse wheel
+164	Ctrl+Shift+Numpad +/−
+166	Now: {0} nodes, {1} constraints, indexes: {2}.
+169	You have not studied anything yet.
+174	dataset = "lkezdb"
+175	No DatSemShift data.
+176	Also count derivation in the DatSemShift meaning network besides polysemy (one word – several meanings) (the meaning moved to a derived word). The network is denser but less pure.
+177	DatSemShift does not have this concept.
+178	DatSemShift: polysemy in {0} families, most frequent neighbours –
+179	Most forms
+180	Most nodes in a garden
+181	Most relationships from one node
+182	Most relationships in a garden
+183	multiplier for all relationships (and type widths); Ctrl+Shift + mouse wheel
+185	Theme being set
+186	Right button
+187	Right button → Collapse
+188	Right mouse button – actions · middle on a node or relationship – its control panel · double click – expand · Shift + drag – select with a rectangle.
+189	A big jump after the k-th value shows that the data split into k groups. Orange – the chosen k.
+190	Bigger cognate groups do not split into several sound groups.
+191	largest node
+192	Largest node
+193	largest node size ±
+194	the biggest gap is between the {0}th and {1}th eigenvalue ({2} → {3})
+197	two separate nodes
+199	on double click
+200	Double click
+201	Datasets
+207	No data about this node
+208	in the database
+209	database type
+210	Database type (e.g.
+211	Data cache not found:
+212	Size by
+213	Because of the limit {0} more forms were not taken.
+216	Queue
+217	The queue is empty.
+218	queued
+219	no.
+222	E-mail
+233	etc/orthography.tsv gave no sound.
+234	etc/orthography.tsv does not know the characters {0}; we do not invent the pronunciation.
+235	label
+236	Faroe Islands
+237	Fiji
+239	Filter, e.g. Lithuanian
+240	filter: form, language, branch, cognate…
+241	filter: language, branch…
+242	filter: concept, field…
+244	Form
+245	Form and meaning
+246	The form has neither segments nor a written form.
+247	Form: IE-CoR cognate classes
+248	Stability of form and meaning –
+249	The form components correlate with each other on average ρ {0},
+250	Form stability – {0} IE-CoR concepts in {1} languages ({2} Glottolog branches). Meaning stability – {3} of them found in the DatSemShift network ({4} concepts, {5} polysemy pairs, {6} language families; the spectral space is the largest connected part, {7} concepts). DatSemShift gives only the shifts found, not all languages studied, so the polysemy numbers show both how well a concept is studied and how “mobile” it is – this matters when weighing the polysemy component.
+251	Forms are sorted by group (coloured band on the left and on top). Darker – more similar in sound. Bright dark squares on the diagonal – coherent groups; dark spots outside them – similarity between groups.
+253	Spectral clustering of forms by sound similarity
+254	forms studied
+255	may be random
+256	Allowed: {0}; default: “{1}”.
+257	fairly similar
+258	Sounds and CLTS
+259	Sounds are linked to CLTS…
+260	Sound garden
+261	sound groups{0}
+262	Get the list of models
+263	The measure of genealogical distance changes the picture: ancestor depth ρ {0}, edges ρ {1}
+264	Graph
+265	the axes of the chart on the left can be changed.)
+266	Graph plan (JSON)
+267	Graph plan: {0} nodes, {1} relationships
+268	Build the graph plan again from the saved explanation, without the language model
+269	Graubünden (Switzerland)
+273	strict answer schema (switched off by itself if the model does not support it)
+274	purity of groups
+277	group
+278	Group
+282	group {0} · silhouette {1}{2}{3}
+286	Groups
+288	Groups and tree levels
+292	groups {0} and {1}
+293	Group {0}: {1} of the forms are in the cognate group of their group's majority
+295	Groups, cognates and language branches
+296	Words of different origin mix in the groups, and the cognate groups split as well:
+301	Purity shows whether words of different origin get into one sound group.
+302	Default settings restored
+303	Restore the defaults
+307	No IE-CoR data.
+308	IE-CoR languages, {0} branches
+309	IE-CoR does not have this concept.
+310	The shortest paths are searched for, however long they are.
+311	Searching for paths: {0} ⇝ {1}…
+312	searching for all “{0}” relationships…
+314	to the target
+315	Import
+316	Import diagnostics
+317	import again also those already loaded into Neo4j
+318	Import the selected
+319	All nodes in the sample have human-readable names.
+320	and the components enter it in different directions
+321	and include
+322	from the database
+324	In at least how many different language families a concept's links must be attested in the DatSemShift network for its meaning stability to be counted.
+325	A tree built from lexical distances (average linkage clustering, UPGMA). A branch is coherent if all its languages join in it earlier than with any other.
+326	all LKEŽDB data deleted from Neo4j: {0}
+327	explained
+328	explain
+329	Explain
+330	Explain again
+331	Explain the selected
+332	Explain the selected{0}
+333	Explain {0} words with the language model? Each word is a separate (paid) request.
+334	explained but not included in Neo4j. Click “Include in Neo4j”.
+335	Lay out again
+336	Lay out the garden again
+337	Take out
+338	Take all nodes out of the basket (they stay in the garden)
+340	Turn off the map
+342	Survival in distant branches
+343	more
+345	Saved
+346	Saved: {0}
+347	Save
+348	Save as SVG
+352	Computed properties
+353	Separate
+354	All these nodes are expanded; their relationships are shown from this node. On the map they are shown separately – each at the place of its language.
+355	Expand
+356	expand the node
+359	Studied {0}
+360	solid
+361	Only the nodes included with this tool and their relationships are deleted (also the relationships to Glottolog and Concepticon). Other datasets, constraints and indexes are not touched. The explanations stay in the SQLite cache – they can be included again.
+362	Deleted {0} nodes, {1} relationships
+366	Delete
+374	Delete the relationship
+378	Delete the study
+379	Delete everything
+380	Delete all LKEŽDB data
+381	Delete all Neo4j data
+382	Delete all Neo4j data…
+387	Clear the finished and failed
+388	Empty the basket
+389	Clear temporary results
+390	Clear the garden
+391	derived from etc/orthography.tsv
+393	already in Neo4j
+394	Datasets already loaded (the same files and profile) are skipped; checked within a few seconds.
+396	If the same word has spread to several branches (a loan or a shared inheritance), the sound group covers several branches.
+398	It explains only {0} of the variety
+399	It explains {0} of the overall variety, and all components enter it in the same direction – a common stability index would be justified.
+400	they do not measure only how well studied a concept is.
+402	JSON schema
+403	both mobile
+404	United Kingdom
+405	United States of America
+411	Neighbourhood stability
+412	How fast the link between two languages weakens in the tree graph: weight exp(−distance/τ). Small τ – almost only the closest languages are linked, big – distant branches too.
+413	How the distance between two languages in the Glottolog tree is measured. “Depth of the common ancestor”: the deeper in the tree the closest common ancestor is, the closer the languages. “Number of edges”: how many branches must be crossed from one language to the other – it distorts when the tree's branches are split unevenly finely.
+414	as found
+415	How it is computed
+416	On the left – languages by vocabulary (share of shared cognates), on the right – by the Glottolog tree. Colour – the tree branch. Hovering over a language highlights it in both. “Distances” lays out the languages so that the distances on screen match the real ones as closely as possible (MDS); “Spectrum” – the second and third eigenvectors of the normalised Laplacian, as in the first attempt.
+417	The language is not linked to Glottolog (CORRESPONDS_TO or glottocode), so its place in the tree is unknown.
+418	linguistic relationships
+419	For languages with a known national or regional flag, add rules Languoid · display_name → flag (flag-icons, an internet connection is needed). Existing rules are not changed; they get hints with the country.
+420	Languages
+422	Language model
+423	Languages are joined by lexical distance (UPGMA): the further right the junction, the fewer shared cognates. A branch line is coloured if all its languages are from the same Glottolog branch.
+424	Languages are sorted by the Glottolog tree (coloured band – branch). Darker – more shared cognates; empty – too few shared meanings. Dark squares on the diagonal – branches; dark spots outside them – closeness between branches.
+425	Languages whose vocabulary follows the tree least
+426	languages
+427	share of languages in which the same word also means another IE-CoR concept
+428	share of languages whose word belongs to the most widespread cognate class
+429	Lexical closeness of languages and the genealogical tree
+430	language branch unknown
+431	language families in the meaning network
+432	number of language families in which polysemy with another meaning is attested
+433	Language maps: by vocabulary and by tree
+434	languages{0}
+437	time
+438	times
+448	Path
+449	Path search
+450	the path search took too long – try adding no-go relationships (relationships not to pass through)
+451	There is no path between these nodes{0}
+452	Several branches may join here not because of common origin: UPGMA joins them because they are all similarly far from the others.
+454	Four kinds of concepts
+455	How much of the overall variety each direction explains; below – how the components enter the first one.
+456	How many shared cognates remain further along the tree
+457	How many forms at most to take from the basket nodes; the rest are skipped (this is reported). All pairs of forms are compared, so the work grows with the square: 600 forms – about 180,000 pairs.
+458	How many groups?
+459	How many times to shuffle the languages randomly in the Mantel test to estimate the p value: whether the agreement of lexical closeness and tree distance is not random. 0 – p is not computed; 999 – p accurate to 0.001; more – longer computing.
+460	How many forms of each group belong to a cognate group
+461	How many forms of each group come from a language branch (Glottolog)
+462	In at least how many languages (with a place in the Glottolog tree) a concept's word must be coded with IE-CoR cognates for its form stability to be computed. More rarely attested concepts are not evaluated.
+463	At least how many of the same meanings (concepts) must be coded in both languages for a pair to be compared in the lexical graph. Less attested pairs are not linked; a language without a single such pair does not enter the study.
+464	How many first eigenvectors of the Laplacian to use to describe a concept's position in the meaning network. Fewer – only the coarse structure is seen; more – finer differences, but more noise too.
+465	each theme has its own colours; while setting, a preview of the theme being set is shown
+466	For each pair of forms an edit distance is computed: replacing a sound costs the share of their CLTS features that differ (0–1), inserting or dropping – 0.5; the result is divided by the length of the longer form. For forms with several variants the smallest distance is taken. From the distances a similarity graph is built; the eigenvectors of its Laplacian place the forms in a space where they are grouped with k-means. In the picture the forms are laid out by classical multidimensional scaling – the closer, the more similar they sound.
+467	Checked for each language: when the tree says language A is closer to it than B, does the vocabulary say so too? γ = 1 – always, 0 – as at random, < 0 – more often the opposite. Least agreement:
+468	For each distance – a box of the closeness of language pairs: the middle half of pairs (from the 25th to the 75th percentile), line – median, whiskers – the smallest and the largest.
+469	For each Concepticon semantic field it was checked whether its concepts are more stable (or more mobile) than a random sample of as many concepts (2000 random samples).
+471	For each node type you can choose a colour, shape and picture (PNG, SVG, JPG, WebP; up to 2 MB). Size – in the section “Limits and sizes”.
+472	another CLTS system
+473	Other gardens
+480	no other relationships
+481	no other gardens
+482	Error:
+483	Number of clusters
+487	cognate group
+488	they have no cognate information
+489	Cognate retention
+490	Quality
+491	Quality by number of groups
+492	Components separately
+493	Coordinates via relationships
+494	Copy
+496	loading…
+497	basket concepts
+498	Basket concepts
+499	The forms of the basket concepts (or meanings, lexemes, cognate groups, forms) are grouped by how similarly they sound. Sounds are compared by CLTS phonetic features, groups are found with a spectral method and then compared with IE-CoR cognates and Glottolog language branches.
+500	The basket concepts have no Concepticon equivalent, so the meanings cannot be limited.
+501	Basket actions
+502	There are no forms in the basket: add a concept, meaning, lexeme, cognate group or forms.
+503	Basket emptied ({0} nodes)
+504	the basket is empty
+505	The basket is empty. In the garden right-click a node → “Add to basket” and come back here.
+506	The closer the forms, the more similar they sound. Hover – the form's data.
+507	The further in the tree, the fewer shared cognates
+508	Which tree level the groups are closest to
+509	Building the meaning network (DatSemShift)…
+510	Which concepts are stable? Form stability (whether the concept is expressed everywhere by the same inherited word: IE-CoR cognates in the Glottolog tree) and meaning stability (whether the concept is surrounded by the same other meanings: polysemy, spectral position in the DatSemShift network across language families) are measured separately. Then it is checked whether the graph itself brings out body parts, kinship, numbers. Basket concepts are highlighted, a Glottolog branch limits the IE-CoR languages; an empty basket – the whole graph.
+514	What it would add:
+515	What this parameter means
+517	very similar
+524	Languoid · display_name · Lithuanian
+525	Eigenvalues of the Laplacian
+526	Laplacian eigenvalues
+531	A field with a small p can be considered “brought out” by the graph; when many fields and components are tested, single p < 0.05 may also be random.
+532	allowed formats: {0}
+534	Only {0} languages in the lexical graph: lower “At least shared meanings per pair”.
+535	in the lexical tree
+536	{0} of {1} branches are coherent in the lexical tree
+537	Lexical closeness matrix
+538	The eigenvalue gap of the lexical graph's Laplacian suggests
+539	Rate of lexical replacement
+540	Lexical closeness by tree distance
+541	Lexical closeness – the share of meanings coded in both languages that are expressed by cognates; pairs with fewer than {0} shared meanings are not evaluated.
+542	lexical graph
+543	Lexical tree
+544	Lexical tree…
+545	Number of lexical groups
+546	lexical group {0} · {1} meanings
+547	lexical groups
+548	table
+549	Tables
+553	the rest are shown as a “+N TYPE” node – clicking it loads more
+554	Line width, style, colour and the picture shown next to the relationship label.
+557	LKEŽDB data in Neo4j
+558	LKEŽDB data cache not found: {0}
+562	Explaining LKEŽDB words with a language model and including them in Neo4j
+563	LKEŽDB ↗
+564	Compared with the typical (median) closeness at the same tree distance; only pairs from different branches are taken:
+565	Comparing the components…
+569	My relationships
+570	Mantel test: when the languages are shuffled at random, an equal or stronger correlation {0}, so the relationship is {1}.
+571	Mantel test permutations
+579	the number of relationships visible in the garden
+580	Nodes and relationships
+582	A node without its own coordinates gets those of the first path target
+583	The node did not get into the sample; it was found in the dataset through a relationship. Double-click to see all its relationships.
+584	Node not found
+585	Node type
+586	nodes with coordinates can be shown on a map
+587	Nodes
+588	Node size
+589	node size
+590	node size ±
+591	size of node and relationship labels ±
+592	size of node and relationship labels ± (or Ctrl+Alt+Numpad if the system takes it)
+593	Node appearance
+594	Node types in the garden
+596	show / hide node labels
+597	node labels, px; relationship labels in proportion; Alt+Numpad +/− or Alt + mouse wheel
+598	At least shared meanings per pair
+599	At least languages per concept (form)
+600	At least families per concept (meaning)
+601	the smallest number of cognate class changes in the tree per language
+602	smallest node
+603	Smallest node
+604	median {0} · middle half {1}–{2}
+605	Tree and vocabulary agree: ρ = {0} ({1} correlation)
+606	tree graph
+607	tree graph groups
+608	tree graph weight exp(−distance/τ)
+609	Tree weight scale τ
+610	share of tree branches that kept that class
+611	Method
+613	mixed
+614	Model answer without validation
+615	Model
+616	Blue – stable together, red – the opposite, grey – unrelated.
+622	browser
+623	Use the map
+625	{0} meanings coded with cognates were used
+627	New prompt
+633	New relationship
+635	New garden (Ctrl – in a new tab)
+636	New garden with an empty basket (Ctrl – in a new tab)
+637	New garden: the basket is empty. Add nodes to it in the garden.
+640	In a new tab
+642	No new flags – all languages already have pictures
+644	Unhandled error:
+645	not recognised
+648	do not pass through {0}
+649	not explained
+654	not extracted. They can be requested from LKEŽDB with the help of artificial intelligence – click “Explain” (a language model request is paid).
+657	Neo4j is not reachable.
+658	Neo4j is not reachable
+659	Neo4j schema not available:
+660	Neo4j {0}: {1} nodes · {2} datasets · {3} constraints
+661	Neo4j ✓ {0} datasets
+662	Neo4j ✗ {0}
+663	Neo4j: checking…
+664	Neo4j: {0} nodes, {1} relationships
+665	not enough data
+666	did not occur once in {0} random shuffles (p ≤ {1})
+670	not selected and not in Neo4j
+671	No node selected
+672	No node selected – select the nodes to put into the basket
+673	No meanings coded with cognates were found for these languages.
+674	No problems recorded.
+677	Unexpected pairs
+678	Not evaluated {0}: the tree hardly tells which other languages are closer to them (a lone branch with a poorly attested sister).
+681	Variants not included: {0}.
+682	No forms left out.
+683	No languages left out.
+684	cannot be evaluated
+685	unknown study: {0}
+687	nothing selected
+688	Nothing found
+690	Nothing found.
+699	Copied
+700	Could not copy
+701	Default: {0}.
+702	Default settings
+703	Default colour
+705	from {0} to {1}
+711	give the name of the relationship
+712	Settings
+718	No field stands out significantly by stability.
+719	none
+720	no form text
+721	no Glottolog equivalent
+722	No nodes related only to this node
+723	no semantic relationships
+724	and with the meaning components – ρ {0}.
+725	p for stability {0} · for mobility {1}
+726	explained by one common direction
+727	explanation
+729	By tree
+730	by links
+733	By the sun
+734	By vocabulary
+735	Principal component analysis looks for one direction in which all components change together.
+736	Principal components
+740	Search: beginning of a word…
+741	Search… (Ctrl+F)
+742	the search field
+746	Changed
+747	The adjusted Rand index compares two groupings: 1 – they match completely, 0 – no more than at random. Sound similarity is no proof of origin: agreement shows that cognates often still sound similar, and disagreements – where the sounds have drifted apart or the similarity is accidental.
+751	Start-up error:
+752	Touched nodes stay when relationships are hidden
+755	{0} and {1} of their pairs compared
+757	More data about this object is looked for in the dataset
+758	Additions
+760	Position
+761	shows the selected node
+762	shows the whole garden
+763	Shown {0}
+764	show hidden nodes
+765	Show on the map
+766	Accent
+767	Highlight neighbours
+768	highlighted field
+769	highlight the field
+770	Limit reached ({0} nodes / {1} relationships): {2} nodes, {3} relationships not shown.
+771	choose or type
+772	choose or type, e.g. similar to
+773	Choose a file
+774	Choose a dataset on the left
+775	Choose a node type, then its property and a value from those in the database (you can also type it). If the node's property has that value, a picture is shown next to the node. Computed properties (e.g.
+777	Choose a word on the left.
+778	occurred {0} {1} out of {2} random shuffles (p = {3})
+781	last import: {0}
+787	Hide
+788	Hide the selected
+790	{0} hidden – they no longer count towards the garden's limits. To bring back: right button on the background → “Show hidden” or Shift+H
+794	hide the selected nodes
+797	Click a node or a relationship to see all its properties.
+798	Note
+800	Both form and meaning are stable:
+801	Stable meaning, but the word is replaced:
+802	both stable
+803	only X stable
+804	only Y stable
+805	Stability percentiles
+806	Stability percentiles (100 % – the most stable of those studied):
+809	Check: the relationship of neighbourhood and of the spectral component with the number of families in which the concept is attested at all is ρ {0} and {1} –
+810	To confirm, type
+811	Confirm by typing IŠTRINTI.
+813	Name
+819	Picture
+820	Picture from the target node
+825	Picture by the label
+826	the picture is empty or bigger than 2 MB
+832	sample value
+833	Examples: {0}. Within the group the forms are {1} (mean distance {2}, to other groups {3}). {4}; {5}.
+834	Remove from the garden
+835	Remove the relationship from the garden
+836	Removed {0} nodes and {1} relationships (those shared with other words were kept)
+837	Remove
+839	Remove from Neo4j
+840	remove neighbours related only to this node
+841	Remove neighbours related only to this node
+842	remove the selected from the garden
+843	Remove this relationship
+850	Select two nodes (Shift + click) or put two into the basket
+851	Select two nodes for the path search (or select them in the garden with Shift).
+852	Select exactly two nodes (Shift + click)
+853	Nodes selected: {0}
+854	{0} selected
+855	selected for import
+856	Selected node (Home)
+857	Select
+859	select several nodes
+860	select the first / next found node
+861	select the shown
+862	select with a rectangle
+863	Select all nodes
+865	Select {0}
+869	too few shared meanings
+870	Too few concepts with data: lower “At least languages per concept” or widen the basket's branch.
+873	Redo the plan
+878	Recomputing
+879	Recomputing with {0} groups…
+880	Recompute in the garden
+881	Renamed
+884	view
+889	South Africa
+890	South Korea
+893	Fully read reference sources: {0} languages / societies, {1} concepts / features, {2} codes, {3} cognate groups. Every table row is also written as a technical
+894	In the first attempt the distance was the number of edges in the Glottolog tree. But branches have very different numbers of intermediate nodes: Indo-Aryan languages are 10 or more nodes away from the root, Albanian or Tocharian – a few. Then distant languages in “shallow” branches look close. The depth of the common ancestor (how many levels below the root the last common ancestor is) does not make this mistake
+895	Plan: {0} nodes, {1} relationships
+896	latitude and longitude, e.g. a form – those of its language (via the lexeme). With the map off, forms of one CognateSet with the same name are shown as one node “form ×N”.
+897	The widest cognate class “{0}” – {1} of {2} languages, {3} of {4} branches; at least {5} changes in the tree.
+898	No languages with lexical data were found under the basket's Glottolog nodes.
+901	Polysemy in {0} families; most often: {1}.
+906	sub-branch
+907	Starting…
+908	Start with the search at the top (Ctrl+F). After a few seconds the results are shown temporarily in the garden; choose a node to keep it.
+909	France
+936	Add to basket
+941	reason
+946	Dependencies
+960	profile not confirmed
+964	A dependency is declared in the profile; no direct foreign keys were found in this dataset.
+967	Program errors and warnings
+971	E.g.: {0}
+972	Results are temporarily shown in the garden – choose a node to keep it
+973	Font size
+974	font size
+976	{0} sound groups found
+977	Found {0}{1} shortest paths, length {2}
+985	Significantly more mobile:
+986	Significantly more stable:
+987	meanings
+988	Also count derivation in the meaning network
+989	meaning
+990	Meaning
+991	Meaning: DatSemShift neighbours (number of families)
+992	remove: {0} words
+993	Collecting IE-CoR cognates…
+994	Collecting forms…
+995	Collecting languages and meanings…
+996	result / error
+997	Mode
+998	Limits
+999	Limits and sizes
+1000	Limits: {0}–{1}; default: {2}{3}.
+1003	the 📍 badge is shown. Clicking it (or the node menu) – “Show on the map”: the map is switched on so that this node stays in its place and the other nodes of the garden do not move. Other nodes with coordinates are moved to their places, and nodes without a place on the map are hidden – when the map is switched off they come back where they were. On the map the nodes with coordinates are locked. To switch off – the 🗺 button at the top. Map tiles –
+1004	Only prompts written for this program's answer schema are shown (with the mark
+1005	Show the most important
+1006	Show everything
+1008	Show separately
+1009	show more ({0} of {1})
+1010	Show the sample
+1011	Show as two separate nodes
+1012	Show the basket
+1015	Show in the garden
+1016	show all
+1017	Show on the map
+1019	Preparing SVG…
+1020	Preparing analysis segments…
+1021	Relationships ({0}; technical ones not shown)
+1022	Relationships in the database
+1023	Relationships by type
+1028	the relationship name is too long (at most {0} characters)
+1030	relationship type
+1031	relationship type: capital letters, digits and _, e.g. SIMILAR_TO
+1032	You have not drawn any relationships yet.
+1033	Relationship appearance
+1035	relationship width
+1036	Relationship width
+1037	relationship width ±
+1038	Relationship types
+1039	Relationship types in the sample
+1040	Relationship types in the garden
+1042	show / hide relationship labels
+1043	Relationship
+1044	Relationship deleted
+1046	relationship not found
+1047	relationship not found (only relationships drawn in the garden can be deleted)
+1050	a relationship must join two different nodes
+1060	Property pictures
+1061	property pictures
+1062	property pictures ±
+1063	Property
+1064	property
+1065	The property is computed by a path in the graph from the node
+1066	Properties
+1067	properties
+1068	property name
+1072	too few eigenvalues
+1073	Schema
+1074	Segments are taken from the primary data, not guessed:
+1076	segment source
+1081	Semantic fields
+1083	the server is not reachable
+1084	The server is not reachable
+1085	Shift + mouse wheel
+1086	Shift + click
+1087	Shift + drag
+1088	Shift+H
+1089	Shift+Home
+1090	Silhouette – how separated the groups are; ARI – how much they agree with IE-CoR cognates. Click k to recompute.
+1098	reading the sample…
+1099	Computing…
+1100	Computing genealogical and lexical distances…
+1101	Computing the distances of {0} form pairs…
+1103	equivalents in different datasets
+1104	Languages of different branches, lexically closer than the tree allows
+1105	Different branches, but lexically close (possible contacts)
+1114	Slovenia
+1115	hide
+1116	Hide the basket
+1117	Hide all {0}
+1118	Hide relationships of this type
+1124	Untitled garden…
+1128	garden not found – first plant something in it
+1131	The garden is empty
+1132	Sodas · Datasets
+1138	There are no nodes in the garden yet.
+1140	the nodes stay in the garden
+1142	There are no nodes with latitude and longitude in the garden
+1143	{0} {1} relationships selected in the garden
+1145	There are no {0} relationships in the garden; expand the nodes that have them
+1146	The garden node “{0}” cannot be expanded: the LKEŽDB entries of this word are not yet {1} When the word is included, come back to the garden and expand the node again.
+1147	The garden failed to start:
+1148	Garden name – type a new one or choose an existing garden
+1151	no gardens yet
+1154	Colour
+1155	Colours
+1156	click – open here, Ctrl – in a new tab
+1157	Spearman correlations between the components
+1158	Spearman ρ compares the distance of language pairs in the Glottolog tree with the lexical distance (1 − closeness): 1 – exactly the same order, 0 – no relationship.
+1159	spectrum (eigenvectors)
+1160	The spectral analysis itself suggested {0}: {1}. The larger such a gap, the more clearly the data split into that many groups.
+1161	Spectral analysis…
+1162	Spectral space of the meaning network ({0} concepts)…
+1163	Dimensions of the spectral space
+1164	Stability of the spectral position
+1165	click – highlight the group
+1169	unselect the nodes in the rectangle
+1170	Style
+1171	Width
+1175	With IE-CoR cognates the groups {0} (ARI {1})
+1176	Has no other language with at least {0} meanings coded in both (at most {1}), so it does not enter the lexical graph.
+1177	With language branches the groups {0} (ARI {1})
+1178	with an equivalent in another dataset
+1179	with others
+1181	Join identical
+1182	Swap the direction
+1187	Garden “Vaiva · {0}” created
+1189	Create
+1191	Create a relationship
+1193	Linking
+1194	Link to authorities
+1195	Link local Languoid/Concept to Glottolog/Concepticon authorities via shared ExternalIdentifier
+1196	related
+1197	Collapse
+1198	partly agree
+1199	gives a picture to the language itself – all words of that language inherit it.
+1200	The most important
+1216	SVG file not recognised
+1217	Interface
+1218	interface font size ±
+1219	concept
+1220	the spread of the concept's position in the spectral space across families
+1221	Concepts furthest in this direction:
+1222	concepts
+1223	concepts ({0} with the meaning network)
+1224	Semantic stability of concepts
+1225	Tajikistan
+1226	This confirms that a “stable concept” and a “stable word” are not the same: a concept can keep its place among other meanings although languages call it by ever different words, and vice versa.
+1227	This checks whether the cognate coding and the Glottolog classification tell the same story, but proves neither of them.
+1228	also delete Neo4j's internal LOOKUP indexes (not recommended: without them search by label becomes very slow, they will have to be rebuilt by hand)
+1232	At that level there are {0} Glottolog branches, e.g. {1}; the lexical groups {2} with them.
+1233	Dark
+1234	The same word also means: {0}.
+1235	dotted
+1236	technical records (SourceRecord)
+1239	Phone
+1241	Theme
+1242	When the tree graph itself is split into as many groups, the two splits {0} (ARI {1}).
+1243	Provider
+1244	only errors and warnings
+1246	only neighbours related to it
+1247	Really restore?
+1249	Really delete?
+1250	Really clear?
+1252	Really? It will be deleted from the database
+1253	Testing the correlation (Mantel test)…
+1254	expected
+1256	Type
+1257	Study
+1258	Only {0} of {1} forms are fit for study: too few for clustering.
+1259	control panel of that node / relationship
+1260	nodes with the same name
+1264	Languages of the same branch, lexically further apart than the tree allows
+1265	Same branch, but lexically distant
+1269	The shortest path between two selected nodes
+1270	Shortcuts
+1271	Deletion
+1272	missing
+1273	Missing authorities that are neither in Neo4j nor selected:
+1274	segmentation missing
+1275	Has latitude and longitude – click
+1277	Turkmenistan
+1278	empty
+1279	empty – right button “Add to basket”
+1280	empty – by the eigenvalue gap
+1281	empty – chosen by itself by the eigenvalue gap
+1285	Manage gardens
+1286	Manage gardens…
+1289	Study
+1301	Close
+1302	close the menu
+1305	Prompt
+1306	request from another site rejected
+1307	Prompt for the model
+1308	prompt not found
+1309	Prompt selected
+1310	request too large
+1311	Prompt uploaded and selected
+1313	The prompt must begin with the mark {0}: it shows that the prompt fits this program's answer schema.
+1315	labels
+1316	label size
+1317	Label size
+1319	Vaiva · {0}
+1320	Vaiva's workshop
+1321	Vaiva's workshop – studies with the basket's nodes
+1322	Vaiva's workshop – {0}
+1323	View
+1335	Clear the log
+1336	First name
+1340	Engine and prompt
+1354	actions menu
+1356	Wales (United Kingdom)
+1357	mean percentile {0} ({1} concepts)
+1358	Middle button on a node / relationship
+1359	The mean stability percentile of the field's concepts for each component. ● – significantly more stable or more mobile than a random sample (p < 0.05).
+1360	mean silhouette
+1361	Mean silhouette {0} (from −1 to 1; above 0.5 – clear groups, about 0 – merging ones).
+1362	moderately similar
+1363	medium
+1364	one of the nodes was not found
+1366	Equal size
+1367	Location (“by the sun”)
+1374	when exceeded new nodes are no longer shown, an entry in the log
+1375	The whole JSON the graph was built from
+1376	Whole garden
+1377	Whole garden (Shift+Home)
+1379	all constraints
+1380	all indexes
+1381	all separated equivalents
+1382	all nodes and relationships
+1383	all nodes of equal size
+1386	all relationships + source
+1387	Everything
+1390	All forms studied
+1391	all languages with cognate data
+1392	All concepts
+1393	all its nodes
+1394	Size of all nodes
+1395	size of all nodes
+1396	the number of all relationships in the database
+1397	Appearance of all {0}
+1398	in progress…
+1400	Flags assigned to {0} language names
+1401	flags assigned to {0} language names
+1403	{0} (not in this type)
+1404	{0} - Sodas
+1405	{0} - Vaiva
+1406	{0} shared cognates
+1407	{0} forms
+1408	{0} forms, {1} gr.
+1409	{0} groups (you gave {1})
+1410	{0} groups
+1411	{0} of {1} languages of the group
+1412	{0} of {1} entries are sent to the model (cross-references and empty ones – without the model)
+1413	{0} of them belong to the cognate group “{1}”
+1414	{0} languages, {1} classes, at least {2} changes in the tree. {3}
+1415	{0} languages
+1416	{0} languages, ρ {1}
+1417	{0} other nodes with coordinates moved to their places on the map; nodes without a place on the map are hidden
+1418	level {0} · {1} branches
+1419	{0} nodes and {1} relationships with
+1420	{0} nodes moved to the new garden “{1}”{2}
+1421	{0} nodes · {1}
+1422	{0} nodes, {1} relationships in the sample
+1423	{0} nodes, {1} relationships{2}
+1424	{0} models
+1426	{0} pairs
+1431	{0} different sounds linked to CLTS
+1434	{0} entries ·
+1435	{0} concept
+1436	{0} concepts
+1437	{0} concepts
+1438	{0} between groups
+1440	{0} {1} nodes with the same name{2}
+1441	{0} · merged datasets: {1}
+1442	{0} · Concepticon {1}
+1443	{0} · in the tree {1}
+1444	{0} · {1} · {2}{3} · {4}, ≥ {5} shared meanings
+1446	{0} br.
+1447	{0} languages of this group are from the branch {1}
+1448	{0} words queued
+1449	{0} words · {1} entries · explained {2} · included {3}
+1450	{0} – part
+1451	{0} – {1} (mean percentile {2}, p = {3})
+1452	{0} – {1} {2} instead of ~{3}
+1453	{0} – {1} intervene{2}
+1454	direction {0}: {1} of the variety
+1455	eigenvalue {0}
+1456	{0}: merged with the equivalent
+1457	{0}: expanding {1} nodes…
+1458	{0}: {1} relationships shown
+1459	{0}: {1} relationships shown{2}
+1461	{0}: hidden {1}{2}
+1462	{0}: the most stable – {1}
+1463	{0}: limit
+1464	{0}: collapsed, {1} nodes removed
+1465	{0}: {1} words
+1466	{0}–{1} of {2}
+1467	© OpenStreetMap
+1471	· invalid: {0}
+1475	· with derivation
+1479	· {0} meanings from the basket concepts
+1480	· {0} relationships
+1482	Czechia
+1483	To a separate garden
+1484	To a separate garden – move the selected nodes to a new garden
+1486	Into how many groups to divide the forms. Empty – the program chooses itself: where the gap between neighbouring eigenvalues of the Laplacian is largest (chosen from 2–12). More groups – finer but less reliable sound differences.
+1487	Into how many groups to divide the languages with the spectral method (the same number in the lexical and the tree graph). Empty – chosen where the gap between neighbouring eigenvalues is largest (2–12).
+1488	Added to the basket: {0} (in total {1})
+1489	To the basket – the selected nodes; if nothing is selected – show the basket's content
+1492	Queued
+1494	Upload and use
+1496	Upload…
+1504	type IŠTRINTI
+1505	type a new one if you want to change it
+1512	intervene: {0}{1}
+1513	Intervening languages usually show contact (loans), sparse data, or that the branch shares an old inheritance with a neighbour.
+1514	included in Neo4j
+1516	include
+1517	Include reconstructed (*) forms
+1518	Include in Neo4j
+1519	include in Neo4j
+1520	pattern
+1521	the pattern must start with (n) or (n:Label), have a target (t) and be a path pattern only
+1522	branch
+1523	branch: {0}
+1524	Branches are taken from the Glottolog tree below “{0}”.
+1525	Branches are taken from the Glottolog tree.
+1526	Branches: how many shared cognates within and with other branches
+1527	branches coherent in the lexical tree
+1528	Next to nodes with properties
+1529	Source record
+1530	The basket is not needed for this study: without it all languages with cognate data are studied.
+1534	Used in this study: {0}.
+1535	today: sunrise {0}, sunset {1}{2}
+1536	North Macedonia
+1537	These nodes are already in the basket
+1538	This dataset does not create this node, so the relationship leading to it will not be written.
+1540	Appearance of relationships of this type
+1541	There is no view for this study.
+1544	These forms are also similar to the forms of another group, so their place is unclear:
+1546	This dataset does not depend on other datasets.
+1547	This dataset keeps only foreign keys (◆ ExternalIdentifier). More detailed data about these objects is in other datasets; after the import “Link to authorities” creates relationships
+1549	This node has no latitude and longitude
+1550	This profile does not create semantic nodes – only SourceRecord will be written.
+1552	this garden
+1562	Scotland (United Kingdom)
+1563	Sri Lanka
+1564	jump from the previous one: {0}
+1565	A jump after the k-th value shows k groups. Click k to recompute with that many groups.
+1566	Sweden
+1567	Switzerland
+1568	Light
+1569	lightness
+1571	Samogitia (Lithuania)
+1572	The low ARI is caused mostly not by mixing but by splitting:
+1573	Žemė
+1575	Žemė – datasets and LKEŽDB from which gardens grow
+1576	Žemė – datasets from which gardens grow
+1577	Map brightness
+1578	Map
+1579	The map is turned off in the settings
+1580	the map is not shown
+1581	the map is shown
+1591	word
+1592	the word has not been explained yet
+1593	The word survives but the meaning is mobile:
+1594	word not found
+1595	The vocabulary splits into {0} groups
+1596	Words
+1597	explaining the word failed: {0}
+1600	Log
+1601	A form marked with an asterisk is not directly attested; it is studied only when “include reconstructed forms” is ticked.
+1602	ρ tree ↔ vocabulary{0}
+1605	– you will find it in the list of gardens
+1608	– one index would hide that the components measure different things.
+1609	– not fit for this study
+1610	— choose —
+1611	“{0}”: {1} relationships in the dataset{2}, {3} nodes added
+1616	⇝ Find the shortest paths
+1618	☀ Light
+1619	☾ Dark
+1622	✓ touched
+1625	＋ Path
+1627	＋ New computed property
+1628	＋ New rule
+1629	＋ New garden
+1631	＋ Add to the basket
+1636	🏳 Assign flags to languages
+1639	📍 Show on the map
+1647	🗑 Empty the basket
+1648	🗑 Really empty the basket?
+1649	🧺 Basket
+1650	🧺 Study basket
+1651	🧺 To the basket
+1652	Back
+1653	Back (Alt+←)
+1656	Lithuanian
+1658	Forward
+1659	Forward (Alt+→)
+1660	Interface language
+1670	. Their silhouette in the table is negative.
+1671	. Possible reasons: many loanwords, few coded meanings, archaism (a language attested long ago) or a disputed place in the tree.
+1672	. These are candidates for studying contacts and loans; genealogy explains nothing here.
+1673	. This happens when one language has strongly renewed its vocabulary or one of them is poorly attested (a small set of shared meanings).
+1674	. The action cannot be undone.
+1675	. Within it, languages share on average {0} of their meanings.
+1676	. Words of one origin have drifted apart in sound across languages, so they form several sound groups.
+1678	In the garden put nodes into the basket (right mouse button → “Add to basket”), for example the concept moon. Here choose a study and click “Study”. The fruits of each study stay in the list on the left.
+1680	authority
+1681	When a node is double-clicked, the dataset is searched and all its relationships are shown (up to 150).
+1682	Nodes {0}/{1}{2} · touched {3} · Relationships {4}/{5}
+1683	relies on: {0}
+1684	all
+1685	(and {0} more)
+1686	(optional)
+1688	(the largest groups are shown)
+1689	, {0} with an error
+1691	1 − distance / largest
+1692	loading on the 1st
+1693	: {0} pairs
+1694	both high
+1695	both low
+1696	Analysis segments are taken from Form.segments, then IE-CoR Phonemic_Segments, then the dataset's etc/orthography.tsv; a form with none of them is left out (pronunciation is not invented). Every segment is linked to a CLTS sound. An insertion or deletion costs 0.5, the result is divided by the length of the longer form (0–1); for forms with several variants the smallest distance is taken.
+1697	Heading of the fruit
+1698	Restrict by another
+1699	whether the nearest by one measure are also the nearest by the other
+1700	Do the pairs of two measures go together: Spearman ρ over all pairs and the Mantel permutation test.
+1701	Do neighbouring languages share more cognates than distant ones? Compared with geography and with the tree; unexpectedly close pairs.
+1702	Do languages that share more cognates also stand closer in the Glottolog tree? The basket is optional.
+1703	Is the mean score of any group (e.g. semantic fields) higher or lower than it would be by chance?
+1704	Do the scores tell the same story: Spearman correlations and principal components (is it justified to join them into one index).
+1705	Is the concept surrounded by the same other meanings: DatSemShift polysemy, neighbourhood stability, stability of the spectral position across language families.
+1706	Is the concept expressed everywhere by the same inherited word: cognate retention, survival in distant branches, rate of lexical replacement (Fitch), IE-CoR polysemy.
+1707	Whether to study reconstructed proto-language forms as well (marked with *). They are written differently from attested forms, so they are usually left aside.
+1708	Are a unit's nearest by one measure also the nearest by the other: Goodman–Kruskal γ for every unit.
+1709	Or the Delete key.
+1710	ARI (adjusted Rand index): 1 – the partitions coincide, 0 – no more than by chance. Purity – the share of units that are in the most frequent B group of their A group.
+1711	ARI with the Glottolog branches at every level below “{0}”.
+1712	ARI with “{0}”
+1713	Nearest-neighbour links
+1714	closer
+1715	Fit to the tree levels
+1716	Fit to the tree (γ)
+1717	fit to the tree γ
+1718	Download the setup as a file
+1719	Distances (e.g. in the tree)
+1720	Distances / similarities
+1721	Distances or similarities as a coloured table, units ordered by group.
+1722	Distances → graph: close units are joined strongly, distant ones weakly; each unit has its own scale.
+1723	Distances → graph: the link weakens exponentially the farther apart the units are.
+1724	Distances → similarities
+1725	Distance = 1 − similarity.
+1726	Distance in kilometres between the coordinates of languages (or of their forms), along the great circle.
+1727	Open the setup
+1728	Undo (Ctrl+Z)
+1730	Besides polysemy (one word – several meanings), count derivation too (a meaning passed to a derived word). The network is denser but less pure.
+1731	anything with units
+1733	number of edges in the tree
+1734	Concepticon concepts that IE-CoR codes for cognacy. Basket concepts are marked (attribute “in basket”), a Glottolog branch in the basket restricts the languages.
+1737	{0} more smaller groups.
+1738	The DatSemShift network is empty: has the dataset been imported?
+1739	Multidimensional scaling (MDS)
+1740	At most {0} rows.
+1741	At most {0} leaves. A group is whole if the tree has a branch containing all of its units and only them.
+1742	At most {0} units. Darker – closer (more similar); empty cells – unknown.
+1743	Dendrogram
+1744	Too many leaves for a dendrogram ({0}; at most {1}).
+1745	Part ids must be different.
+1746	part
+1747	Parts
+1748	high {0}, low {1}
+1749	A big jump after the k-th value shows that the graph splits into k groups.{0}
+1750	Zoom in
+1751	The largest connected part has only {0} units: the graph has almost no links. For lexical similarity lower “Fewest shared meanings per pair” or do not take the basket's concepts (they restrict the meanings).
+1752	Largest connected part of the graph
+1753	Largest k to choose
+1754	Largest gap – after eigenvalue {0}
+1756	Canvas cleared. Ctrl+Z – bring it back.
+1757	The canvas is empty
+1758	Data types
+1759	Comparison of two measures (Mantel)
+1760	The columns of two sets of scores are put into one table (by unit key).
+1761	Scatter of two scores
+1762	box – all pairs with that value of B
+1763	Rows – {0}, columns – {1}{2}.
+1764	filter: unit, reason, part…
+1765	filter…
+1766	Forms
+1767	Scores of form and meaning stability, their correlations and tests of semantic fields. The basket is optional.
+1768	Form stability
+1769	Form stability is computed for concepts from the source “Concepts (IE-CoR)”.
+1770	forms
+1771	Sound distances of forms are contracted into distances between languages and compared with the Glottolog tree and with geography.
+1772	Sound distances of languages, tree and geography
+1773	Sound distance (CLTS)
+1774	Sound distance is computed only for forms.
+1775	Gaussian kernel (self-tuning)
+1776	Genealogical distance (Glottolog)
+1777	Geographical distance
+1778	Glottolog branches
+1779	Graphs
+1780	The graph consists of {0} unconnected parts: the first {1} eigenvalues are 0. Consider adding “Largest connected part of the graph”.
+1781	eigenvalues and eigenvectors of the normalised Laplacian of a graph
+1782	Group cards
+1783	groups whole in the tree
+1784	groups by the gap
+1785	Group permutation test
+1786	Number of groups
+1787	groups
+1788	Groups (e.g. branches)
+1790	The group mean is compared with the means of as many randomly taken units. Groups with ≥ 3 units are tested.
+1791	Hierarchical tree: the closest units and groups are joined first (average linkage).
+1792	hierarchical tree of the units (dendrogram)
+1793	search for a part…
+1794	Up to 400 characters.
+1795	Up to how many groups
+1797	In how many families at least the concept's links must be attested for the stability of its neighbourhood and spectral position to be computed.
+1798	Of the pairs of other units that the first measure puts in order (ties skipped), the share ordered the same way by the second as well (γ: 1 – all, 0 – as by chance, −1 – the opposite way). A low γ – a language whose vocabulary does not match its place in the tree (contacts, loans, gaps in the data).
+1799	Layout
+1800	Clear
+1801	Clear the canvas
+1802	Outputs
+1804	Joining into one index is suggested if the first principal component explains ≥ 50 % and all scores enter it in the same direction.
+1805	Link
+1806	A link to a part that does not exist.
+1807	Your text among the fruits: what this setup is for, what you are checking, what you noticed.
+1808	When k is chosen automatically, it is searched between 2 and this number.
+1809	Neighbour link up to distance
+1810	Neighbours for the scale
+1811	How to work
+1812	How fast the link weakens. Small τ – almost only the nearest are joined, large – distant ones too. For tree depth 2–8 suits, for kilometres – hundreds.
+1813	How to measure
+1814	As in the study “Semantic stability of concepts”. Languages – of the source “Concepts (IE-CoR)” (a branch in the basket restricts them).
+1815	As in the study “Semantic stability of concepts”: the network is spread out by random-walk coordinates; from a family's point of view the concept's position is the mean of the positions of its neighbours in that family, its stability – their spread.
+1816	How to convert
+1817	as at the input
+1818	A language without a Glottolog counterpart is left out (its place in the tree is unknown). Attributes: Glottolog name, coordinates, number of coded meanings.
+1819	Languages restricted by the basket's Glottolog nodes ({0} languages).
+1820	Languages with meanings coded for IE-CoR cognacy. In the basket: a Glottolog family or branch, languages, concepts (they restrict the meanings); without a basket – all such languages.
+1821	languages
+1822	What remains
+1823	How many forms at most to take from the basket nodes; the rest are skipped (you are told about it). Sound distance compares all pairs of forms, so the work grows with the square.
+1824	How many times to shuffle the units at random to estimate the p value. 0 – p is not computed.
+1825	How much closer each unit is to its own group than to the nearest other: from −1 (not in its group) to 1.
+1826	How many units of each A group fall into each B group; ARI and purity.
+1827	In how many languages at least (with a place in the Glottolog tree) the concept's word must be coded for cognacy.
+1828	How many of the same meanings at least must be coded in both languages for the pair's similarity to be known. The similarity of less attested pairs is taken as unknown (they are not joined in the graph).
+1829	How many first Laplacian eigenvectors define the concept's position in the network.
+1830	How differently two forms sound: edit distance where replacing a sound costs the share of differing CLTS features.
+1831	How far apart two units (languages or their forms) stand in the Glottolog tree.
+1832	how much closer the unit is to its group than to others
+1833	Each group: size, most typical unit (medoid), examples, how close inside and to others, composition.
+1834	Each {0}.
+1835	Keeps only the k strongest links of every unit (thins a dense graph).
+1836	Every score becomes a percentile 0–1, where 1 is the “best” (most stable); so all point the same way.
+1837	Every unit is a point by two scores; quadrants by the medians (e.g. the form stable, the meaning changing).
+1838	The scale σᵢ of every unit is the distance to that many-th nearest neighbour (Zelnik-Manor and Perona, 2004). Weight exp(−d² / σᵢσⱼ). Smaller – the graph splits more into dense groups.
+1839	the distance of every pair of units: 0 – the same, more – farther
+1840	the similarity of every pair of units: more – more similar
+1841	coded meanings
+1842	cognate sets
+1843	The share of the meanings coded in both languages that have a common cognate set: S = C / M.
+1844	Coordinates – the latitude and longitude of the language (Glottolog or the dataset). Units without coordinates are left out.
+1846	Forms of the basket concepts (and those linked by CORRESPONDS_TO), senses, lexemes, cognate sets, or the forms themselves.
+1847	Forms of the basket concepts are grouped by how alike they sound; the groups are compared with cognates and branches.
+1848	in basket
+1849	Basket
+1850	The basket studies nothing itself: it tells the sources what to take. On the left of Vaiva you can untick the nodes you do not want this time.
+1851	The basket enters the setup through the part “Basket”; without it the basket is not used.
+1852	Cross table
+1853	Which units
+1854	Which B groups split into several A groups
+1855	Whose rows remain. Missing values are unknown.
+1856	What to restrict
+1857	What to filter
+1858	best matching level (ARI {0}, {1} branches)
+1859	The smallest eigenvalues of the Laplacian: a big jump after the k-th shows that the graph splits into k groups.
+1860	Laplacian spectrum
+1861	Waits for a part that failed.
+1862	waits for a failed part
+1863	Lexical similarity
+1864	Lexical similarity is computed for languages from the source “Languages”.
+1865	{0} of {1} remain.
+1866	Levels are counted from the common ancestor of all units. “First level with 3 … n/2 branches” – as in the study “Language tree”; “first split” – the first level where the units part.
+1867	Compared (e.g. lexical)
+1868	M – meanings (Concepticon) coded in both languages; C – how many of them have a common cognate set. Every meaning is counted once.
+1869	Mantel test ({0} permutations)…
+1870	Scale τ
+1871	Measures
+1872	Measure A
+1873	Measure B
+1874	Matrix
+1875	Too many units for a matrix ({0}; at most {1}).
+1876	low {0}, high {1}
+1877	Smaller similarities are taken as zero. 0 – all known ones are taken.
+1878	lower
+1879	Fewer than {0} languages with a word coded for cognacy.
+1880	Fewest languages per concept
+1881	Fewest families per concept
+1882	Zoom out
+1883	Small eigenvalues and their vectors describe the coarse structure of the graph: as many zero values – as many separate pieces, a big gap after the k-th – the graph splits into k groups.
+1884	median {0} ({1}–{2})
+1885	Tree (UPGMA)
+1886	A tree with leaves coloured by a partition; which groups are whole in the tree and what intrudes into them.
+1887	The tree has no levels below the common ancestor.
+1888	Tree level
+1889	A tree cannot be restricted: restrict the distances before building the tree.
+1890	Too many units for a tree (at most 2000).
+1891	not in the largest connected part
+1892	not a setup
+1894	Could not draw: {0}
+1895	If not connected – all concepts of the DatSemShift network with a Concepticon number.
+1896	No concepts coded for cognacy were found.
+1897	Unsuitable file: {0}
+1898	Groups that are not whole
+1899	Units left out: {0} (see below the fruits)
+1900	unknown
+1901	Unknown part: {0}
+1902	unknown
+1903	Unknown distances (e.g. languages of different families) give no link.
+1904	Eigenvalues and eigenvectors of the normalised Laplacian L = I − D^-½ W D^-½.
+1905	Drag a part from the list on the left or load a ready setup.
+1906	Drag a part from the list on the left onto the canvas (or click it: it will be joined to the selected one).
+1907	Drag onto the canvas or click.
+1908	No group stands out significantly
+1909	No language has a place in the Glottolog tree.
+1910	No concept has enough languages.
+1911	No concept is in the DatSemShift network.
+1912	not in the DatSemShift network
+1913	no coordinates
+1914	There are no pairs where both measures are known.
+1915	There is no score “{0}”. Available: {1}.
+1916	no place in the Glottolog tree
+1917	Orange – the chosen k.
+1918	p (higher) {0}, p (lower) {1}
+1919	explains (1, 2, 3 …)
+1920	explained by the 1st component
+1921	By which attribute to join. E.g. contracting the sound distances of forms by language gives sound distances of languages, which can be compared with genealogical or geographical ones.
+1922	By what
+1923	Principal components ({0} units)
+1925	Keeps only the largest connected part of the graph; units cut off are left out.
+1926	Keeps only the units that are also in the other input (e.g. tree distances – only for the languages of the lexical graph).
+1927	Keeps the units whose attribute meets a condition (e.g. language = Lithuanian; reconstructed = ne; group = 2).
+1928	Compare with (ARI)
+1929	more similar
+1930	Similarities
+1931	Similarities are turned into distances (1 − s), so a positive ρ always means that the measures agree. Only pairs where both measures are known are compared. In the chart – A values by B (boxes if B has few distinct values).
+1932	Similarities are turned into distances 1 − s. More than ~1500 units take long.
+1933	Similarities are turned into distances 1 − s. Unknown distances are taken as the largest.
+1934	Similarities → distances
+1935	Similarities → graph
+1936	similarity
+1937	Similarity = 1 − distance (or largest distance − distance).
+1938	The similarity becomes the link weight; unknown similarities and those below the threshold give no link.
+1939	Similarity – {0}, distance – {1}, groups – {2}.
+1940	Showing {0} of {1}.
+1941	Show this part in the setup
+1942	Ready studies with their own presentation
+1943	Ready setups
+1944	Chosen k
+1945	Remove the part
+1946	Remove the link
+1947	Mark k
+1948	Too many forms ({0}; at most {1}): restrict the basket or the number of forms.
+1949	too few languages
+1950	Too few units for a graph.
+1951	Too few units for a spectrum.
+1952	Too few units with a group in both partitions.
+1953	Permutations
+1954	first level with 3 … n/2 branches
+1955	Polysemy network: concepts are joined if in at least one language family the same word means both; weight – how many families attest it.
+1956	number of polysemy families
+1957	The pairs are not independent (every unit takes part in many), so p is taken from permutations, not from a formula.
+1958	Pairs whose similarity is much higher or lower than expected for their distance: of different groups yet similar (possible contacts), and of the same group yet distant.
+1959	pairs
+1960	Attributes: semantic field (Concepticon), number of languages, in basket (taip / ne). The parts “Form stability” and “Meaning stability” work with these concepts.
+1961	Attribute name: cognate (IE-CoR cognate set), language, dataset, glottolog_name, field (semantic field), focus, reconstructed …
+1962	Attribute
+1963	The attribute “{0}” has fewer than two values.
+1964	For the attribute “grupė” connect a partition.
+1965	It is easiest to start from a ready setup on the left. Dragging the empty canvas – moves it, mouse wheel – zoom, Delete – remove, Ctrl+Z – undo, Ctrl+D – copy.
+1966	skipped: waits for a failed part
+1967	Skipped: waits for a failed part.
+1968	With distances connected, every unit is joined to its nearest neighbour if their distance is not greater than this.
+1969	With another partition connected, as many groups are taken as it has (e.g. split the tree graph into as many groups as the lexical one found).
+1970	With a partition connected, you can filter by the attribute “grupė” (the group number, as in the fruits).
+1971	Connect at least one fruit (group “Fruits”).
+1972	Connect at least one fruit and press “Study”.
+1973	No unit passed the filter.
+1974	Percentiles
+1975	E.g. cognates or branches: how many units of each group belong to each of their groups.
+1976	At least two scores with ≥ 5 known values are needed.
+1977	At least two scores are needed.
+1978	Stands out significantly
+1979	Significance level
+1980	significant differences (p < {0})
+1981	Meaning network (DatSemShift)
+1982	Meanings restricted by the basket's concepts ({0} Concepticon concepts).
+1983	Meaning stability
+1984	meaning stability
+1985	Order by
+1986	Scores
+1987	Scores A
+1988	Scores B
+1990	Scores where less is better (e.g. replacement rate, polysemy) are reversed. Equal values get the mean rank.
+1991	Score name (e.g. retention); empty – the first.
+1992	Score correlations
+1993	The sets of scores have no units in common.
+1994	Show the whole setup
+1995	Links per unit
+1996	A link is kept if it is among the k strongest of at least one of the two units.
+1997	Eigenvalues
+1998	eigengap
+1999	Filters
+2000	A filter works on any data type that has units: units, distances, graph, partition, scores. A spectrum and a tree cannot be filtered – filter before them.
+2001	Silhouette
+2002	Silhouette – how well the groups are separated; ARI – how much they coincide with the connected partition (e.g. cognates).
+2003	For the silhouette
+2004	Partition
+2005	Partition A (rows)
+2006	Partition B (columns)
+2007	Partition by attribute
+2008	The partition {0} the tree at level {1}
+2009	Count derivation too
+2010	Of different groups, yet more similar than expected (possible contacts, loans)
+2011	The distance between units of different families is unknown. Units without a place in the Glottolog tree are left out.
+2012	The differences do not exceed what would happen by chance.
+2013	Threshold
+2014	The coloured strip – groups.
+2015	Spectral layout
+2016	Spectral analysis
+2017	Spectral analysis makes sense for a connected graph: separate pieces would each give a zero eigenvalue and “groups” that are just the separate pieces.
+2018	A spectral analysis study put together from parts: sources, measures, graphs, filters, spectral analysis, scores and fruits.
+2019	Spectral groups
+2020	A spectrum cannot be restricted: restrict the graph before computing the spectrum.
+2021	Click a part and set its parameters on the right.
+2022	Click k to recompute with that many groups.
+2023	Building the tree…
+2024	Strongest links
+2025	Not joined to other units in the graph (or only to a small piece).
+2026	What to compare with (not needed for “known” and “unknown”).
+2027	With which level of the Glottolog tree (family, branch, sub-branch …) the partition coincides most (ARI for every level).
+2028	Composition by
+2029	Join scores
+2030	Connect: drag from an output dot on the right to an input of the same colour on the left. Suitable inputs are highlighted.
+2031	Garden “{0}” created
+2032	Contract by attribute
+2033	a weighted graph: units – vertices, weight – strength of the link
+2034	Weight exp(−distance / τ)
+2035	Condition
+2036	The setup is too large (at most {0} parts and {1} links).
+2037	The setup is empty: drag parts into the workshop and connect them.
+2038	Setup loaded.
+2039	The setup has no fruit: add a part from the group “Fruits” and connect it.
+2040	The setup has a closed loop: a part cannot receive its own result.
+2041	Name of the setup
+2042	The forms of a concept are found through Sense → Lexeme → Form. Every form has attributes: language, cognate set (IE-CoR), dataset, reconstructed (taip / ne), the place of the language in the Glottolog tree and coordinates.
+2043	Concepts
+2044	Concepts (IE-CoR)
+2045	Concepts are recognised by their Concepticon number (or the DatSemShift number if there is none), so the network can be restricted to IE-CoR concepts (part “Restrict by another”).
+2046	concepts
+2047	This is how a matrix of sound distances becomes a graph for spectral analysis. Unknown distances are taken as very large.
+2048	This gives a basis for comparison: do the spectral groups coincide with cognates, branches, fields.
+2049	point – a pair (up to 3000 at random)
+2050	Technical information
+2051	Text
+2052	The same eigenvectors cut into 2 … 12 groups: eigengap, silhouette, agreement with another partition.
+2053	The same eigenvectors cut into k groups.{0}
+2054	As many groups as here
+2055	When many groups and scores are tested, a few “significant” ones can come out by chance (level {0}).
+2056	expected
+2057	Expected similarity – the median of all pairs at the same distance (for continuous distances – 12 equal-sized intervals).
+2058	Suits similarities from 0 to 1 (e.g. lexical similarity). An unknown similarity stays an unknown distance.
+2059	Network: {0} concepts, {1} links, largest connected part – {2}, {3} families.
+2060	Count derivation in the network besides polysemy. The network is denser but less pure.
+2061	Most typical:
+2062	the units studied (forms, languages, concepts) with their attributes
+2063	Only {0} of {1} forms are fit for study.
+2064	Of the same group, yet less similar than expected
+2065	contains text
+2066	Empty – the second.
+2067	Empty – chosen where the gap between consecutive eigenvalues is largest.
+2068	Studies
+2069	A study put together from parts
+2070	Note
+2071	On hover – the unit's attributes; clicking a group in the legend highlights it. “Open in the garden” creates a new garden with these nodes in the same places and colours.
+2072	Fruits
+2073	fruit ready
+2074	Vaiva's workshop · {0} · {1} parts, {2} fruits {3}
+2075	Vaiva's workshop – a setup from parts
+2076	mean {0} (of all {1})
+2077	A mean silhouette above 0.5 – clear groups, about 0 – merging; negative – a unit between groups.
+2078	Units
+2079	Units are recognised by their key (forms, languages, Concepticon concepts). The order stays that of the first input.
+2080	Units without a place in the Glottolog tree remain without a group.
+2081	The units have no coordinates.
+2082	The units have no attribute “{0}”. Available: {1}.
+2083	Units on a plane by a layout, coloured by a partition; can be opened in the garden.
+2084	Units are partitioned by the Glottolog branch their language belongs to.
+2085	Units are partitioned by an attribute: cognate set, language, semantic field, dataset …
+2086	Units are partitioned into k groups: k-means in the space of the first k eigenvectors (Ng, Jordan, Weiss).
+2087	The units must have a place in the Glottolog tree (forms or languages). Levels are counted from the common ancestor of all.
+2088	Name of a unit attribute: language, cognate, dataset, reconstructed, glottolog_name, field, focus, meanings, languages, name, key; with a partition – grupė. All attributes are visible in the unit table.
+2089	units
+2090	Unit table
+2091	Joins pairs of units into pairs of their attribute (e.g. language): the distance of two languages – the mean distance of their forms.
+2092	Unit filter
+2093	a division of the units into groups
+2094	Positions of the units by the 2nd and 3rd eigenvectors.
+2095	positions of the units on a plane
+2096	Positions of the units on a plane that keep their distances as well as possible (classical MDS).
+2097	Within one group the distance is taken as 0 (similarity – the mean). Contracted by language, the new units are languages and inherit their Glottolog place and coordinates.
+2099	All units with attributes, group and scores; sortable and filterable.
+2100	X score
+2101	Y score
+2102	{0} parts failed or were skipped
+2103	{0} groups
+2104	{0} languages, {1} branches.
+2105	{0} leaves
+2106	{0} nodes
+2107	{0} scores, {1} units
+2108	{0} eigenvalues
+2109	{0} points
+2110	{0} vertices, {1} edges
+2111	{0} → {1}. The larger such a gap, the more clearly the graph splits into that many groups. There are as many zero values as unconnected parts of the graph.
+2112	level {0} below the common ancestor
+2113	level {0} below “{1}”: {2} branches.
+2114	{0}. Darker – {1}; empty cells – unknown. {2}
+2115	{0}: intruders {1}{2}
+2116	{0}; axis – joining height (distance).
+2118	· without a basket
+2119	· from memory
+2120	· basket: {0}{1}
+2121	· left out {0}
+2122	· colours: {0}
+2123	· inside {0}, to others {1}
+2124	“{0}” takes {1}, but this is {2}.
+2125	Setup “{0}” loaded. Ctrl+Z – bring back the previous one.
+2126	Loaded; unknown parts skipped: {0}
+2127	Load a setup file
+2128	intruders
+2129	Inputs
+2130	The inputs have no units in common.
+2131	branches
+2132	Sources
+2133	the nodes in the basket of this tab's garden
+2134	The nodes in the basket of this tab's garden (in the garden: right button → “Add to basket”).
+2135	Below “{0}” at level {1} there are {2} branches (e.g. {3}); ARI {4}.
+2136	Too many points for a map ({0}; at most {1}).
+2137	The sign is chosen so that the largest coordinate is positive (so that repeated runs agree). Spectral maps of tree graphs often pull many units into a few points – MDS is clearer then.
+2138	known
+2139	The similarity of {0} of {1} pairs is known (at least {2} shared meanings).
+2141	“1 − distance” suits distances from 0 to 1 (sound distance). For others (km, tree depth) – divide by the largest.
+2142	“Depth of the common ancestor”: the deeper in the tree the nearest common ancestor, the closer (0 – the deepest). “Number of edges”: how many branches to pass from one to the other – it distorts when branches are split unequally finely.
+2143	“equal” and “not equal” accept several values separated by semicolons; upper and lower case do not matter.
+2144	“{0}” and “{1}”: {2} pairs.
+2145	“{0}” and “{1}”; {2} units compared.
+2146	“{0}” expects {1}, but gets {2}
+2147	“{0}” must be between {1} and {2}
+2148	“{0}” → “{1}”: no such port.
+2149	“{0}”: not connected {1}.
+2150	“{0}”: only one link goes into an input.
+2151	▲ – the group mean is significantly higher, ▼ – lower (p < {0}).
+2152	▶ Study
+2153	⬆ Load
+2154	⬇ Download
+2155	🍎 Fruits
+2157	🔧 Workshop
+2158	🔧 Setup
+2159	🔧 {0} fruits{1}
+2160	Workshop setup
+2161	1 − distance
+2162	Concepticon
+2163	datasets
+2164	dataset
+2165	present in at least one
+2166	Glottolog language
+2167	Glottolog languages
+2168	longitude
+2169	language
+2170	languages
+2173	equal
+2175	not equal
+2176	does not contain text
+2177	first split
+2178	latitude
+2179	reconstructed
+2180	segments
+2181	semantic fields
+2182	semantic field
+2184	only those present in both
+2185	unit
+2186	all units of A
+2187	Distances
+2188	Tree
+2189	numeric scores of every unit
+2190	Spectrum
+2191	Purity {0}: some groups are mixed.
+2192	Purity {0}: the groups hardly mix.
+2193	Joining into one index is not justified
+2194	Joining into one index is justified
+2195	Almost no correlation (ρ = {0})
+2196	The first principal component explains {0} ({1} units with all scores).
+2197	The scores enter it in different directions.
+2198	Score
+2199	All scores enter it in the same direction.
+2200	{0} groups (by the eigengap it would be {1}).
+2201	{0} groups – by the eigengap.
+2202	{0} distinct sounds: BIPA {1}, another CLTS system {2}, approximately {3}, unrecognised {4}.
+2203	ARI
+2204	almost none
+2205	hardly coincide
+2206	almost coincide
+2207	largely coincide
+2208	purity
+2209	very strong
+2210	Lexical similarity and geography
+2211	Mantel p
+2212	weak
+2213	silhouette
+2214	Spearman ρ
+2215	strong
+2216	DatSemShift polysemy
+2217	IE-CoR polysemy
+2219	Download {0}
+2220	Bibliography
+2221	Bibliography: SODAS and the datasets used in this garden (BibTeX, RIS, …)
+2222	CSL-JSON (Zotero, Mendeley, Pandoc)
+2223	No datasets used yet – only the SODAS entry is given.
+2225	the draft is too large
+2226	A garden somebody sent you (a JSON file) becomes a new garden of yours
+2227	A garden somebody sent you becomes a new garden of yours
+2228	Copy
+2229	Data used:
+2231	Unsuitable file: {0}
+2232	unknown format: {0}
+2233	unknown draft
+2237	RIS (EndNote, Zotero, Mendeley)
+2238	Garden downloaded – you can send the file to another gardener
+2239	SODAS and the datasets used in this study: BibTeX, RIS, CSL-JSON, text
+2240	The SODAS record is preliminary for now: the DOI and the program's repository are still being prepared.
+2242	Garden bibliography: SODAS and the datasets used in it
+2243	The garden file is damaged: nodes and relationships must be lists.
+2244	The garden file has no nodes.
+2246	Bibliography of the garden „{0}“
+2248	this is not a Sodas file (expected „sodo-byla/1“)
+2249	Text (APA)
+2250	Bibliography of the study „{0}“
+2254	Uploaded garden
+2255	Garden „{0}“ uploaded ({1} nodes)
+2256	garden „{0}“ uploaded ({1} nodes)
+2257	This garden was saved before the data used began to be tracked – the list is made from the nodes now in it.
+2258	This study was done before the data used began to be tracked – the list is made from its basket and the kind of study.
+2259	This garden with its nodes, relationships and the list of data used – into a file you can send to somebody
+2260	⬆ Upload a garden from a file…
+2261	⬇ Download this garden (JSON)
+2262	⬇ File
+2263	📚 Bibliography
+2266	Neo4j search indexes created: {0}
+2267	The page is working…
+2268	, {0} nodes hidden in the garden
+2269	Dataset
+2271	datasets switched off: {0}{1}
+2272	Switch all off
+2274	Neo4j is not reachable – no list of datasets.
+2275	On
+2276	Switch all on
+2277	Nodes in this garden
+2278	⚙ → Datasets
+2279	; the first {0} of {1} shown
+2281	Ctrl+🗺
+2282	Ctrl+🗺 – also those not loaded
+2283	Turn the map off and bring the garden back
+2285	nodes
+2286	List of nodes
+2287	not a bundle
+2288	invalid bundle
+2289	invalid bundle source
+2290	invalid source
+2291	node.multi, node.bundle
+2292	None of these nodes has latitude and longitude
+2293	bundle nested too deep
+2294	Bundle from
+2295	The bundle's nodes are not loaded into the garden, so it stays light. Expanded, it shows the neighbours of all of them (from this node); on the map – all its nodes (for Sense, their lexemes), and when zooming in – those of that region.
+2296	Show more ({0} of {1})
+2298	Preparing the map…
+2299	Relationships
+2300	this many or more neighbours of one name are shown as one node “name ×N” without loading them (above 1000 always)
+2301	all nodes of the selected merged node (×N) on the map (for Sense, their lexemes); zooming in shows that region's nodes
+2302	All on the map
+2303	{0} {1} nodes with the same name{2}
+2304	{0}: showing {1} of {2} in this region ({3} in all) – zoom in to see the others
+2305	{0}: {1} nodes in the garden
+2306	{0}: added to the garden
+2307	{0}: {1} of {2} in this region
+2309	Add this node to the garden
+2310	These nodes were not found
+2311	Nodes are not expanded in the map view – go back to the garden (🗺)
+2312	📍 All on the map
+2313	{0} nodes boldly joined: the same name and language
+2314	Boldly join nodes
+2315	Joining nodes
+2316	forms and lexemes (Form, Lexeme) of the same name and the same language from all datasets are shown as one node
+2317	Merged {0} nodes into “{1}” – in this garden only
+2318	Merge selected
+2319	{0} nodes merged: same name and language – click
+2320	Merge {0} nodes
+2321	Ctrl + 🗺: select a Sense node (all forms of its concept) or a merged node (×N) – all its nodes will be shown on the map
+2322	OK
+2323	Lemmas on the map
+2324	lemmas
+2325	Forms on the map
+2326	forms
+2327	unknown map mode: {0}
+2328	The names differ. Which one to show? The merged node belongs to this garden only – nothing is changed in the database.
+2329	Select at least two nodes (Shift + click) to merge
+2330	Rename
+2331	Rename the merged node
+2332	{0} nodes merged by hand (in this garden only) – click
+2333	{0} nodes merged by hand – in this garden only
+2334	Show the map (the selected or the first node with coordinates). A selected Sense – its lemmas, a Concept – all lemmas of the concept, a cognate set – its forms. Ctrl – all forms of the selected Sense's concept, all nodes of a merged node (×N)
+2335	own name:
+2336	in this garden only
+2337	All forms of the concept on the map
+2338	all forms of the concept – {0}
+2339	{0} nodes of the same name – click
+2340	{0}: on the map {1}{2}{3}. Zoom in to see the nodes of a region. The garden is hidden for the while: 🗺 – back.
+2341	No forms of this concept found
+2342	This cognate set has no forms
+2343	This Sense has neither lemmas nor forms
+2344	These nodes cannot be merged
+2345	the map needs nodes of one kind
+2346	Second panel
+2347	muted text
+2348	Muted text
+2349	Muted text on a panel
+2350	Background
+2351	Back to the computed colour
+2352	Back to all computed colours
+2353	how far apart the background, panels, chips and lines are (50 – as before)
+2354	Other
+2355	Error
+2356	Contrast
+2357	Contrast check
+2358	Lines on a panel
+2359	Lines, borders
+2360	Button
+2361	Change the colour
+2362	Accent on a panel
+2363	Accent background
+2364	accent background
+2365	Accent background on a panel
+2366	Sample
+2367	For colours too much alike, raise “Contrast”, change the interface lightness or pick that colour by hand.
+2368	too much alike (needs ≥ {0})
+2369	Relationships on the garden background
+2370	Panel
+2371	Panel and background
+2372	Garden background
+2373	Colours one by one
+2374	Click a colour to change it by hand; a colour picked by hand no longer follows the sliders (× – undo). {0}
+2375	Text on the background
+2376	Text on the accent
+2377	Text on the accent background
+2378	Text on a panel
+2379	Warning
+2380	chip
+2381	Chip on a panel
+2382	Chip, button group
+2383	⚠ warning
+2384	✓ fine
+2385	✕ error
+2386	About Sodas
+2387	an environment for researching language data. Languages, words, their meanings, concepts and related words of many datasets (Glottolog, Concepticon, IE-CoR, Lexibank, WOLD, CLICS, LKEŽDB and others) are joined in one graph, where the researcher searches, compares and sees connections.
+2388	Could not get the citation data.
+2389	datasets: loading and managing them, explaining LKEŽDB words.
+2390	Institution
+2391	How to cite
+2392	Other formats…
+2393	No contacts written yet.
+2394	Program code
+2395	Contact
+2396	Website
+2397	studies with garden nodes: sound correspondences, language trees, a workshop to put together one's own studies.
+2398	the researcher's garden: a graph of nodes and relationships that grows by expanding words, meanings and concepts; identical nodes are merged and can be shown on the map.
+2399	Name
+2400	Version {0}
+2401	Sign
+2404	Lemmas of the concept on the map
+2405	No lemmas of this concept found
+2406	Download
+2407	Download the garden: SVG, PNG or JSON
+2408	Save as PNG
+2409	Node names
+2410	picture – for talks and slides
+2411	picture too large
+2412	PNG failed: {0}
+2413	View
+2414	View: labels of nodes and relationships, the node and relationship types in the garden (unticked ones are hidden)
+2415	Preparing PNG…
+2416	Relationship names
+2417	garden data – can be uploaded again in “Manage gardens”
+2418	With the map – the visible view
+2419	Could not draw the SVG
+2420	Labels
+2421	vector picture – can be enlarged, edited in Inkscape
+2422	{0} relationships hidden (back via 👁 “View”)
+2423	{0}: {1} nodes hidden with their relationships (back via 👁 “View”)
+2424	The garden cannot be downloaded without its bibliography – try again
+2425	Every file carries the whole bibliography: SVG and PNG under the garden and in the file's metadata, JSON in the field “bibliografija”.
+2426	Untitled garden
+2427	“{0}” – Sodas, {1}. Sources that must be cited:
+2430	about 2 min.; Esc – stop
+2431	put aside
+2432	Download
+2433	Finish
+2434	End the lesson (Esc)
+2435	Right button on a node – all its actions (expand, collapse, map, basket…). Middle button – the node's panel. Shift + click – select several nodes: selected ones can be merged or joined by a relationship.
+2436	Your gardens
+2437	When the garden has nodes with a place (languages, words), 🗺 appears in the bar: the nodes move to their places on the map. With a concept or a meaning (Sense) selected, the map shows all their words.
+2438	Other parts
+2439	Nodes are words, meanings, languages, concepts; lines are the relationships between them. Double-click a node to expand it: its neighbours appear. The mouse wheel zooms the garden, dragging moves it.
+2440	Node description
+2441	Not now
+2442	Search
+2443	Lesson
+2444	The lesson is always at hand
+2445	You can find the lesson any time by clicking the SODAS sign.
+2446	Do it for me
+2448	The selected node's properties, relationships in the database and source record are shown here. A flag by a node is its language, the ⧉ badge – merged nodes.
+2449	The mouse in the garden
+2450	First time in Sodas?
+2451	Let's plant the first word. Type, e.g., saulė in the search box and click the first result in the list that appears – it will appear in the garden. You can also search for languages, concepts or sets of related words.
+2452	Start the lesson
+2453	Start the garden lesson
+2455	sun
+2456	The garden's name and your other gardens; ＋ – a new garden. Each garden is a separate study.
+2457	The garden can be downloaded as SVG, PNG or JSON. Every file comes with the bibliographic records of the data used and of Sodas itself. 📚 – the same records on their own.
+2458	Click the SODAS sign to learn about the environment, how to cite it, and to repeat this lesson. Happy gardening!
+2459	Welcome to Sodas!
+2461	Next
+2462	A short lesson shows how to search for words, grow your own garden and explore it (about 2 min.).
+2463	Here you grow your research garden – a graph of languages, words, their meanings and concepts from many datasets. The lesson takes about two minutes. You can stop it any time (Esc) and repeat it by clicking the SODAS sign.
+2464	This page's lesson is being prepared. The garden lesson is in the garden – click the SODAS sign there.
+2466	👁 – names of nodes and relationships and the types in the garden: untick a type to hide it and make the garden clearer.
+2467	🗺 appears when the garden has nodes with a place: they move to their places on the map. With a concept or a meaning (Sense) selected, the map shows all their words.
+2468	🧺 – the research basket: nodes put here are what Vaiva's studies work with later (e.g. sound correspondences, language trees).
+2469	Back beside the part explained
+2470	Drag to move
+2471	; the value is the name of the target. Only a path pattern is allowed, the query runs read-only.
+2472	not downloaded yet
+2485	relationship created {0}: {1} → {2}
+2492	{0} · {1} · ~{2} MB
+2493	source ↗
+2494	⭳ Download
+2495	⭳ Download all missing
+2496	Datasets not downloaded: {0} (~{1} MB). The datasets do not come with the program – download them (an internet connection is needed), then select them and import them into Neo4j. Each dataset has its own licence: most are CC BY 4.0, D-PLACE and NoRaRe are CC BY-NC 4.0 (not for commercial use).
+2497	Neo4j password not set (neo4j.yaml or KALBA_NEO4J_PASSWORD)
+2498	Download the garden as a file (JSON) that another gardener can upload into their own Sodas
+2499	CUSTOM: a relationship named by you
+2500	A dataset can be switched off for a while, e.g. when the work does not need the heavy ones. The nodes of a switched-off dataset are not searched, not expanded, not shown in paths or on the map, and those in the garden are hidden (not removed). Switched on again, they come back at once. Nothing is deleted from Neo4j or imported again: it is only a switch.
+2501	Delete the relationship “{0}” from the database?
+2502	Language and settings
+2503	Switch datasets off for a while
+2504	drawn in the garden · {0}
+2505	drawn {0}
+2506	The program's errors and warnings (and errors that happened in the browser).
+2507	Relationships you drew in the garden (select two nodes and press Ctrl+J). They are written to Neo4j (dataset “Papildymai”) and shown like any other relationship – when a node is expanded, in path search.
+2508	The relationship is written to Neo4j (dataset “Papildymai”); their list – ⚙ → My relationships.
+2509	a relationship named by you (type CUSTOM)
+2510	Gardens are saved by themselves. The letters – the interface language; ⚙ – settings: theme, colours, the look of nodes, datasets, managing gardens.
+2511	Sodas: {0} (land: /zeme, garden: /, Vaiva: /vaiva, settings: /nustatymai; Ctrl+C stops)
+2512	Relationships drawn in the garden (Ctrl+J)
+2513	A garden file holds its nodes, relationships, view and the list of datasets used (for the bibliography).
+2514	with this label – you will see it in the garden instead of the type.
+2515	Relationship “{0}” created
+2516	create a relationship between two selected nodes (written to Neo4j, dataset “Papildymai”)
+2517	All settings (theme, colours, pictures, limits) go back to those the program comes with; datasets switched off stay off.
+2518	Žemė – the datasets the gardens grow from; Vaiva – studies with the basket's nodes.

@@ -1,0 +1,20 @@
+contract: kalba-neo4j/1.1
+dataset_id: lexibank_analysed
+path_name: lexibank-analysed
+title: Lexibank Analysed
+profile_version: 0.1.0
+verified: true
+input:
+  kind: cldf
+  metadata_glob: cldf/*metadata.json
+  require_metadata: true
+  extra_files:
+    - etc/lexibank.tsv
+    - etc/lexibank-dev.tsv
+requires:
+  authorities: [glottolog, concepticon, clts]
+semantics:
+  aggregate_collections: [CogCore, ProtoCore]
+  local_id_identity:
+    Local_ID: "aggregate source-local form/lexeme evidence; dataset provenance must remain separate"
+  table_intent: "Aggregate wordlist, phonology and lexicon tables; collection membership remains source-scoped."

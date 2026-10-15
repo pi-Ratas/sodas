@@ -1,0 +1,15 @@
+datasets:
+  glottolog: duomenynai/glottolog
+  concepticon: duomenynai/concepticon-data
+  clts: duomenynai/clts
+  iecor: duomenynai/iecor
+  wold: duomenynai/wold
+  lexibank_analysed: duomenynai/lexibank-analysed
+  clics4: duomenynai/clics4
+  norare: duomenynai/norare-data
+  phoible: duomenynai/phoible
+  wals: duomenynai/wals
+  grambank: duomenynai/grambank
+  dplace: duomenynai/dplace-cldf
+  asjp: duomenynai/asjp
+  datsemshift: duomenynai/datsemshift

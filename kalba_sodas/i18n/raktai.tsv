@@ -1,0 +1,1744 @@
+# Sodo sąsajos tekstai lietuviškai (numeris<TAB>tekstas). Pildo: python -m kalba_sodas.i18n.istraukti
+1	(apribota krepšio sąvokomis)
+2	(Ctrl+Numpad + / −)
+3	(dar {0} – po vieną kalbą)
+4	(iš viso {0} su ta pačia geriausia reikšme {1}; jų tvarka atsitiktinė)
+5	(išvesta iš teksto)
+6	(kaip {0})
+8	(modelio išvada)
+9	(neinant per bekeles)
+10	(nėra display_name)
+11	(paslėpta {0})
+13	(pati analizė siūlė {0})
+14	(poliarinė
+15	(rodomas pažymėjus „techniniai įrašai“).
+16	(rodomi pirmi {0})
+17	(slepiant paliesti kaimynai lieka)
+18	({0} imtyje)
+19	({0} neįtraukta)
+20	) naudojamas toks, koks yra; bet koks kitas pavadinimas tampa ryšiu
+21	) pažymėtos ƒ. Taisyklė
+22	). Ankstesnės programos užklausos lieka talpykloje, bet netinka naujam grafo modeliui.
+23	, dar {0} – spauskite „+“ mazgus
+25	, kurios labiausiai atitinka {0}-ąjį medžio lygį (ARI {1})
+26	, palikta {0} paliestų
+27	, reikia interneto ryšio. Šiuo metu: {0}.
+28	, todėl ir su žodynu sutampa geriau.
+29	, {0} pastabų
+30	100 % bendrų kognatų
+34	; kartu – {0}
+36	; {0} be koordinačių nerodoma
+51	Abi ašys – pastovumo procentilis (dešinėje ir viršuje – pastoviau). Linijos dalija per pusę. Spustelėkite sąvoką – jos duomenys žemiau.
+53	Adresas
+56	aiškinama
+57	aiškinama…
+59	Alt + pelės ratukas
+60	Alt+Numpad +/−
+61	Analizė: {0} objektų, {1} savybių, {2} teiginių, {3} ryšių
+62	analizės segmentai
+63	API adresas
+64	API raktas
+66	Apjungta tapačių porų: {0}
+67	Apjungti du duomenynai
+68	Apjungti du duomenynai: {0} – spauskite
+69	Apjungti tapačius
+70	Apjungti visus tapačius
+72	Ar grafas pats iškelia pastovias sąvokų grupes?
+73	Ar jungti į vieną indeksą? {0} (1-oji komponentė paaiškina {1})
+74	Ar kalbos, kurios dalijasi daugiau kognatų, ir Glottolog medyje stovi arčiau? Palyginamas kiekvienos kalbų poros leksinis artumas su atstumu medyje, abiejų grafų spektrai ir grupės, leksinis medis su Glottolog šakomis; randamos medžiui prieštaraujančios kalbos ir poros. Krepšyje: Glottolog šeima ar šaka, kalbos, sąvokos (apriboja reikšmes) – arba nieko (visos kalbos su kognatų duomenimis).
+75	Ar komponentai pasakoja tą patį?
+76	ar skirtingos šeimos sieja sąvoką su tomis pačiomis kitomis reikšmėmis (vid. Jaccard)
+77	Ar tirti ir rekonstruotas prokalbių formas (pažymėtas *, pvz. *méh₁n̥s). Jos užrašomos kitaip nei paliudytos formos ir neturi vienos kalbos vietos, todėl paprastai paliekamos nuošalyje.
+78	arba aplinkos kintamasis OPENAI_API_KEY
+79	ARI su kognatais
+80	ARI su {0} medžio lygiu
+81	ARI tarp {0} leksinių grupių ir Glottolog šakų kiekviename lygyje žemiau bendro protėvio{1}.
+82	Armėnija
+83	artimiausia pagal žodyną
+84	artimiausio kaimyno ryšiai
+85	artimiausios medyje
+86	Artimiausios medyje poros (atstumas {0}) vidutiniškai (mediana) dalijasi {1} reikšmių kognatais, tolimiausios (atstumas {2}) – {3}. Plati juosta ties vienu atstumu rodo, kad tas pats medžio atstumas nereiškia to paties laiko: vienos šakos išsiskyrė seniau, kitos vėliau, o medis to nematuoja.
+88	Atidaryti
+91	atitikimas γ
+95	Atlikti tyrimai
+98	Atnaujinti
+99	Atnaujinti Neo4j
+104	atsargiai: dalį skirtumų gali lemti tai, kiek sąvoka tyrinėta.
+111	atstumai (MDS)
+112	atstumas 0
+113	atstumas medyje
+114	Atstumų matrica
+118	Atverti sode
+120	Atšaukti
+124	Azerbaidžanas
+126	Ašis – bendrų kognatų dalis toje jungtyje.
+127	Bangladešas
+128	Be jų vietiniai mazgai liks be papildomų duomenų (ExternalIdentifier „pending“).
+129	be modelio
+131	Bekelė
+132	Bekelė: neiti per {0}
+133	Bekelė: {0} ryšiai kelių paieškoje nenaudojami
+134	Bekelės (neinama per šiuos ryšius)
+135	bendro protėvio gylis
+136	bendrų reikšmių
+137	BIPA atpažino {0}, kitos CLTS sistemos vienareikšmiškai – {1}, apytiksliai (be kai kurių diakritikų) – {2}, neatpažinta – {3}. Atpažinti garsai lyginami pagal fonetinius požymius (m ir n skiriasi mažiau nei m ir a); neatpažinti – tik kaip tas pats ar kitas simbolis.
+140	briaunų skaičius
+141	briaunų skaičius medyje (pirminis bandymas)
+142	brūkšninė
+143	Bus ištrinti
+144	būsena
+146	Centruok
+147	ChatGPT raktas įrašomas į bylą .raktas projekto aplanke (žr. API_raktas.md)
+148	CLTS garsas
+149	CLTS požymiais svertas redagavimo atstumas, padalytas iš ilgesnės formos ilgio
+154	Ctrl + tempimas
+155	Ctrl + 🗺
+158	Ctrl+Alt+Shift+Numpad +/−
+161	Ctrl+Numpad +/−
+162	Ctrl+Shift + pelės ratukas
+164	Ctrl+Shift+Numpad +/−
+166	Dabar: {0} mazgų, {1} apribojimai, indeksai: {2}.
+169	Dar nieko netyrėte.
+174	dataset = "lkezdb"
+175	DatSemShift duomenų nėra.
+176	DatSemShift reikšmių tinkle be polisemijos (vienas žodis – kelios reikšmės) skaičiuoti ir derivaciją (reikšmė perėjo į išvestinį žodį). Tinklas tankesnis, bet mažiau grynas.
+177	DatSemShift šios sąvokos neturi.
+178	DatSemShift: polisemija {0} šeimose, dažniausi kaimynai –
+179	Daugiausia formų
+180	Daugiausia mazgų sode
+181	Daugiausia ryšių iš vieno mazgo
+182	Daugiausia ryšių sode
+183	daugiklis visiems ryšiams (ir tipų storiams); Ctrl+Shift + pelės ratukas
+185	Derinama tema
+186	Dešinys klavišas
+187	Dešinys klavišas → Suskleisk
+188	Dešinys pelės klavišas – veiksmai · vidurinis ant mazgo ar ryšio – jo valdymo skydelis · dukart – išskleisti · Shift + tempimas – pažymėti stačiakampiu.
+189	Didelis šuolis po k-osios reikšmės rodo, kad duomenys skyla į k grupių. Oranžinė – pasirinktas k.
+190	Didesnės kognatų grupės nesiskaido į kelias garsines grupes.
+191	didžiausias mazgas
+192	Didžiausias mazgas
+193	didžiausias mazgų dydis ±
+194	didžiausias tarpas yra tarp {0}-os ir {1}-os savosios reikšmės ({2} → {3})
+197	du atskiri mazgai
+199	dukart spustelėjus
+200	Dukart spustelėti
+201	Duomenynai
+207	Duomenų apie šį mazgą nėra
+208	duomenų bazėje
+209	duomenų bazės tipas
+210	Duomenų bazės tipas (pvz.
+211	Duomenų talpykla nerasta:
+212	Dydis pagal
+213	Dėl ribos neimta dar {0} formų.
+216	Eilė
+217	Eilė tuščia.
+218	eilėje
+219	eilės nr.
+222	El. paštas
+233	etc/orthography.tsv nepateikė nė vieno garso.
+234	etc/orthography.tsv nežino ženklų {0}; tarimo neišradinėjame.
+235	etiketė
+236	Farerų salos
+237	Fidžis
+239	Filtras, pvz. Lithuanian
+240	filtruoti: forma, kalba, šaka, kognatas…
+241	filtruoti: kalba, šaka…
+242	filtruoti: sąvoka, laukas…
+244	Forma
+245	Forma ir reikšmė
+246	Forma neturi nei segmentų, nei užrašytos formos.
+247	Forma: IE-CoR kognatų klasės
+248	Formos ir reikšmės pastovumas –
+249	Formos komponentai tarpusavyje koreliuoja vidutiniškai ρ {0},
+250	Formos pastovumas – {0} IE-CoR sąvokų {1} kalbose ({2} Glottolog šakos). Reikšmės pastovumas – {3} iš jų rastos DatSemShift tinkle ({4} sąvokų, {5} polisemijos porų, {6} kalbų šeimos; spektrinė erdvė – didžiausia susieta dalis, {7} sąvokų). DatSemShift pateikia tik rastus poslinkius, o ne visas tirtas kalbas, todėl polisemijos skaičiai rodo, kiek sąvoka tyrinėta ir kiek ji „judri“ kartu – tai svarbu vertinant polisemijos komponentą.
+251	Formos surikiuotos pagal grupes (spalvota juosta kairėje ir viršuje). Tamsiau – panašiau skamba. Ryškūs tamsūs kvadratai įstrižainėje – vieningos grupės; tamsios dėmės už jų – panašumas tarp grupių.
+253	Formų garsinio panašumo spektrinė klasterizacija
+254	formų ištirta
+255	gali būti atsitiktinis
+256	Galima: {0}; numatyta: „{1}“.
+257	gana panašios
+258	Garsai ir CLTS
+259	Garsai susiejami su CLTS…
+260	Garsinis sodas
+261	garsinių grupių{0}
+262	Gauti modelių sąrašą
+263	Genealoginio atstumo matas keičia vaizdą: protėvio gylis ρ {0}, briaunos ρ {1}
+264	Grafas
+265	grafike kairėje ašis galima pakeisti.)
+266	Grafo planas (JSON)
+267	Grafo planas: {0} mazgų, {1} ryšių
+268	Grafo planą sudaryti iš naujo pagal išsaugotą aiškinimą, be kalbos modelio
+269	Graubiundenas (Šveicarija)
+273	griežta atsakymo schema (jei modelis nepalaiko – išjungiama savaime)
+274	grupių grynumas
+277	grupė
+278	Grupė
+282	grupė {0} · siluetas {1}{2}{3}
+286	Grupės
+288	Grupės ir medžio lygiai
+292	grupės {0} ir {1}
+293	Grupės {0}: {1} formų yra savo grupės daugumos kognatų grupėje
+295	Grupės, kognatai ir kalbų šakos
+296	Grupėse maišosi skirtingos kilmės žodžiai, be to, kognatų grupės skaidosi:
+301	Grynumas rodo, ar į vieną garsinę grupę nepatenka skirtingos kilmės žodžiai.
+302	Grąžinti numatytieji nustatymai
+303	Grąžinti numatytuosius
+307	IE-CoR duomenų nėra.
+308	IE-CoR kalbų, {0} šakos
+309	IE-CoR šios sąvokos neturi.
+310	Ieškoma trumpiausių kelių, kad ir kokie ilgi jie būtų.
+311	Ieškomi keliai: {0} ⇝ {1}…
+312	ieškomi visi „{0}“ ryšiai…
+314	iki tikslo
+315	Importas
+316	Importo diagnostika
+317	importuoti iš naujo ir tuos, kurie jau įkelti į Neo4j
+318	Importuoti pažymėtus
+319	Imtyje visi mazgai turi žmogui suprantamus pavadinimus.
+320	ir komponentai į ją įeina skirtingomis kryptimis
+321	ir įtraukti
+322	iš duomenų bazės
+324	Iš kiek mažiausiai skirtingų kalbų šeimų turi būti paliudyti sąvokos ryšiai DatSemShift tinkle, kad būtų skaičiuojamas jos reikšmės pastovumas.
+325	Iš leksinių atstumų sudarytas medis (vidutinio ryšio grupavimas, UPGMA). Šaka vientisa, jei visos jos kalbos jame susijungia anksčiau nei su bet kuria kita.
+326	iš Neo4j ištrinti visi LKEŽDB duomenys: {0}
+327	išaiškinta
+328	išaiškinti
+329	Išaiškinti
+330	Išaiškinti iš naujo
+331	Išaiškinti pažymėtus
+332	Išaiškinti pažymėtus{0}
+333	Išaiškinti {0} žodž. kalbos modeliu? Kiekvienas žodis – atskira (mokama) užklausa.
+334	išaiškinti, bet neįtraukti į Neo4j. Spauskite „Įtraukti į Neo4j“.
+335	Išdėstyti iš naujo
+336	Išdėstyti sodą iš naujo
+337	Išimti
+338	Išimti visus mazgus iš krepšio (sode jie lieka)
+340	Išjungti žemėlapį
+342	Išlikimas tolimose šakose
+343	išsamiau
+345	Išsaugota
+346	Išsaugota: {0}
+347	Išsaugoti
+348	Išsaugoti kaip SVG
+352	Išskaičiuotos savybės
+353	Išskirti
+354	Išskleidžiami visi šie mazgai; jų ryšiai rodomi iš šio mazgo. Žemėlapyje jie rodomi atskirai – kiekvienas savo kalbos vietoje.
+355	Išskleisk
+356	išskleisti mazgą
+359	Ištirta {0}
+360	ištisinė
+361	Ištrinami tik šiuo įrankiu įtraukti mazgai ir jų ryšiai (taip pat ryšiai į Glottolog ir Concepticon). Kiti duomenynai, apribojimai ir indeksai nepaliečiami. Aiškinimai SQLite talpykloje lieka – juos galima vėl įtraukti.
+362	Ištrinta {0} mazgų, {1} ryšių
+366	Ištrinti
+374	Ištrinti ryšį
+378	Ištrinti tyrimą
+379	Ištrinti viską
+380	Ištrinti visus LKEŽDB duomenis
+381	Ištrinti visus Neo4j duomenis
+382	Ištrinti visus Neo4j duomenis…
+387	Išvalyti atliktus ir nepavykusius
+388	Išvalyti krepšį
+389	Išvalyti laikinus radinius
+390	Išvalyti sodą
+391	išvesta iš etc/orthography.tsv
+393	jau Neo4j
+394	Jau įkelti rinkiniai (tie patys failai ir profilis) praleidžiami; tikrinama per kelias sekundes.
+396	Jei tas pats žodis paplitęs keliose šakose (skolinys ar bendras paveldas), garsinė grupė apima kelias šakas.
+398	Ji paaiškina tik {0} įvairovės
+399	Ji paaiškina {0} bendros įvairovės, o visi komponentai į ją įeina ta pačia kryptimi – bendras pastovumo indeksas būtų pagrįstas.
+400	jie nematuoja vien tyrinėtumo.
+402	JSON schema
+403	judru abu
+404	Jungtinė Karalystė
+405	Jungtinės Amerikos Valstijos
+411	Kaimynystės pastovumas
+412	Kaip greitai medžio grafe silpsta dviejų kalbų ryšys: svoris exp(−atstumas/τ). Mažas τ – jungiamos beveik vien artimiausios kalbos, didelis – ir tolimos šakos.
+413	Kaip matuojamas dviejų kalbų atstumas Glottolog medyje. „Bendro protėvio gylis“: kuo giliau medyje yra artimiausias bendras protėvis, tuo kalbos artimesnės. „Briaunų skaičius“: kiek šakų reikia pereiti nuo vienos kalbos iki kitos – iškraipo, kai medžio šakos nevienodai smulkiai suskaidytos.
+414	kaip rastas
+415	Kaip tai apskaičiuota
+416	Kairėje – kalbos pagal žodyną (bendrų kognatų dalį), dešinėje – pagal Glottolog medį. Spalva – medžio šaka. Užvedus kalbą ji paryškinama abiejuose. „Atstumai“ išdėsto kalbas taip, kad atstumai ekrane kuo labiau atitiktų tikruosius (MDS); „Spektras“ – antrasis ir trečiasis normalizuoto Laplaso savieji vektoriai, kaip pirmajame bandyme.
+417	Kalba nesusieta su Glottolog (CORRESPONDS_TO ar glottocode), todėl jos vietos medyje nežinome.
+418	kalbiniai ryšiai
+419	Kalboms, turinčioms žinomą valstybės ar regiono vėliavą, pridėti taisykles Languoid · display_name → vėliava (flag-icons, reikia interneto). Esamos taisyklės nekeičiamos, joms pridedamos užuominos su šalimi.
+420	Kalbos
+422	Kalbos modelis
+423	Kalbos sujungtos pagal leksinį atstumą (UPGMA): kuo toliau į dešinę jungtis, tuo mažiau bendrų kognatų. Šakos linija spalvota, jei visos jos kalbos iš tos pačios Glottolog šakos.
+424	Kalbos surikiuotos pagal Glottolog medį (spalvota juosta – šaka). Tamsiau – daugiau bendrų kognatų; tuščia – per mažai bendrų reikšmių. Tamsūs kvadratai įstrižainėje – šakos; tamsios dėmės už jų – artumas tarp šakų.
+425	Kalbos, kurių žodynas mažiausiai seka medį
+426	kalbų
+427	kalbų dalis, kuriose tas pats žodis reiškia ir kitą IE-CoR sąvoką
+428	kalbų dalis, kurių žodis priklauso plačiausiai paplitusiai kognatų klasei
+429	Kalbų leksinis artumas ir genealoginis medis
+430	kalbų šaka nežinoma
+431	kalbų šeimų reikšmių tinkle
+432	kalbų šeimų, kuriose paliudyta polisemija su kita reikšme, skaičius
+433	Kalbų žemėlapiai: pagal žodyną ir pagal medį
+434	kalbų{0}
+437	kartą
+438	kartų
+448	Kelias
+449	Kelio paieška
+450	kelio paieška užtruko per ilgai – pabandykite pridėti bekelių (ryšių, per kuriuos neiti)
+451	Kelio tarp šių mazgų nėra{0}
+452	Kelios šakos čia susijungia ne būtinai dėl bendros kilmės: UPGMA jas jungia, nes jos visos panašiai toli nuo kitų.
+454	Keturios sąvokų rūšys
+455	Kiek bendros įvairovės paaiškina kiekviena kryptis; žemiau – kaip komponentai įeina į pirmąją.
+456	Kiek bendrų kognatų lieka einant medžiu tolyn
+457	Kiek daugiausia formų paimti iš krepšio mazgų; kitos praleidžiamos (apie tai pranešama). Lyginamos visos formų poros, tad darbo daugėja kvadratu: 600 formų – apie 180 000 porų.
+458	Kiek grupių?
+459	Kiek kartų Mantel teste atsitiktinai sumaišyti kalbas, kad būtų įvertinta p reikšmė: ar leksinio artumo ir atstumo medyje sutapimas nėra atsitiktinis. 0 – p neskaičiuojama; 999 – p tikslumas iki 0,001; daugiau – ilgiau skaičiuojama.
+460	Kiek kiekvienos grupės formų priklauso kognatų grupei
+461	Kiek kiekvienos grupės formų yra iš kalbų šakos (Glottolog)
+462	Kiek mažiausiai kalbų (turinčių vietą Glottolog medyje) turi turėti IE-CoR kognatais koduotą sąvokos žodį, kad būtų skaičiuojamas jos formos pastovumas. Rečiau paliudytos sąvokos nevertinamos.
+463	Kiek mažiausiai tų pačių reikšmių (sąvokų) turi būti koduota abiem kalbom, kad pora būtų lyginama leksiniame grafe. Menkiau paliudytos poros nejungiamos; kalba be nė vienos tokios poros į tyrimą nepatenka.
+464	Kiek pirmųjų Laplaso matricos savųjų vektorių naudoti sąvokos padėčiai reikšmių tinkle nusakyti. Mažiau – matoma tik stambi sandara; daugiau – smulkesni skirtumai, bet ir daugiau triukšmo.
+465	kiekviena tema turi savo spalvas; derinant rodoma derinamos temos peržiūra
+466	Kiekvienai formų porai skaičiuojamas redagavimo atstumas: garso pakeitimas kainuoja tiek, kokia dalis jų CLTS požymių skiriasi (0–1), įterpimas ar praleidimas – 0,5; rezultatas dalijamas iš ilgesnės formos ilgio. Formoms su keliais variantais imamas mažiausias atstumas. Iš atstumų sudaromas panašumo grafas, jo Laplaso matricos savieji vektoriai padeda formas į erdvę, kur jos grupuojamos k-vidurkiais. Paveiksle formos išdėstytos klasikiniu daugiamačiu skalavimu – kuo arčiau, tuo panašiau skamba.
+467	Kiekvienai kalbai tikrinta: kai medis sako, kad kalba A jai artimesnė už B, ar ir žodynas taip sako? γ = 1 – visada, 0 – kaip atsitiktinai, < 0 – dažniau atvirkščiai. Mažiausiai sutampa:
+468	Kiekvienam atstumui – kalbų porų artumo dėžė: vidurinė pusė porų (nuo 25 iki 75 procentilio), linija – mediana, ūsai – mažiausias ir didžiausias.
+469	Kiekvienam Concepticon semantiniam laukui tikrinta, ar jo sąvokos pastovesnės (ar judresnės) nei atsitiktinė tiek pat sąvokų imtis (2000 atsitiktinių imčių).
+471	Kiekvieno tipo mazgui galima parinkti spalvą, formą ir paveiksliuką (PNG, SVG, JPG, WebP; iki 2 MB). Dydis – skyriuje „Ribos ir dydžiai“.
+472	kita CLTS sistema
+473	Kiti sodai
+480	kitų ryšių nėra
+481	kitų sodų nėra
+482	Klaida:
+483	Klasterių skaičius
+487	kognatų grupė
+488	kognatų informacijos jos neturi
+489	Kognatų išlaikymas
+490	Kokybė
+491	Kokybė pagal grupių skaičių
+492	Komponentai atskirai
+493	Koordinatės per ryšius
+494	Kopija
+496	kraunama…
+497	krepšio sąvokos
+498	Krepšio sąvokos
+499	Krepšio sąvokos (ar reikšmės, leksemos, kognatų grupės, formos) formos sugrupuojamos pagal tai, kaip panašiai jos skamba. Garsai lyginami pagal CLTS fonetinius požymius, grupės randamos spektriniu metodu, o tada palyginamos su IE-CoR kognatais ir Glottolog kalbų šakomis.
+500	Krepšio sąvokos neturi Concepticon atitikmens, todėl reikšmių apriboti negalima.
+501	Krepšio veiksmai
+502	Krepšyje nėra formų: įdėkite sąvoką, reikšmę, leksemą, kognatų grupę ar formas.
+503	Krepšys išvalytas ({0} mazg.)
+504	krepšys tuščias
+505	Krepšys tuščias. Sode dešiniu pelės klavišu spauskite mazgą → „Pridėk į krepšį“ ir grįžkite čia.
+506	Kuo arčiau formos, tuo panašiau jos skamba. Užvedus – formos duomenys.
+507	Kuo toliau medyje, tuo mažiau bendrų kognatų
+508	Kuriam medžio lygiui grupės artimiausios
+509	Kuriamas reikšmių tinklas (DatSemShift)…
+510	Kurios sąvokos pastovios? Atskirai matuojamas formos pastovumas (ar sąvoką visur reiškia tas pats paveldėtas žodis: IE-CoR kognatai Glottolog medyje) ir reikšmės pastovumas (ar sąvoką supa tos pačios kitos reikšmės: polisemija, DatSemShift tinklo spektrinė padėtis skirtingose kalbų šeimose). Tada tikrinama, ar grafas pats iškelia kūno dalis, giminystę, skaičius. Krepšio sąvokos paryškinamos, Glottolog šaka apriboja IE-CoR kalbas; tuščias krepšys – visas grafas.
+514	Ką papildomai suteiktų:
+515	Ką reiškia šis parametras
+517	labai panašios
+524	Languoid · display_name · Lithuanian
+525	Laplaso matricos savosios reikšmės
+526	Laplaso savosios reikšmės
+531	Lauką su maža p galima laikyti grafo „iškeltu“; tikrinant daug laukų ir komponentų, pavieniai p < 0,05 gali būti ir atsitiktiniai.
+532	leidžiami formatai: {0}
+534	Leksiniame grafe tik {0} kalbos: sumažinkite „Mažiausiai bendrų reikšmių porai“.
+535	leksiniame medyje
+536	Leksiniame medyje vientisos {0} iš {1} šakų
+537	Leksinio artumo matrica
+538	Leksinio grafo Laplaso savųjų reikšmių tarpas siūlo
+539	Leksinio pakeitimo dažnis
+540	Leksinis artumas pagal atstumą medyje
+541	Leksinis artumas – kokia dalis abiejose kalbose koduotų reikšmių išreikšta kognatais; poros, turinčios mažiau nei {0} bendrų reikšmių, nevertinamos.
+542	leksinis grafas
+543	Leksinis medis
+544	Leksinis medis…
+545	Leksinių grupių skaičius
+546	leksinė grupė {0} · {1} reikšmių
+547	leksinės grupės
+548	lentelė
+549	Lentelės
+553	likusieji rodomi kaip „+N TIPAS“ mazgas – spustelėjus įkeliama daugiau
+554	Linijos storis, stilius, spalva ir paveiksliukas, rodomas prie ryšio užrašo.
+557	LKEŽDB duomenys Neo4j
+558	LKEŽDB duomenų talpykla nerasta: {0}
+562	LKEŽDB žodžių aiškinimas kalbos modeliu ir įtraukimas į Neo4j
+563	LKEŽDB ↗
+564	Lyginama su tipišku (medianos) artumu tame pačiame medžio atstume; imamos tik skirtingų šakų poros:
+565	Lyginami komponentai…
+569	Mano ryšiai
+570	Mantel testas: sumaišius kalbas atsitiktinai, tokia ar stipresnė koreliacija {0}, todėl ryšys {1}.
+571	Mantel testo perstatų
+579	matomų sode ryšių skaičių
+580	Mazgai ir ryšiai
+582	Mazgas be savų koordinačių gauna pirmojo kelio tikslo
+583	Mazgas nepateko į imtį; surastas duomenyne pagal ryšį. Dukart paspauskite, kad pamatytumėte visus jo ryšius.
+584	Mazgas nerastas
+585	Mazgo tipas
+586	mazgus su koordinatėmis galima rodyti žemėlapyje
+587	Mazgų
+588	Mazgų dydis
+589	mazgų dydis
+590	mazgų dydis ±
+591	mazgų ir ryšių užrašų dydis ±
+592	mazgų ir ryšių užrašų dydis ± (arba Ctrl+Alt+Numpad, jei sistema jo neperima)
+593	Mazgų išvaizda
+594	Mazgų tipai sode
+596	mazgų užrašai rodyti / slėpti
+597	mazgų užrašai, px; ryšių užrašai proporcingai; Alt+Numpad +/− arba Alt + pelės ratukas
+598	Mažiausiai bendrų reikšmių porai
+599	Mažiausiai kalbų sąvokai (forma)
+600	Mažiausiai šeimų sąvokai (reikšmė)
+601	mažiausias kognatų klasės pakeitimų skaičius medyje vienai kalbai
+602	mažiausias mazgas
+603	Mažiausias mazgas
+604	mediana {0} · vidurinė pusė {1}–{2}
+605	Medis ir žodynas sutampa: ρ = {0} ({1} koreliacija)
+606	medžio grafas
+607	medžio grafo grupės
+608	medžio grafo svoris exp(−atstumas/τ)
+609	Medžio svorio mastas τ
+610	medžio šakų, išlaikiusių tą klasę, dalis
+611	Metodas
+613	mišrios
+614	Modelio atsakymas be patikros
+615	Modelis
+616	Mėlyna – kartu pastovu, raudona – priešingai, pilka – nesusiję.
+622	naršyklė
+623	Naudoti žemėlapį
+625	Naudotos {0} kognatais koduotos reikšmės
+627	Nauja užklausa
+633	Naujas ryšys
+635	Naujas sodas (Ctrl – naujoje kortelėje)
+636	Naujas sodas su tuščiu krepšiu (Ctrl – naujoje kortelėje)
+637	Naujas sodas: krepšys tuščias. Mazgus į jį dėkite sode.
+640	Naujoje kortelėje
+642	Naujų vėliavų nėra – visos kalbos jau turi paveiksliukus
+644	Neapdorota klaida:
+645	neatpažintas
+648	neiti per {0}
+649	neišaiškinti
+654	neištraukti. Juos galima užklausti iš LKEŽDB su dirbtinio proto pagalba – spauskite „Išaiškinti“ (kalbos modelio užklausa mokama).
+657	Neo4j nepasiekiama.
+658	Neo4j nepasiekiamas
+659	Neo4j schema nepasiekiama:
+660	Neo4j {0}: {1} mazgų · {2} duomenynai · {3} apribojimai
+661	Neo4j ✓ {0} duomenynai
+662	Neo4j ✗ {0}
+663	Neo4j: tikrinama…
+664	Neo4j: {0} mazgų, {1} ryšių
+665	nepakanka duomenų
+666	nepasitaikė nė karto per {0} atsitiktinių sumaišymų (p ≤ {1})
+670	nepažymėtas ir nėra Neo4j
+671	Nepažymėtas joks mazgas
+672	Nepažymėtas joks mazgas – pažymėkite mazgus, kuriuos dėti į krepšį
+673	Nerasta kognatais koduotų reikšmių šioms kalboms.
+674	Nesklandumų neužfiksuota.
+677	Netikėtos poros
+678	Nevertinta {0}: medis beveik neskiria, kurios kitos kalbos joms artimesnės (vieniša šaka su menkai paliudyta seserimi).
+681	Neįtraukti variantai: {0}.
+682	Neįtrauktų formų nėra.
+683	Neįtrauktų kalbų nėra.
+684	neįvertinama
+685	nežinomas tyrimas: {0}
+687	nieko nepažymėta
+688	Nieko nerasta
+690	Nieko nerasta.
+699	Nukopijuota
+700	Nukopijuoti nepavyko
+701	Numatyta: {0}.
+702	Numatytieji nustatymai
+703	Numatytoji spalva
+705	nuo {0} iki {1}
+711	nurodykite ryšio pavadinimą
+712	Nustatymai
+718	Nė vienas laukas reikšmingai neišsiskiria pastovumu.
+719	nėra
+720	nėra formos teksto
+721	nėra Glottolog atitikmens
+722	Nėra mazgų, susijusių tik su šiuo mazgu
+723	nėra semantinių ryšių
+724	o su reikšmės komponentais – ρ {0}.
+725	p pastovumui {0} · judrumui {1}
+726	paaiškina viena bendra kryptis
+727	paaiškinimas
+729	Pagal medį
+730	pagal nuorodas
+733	Pagal Saulę
+734	Pagal žodyną
+735	Pagrindinių komponenčių analizė ieško vienos krypties, kuria kinta visi komponentai kartu.
+736	Pagrindinės komponentės
+740	Paieška: žodžio pradžia…
+741	Paieška… (Ctrl+F)
+742	paieškos laukelis
+746	Pakeistas
+747	Pakoreguotas Rand indeksas lygina dvi grupuotes: 1 – visiškai sutampa, 0 – ne daugiau nei atsitiktinai. Garsinis panašumas nėra kilmės įrodymas: sutapimas rodo, kad kognatai dažnai tebeskamba panašiai, o nesutapimai – kur garsai nutolo arba panašumas atsitiktinis.
+751	Paleidimo klaida:
+752	Paliesti mazgai lieka slepiant ryšius
+755	Palygintos {0} ir {1} jų porų
+757	Papildomi duomenys apie šį objektą ieškomi duomenyne
+758	Papildymai
+760	Pareigos
+761	parodo pažymėtą mazgą
+762	parodo visą sodą
+763	Parodyta {0}
+764	parodyti paslėptus mazgus
+765	Parodyti žemėlapyje
+766	Paryškinimas
+767	Paryškink kaimynus
+768	paryškintas laukas
+769	paryškinti lauką
+770	Pasiekta riba ({0} mazgų / {1} ryšių): neparodyta {2} mazgų, {3} ryšių.
+771	pasirinkite arba įrašykite
+772	pasirinkite arba įrašykite, pvz. panašus į
+773	Pasirinkite bylą
+774	Pasirinkite duomenyną kairėje
+775	Pasirinkite mazgo tipą, tada jo savybę ir reikšmę iš duomenų bazėje esančių (galima ir įrašyti ranka). Jei mazgo savybė turi tą reikšmę, šalia mazgo rodomas paveiksliukas. Išskaičiuotos savybės (pvz.
+777	Pasirinkite žodį kairėje.
+778	pasitaikė {0} {1} iš {2} atsitiktinių sumaišymų (p = {3})
+781	paskutinis importas: {0}
+787	Paslėpk
+788	Paslėpk pažymėtus
+790	Paslėpta {0} – jie nebeskaičiuojami į sodo ribas. Grąžinti: dešinys klavišas fone → „Rodyti paslėptus“ arba Shift+H
+794	paslėpti pažymėtus mazgus
+797	Paspauskite mazgą arba ryšį, kad pamatytumėte visas jo savybes.
+798	Pastaba
+800	Pastovi ir forma, ir reikšmė:
+801	Pastovi reikšmė, bet žodis keičiamas:
+802	pastovu abu
+803	pastovu tik X
+804	pastovu tik Y
+805	Pastovumo procentiliai
+806	Pastovumo procentiliai (100 % – pastoviausia iš tirtų):
+809	Patikra: kaimynystės ir spektrinio komponento ryšys su tuo, keliose šeimose sąvoka apskritai paliudyta, yra ρ {0} ir {1} –
+810	Patvirtinimui įveskite
+811	Patvirtinkite įrašydami IŠTRINTI.
+813	Pavadinimas
+819	Paveiksliukas
+820	Paveiksliukas iš tikslo mazgo
+825	Paveiksliukas prie užrašo
+826	paveiksliukas tuščias arba didesnis nei 2 MB
+832	pavyzdinė reikšmė
+833	Pavyzdžiai: {0}. Grupės viduje formos {1} (vidutinis atstumas {2}, iki kitų grupių {3}). {4}; {5}.
+834	Pašalink iš sodo
+835	Pašalink ryšį iš sodo
+836	Pašalinta {0} mazgų ir {1} ryšių (bendri su kitais žodžiais – palikti)
+837	Pašalinti
+839	Pašalinti iš Neo4j
+840	pašalinti kaimynus, susijusius tik su šiuo mazgu
+841	Pašalinti kaimynus, susijusius tik su šiuo mazgu
+842	pašalinti pažymėtus iš sodo
+843	Pašalinti šį ryšį
+850	Pažymėkite du mazgus (Shift + spustelėjimas) arba įdėkite du į krepšį
+851	Pažymėkite du mazgus kelio paieškai (arba pažymėkite juos sode su Shift).
+852	Pažymėkite lygiai du mazgus (Shift + spustelėjimas)
+853	Pažymėta mazgų: {0}
+854	pažymėta {0}
+855	pažymėtas importui
+856	Pažymėtas mazgas (Home)
+857	Pažymėti
+859	pažymėti kelis mazgus
+860	pažymėti pirmą / kitą rastą mazgą
+861	pažymėti rodomus
+862	pažymėti stačiakampiu
+863	Pažymėti visus mazgus
+865	Pažymėti {0}
+869	per mažai bendrų reikšmių
+870	Per mažai sąvokų su duomenimis: sumažinkite „Mažiausiai kalbų sąvokai“ arba praplėskite krepšio šaką.
+873	Perdaryti planą
+878	Perskaičiuojama
+879	Perskaičiuojama su {0} grupėmis…
+880	Perskaičiuoti sode
+881	Pervadinta
+884	peržiūrėti
+889	Pietų Afrika
+890	Pietų Korėja
+893	Pilnai perskaityti nuorodų šaltiniai: {0} kalbų / visuomenių, {1} sąvokų / požymių, {2} kodų, {3} kognatų grupių. Kiekviena lentelės eilutė taip pat įrašoma kaip techninis
+894	Pirmajame bandyme atstumas buvo briaunų skaičius Glottolog medyje. Tačiau šakos turi labai skirtingą tarpinių mazgų skaičių: indoarijų kalbos nuo šaknies nutolusios per 10 ir daugiau mazgų, albanų ar tocharų – per kelis. Tada tolimos, bet „sekliose“ šakose esančios kalbos atrodo artimos. Bendro protėvio gylis (kiek lygių žemiau šaknies yra paskutinis bendras protėvis) šios klaidos nedaro
+895	Planas: {0} mazgų, {1} ryšių
+896	platumą ir ilgumą, pvz. forma – savo kalbos (per leksemą). Išjungus žemėlapį, vieno CognateSet formos tuo pačiu pavadinimu rodomos kaip vienas mazgas „forma ×N“.
+897	Plačiausia kognatų klasė „{0}“ – {1} iš {2} kalbų, {3} iš {4} šakų; medyje bent {5} pakeitimai.
+898	Po krepšio Glottolog mazgais nerasta kalbų su leksiniais duomenimis.
+901	Polisemija {0} šeimose; daugiausia: {1}.
+906	pošakis
+907	Pradedama…
+908	Pradėkite nuo paieškos viršuje (Ctrl+F). Po kelių sekundžių radiniai laikinai parodomi sode; pasirinkite mazgą, kad jis liktų.
+909	Prancūzija
+936	Pridėk į krepšį
+941	priežastis
+946	Priklausomybės
+960	profilis nepatvirtintas
+964	Profilyje deklaruota priklausomybė; šiame duomenyne tiesioginių išorinių raktų nerasta.
+967	Programos klaidos ir įspėjimai
+971	Pvz.: {0}
+972	Radiniai laikinai parodyti sode – pasirinkite mazgą, kad jis liktų
+973	Raidžių dydis
+974	raidžių dydis
+976	Rasta {0} garsinių grupių
+977	Rasta {0}{1} trumpiausių kelių, ilgis {2}
+985	Reikšmingai judresnės:
+986	Reikšmingai pastovesnės:
+987	reikšmių
+988	Reikšmių tinkle skaičiuoti ir derivaciją
+989	reikšmė
+990	Reikšmė
+991	Reikšmė: DatSemShift kaimynai (šeimų skaičius)
+992	remove: {0} žodž.
+993	Renkami IE-CoR kognatai…
+994	Renkamos formos…
+995	Renkamos kalbos ir reikšmės…
+996	rezultatas / klaida
+997	Režimas
+998	Ribos
+999	Ribos ir dydžiai
+1000	Ribos: {0}–{1}; numatyta: {2}{3}.
+1003	rodomas ženkliukas 📍. Spustelėjus jį (arba mazgo meniu) – „Rodyti žemėlapyje“: žemėlapis įjungiamas taip, kad šis mazgas liktų savo vietoje, o kiti sodo mazgai nepajuda. Kiti mazgai su koordinatėmis nukeliami į savo vietas, o mazgai be vietos žemėlapyje paslepiami – išjungus žemėlapį jie grįžta ten, kur buvo. Žemėlapyje mazgai su koordinatėmis užrakinti. Išjungti – mygtukas 🗺 viršuje. Žemėlapio plytelės –
+1004	Rodomos tik šios programos atsakymo schemai parašytos užklausos (su žyme
+1005	Rodyk svarbiausia
+1006	Rodyk viską
+1008	Rodyti atskirai
+1009	rodyti daugiau ({0} iš {1})
+1010	Rodyti imtį
+1011	Rodyti kaip du atskirus mazgus
+1012	Rodyti krepšį
+1015	Rodyti sode
+1016	rodyti visus
+1017	Rodyti žemėlapyje
+1019	Ruošiamas SVG…
+1020	Ruošiami analizės segmentai…
+1021	Ryšiai ({0}; techniniai nerodomi)
+1022	Ryšiai duomenų bazėje
+1023	Ryšiai pagal tipą
+1028	ryšio pavadinimas per ilgas (daugiausia {0} ženklų)
+1030	ryšio tipas
+1031	ryšio tipas: didžiosios raidės, skaičiai ir _, pvz. SIMILAR_TO
+1032	Ryšių dar nenubrėžėte.
+1033	Ryšių išvaizda
+1035	ryšių storis
+1036	Ryšių storis
+1037	ryšių storis ±
+1038	Ryšių tipai
+1039	Ryšių tipai imtyje
+1040	Ryšių tipai sode
+1042	ryšių užrašai rodyti / slėpti
+1043	Ryšys
+1044	Ryšys ištrintas
+1046	ryšys nerastas
+1047	ryšys nerastas (ištrinti galima tik sode nubrėžtus ryšius)
+1050	ryšys turi jungti du skirtingus mazgus
+1060	Savybių paveiksliukai
+1061	savybių paveiksliukai
+1062	savybių paveiksliukai ±
+1063	Savybė
+1064	savybė
+1065	Savybė apskaičiuojama keliu grafe nuo mazgo
+1066	Savybės
+1067	savybės
+1068	savybės vardas
+1072	savųjų reikšmių per mažai
+1073	Schema
+1074	Segmentai imami iš pirminių duomenų, o ne spėjami:
+1076	segmentų šaltinis
+1081	Semantiniai laukai
+1083	serveris nepasiekiamas
+1084	Serveris nepasiekiamas
+1085	Shift + pelės ratukas
+1086	Shift + spustelėjimas
+1087	Shift + tempimas
+1088	Shift+H
+1089	Shift+Home
+1090	Siluetas – kiek grupės atsiskyrusios; ARI – kiek sutampa su IE-CoR kognatais. Spustelėkite k, kad perskaičiuotumėte.
+1098	skaitoma imtis…
+1099	Skaičiuojama…
+1100	Skaičiuojami genealoginiai ir leksiniai atstumai…
+1101	Skaičiuojami {0} formų porų atstumai…
+1103	skirtingų duomenynų atitikmenis
+1104	Skirtingų šakų kalbos, leksiškai artimesnės, nei leidžia medis
+1105	Skirtingų šakų, bet leksiškai artimos (galimi kontaktai)
+1114	Slovėnija
+1115	slėpti
+1116	Slėpti krepšį
+1117	Slėpti visus {0}
+1118	Slėpti šio tipo ryšius
+1124	Sodas be pavadinimo…
+1128	sodas nerastas – pirmiausia jame ką nors pasodinkite
+1131	Sodas tuščias
+1132	Sodas · Duomenynai
+1138	Sode dar nėra mazgų.
+1140	sode mazgai lieka
+1142	Sode nėra mazgų su platuma ir ilguma
+1143	Sode pažymėta {0} {1} ryšių
+1145	Sode {0} ryšių nėra; išskleiskite mazgus, kurie juos turi
+1146	Sodo mazgas „{0}“ išskleisti negalima: šio žodžio LKEŽDB straipsniai dar {1} Kai žodis bus įtrauktas, grįžkite į sodą ir išskleiskite mazgą dar kartą.
+1147	Sodo paleidimas nepavyko:
+1148	Sodo pavadinimas – rašykite naują arba pasirinkite esamą sodą
+1151	sodų dar nėra
+1154	Spalva
+1155	Spalvos
+1156	spauskite – atidaryti čia, Ctrl – naujoje kortelėje
+1157	Spearman koreliacijos tarp komponentų
+1158	Spearman ρ lygina kalbų porų atstumą Glottolog medyje su leksiniu atstumu (1 − artumas): 1 – tvarka visiškai ta pati, 0 – jokio ryšio.
+1159	spektras (savieji vektoriai)
+1160	Spektrinė analizė pati pasiūlė {0}: {1}. Kuo didesnis toks tarpas, tuo aiškiau duomenys skyla į tiek grupių.
+1161	Spektrinė analizė…
+1162	Spektrinė reikšmių tinklo erdvė ({0} sąvokų)…
+1163	Spektrinės erdvės matmenys
+1164	Spektrinės padėties pastovumas
+1165	spustelėjus – paryškinti grupę
+1169	stačiakampyje esančius mazgus atžymėti
+1170	Stilius
+1171	Storis
+1175	Su IE-CoR kognatais grupės {0} (ARI {1})
+1176	Su jokia kita kalba neturi bent {0} abiejose koduotų reikšmių (daugiausia {1}), todėl į leksinį grafą nepatenka.
+1177	Su kalbų šakomis grupės {0} (ARI {1})
+1178	su kito duomenyno atitikmeniu
+1179	su kitomis
+1181	Sujunk vienodus
+1182	Sukeisti kryptį
+1187	Sukurtas sodas „Vaiva · {0}“
+1189	Sukurti
+1191	Sukurti ryšį
+1193	Susiejimas
+1194	Susieti su autoritetais
+1195	Susieti vietinius Languoid/Concept su Glottolog/Concepticon autoritetais per bendrus ExternalIdentifier
+1196	susiję
+1197	Suskleisk
+1198	sutampa iš dalies
+1199	suteikia paveiksliuką pačiai kalbai – jis perimamas visiems tos kalbos žodžiams.
+1200	Svarbiausia
+1216	SVG byla neatpažinta
+1217	Sąsaja
+1218	sąsajos raidžių dydis ±
+1219	sąvoka
+1220	sąvokos padėties spektrinėje erdvėje išsibarstymas tarp šeimų
+1221	Sąvokos toliausiai šia kryptimi:
+1222	sąvokų
+1223	sąvokų ({0} su reikšmių tinklu)
+1224	Sąvokų semantinis pastovumas
+1225	Tadžikija
+1226	Tai patvirtina, kad „pastovi sąvoka“ ir „pastovus žodis“ nėra tas pats: sąvoka gali išlaikyti vietą tarp kitų reikšmių, nors kalbos ją vadina vis kitais žodžiais, ir atvirkščiai.
+1227	Tai tikrina, ar kognatų kodavimas ir Glottolog klasifikacija pasakoja tą pačią istoriją, bet neįrodo nė vienos jų.
+1228	taip pat ištrinti Neo4j vidinius LOOKUP indeksus (nerekomenduojama: be jų paieška pagal etiketę tampa labai lėta, juos teks atkurti ranka)
+1232	Tame lygyje yra {0} Glottolog šakų, pvz. {1}; leksinės grupės su jomis {2}.
+1233	Tamsi
+1234	Tas pats žodis reiškia ir: {0}.
+1235	taškinė
+1236	techniniai įrašai (SourceRecord)
+1239	Telefonas
+1241	Tema
+1242	Tiek pat grupių padalijus patį medžio grafą, abu padalijimai {0} (ARI {1}).
+1243	Tiekėjas
+1244	tik klaidos ir įspėjimai
+1246	tik su juo susiję kaimynai
+1247	Tikrai grąžinti?
+1249	Tikrai ištrinti?
+1250	Tikrai išvalyti?
+1252	Tikrai? Ištrins iš duomenų bazės
+1253	Tikrinama koreliacija (Mantel testas)…
+1254	tikėtasi
+1256	Tipas
+1257	Tirti
+1258	Tirti tinka tik {0} formos(-ų) iš {1}: per mažai klasterizavimui.
+1259	to mazgo / ryšio valdymo skydelis
+1260	to paties pavadinimo mazgus
+1264	Tos pačios šakos kalbos, leksiškai tolimesnės, nei leidžia medis
+1265	Tos pačios šakos, bet leksiškai tolimos
+1269	Trumpiausias kelias tarp dviejų pažymėtų mazgų
+1270	Trumpiniai
+1271	Trynimas
+1272	trūksta
+1273	Trūksta autoritetų, kurių nėra nei Neo4j, nei pažymėtų:
+1274	trūksta segmentacijos
+1275	Turi platumą ir ilgumą – spauskite
+1277	Turkmėnistanas
+1278	tuščia
+1279	tuščia – dešiniu klavišu „Pridėk į krepšį“
+1280	tuščia – pagal savųjų reikšmių tarpą
+1281	tuščia – parenka pats pagal savųjų reikšmių tarpą
+1285	Tvarkyti sodus
+1286	Tvarkyti sodus…
+1289	Tyrimas
+1301	Uždaryti
+1302	uždaryti meniu
+1305	Užklausa
+1306	užklausa iš kitos svetainės atmesta
+1307	Užklausa modeliui
+1308	užklausa nerasta
+1309	Užklausa pasirinkta
+1310	užklausa per didelė
+1311	Užklausa įkelta ir pasirinkta
+1313	Užklausos pradžioje turi būti žymė {0}: ji rodo, kad užklausa tinka šios programos atsakymo schemai.
+1315	užrašai
+1316	užrašų dydis
+1317	Užrašų dydis
+1319	Vaiva · {0}
+1320	Vaivos dirbtuvės
+1321	Vaivos dirbtuvės – tyrimai su krepšio mazgais
+1322	Vaivos dirbtuvės – {0}
+1323	Vaizdas
+1335	Valyti žurnalą
+1336	Vardas
+1340	Variklis ir užklausa
+1354	veiksmų meniu
+1356	Velsas (Jungtinė Karalystė)
+1357	vid. procentilis {0} ({1} sąvokų)
+1358	Vidurinis klavišas ant mazgo / ryšio
+1359	Vidutinis lauko sąvokų pastovumo procentilis kiekvienam komponentui. ● – reikšmingai pastovesnis ar judresnis už atsitiktinę imtį (p < 0,05).
+1360	vidutinis siluetas
+1361	Vidutinis siluetas {0} (nuo −1 iki 1; virš 0,5 – grupės ryškios, apie 0 – susiliejančios).
+1362	vidutiniškai panašios
+1363	vidutinė
+1364	vienas iš mazgų nerastas
+1366	Vienodas dydis
+1367	Vieta („pagal Saulę“)
+1374	viršijus nauji mazgai neberodomi, įrašas žurnale
+1375	Visas JSON, pagal kurį sudarytas grafas
+1376	Visas sodas
+1377	Visas sodas (Shift+Home)
+1379	visi apribojimai
+1380	visi indeksai
+1381	visi išskirti atitikmenys
+1382	visi mazgai ir ryšiai
+1383	visi mazgai vienodo dydžio
+1386	visi ryšiai + šaltinis
+1387	Viskas
+1390	Visos ištirtos formos
+1391	visos kalbos su kognatų duomenimis
+1392	Visos sąvokos
+1393	visų jo mazgų
+1394	Visų mazgų dydis
+1395	visų mazgų dydis
+1396	visų ryšių duomenų bazėje skaičių
+1397	Visų {0} išvaizda
+1398	vyksta…
+1400	Vėliavos priskirtos {0} kalbų pavadinimams
+1401	vėliavos priskirtos {0} kalbų pavadinimams
+1403	{0} (nėra šiame tipe)
+1404	{0} - Sodas
+1405	{0} - Vaiva
+1406	{0} bendrų kognatų
+1407	{0} formų
+1408	{0} formų, {1} gr.
+1409	{0} grupes (jūs nurodėte {1})
+1410	{0} grupės
+1411	{0} iš {1} grupės kalbų
+1412	{0} iš {1} straipsnių siunčiami modeliui (kryžminės nuorodos ir tušti – be modelio)
+1413	{0} jų priklauso kognatų grupei „{1}“
+1414	{0} kalbos, {1} klasės, medyje bent {2} pakeitimai. {3}
+1415	{0} kalbų
+1416	{0} kalbų, ρ {1}
+1417	{0} kitų mazgų su koordinatėmis nukelta į savo vietas žemėlapyje; mazgai be vietos žemėlapyje paslėpti
+1418	{0} lygis · {1} šakų
+1419	{0} mazgų ir {1} ryšių su
+1420	{0} mazgų perkelta į naują sodą „{1}“{2}
+1421	{0} mazgų · {1}
+1422	{0} mazgų, {1} ryšių imtyje
+1423	{0} mazgų, {1} ryšių{2}
+1424	{0} modelių
+1426	{0} porų
+1431	{0} skirtingų garsų susieta su CLTS
+1434	{0} straipsn. ·
+1435	{0} sąvoka
+1436	{0} sąvokos
+1437	{0} sąvokų
+1438	{0} tarp grupių
+1440	{0} {1} mazgai su tuo pačiu pavadinimu{2}
+1441	{0} · apjungti duomenynai: {1}
+1442	{0} · Concepticon {1}
+1443	{0} · medyje {1}
+1444	{0} · {1} · {2}{3} · {4}, ≥ {5} bendrų reikšmių
+1446	{0} šak.
+1447	{0} šios grupės kalbų yra iš šakos {1}
+1448	{0} žodž. įdėta į eilę
+1449	{0} žodžių · {1} straipsnių · išaiškinta {2} · įtraukta {3}
+1450	{0} – dalis
+1451	{0} – {1} (vid. procentilis {2}, p = {3})
+1452	{0} – {1} {2} vietoj ~{3}
+1453	{0} – įsiterpia {1}{2}
+1454	{0}-oji kryptis: {1} įvairovės
+1455	{0}-oji savoji reikšmė
+1456	{0}: apjungta su atitikmeniu
+1457	{0}: išskleidžiama {1} mazgų…
+1458	{0}: parodyta {1} ryšių
+1459	{0}: parodyta {1} ryšių{2}
+1461	{0}: paslėpta {1}{2}
+1462	{0}: pastoviausios – {1}
+1463	{0}: riba
+1464	{0}: suskleista, pašalinta {1} mazgų
+1465	{0}: {1} žodž.
+1466	{0}–{1} iš {2}
+1467	© OpenStreetMap
+1471	· netinkami: {0}
+1475	· su derivacija
+1479	· {0} reikšmės iš krepšio sąvokų
+1480	· {0} ryšių
+1482	Čekija
+1483	Į atskirą sodą
+1484	Į atskirą sodą – pažymėtus mazgus perkelti į naują sodą
+1486	Į kiek grupių skirstyti formas. Tuščia – programa parenka pati: ten, kur didžiausias tarpas tarp gretimų Laplaso matricos savųjų reikšmių (renkamasi iš 2–12). Daugiau grupių – smulkesni, bet mažiau patikimi garsiniai skirtumai.
+1487	Į kiek grupių skirstyti kalbas spektriniu metodu (leksiniame ir medžio grafe – po tiek pat). Tuščia – parenkama ten, kur didžiausias tarpas tarp gretimų savųjų reikšmių (2–12).
+1488	Į krepšį įdėta: {0} (iš viso {1})
+1489	Į krepšį – pažymėtus mazgus; jei nieko nepažymėta – parodyti krepšio turinį
+1492	Įdėta į eilę
+1494	Įkelti ir naudoti
+1496	Įkelti…
+1504	įrašykite IŠTRINTI
+1505	įrašykite naują, jei norite pakeisti
+1512	įsiterpia: {0}{1}
+1513	Įsiterpimai dažniausiai rodo kontaktą (skolinius), negausius duomenis arba tai, kad šaka dalijasi senu paveldu su kaimyne.
+1514	įtraukta į Neo4j
+1516	įtraukti
+1517	Įtraukti rekonstruotas (*) formas
+1518	Įtraukti į Neo4j
+1519	įtraukti į Neo4j
+1520	šablonas
+1521	šablonas turi prasidėti (n) arba (n:Etiketė), turėti tikslą (t) ir būti vien kelio aprašas
+1522	šaka
+1523	šaka: {0}
+1524	Šakos imamos iš Glottolog medžio žemiau „{0}“.
+1525	Šakos imamos iš Glottolog medžio.
+1526	Šakos: kiek bendrų kognatų viduje ir su kitomis šakomis
+1527	šakų vientisos leksiniame medyje
+1528	Šalia mazgų su savybėmis
+1529	Šaltinio įrašas
+1530	Šiam tyrimui krepšys nebūtinas: be jo tiriamos visos kalbos su kognatų duomenimis.
+1534	Šiame tyrime naudojamas: {0}.
+1535	šiandien: saulėtekis {0}, saulėlydis {1}{2}
+1536	Šiaurės Makedonija
+1537	Šie mazgai jau krepšyje
+1538	Šio mazgo šis duomenynas nesukuria, todėl į jį vedantis ryšys nebus įrašytas.
+1540	Šio tipo ryšių išvaizda
+1541	Šio tyrimo vaizdavimo nėra.
+1544	Šios formos panašios ir į kitos grupės formas, todėl jų vieta neaiški:
+1546	Šis duomenynas nesiremia kitais duomenynais.
+1547	Šis duomenynas saugo tik išorinius raktus (◆ ExternalIdentifier). Išsamesni duomenys apie šiuos objektus yra kituose duomenynuose; po importo „Susieti su autoritetais“ sukuria ryšius
+1549	Šis mazgas neturi platumos ir ilgumos
+1550	Šis profilis semantinių mazgų nekuria – bus įrašyti tik SourceRecord.
+1552	šis sodas
+1562	Škotija (Jungtinė Karalystė)
+1563	Šri Lanka
+1564	šuolis nuo ankstesnės: {0}
+1565	Šuolis po k-osios reikšmės rodo k grupių. Spustelėkite k, kad perskaičiuotumėte su tiek grupių.
+1566	Švedija
+1567	Šveicarija
+1568	Šviesi
+1569	šviesumas
+1571	Žemaitija (Lietuva)
+1572	Žemą ARI daugiausia lemia ne maišymas, o skaidymas:
+1573	Žemė
+1575	Žemė – duomenynai ir LKEŽDB, iš kurių auga sodai
+1576	Žemė – duomenynai, iš kurių auga sodai
+1577	Žemėlapio ryškumas
+1578	Žemėlapis
+1579	Žemėlapis išjungtas nustatymuose
+1580	žemėlapis nerodomas
+1581	žemėlapis rodomas
+1591	žodis
+1592	žodis dar neišaiškintas
+1593	Žodis išlieka, bet reikšmė judri:
+1594	žodis nerastas
+1595	Žodynas skyla į {0} grupes
+1596	Žodžiai
+1597	žodžio aiškinimas nepavyko: {0}
+1600	Žurnalas
+1601	Žvaigždute pažymėta forma nėra tiesiogiai paliudyta; ji tiriama tik pažymėjus „įtraukti rekonstruotas formas“.
+1602	ρ medis ↔ žodynas{0}
+1605	– jį rasite sodų sąraše
+1608	– vienas indeksas paslėptų, kad komponentai matuoja skirtingus dalykus.
+1609	– šiam tyrimui netinka
+1610	— pasirinkite —
+1611	„{0}“: {1} ryšių duomenyne{2}, pridėta {3} mazgų
+1616	⇝ Rasti trumpiausius kelius
+1618	☀ Šviesi
+1619	☾ Tamsi
+1622	✓ paliestas
+1625	＋ Kelias
+1627	＋ Nauja išskaičiuota savybė
+1628	＋ Nauja taisyklė
+1629	＋ Naujas sodas
+1631	＋ Pridėti prie krepšio
+1636	🏳 Priskirti vėliavas kalboms
+1639	📍 Rodyti žemėlapyje
+1647	🗑 Išvalyti krepšį
+1648	🗑 Tikrai išvalyti krepšį?
+1649	🧺 Krepšys
+1650	🧺 Tyrimo krepšys
+1651	🧺 Į krepšį
+1652	Atgal
+1653	Atgal (Alt+←)
+1656	Lietuvių
+1658	Pirmyn
+1659	Pirmyn (Alt+→)
+1660	Sąsajos kalba
+1670	. Lentelėje jų siluetas neigiamas.
+1671	. Priežastys gali būti skolinių gausa, mažai koduotų reikšmių, archajiškumas (seniai paliudyta kalba) ar ginčytina vieta medyje.
+1672	. Tai kandidatai tyrinėti kontaktus ir skolinius; genealogija čia nieko nepaaiškina.
+1673	. Taip būna, kai viena kalba smarkiai atnaujino žodyną arba viena iš jų paliudyta menkai (maža bendrų reikšmių aibė).
+1674	. Veiksmo atšaukti negalima.
+1675	. Viduje kalbos vidutiniškai dalijasi {0} reikšmių.
+1676	. Vienos kilmės žodžiai kalbose nutolo garsiškai, todėl sudaro kelias garsines grupes.
+1678	Sode sudėkite mazgus į krepšį (dešinys pelės klavišas → „Pridėk į krepšį“), pavyzdžiui, sąvoką moon. Čia pasirinkite tyrimą ir spauskite „Tirti“. Kiekvieno tyrimo vaisiai lieka sąraše kairėje.
+1680	autoritetas
+1681	Dukart paspaudus mazgą, duomenyne surandami ir parodomi visi jo ryšiai (iki 150).
+1682	Mazgai {0}/{1}{2} · paliesti {3} · Ryšiai {4}/{5}
+1683	remiasi: {0}
+1684	visi
+1685	(ir dar {0})
+1686	(nebūtina)
+1688	(rodomos didžiausios grupės)
+1689	, {0} su klaida
+1691	1 − atstumas / didžiausias
+1692	1-osios krūvis
+1693	: {0} porų
+1694	abu dideli
+1695	abu maži
+1696	Analizės segmentai imami iš Form.segments, tada IE-CoR Phonemic_Segments, tada duomenyno etc/orthography.tsv; jei forma neturi nė vieno, ji neįtraukiama (tarimas neišradinėjamas). Kiekvienas segmentas susiejamas su CLTS garsu. Įterpimas ar praleidimas kainuoja 0,5, rezultatas dalijamas iš ilgesnės formos ilgio (0–1); formoms su keliais variantais imamas mažiausias atstumas.
+1697	Antraštė vaisiui
+1698	Apriboti pagal kitą
+1699	ar artimiausi pagal vieną matą artimiausi ir pagal kitą
+1700	Ar dviejų matų poros eina išvien: Spearman ρ per visas poras ir Mantel permutacijų testas.
+1701	Ar kaimyninės kalbos dalijasi daugiau kognatų nei tolimos? Lyginama su geografija ir su medžiu; netikėtai artimos poros.
+1702	Ar kalbos, kurios dalijasi daugiau kognatų, ir Glottolog medyje stovi arčiau? Krepšys nebūtinas.
+1703	Ar kurios nors grupės (pvz. semantiniai laukai) vidutinis rodiklis didesnis ar mažesnis, nei būtų atsitiktinai.
+1704	Ar rodikliai pasakoja tą pačią istoriją: Spearman koreliacijos ir pagrindinės komponentės (ar pagrįsta jungti į vieną indeksą).
+1705	Ar sąvoką supa tos pačios kitos reikšmės: polisemija DatSemShift, kaimynystės pastovumas, spektrinės padėties pastovumas tarp kalbų šeimų.
+1706	Ar sąvoką visur reiškia tas pats paveldėtas žodis: kognatų išlaikymas, išlikimas tolimose šakose, leksinio pakeitimo dažnis (Fitch), polisemija IE-CoR.
+1707	Ar tirti ir rekonstruotas prokalbių formas (pažymėtas *). Jos užrašomos kitaip nei paliudytos formos, todėl paprastai paliekamos nuošalyje.
+1708	Ar vieneto artimiausi pagal vieną matą yra artimiausi ir pagal kitą: Goodman–Kruskal γ kiekvienam vienetui.
+1709	Arba klavišas Delete.
+1710	ARI (pakoreguotas Rand indeksas): 1 – skaidiniai sutampa, 0 – ne daugiau nei atsitiktinai. Grynumas – kokia dalis vienetų yra savo A grupės daugiausiai B grupėje.
+1711	ARI su Glottolog šakomis kiekviename lygyje žemiau „{0}“.
+1712	ARI su „{0}“
+1713	Artimiausių kaimynų ryšiai
+1714	arčiau
+1715	Atitikimas medžio lygiams
+1716	Atitikimas medžiui (γ)
+1717	atitikimas medžiui γ
+1718	Atsisiųsti sąranką kaip failą
+1719	Atstumai (pvz. medyje)
+1720	Atstumai / panašumai
+1721	Atstumai ar panašumai kaip spalvota lentelė, vienetai surikiuoti pagal grupes.
+1722	Atstumai → grafas: artimi vienetai jungiami stipriai, tolimi – silpnai; mastas kiekvienam vienetui savas.
+1723	Atstumai → grafas: ryšys silpsta eksponentiškai, kuo toliau vienetai.
+1724	Atstumai → panašumai
+1725	Atstumas = 1 − panašumas.
+1726	Atstumas kilometrais tarp kalbų (ar jų formų) koordinačių, pagal didįjį apskritimą.
+1727	Atverti sąranką
+1728	Atšaukti (Ctrl+Z)
+1730	Be polisemijos (vienas žodis – kelios reikšmės) skaičiuoti ir derivaciją (reikšmė perėjo į išvestinį žodį). Tinklas tankesnis, bet mažiau grynas.
+1731	bet kas su vienetais
+1733	briaunų skaičius medyje
+1734	Concepticon sąvokos, kurias IE-CoR koduoja kognatais. Krepšio sąvokos pažymimos (požymis „krepšyje“), krepšio Glottolog šaka apriboja kalbas.
+1737	Dar {0} mažesnių grupių.
+1738	DatSemShift tinklas tuščias: ar duomenynas importuotas?
+1739	Daugiamatis skalavimas (MDS)
+1740	Daugiausia {0} eilučių.
+1741	Daugiausia {0} lapų. Grupė vientisa, jei medyje yra šaka, kurioje yra visi jos vienetai ir tik jie.
+1742	Daugiausia {0} vienetų. Tamsiau – arčiau (panašiau); tušti langeliai – nežinoma.
+1743	Dendrograma
+1744	Dendrogramai per daug lapų ({0}; daugiausia {1}).
+1745	Detalių žymės turi būti skirtingos.
+1746	detalė
+1747	Detalės
+1748	didelis {0}, mažas {1}
+1749	Didelis šuolis po k-osios reikšmės rodo, kad grafas skyla į k grupių.{0}
+1750	Didinti
+1751	Didžiausia susieta dalis turi tik {0} vienetus: grafe beveik nėra ryšių. Leksiniam artumui sumažinkite „Mažiausiai bendrų reikšmių porai“ arba neimkite krepšio sąvokų (jos apriboja reikšmes).
+1752	Didžiausia susieta grafo dalis
+1753	Didžiausias renkamas k
+1754	Didžiausias tarpas – po {0}-osios savosios reikšmės
+1756	Drobė išvalyta. Ctrl+Z – grąžinti.
+1757	Drobė tuščia
+1758	Duomenų tipai
+1759	Dviejų matų palyginimas (Mantel)
+1760	Dviejų rodiklių rinkinių stulpeliai sudedami į vieną lentelę (pagal vienetų raktą).
+1761	Dviejų rodiklių sklaida
+1762	dėžė – visos poros su ta B reikšme
+1763	Eilutės – {0}, stulpeliai – {1}{2}.
+1764	filtruoti: vienetas, priežastis, detalė…
+1765	filtruoti…
+1766	Formos
+1767	Formos ir reikšmės pastovumo rodikliai, jų koreliacijos ir semantinių laukų testai. Krepšys nebūtinas.
+1768	Formos pastovumas
+1769	Formos pastovumas skaičiuojamas sąvokoms iš šaltinio „Sąvokos (IE-CoR)“.
+1770	formos(-ų)
+1771	Formų garsiniai atstumai sutraukiami į kalbų atstumus ir lyginami su Glottolog medžiu bei geografija.
+1772	Garsiniai kalbų atstumai, medis ir geografija
+1773	Garsinis atstumas (CLTS)
+1774	Garsinis atstumas skaičiuojamas tik formoms.
+1775	Gauso branduolys (savaime derinamas)
+1776	Genealoginis atstumas (Glottolog)
+1777	Geografinis atstumas
+1778	Glottolog šakos
+1779	Grafai
+1780	Grafas susideda iš {0} nesujungtų dalių: pirmosios {1} savosios reikšmės lygios 0. Gal verta prijungti „Didžiausia susieta grafo dalis“.
+1781	grafo normalizuotos Laplaso matricos savosios reikšmės ir vektoriai
+1782	Grupių kortelės
+1783	grupių medyje vientisos
+1784	grupių pagal tarpą
+1785	Grupių permutacijų testas
+1786	Grupių skaičius
+1787	grupės
+1788	Grupės (pvz. šakos)
+1790	Grupės vidurkis lyginamas su tiek pat atsitiktinai paimtų vienetų vidurkiais. Tiriamos grupės su ≥ 3 vienetais.
+1791	Hierarchinis medis: artimiausi vienetai ir grupės jungiami pirmi (vidutinės jungties metodas).
+1792	hierarchinis vienetų medis (dendrograma)
+1793	ieškoti detalės…
+1794	Iki 400 ženklų.
+1795	Iki kiek grupių
+1797	Iš kiek mažiausiai šeimų turi būti paliudyti sąvokos ryšiai, kad būtų skaičiuojamas kaimynystės ir spektrinės padėties pastovumas.
+1798	Iš kitų vienetų porų, kurias pirmasis matas išrikiuoja (lygūs praleidžiami), kokia dalis išrikiuota taip pat ir pagal antrąjį (γ: 1 – visos, 0 – kaip atsitiktinai, −1 – atvirkščiai). Mažas γ – kalba, kurios žodynas neatitinka jos vietos medyje (kontaktai, skoliniai, duomenų spragos).
+1799	Išdėstymas
+1800	Išvalyti
+1801	Išvalyti drobę
+1802	Išėjimai
+1804	Jungti į vieną indeksą siūloma, jei pirmoji pagrindinė komponentė paaiškina ≥ 50 % ir visi rodikliai į ją įeina ta pačia kryptimi.
+1805	Jungtis
+1806	Jungtis į nesamą detalę.
+1807	Jūsų tekstas tarp vaisių: kam ši sąranka, ką tikrinate, ką pastebėjote.
+1808	Kai k parenkamas pats, ieškoma tarp 2 ir šio skaičiaus.
+1809	Kaimyno ryšys iki atstumo
+1810	Kaimynų skaičius masteliui
+1811	Kaip dirbti
+1812	Kaip greitai silpsta ryšys. Mažas τ – jungiami beveik vien artimiausi, didelis – ir tolimi. Medžio gyliui tinka 2–8, kilometrams – šimtai.
+1813	Kaip matuoti
+1814	Kaip tyrime „Sąvokų semantinis pastovumas“. Kalbos – šaltinio „Sąvokos (IE-CoR)“ (krepšio šaka jas apriboja).
+1815	Kaip tyrime „Sąvokų semantinis pastovumas“: tinklas išskleidžiamas atsitiktinio klajojimo koordinatėmis; šeimos požiūriu sąvokos padėtis – jos tos šeimos kaimynų padėčių vidurkis, pastovumas – jų išsibarstymas.
+1816	Kaip versti
+1817	kaip įėjime
+1818	Kalba be Glottolog atitikmens neįtraukiama (jos vietos medyje nežinome). Požymiai: Glottolog vardas, koordinatės, koduotų reikšmių skaičius.
+1819	Kalbos apribotos krepšio Glottolog mazgais ({0} kalbos).
+1820	Kalbos su IE-CoR kognatais koduotomis reikšmėmis. Krepšyje: Glottolog šeima ar šaka, kalbos, sąvokos (apriboja reikšmes); be krepšio – visos tokios kalbos.
+1821	kalbos(-ų)
+1822	Kas lieka
+1823	Kiek daugiausia formų paimti iš krepšio mazgų; kitos praleidžiamos (apie tai pranešama). Garsinis atstumas lygina visas formų poras, tad darbo daugėja kvadratu.
+1824	Kiek kartų atsitiktinai sumaišyti vienetus, kad būtų įvertinta p reikšmė. 0 – p neskaičiuojama.
+1825	Kiek kiekvienas vienetas arčiau savo grupės nei artimiausios kitos: nuo −1 (ne savo grupėje) iki 1.
+1826	Kiek kiekvienos A grupės vienetų patenka į kiekvieną B grupę; ARI ir grynumas.
+1827	Kiek mažiausiai kalbų (turinčių vietą Glottolog medyje) turi turėti kognatais koduotą sąvokos žodį.
+1828	Kiek mažiausiai tų pačių reikšmių turi būti koduota abiem kalbom, kad poros artumas būtų žinomas. Menkiau paliudytų porų artumas laikomas nežinomu (grafe jos nejungiamos).
+1829	Kiek pirmųjų Laplaso savųjų vektorių nusako sąvokos padėtį tinkle.
+1830	Kiek skirtingai skamba dvi formos: redagavimo atstumas, kur garso pakeitimas kainuoja skirtingų CLTS požymių dalį.
+1831	Kiek toli du vienetai (kalbos ar jų formos) stovi Glottolog medyje.
+1832	kiek vienetas arčiau savo grupės nei kitos
+1833	Kiekviena grupė: dydis, tipiškiausias vienetas (medoidas), pavyzdžiai, kiek artima viduje ir iki kitų, sudėtis.
+1834	Kiekviena {0}.
+1835	Kiekvienam vienetui palieka tik k stipriausių ryšių (retina tankų grafą).
+1836	Kiekvienas rodiklis paverčiamas procentiliu 0–1, kur 1 – „geriausias“ (pastoviausias); taip visi rodo ta pačia kryptimi.
+1837	Kiekvienas vienetas – taškas pagal du rodiklius; ketvirčiai pagal medianas (pvz. forma pastovi, reikšmė kinta).
+1838	Kiekvieno vieneto mastas σᵢ – atstumas iki tiek artimiausio kaimyno (Zelnik-Manor ir Perona, 2004). Svoris exp(−d² / σᵢσⱼ). Mažesnis – grafas labiau skyla į tankias grupes.
+1839	kiekvienos vienetų poros atstumas: 0 – tas pats, daugiau – toliau
+1840	kiekvienos vienetų poros panašumas: daugiau – panašiau
+1841	koduotų reikšmių
+1842	kognatų grupės
+1843	Kokia dalis abiejose kalbose koduotų reikšmių turi bendrą kognatų grupę: S = C / M.
+1844	Koordinatės – kalbos (Glottolog ar duomenyno) platuma ir ilguma. Vienetai be koordinačių neįtraukiami.
+1846	Krepšio sąvokų (ir per CORRESPONDS_TO susietų), reikšmių, leksemų, kognatų grupių formos arba pačios formos.
+1847	Krepšio sąvokų formos grupuojamos pagal tai, kaip panašiai skamba; grupės lyginamos su kognatais ir šakomis.
+1848	krepšyje
+1849	Krepšys
+1850	Krepšys pats nieko netiria: jis nurodo šaltiniams, ką imti. Prie Vaivos kairėje galite atžymėti mazgus, kurių šįkart nenorite.
+1851	Krepšį į sąranką įneša detalė „Krepšys“; be jos krepšys nenaudojamas.
+1852	Kryžminė lentelė
+1853	Kurie vienetai
+1854	Kurios B grupės skyla į kelias A grupes
+1855	Kurių vienetų eilutės lieka. Trūkstamos reikšmės – nežinomos.
+1856	Ką apriboti
+1857	Ką sijoti
+1858	labiausiai atitinkantis lygis (ARI {0}, {1} šakos)
+1859	Laplaso matricos mažiausios savosios reikšmės: didelis šuolis po k-osios rodo, kad grafas skyla į k grupių.
+1860	Laplaso spektras
+1861	Laukia detalės, kuri nepavyko.
+1862	laukia nepavykusios detalės
+1863	Leksinis artumas
+1864	Leksinis artumas skaičiuojamas kalboms iš šaltinio „Kalbos“.
+1865	Liko {0} iš {1}.
+1866	Lygiai skaičiuojami nuo visų vienetų bendro protėvio. „Pirmas lygis su 3 … n/2 šakų“ – kaip „Kalbų medžio“ tyrime; „pirmas skilimas“ – pirmasis lygis, kuriame vienetai išsiskiria.
+1867	Lyginami (pvz. leksiniai)
+1868	M – reikšmės (Concepticon), koduotos abiejose kalbose; C – kiek jų turi bendrą kognatų grupę. Kiekviena reikšmė skaičiuojama vieną kartą.
+1869	Mantel testas ({0} perstatų)…
+1870	Mastas τ
+1871	Matai
+1872	Matas A
+1873	Matas B
+1874	Matrica
+1875	Matricai per daug vienetų ({0}; daugiausia {1}).
+1876	mažas {0}, didelis {1}
+1877	Mažesni panašumai laikomi nuliu. 0 – imami visi žinomi.
+1878	mažiau
+1879	Mažiau nei {0} kalbų su kognatais koduotu žodžiu.
+1880	Mažiausiai kalbų sąvokai
+1881	Mažiausiai šeimų sąvokai
+1882	Mažinti
+1883	Mažos savosios reikšmės ir jų vektoriai nusako stambią grafo sandarą: kiek nulinių reikšmių – tiek atskirų gabalų, didelis tarpas po k-osios – grafas skyla į k grupių.
+1884	mediana {0} ({1}–{2})
+1885	Medis (UPGMA)
+1886	Medis su lapais, nuspalvintais pagal skaidinį; kurios grupės medyje vientisos ir kas į jas įsiterpia.
+1887	Medyje nėra lygių žemiau bendro protėvio.
+1888	Medžio lygis
+1889	Medžio negalima apriboti: apribokite atstumus prieš statydami medį.
+1890	Medžiui per daug vienetų (daugiausia 2000).
+1891	ne didžiausioje susietoje dalyje
+1892	ne sąranka
+1894	Nepavyko nupiešti: {0}
+1895	Neprijungus – visos DatSemShift tinklo sąvokos su Concepticon numeriu.
+1896	Nerasta kognatais koduotų sąvokų.
+1897	Netinkamas failas: {0}
+1898	Nevientisos grupės
+1899	Neįtraukta vienetų: {0} (žr. vaisių apačioje)
+1900	nežinoma
+1901	Nežinoma detalė: {0}
+1902	nežinomas
+1903	Nežinomi atstumai (pvz. skirtingų šeimų kalbos) ryšio neturi.
+1904	Normalizuotos Laplaso matricos L = I − D^-½ W D^-½ savosios reikšmės ir vektoriai.
+1905	Nutempkite detalę iš sąrašo kairėje arba įkelkite paruoštą sąranką.
+1906	Nutempkite detalę iš sąrašo kairėje į drobę (arba spustelėkite: ji bus prijungta prie pažymėtos).
+1907	Nutempkite į drobę arba spustelėkite.
+1908	Nė viena grupė reikšmingai neišsiskiria
+1909	Nė viena kalba neturi vietos Glottolog medyje.
+1910	Nė viena sąvoka neturi pakankamai kalbų.
+1911	Nė viena sąvoka nėra DatSemShift tinkle.
+1912	nėra DatSemShift tinkle
+1913	nėra koordinačių
+1914	Nėra porų, kurių abu matai žinomi.
+1915	Nėra rodiklio „{0}“. Galimi: {1}.
+1916	nėra vietos Glottolog medyje
+1917	Oranžinė – pasirinktas k.
+1918	p (daugiau) {0}, p (mažiau) {1}
+1919	paaiškina (1, 2, 3 …)
+1920	paaiškina 1-oji komponentė
+1921	Pagal kurį požymį jungti. Pvz. formų garsinius atstumus sutraukus pagal kalbą gaunami kalbų garsiniai atstumai, kuriuos galima lyginti su genealoginiais ar geografiniais.
+1922	Pagal ką
+1923	Pagrindinės komponentės ({0} vienetų)
+1925	Palieka tik didžiausią susietą grafo dalį; atskirti vienetai neįtraukiami.
+1926	Palieka tik tuos vienetus, kurie yra ir kitame įėjime (pvz. medžio atstumus – tik leksinio grafo kalboms).
+1927	Palieka vienetus, kurių požymis atitinka sąlygą (pvz. kalba = Lithuanian; rekonstruota = ne; grupė = 2).
+1928	Palyginti su (ARI)
+1929	panašiau
+1930	Panašumai
+1931	Panašumai paverčiami atstumais (1 − s), todėl teigiamas ρ visada reiškia, kad matai sutaria. Lyginamos tik poros, kurių abu matai žinomi. Grafike – A reikšmės pagal B (dėžės, jei B turi nedaug skirtingų reikšmių).
+1932	Panašumai paverčiami atstumais 1 − s. Daugiau nei ~1500 vienetų skaičiuoti ilgai.
+1933	Panašumai paverčiami atstumais 1 − s. Nežinomi atstumai laikomi didžiausiais.
+1934	Panašumai → atstumai
+1935	Panašumai → grafas
+1936	panašumas
+1937	Panašumas = 1 − atstumas (arba didžiausias atstumas − atstumas).
+1938	Panašumas tampa ryšio svoriu; nežinomi ir mažesni už slenkstį panašumai ryšio neduoda.
+1939	Panašumas – {0}, atstumas – {1}, grupės – {2}.
+1940	Parodyta {0} iš {1}.
+1941	Parodyti šią detalę sąrankoje
+1942	Paruošti tyrimai su savo vaizdavimu
+1943	Paruoštos sąrankos
+1944	Pasirinktas k
+1945	Pašalinti detalę
+1946	Pašalinti jungtį
+1947	Pažymėti k
+1948	Per daug formų ({0}; daugiausia {1}): apribokite krepšį ar formų skaičių.
+1949	per mažai kalbų
+1950	Per mažai vienetų grafui.
+1951	Per mažai vienetų spektrui.
+1952	Per mažai vienetų, turinčių grupę abiejuose skaidiniuose.
+1953	Perstatų
+1954	pirmas lygis su 3 … n/2 šakų
+1955	Polisemijos tinklas: sąvokos sujungtos, jei bent vienoje kalbų šeimoje tas pats žodis reiškia abi; svoris – kiek šeimų tai paliudija.
+1956	polisemijos šeimų skaičius
+1957	Poros nėra nepriklausomos (kiekvienas vienetas dalyvauja daugelyje), todėl p imamas iš permutacijų, ne iš formulės.
+1958	Poros, kurių panašumas daug didesnis ar mažesnis, nei tikėtina jų atstumui: skirtingų grupių, bet panašios (galimi kontaktai), ir tos pačios grupės, bet tolimos.
+1959	porų
+1960	Požymiai: semantinis laukas (Concepticon), kalbų skaičius, krepšyje (taip / ne). Su šiomis sąvokomis dirba „Formos pastovumas“ ir „Reikšmės pastovumas“.
+1961	Požymio vardas: cognate (IE-CoR kognatų grupė), language, dataset, glottolog_name, field (semantinis laukas), focus, reconstructed …
+1962	Požymis
+1963	Požymis „{0}“ turi mažiau nei dvi reikšmes.
+1964	Požymiui „grupė“ prijunkite skaidinį.
+1965	Pradėti paprasčiausia nuo paruoštos sąrankos kairėje. Tempiant tuščią drobę – stumdoma, pelės ratukas – mastelis, Delete – pašalinti, Ctrl+Z – atšaukti, Ctrl+D – kopija.
+1966	praleista: laukia nepavykusios detalės
+1967	Praleista: laukia nepavykusios detalės.
+1968	Prijungus atstumus, kiekvienas vienetas sujungiamas su artimiausiu kaimynu, jei jų atstumas ne didesnis už šį.
+1969	Prijungus kitą skaidinį, grupių imama tiek pat, kiek jame (pvz. medžio grafą skaidyti į tiek grupių, kiek rado leksinis).
+1970	Prijungus skaidinį, galima sijoti pagal požymį „grupė“ (grupės numeris, kaip vaisiuose).
+1971	Prijunkite bent vieną vaisių (grupė „Vaisiai“).
+1972	Prijunkite bent vieną vaisių ir spauskite „Tirti“.
+1973	Pro sietą nepraėjo nė vienas vienetas.
+1974	Procentiliai
+1975	Pvz. kognatai ar šakos: kiek kiekvienos grupės vienetų priklauso kiekvienai jų grupei.
+1976	Reikia bent dviejų rodiklių su ≥ 5 žinomomis reikšmėmis.
+1977	Reikia bent dviejų rodiklių.
+1978	Reikšmingai išsiskiria
+1979	Reikšmingumo riba
+1980	reikšmingų skirtumų (p < {0})
+1981	Reikšmių tinklas (DatSemShift)
+1982	Reikšmės apribotos krepšio sąvokomis ({0} Concepticon sąvokos).
+1983	Reikšmės pastovumas
+1984	reikšmės pastovumas
+1985	Rikiuoti pagal
+1986	Rodikliai
+1987	Rodikliai A
+1988	Rodikliai B
+1990	Rodikliai, kur mažiau yra geriau (pvz. pakeitimo dažnis, polisemija), apverčiami. Lygios reikšmės gauna vidutinį rangą.
+1991	Rodiklio vardas (pvz. retention); tuščia – pirmasis.
+1992	Rodiklių koreliacijos
+1993	Rodiklių rinkiniai neturi bendrų vienetų.
+1994	Rodyti visą sąranką
+1995	Ryšių vienetui
+1996	Ryšys paliekamas, jei jis tarp k stipriausių bent vieno iš dviejų vienetų.
+1997	Savosios reikšmės
+1998	savųjų reikšmių tarpas
+1999	Sietai
+2000	Sietas veikia bet kurį duomenų tipą, turintį vienetus: vienetus, atstumus, grafą, skaidinį, rodiklius. Spektro ir medžio sijoti negalima – sijokite prieš juos.
+2001	Siluetas
+2002	Siluetas – kiek grupės atsiskyrusios; ARI – kiek jos sutampa su prijungtu skaidiniu (pvz. kognatais).
+2003	Siluetui
+2004	Skaidinys
+2005	Skaidinys A (eilutės)
+2006	Skaidinys B (stulpeliai)
+2007	Skaidinys pagal požymį
+2008	Skaidinys su medžiu {0} {1}-ame lygyje
+2009	Skaičiuoti ir derivaciją
+2010	Skirtingų grupių, bet panašesnės nei tikėtina (galimi kontaktai, skoliniai)
+2011	Skirtingų šeimų vienetų atstumas nežinomas. Vienetai be vietos Glottolog medyje neįtraukiami.
+2012	Skirtumai neviršija to, kas būtų atsitiktinai.
+2013	Slenkstis
+2014	Spalvota juosta – grupės.
+2015	Spektrinis išdėstymas
+2016	Spektrinė analizė
+2017	Spektrinė analizė prasminga susietam grafui: atskiri gabalai duotų po nulinę savąją reikšmę ir „grupes“, kurios tėra atskirti gabalai.
+2018	Spektrinės analizės tyrimas, surinktas iš detalių: šaltinių, matų, grafų, sietų, spektrinės analizės, rodiklių ir vaisių.
+2019	Spektrinės grupės
+2020	Spektro negalima apriboti: apribokite grafą prieš skaičiuodami spektrą.
+2021	Spustelėję detalę, dešinėje nustatykite jos parametrus.
+2022	Spustelėkite k, kad perskaičiuotumėte su tiek grupių.
+2023	Statomas medis…
+2024	Stipriausi ryšiai
+2025	Su kitais vienetais grafe nesujungtas (arba tik su mažu gabalu).
+2026	Su kuo lyginti (sąlygoms „žinomas“ ir „nežinomas“ nereikia).
+2027	Su kuriuo Glottolog medžio lygiu (šeima, šaka, pošakis …) skaidinys sutampa labiausiai (ARI kiekvienam lygiui).
+2028	Sudėtis pagal
+2029	Sujungti rodiklius
+2030	Sujunkite: tempkite nuo išėjimo taškelio dešinėje iki tos pačios spalvos įėjimo kairėje. Tinkami įėjimai paryškinami.
+2031	Sukurtas sodas „{0}“
+2032	Sutraukti pagal požymį
+2033	svertinis grafas: vienetai – viršūnės, svoris – ryšio stiprumas
+2034	Svoris exp(−atstumas / τ)
+2035	Sąlyga
+2036	Sąranka per didelė (daugiausia {0} detalių ir {1} jungčių).
+2037	Sąranka tuščia: nutempkite detales į dirbtuves ir sujunkite jas.
+2038	Sąranka įkelta.
+2039	Sąrankoje nėra nė vieno vaisiaus: pridėkite detalę iš grupės „Vaisiai“ ir prijunkite ją.
+2040	Sąrankoje yra uždaras ratas: detalė negali gauti savo pačios rezultato.
+2041	Sąrankos pavadinimas
+2042	Sąvokai formos randamos per Sense → Lexeme → Form. Kiekviena forma turi požymius: kalba, kognatų grupė (IE-CoR), duomenynas, rekonstruota (taip / ne), kalbos vieta Glottolog medyje ir koordinatės.
+2043	Sąvokos
+2044	Sąvokos (IE-CoR)
+2045	Sąvokos atpažįstamos pagal Concepticon numerį (jei jo nėra – pagal DatSemShift numerį), todėl tinklą galima apriboti IE-CoR sąvokomis (detalė „Apriboti pagal kitą“).
+2046	sąvokos(-ų)
+2047	Taip garsinių atstumų matrica paverčiama grafu spektrinei analizei. Nežinomi atstumai laikomi labai dideliais.
+2048	Taip gaunamas palyginimo pagrindas: ar spektrinės grupės sutampa su kognatais, šakomis, laukais.
+2049	taškas – pora (iki 3000 atsitiktinių)
+2050	Techninė informacija
+2051	Tekstas
+2052	Tie patys savieji vektoriai, suskirstyti į 2 … 12 grupių: savųjų reikšmių tarpas, siluetas, sutapimas su kitu skaidiniu.
+2053	Tie patys savieji vektoriai, suskirstyti į k grupių.{0}
+2054	Tiek grupių, kiek čia
+2055	Tikrinant daug grupių ir rodiklių, kelis „reikšmingus“ galima gauti atsitiktinai (riba {0}).
+2056	tikėtina
+2057	Tikėtinas panašumas – visų porų tuo pačiu atstumu mediana (tolydiems atstumams – 12 vienodo dydžio intervalų).
+2058	Tinka panašumams nuo 0 iki 1 (pvz. leksiniam artumui). Nežinomas panašumas lieka nežinomu atstumu.
+2059	Tinklas: {0} sąvokų, {1} ryšių, didžiausia susieta dalis – {2}, {3} šeimų.
+2060	Tinkle be polisemijos skaičiuoti ir derivaciją. Tinklas tankesnis, bet mažiau grynas.
+2061	Tipiškiausias:
+2062	tiriami vienetai (formos, kalbos, sąvokos) su savo požymiais
+2063	Tirti tinka tik {0} formos(-ų) iš {1}.
+2064	Tos pačios grupės, bet mažiau panašios nei tikėtina
+2065	turi tekstą
+2066	Tuščia – antrasis.
+2067	Tuščia – parenkama ten, kur didžiausias tarpas tarp gretimų savųjų reikšmių.
+2068	Tyrimai
+2069	Tyrimas, surenkamas iš detalių
+2070	Užrašas
+2071	Užvedus – vieneto požymiai; spustelėjus grupę legendoje – ji paryškinama. „Atverti sode“ sukuria naują sodą su šiais mazgais tose pačiose vietose ir spalvomis.
+2072	Vaisiai
+2073	vaisius paruoštas
+2074	Vaivos dirbtuvės · {0} · {1} detalių, {2} vaisių {3}
+2075	Vaivos dirbtuvės – sąranka iš detalių
+2076	vidurkis {0} (visų {1})
+2077	Vidutinis siluetas virš 0,5 – grupės ryškios, apie 0 – susiliejančios; neigiamas – vienetas tarp grupių.
+2078	Vienetai
+2079	Vienetai atpažįstami pagal raktą (formos, kalbos, Concepticon sąvokos). Tvarka lieka pirmojo įėjimo.
+2080	Vienetai be vietos Glottolog medyje lieka be grupės.
+2081	Vienetai neturi koordinačių.
+2082	Vienetai neturi požymio „{0}“. Galimi: {1}.
+2083	Vienetai plokštumoje pagal išdėstymą, nuspalvinti pagal skaidinį; galima atverti sode.
+2084	Vienetai suskirstomi pagal Glottolog šaką, kuriai priklauso jų kalba.
+2085	Vienetai suskirstomi pagal požymį: kognatų grupę, kalbą, semantinį lauką, duomenyną …
+2086	Vienetai suskirstomi į k grupių: k-vidurkiai pirmųjų k savųjų vektorių erdvėje (Ng, Jordan, Weiss).
+2087	Vienetai turi turėti vietą Glottolog medyje (formos ar kalbos). Lygiai skaičiuojami nuo visų bendro protėvio.
+2088	Vieneto požymio vardas: language, cognate, dataset, reconstructed, glottolog_name, field, focus, meanings, languages, name, key; su skaidiniu – grupė. Vienetų lentelėje matomi visi požymiai.
+2089	vienetų
+2090	Vienetų lentelė
+2091	Vienetų poras sujungia į jų požymio (pvz. kalbos) poras: dviejų kalbų atstumas – vidutinis jų formų atstumas.
+2092	Vienetų sietas
+2093	vienetų suskirstymas į grupes
+2094	Vienetų vietos pagal 2-ąjį ir 3-iąjį savuosius vektorius.
+2095	vienetų vietos plokštumoje
+2096	Vienetų vietos plokštumoje, kuo geriau išlaikančios jų atstumus (klasikinis MDS).
+2097	Vienos grupės viduje atstumas laikomas 0 (panašumas – vidutinis). Sutraukus pagal kalbą, nauji vienetai yra kalbos ir paveldi jų Glottolog vietą bei koordinates.
+2099	Visi vienetai su požymiais, grupe ir rodikliais; rikiuojama ir filtruojama.
+2100	X rodiklis
+2101	Y rodiklis
+2102	{0} detalės nepavyko ar praleistos
+2103	{0} grupės(-ių)
+2104	{0} kalbos, {1} šakos.
+2105	{0} lapų
+2106	{0} mazgų
+2107	{0} rodikliai(-ių), {1} vienetų
+2108	{0} savųjų reikšmių
+2109	{0} taškų
+2110	{0} viršūnių, {1} briaunų
+2111	{0} → {1}. Kuo didesnis toks tarpas, tuo aiškiau grafas skyla į tiek grupių. Nulinių reikšmių tiek, kiek nesujungtų grafo dalių.
+2112	{0}-as lygis žemiau bendro protėvio
+2113	{0}-as lygis žemiau „{1}“: {2} šakos.
+2114	{0}. Tamsiau – {1}; tušti langeliai – nežinoma. {2}
+2115	{0}: įsiterpia {1}{2}
+2116	{0}; ašis – jungimo aukštis (atstumas).
+2118	· be krepšio
+2119	· iš atminties
+2120	· krepšys: {0}{1}
+2121	· neįtraukta {0}
+2122	· spalvos: {0}
+2123	· viduje {0}, iki kitų {1}
+2124	Į „{0}“ tinka {1}, o čia – {2}.
+2125	Įkelta sąranka „{0}“. Ctrl+Z – grąžinti ankstesnę.
+2126	Įkelta; nežinomos detalės praleistos: {0}
+2127	Įkelti sąrankos failą
+2128	įsiterpia
+2129	Įėjimai
+2130	Įėjimai neturi bendrų vienetų.
+2131	šakų
+2132	Šaltiniai
+2133	šios kortelės sodo krepšio mazgai
+2134	Šios kortelės sodo krepšio mazgai (sode: dešinys klavišas → „Pridėk į krepšį“).
+2135	Žemiau „{0}“ {1}-ame lygyje yra {2} šakos (pvz. {3}); ARI {4}.
+2136	Žemėlapiui per daug taškų ({0}; daugiausia {1}).
+2137	Ženklas parenkamas taip, kad didžiausia koordinatė būtų teigiama (kad kartojant būtų tas pats). Medžio grafų spektriniai žemėlapiai dažnai sutraukia daug vienetų į kelis taškus – tada aiškesnis MDS.
+2138	žinomas
+2139	Žinomas {0} iš {1} porų artumas (bent {2} bendrų reikšmių).
+2141	„1 − atstumas“ tinka atstumams nuo 0 iki 1 (garsiniam). Kitiems (km, medžio gyliui) – padalyti iš didžiausio.
+2142	„Bendro protėvio gylis“: kuo giliau medyje artimiausias bendras protėvis, tuo arčiau (0 – giliausias). „Briaunų skaičius“: kiek šakų pereiti nuo vieno iki kito – iškraipo, kai šakos nevienodai smulkiai suskaidytos.
+2143	„lygu“ ir „nelygu“ priima kelias reikšmes, atskirtas kabliataškiu; didžiosios ir mažosios raidės nesvarbios.
+2144	„{0}“ ir „{1}“: {2} porų.
+2145	„{0}“ ir „{1}“; lyginama {2} vienetų.
+2146	„{0}“ laukia {1}, o gauna {2}
+2147	„{0}“ turi būti tarp {1} ir {2}
+2148	„{0}“ → „{1}“: nėra tokio lizdo.
+2149	„{0}“: neprijungta {1}.
+2150	„{0}“: į vieną įėjimą jungiama tik viena jungtis.
+2151	▲ – grupės vidurkis reikšmingai didesnis, ▼ – mažesnis (p < {0}).
+2152	▶ Tirti
+2153	⬆ Įkelti
+2154	⬇ Atsisiųsti
+2155	🍎 Vaisiai
+2157	🔧 Dirbtuvės
+2158	🔧 Sąranka
+2159	🔧 {0} vaisiai{1}
+2160	Dirbtuvių sąranka
+2161	1 − atstumas
+2162	Concepticon
+2163	duomenynai
+2164	duomenynas
+2165	esantys bent viename
+2166	Glottolog kalba
+2167	Glottolog kalbos
+2168	ilguma
+2169	kalba
+2170	kalbos
+2173	lygu
+2175	nelygu
+2176	neturi teksto
+2177	pirmas skilimas
+2178	platuma
+2179	rekonstruota
+2180	segmentai
+2181	semantiniai laukai
+2182	semantinis laukas
+2184	tik esantys abiejuose
+2185	vienetas
+2186	visi A vienetai
+2187	Atstumai
+2188	Medis
+2189	skaitiniai kiekvieno vieneto rodikliai
+2190	Spektras
+2191	Grynumas {0}: dalis grupių mišrios.
+2192	Grynumas {0}: grupės beveik nesimaišo.
+2193	Jungti į vieną indeksą nepagrįsta
+2194	Jungti į vieną indeksą pagrįsta
+2195	Koreliacijos beveik nėra (ρ = {0})
+2196	Pirmoji pagrindinė komponentė paaiškina {0} ({1} vienetų su visais rodikliais).
+2197	Rodikliai į ją įeina skirtingomis kryptimis.
+2198	Rodiklis
+2199	Visi rodikliai į ją įeina ta pačia kryptimi.
+2200	{0} grupės (pagal savųjų reikšmių tarpą būtų {1}).
+2201	{0} grupės – pagal savųjų reikšmių tarpą.
+2202	{0} skirtingų garsų: BIPA {1}, kita CLTS sistema {2}, apytiksliai {3}, neatpažinta {4}.
+2203	ARI
+2204	beveik jokios
+2205	beveik nesutampa
+2206	beveik sutampa
+2207	gerokai sutampa
+2208	grynumas
+2209	labai stipri
+2210	Leksinis artumas ir geografija
+2211	Mantel p
+2212	silpna
+2213	siluetas
+2214	Spearman ρ
+2215	stipri
+2216	Polisemija DatSemShift
+2217	Polisemija IE-CoR
+2219	Atsisiųsti {0}
+2220	Bibliografija
+2221	Bibliografija: SODAS ir šiame sode naudoti duomenynai (BibTeX, RIS, …)
+2222	CSL-JSON (Zotero, Mendeley, Pandoc)
+2223	Duomenynų dar nenaudota – pateikiamas tik SODAS įrašas.
+2225	juodraštis per didelis
+2226	Kieno nors atsiųstas sodas (JSON byla) taps nauju jūsų sodu
+2227	Kieno nors atsiųstas sodas taps nauju jūsų sodu
+2228	Kopijuoti
+2229	Naudoti duomenys:
+2231	Netinkama byla: {0}
+2232	nežinomas formatas: {0}
+2233	nežinomas juodraštis
+2237	RIS (EndNote, Zotero, Mendeley)
+2238	Sodas atsisiųstas – bylą galite nusiųsti kitam sodininkui
+2239	SODAS ir šiame tyrime naudoti duomenynai: BibTeX, RIS, CSL-JSON, tekstas
+2240	SODAS įrašas kol kas preliminarus: DOI ir programos saugykla dar ruošiami.
+2242	Sodo bibliografija: SODAS ir jame naudoti duomenynai
+2243	Sodo byla sugadinta: mazgai ir ryšiai turi būti sąrašai.
+2244	Sodo byloje nėra mazgų.
+2246	Sodo „{0}“ bibliografija
+2248	tai ne Sodo byla (laukiama „sodo-byla/1“)
+2249	Tekstas (APA)
+2250	Tyrimo „{0}“ bibliografija
+2254	Įkeltas sodas
+2255	Įkeltas sodas „{0}“ ({1} mazgų)
+2256	įkeltas sodas „{0}“ ({1} mazgų)
+2257	Šis sodas išsaugotas dar prieš pradedant sekti naudotus duomenis – sąrašas sudarytas pagal dabar jame esančius mazgus.
+2258	Šis tyrimas atliktas dar prieš pradedant sekti naudotus duomenis – sąrašas sudarytas pagal jo krepšį ir tyrimo rūšį.
+2259	Šį sodą su jo mazgais, ryšiais ir naudotų duomenų sąrašu – į bylą, kurią galite kam nors nusiųsti
+2260	⬆ Įkelti sodą iš bylos…
+2261	⬇ Atsisiųsti šį sodą (JSON)
+2262	⬇ Byla
+2263	📚 Bibliografija
+2266	Neo4j sukurta paieškos indeksų: {0}
+2267	Puslapis dirba…
+2268	, sode paslėpta {0} mazgų
+2269	Duomenynas
+2271	išjungta duomenynų: {0}{1}
+2272	Išjungti visus
+2274	Neo4j nepasiekiama – duomenynų sąrašo nėra.
+2275	Įjungtas
+2276	Įjungti visus
+2277	Šiame sode mazgų
+2278	⚙ → Duomenynai
+2279	; parodyta pirmų {0} iš {1}
+2281	Ctrl+🗺
+2282	Ctrl+🗺 – ir neįkelti
+2283	Išjungti žemėlapį ir grąžinti sodą
+2285	mazgų
+2286	Mazgų sąrašas
+2287	ne pluoštas
+2288	netinkamas pluoštas
+2289	netinkamas pluošto šaltinis
+2290	netinkamas šaltinis
+2291	node.multi, node.bundle
+2292	Nė vienas šių mazgų neturi platumos ir ilgumos
+2293	per gilus pluoštas
+2294	Pluoštas nuo
+2295	Pluošto mazgai neįkelti į sodą, todėl jis lieka lengvas. Išskleidus rodomi visų jų kaimynai (iš šio mazgo); žemėlapyje – visi jo mazgai (Sense – jų leksemos), artinant – tos srities.
+2296	Rodyti dar ({0} iš {1})
+2298	Ruošiamas žemėlapis…
+2299	Ryšiai
+2300	tiek ar daugiau vieno pavadinimo kaimynų rodoma kaip vienas mazgas „pavadinimas ×N“, jų neįkeliant (virš 1000 – visada)
+2301	visi pažymėto apjungto mazgo (×N) mazgai žemėlapyje (Sense – jų leksemos); artinant rodomi tos srities mazgai
+2302	Visi žemėlapyje
+2303	{0} {1} mazgų tuo pačiu pavadinimu{2}
+2304	{0}: rodoma {1} iš {2} šioje srityje (iš viso {3}) – artinkite, kad pamatytumėte kitus
+2305	{0}: sode {1} mazgų
+2306	{0}: įkeltas į sodą
+2307	{0}: šioje srityje {1} iš {2}
+2309	Įkelti šį mazgą į sodą
+2310	Šių mazgų nerasta
+2311	Žemėlapio vaizde mazgai neišskleidžiami – grįžkite į sodą (🗺)
+2312	📍 Visi žemėlapyje
+2313	Drąsiai apjungti {0} mazgai: tas pats pavadinimas ir kalba
+2314	Drąsiai jungti mazgus
+2315	Mazgų jungimas
+2316	to paties pavadinimo ir tos pačios kalbos formos bei lytys (Form, Lexeme) iš visų duomenynų rodomos kaip vienas mazgas
+2317	Apjungta {0} mazgų į „{1}“ – tik šiame sode
+2318	Apjungti pažymėtus
+2319	Apjungti {0} mazgai: tas pats pavadinimas ir kalba – spauskite
+2320	Apjungti {0} mazgus
+2321	Ctrl + 🗺: pažymėkite Sense mazgą (visos jo sąvokos lytys) arba apjungtą mazgą (×N) – visi jo mazgai bus parodyti žemėlapyje
+2322	Gerai
+2323	Lemos žemėlapyje
+2324	lemų
+2325	Lytys žemėlapyje
+2326	lyčių
+2327	nežinomas žemėlapio būdas: {0}
+2328	Pavadinimai skiriasi. Kurį rodyti? Apjungtas mazgas yra tik šio sodo – duomenų bazėje niekas nekeičiama.
+2329	Pažymėkite bent du mazgus (Shift + spustelėjimas), kuriuos norite apjungti
+2330	Pervadinti
+2331	Pervadinti apjungtą mazgą
+2332	Rankiniu būdu apjungti {0} mazgai (tik šiame sode) – spauskite
+2333	Rankiniu būdu apjungti {0} mazgai – tik šiame sode
+2334	Rodyti žemėlapį (pažymėtas arba pirmas mazgas su koordinatėmis). Pažymėtas Sense – jo lemos, Concept – visos sąvokos lemos, kognatų rinkinys – jo lytys. Ctrl – visos pažymėto Sense sąvokos lytys, visi apjungto mazgo (×N) mazgai
+2335	savas pavadinimas:
+2336	tik šiame sode
+2337	Visos sąvokos lytys žemėlapyje
+2338	visos sąvokos lytys – {0}
+2339	{0} to paties pavadinimo mazgai – spauskite
+2340	{0}: žemėlapyje {1}{2}{3}. Artinkite – bus rodomi tos srities mazgai. Sodas laikinai paslėptas: 🗺 – grįžti.
+2341	Šios sąvokos lyčių nerasta
+2342	Šis kognatų rinkinys neturi lyčių
+2343	Šis Sense neturi nei lemų, nei lyčių
+2344	Šių mazgų apjungti negalima
+2345	žemėlapiui reikia vienos rūšies mazgų
+2346	Antras skydelis
+2347	blankus tekstas
+2348	Blankus tekstas
+2349	Blankus tekstas ant skydelio
+2350	Fonas
+2351	Grąžinti apskaičiuotą spalvą
+2352	Grąžinti visas apskaičiuotas spalvas
+2353	kiek skiriasi fonas, skydeliai, žymės ir linijos (50 – kaip anksčiau)
+2354	Kitas
+2355	Klaida
+2356	Kontrastas
+2357	Kontrasto patikra
+2358	Linijos ant skydelio
+2359	Linijos, rėmeliai
+2360	Mygtukas
+2361	Pakeisti spalvą
+2362	Paryškinimas ant skydelio
+2363	Paryškinimo fonas
+2364	paryškinimo fonas
+2365	Paryškinimo fonas ant skydelio
+2366	Pavyzdys
+2367	Per panašioms spalvoms padidinkite „Kontrastas“, pakeiskite sąsajos šviesumą arba parinkite tą spalvą ranka.
+2368	per panašios (reikia ≥ {0})
+2369	Ryšiai sodo fone
+2370	Skydelis
+2371	Skydelis ir fonas
+2372	Sodo fonas
+2373	Spalvos po vieną
+2374	Spustelėkite spalvą, kad ją pakeistumėte ranka; ranka parinkta spalva nebesikeičia keičiant slankiklius (× – grąžinti). {0}
+2375	Tekstas ant fono
+2376	Tekstas ant paryškinimo
+2377	Tekstas ant paryškinimo fono
+2378	Tekstas ant skydelio
+2379	Įspėjimas
+2380	žymė
+2381	Žymė ant skydelio
+2382	Žymė, mygtukų grupė
+2383	⚠ įspėjimas
+2384	✓ gerai
+2385	✕ klaida
+2386	Apie Sodą
+2387	aplinka kalbų duomenims tirti. Daugelio duomenynų (Glottolog, Concepticon, IE-CoR, Lexibank, WOLD, CLICS, LKEŽDB ir kt.) kalbos, žodžiai, jų reikšmės, sąvokos ir giminiški žodžiai sujungti į vieną grafą, kuriame tyrėjas ieško, lygina ir mato ryšius.
+2388	Citavimo duomenų gauti nepavyko.
+2389	duomenynai: jų įkėlimas ir tvarkymas, LKEŽDB žodžių aiškinimas.
+2390	Institucija
+2391	Kaip cituoti
+2392	Kiti formatai…
+2393	Kontaktai dar neįrašyti.
+2394	Programos kodas
+2395	Susisiekti
+2396	Tinklalapis
+2397	tyrimai su sodo mazgais: garsų atitikmenys, kalbų medžiai, dirbtuvės savo tyrimams sudėlioti.
+2398	tyrėjo sodas: mazgų ir ryšių grafas, kuris auga išskleidžiant žodžius, reikšmes ir sąvokas; tapatūs mazgai apjungiami, juos galima rodyti žemėlapyje.
+2399	Vardas, pavardė
+2400	Versija {0}
+2401	Ženklas
+2404	Sąvokos lemos žemėlapyje
+2405	Šios sąvokos lemų nerasta
+2406	Atsisiųsti
+2407	Atsisiųsti sodą: SVG, PNG arba JSON
+2408	Išsaugoti kaip PNG
+2409	Mazgų pavadinimai
+2410	paveikslas – pranešimams, skaidrėms
+2411	per didelis vaizdas
+2412	PNG nepavyko: {0}
+2413	Rodinys
+2414	Rodinys: mazgų ir ryšių užrašai, sode esantys mazgų ir ryšių tipai (nuėmus varnelę jie paslepiami)
+2415	Ruošiamas PNG…
+2416	Ryšių pavadinimai
+2417	sodo duomenys – vėl įkeliami „Tvarkyti sodus“
+2418	Su žemėlapiu – matomas vaizdas
+2419	SVG nepavyko nupiešti
+2420	Užrašai
+2421	vektorinis vaizdas – galima didinti, taisyti Inkscape
+2422	{0} ryšiai paslėpti (grąžinami per 👁 „Rodinys“)
+2423	{0}: paslėpta {1} mazgų su jų ryšiais (grąžinami per 👁 „Rodinys“)
+2424	Be bibliografijos sodo atsisiųsti negalima – bandykite dar kartą
+2425	Kiekvienoje byloje – visa bibliografija: SVG ir PNG – po sodu ir bylos metaduomenyse, JSON – lauke „bibliografija“.
+2426	Sodas be pavadinimo
+2427	„{0}“ – Sodas, {1}. Šaltiniai, kuriuos būtina cituoti:
+2430	apie 2 min.; Esc – nutraukti
+2431	atidėta
+2432	Atsisiuntimas
+2433	Baigti
+2434	Baigti pamoką (Esc)
+2435	Dešinysis klavišas ant mazgo – visi jo veiksmai (išskleisti, suskleisti, žemėlapis, krepšys…). Vidurinis klavišas – mazgo skydelis. Shift + spustelėjimas – pažymėti kelis mazgus: pažymėtus galima apjungti arba sujungti ryšiu.
+2436	Jūsų sodai
+2437	Kai sode atsiras mazgų su vieta (kalbų, žodžių), juostoje atsiras 🗺: mazgai nukeliami į savo vietas žemėlapyje. Pažymėjus sąvoką ar reikšmę (Sense), žemėlapyje parodomi visi jų žodžiai.
+2438	Kitos dalys
+2439	Mazgai – žodžiai, reikšmės, kalbos, sąvokos; linijos – ryšiai tarp jų. Dukart spustelėjus mazgą jis išskleidžiamas: atsiranda jo kaimynai. Ratuku sodas artinamas, tempiant – stumdomas.
+2440	Mazgo aprašas
+2441	Ne dabar
+2442	Paieška
+2443	Pamoka
+2444	Pamoka visada po ranka
+2445	Pamoką bet kada rasite spustelėję ženklą SODAS.
+2446	Padaryk už mane
+2448	Pažymėto mazgo savybės, ryšiai duomenų bazėje ir šaltinio įrašas rodomi čia. Vėliavėlė prie mazgo – jo kalba, ženkliukas ⧉ – apjungti mazgai.
+2449	Pelė sode
+2450	Pirmą kartą Sode?
+2451	Pasodinkime pirmąjį žodį. Paieškos lauke įrašykite, pvz., saulė, ir atsiradusiame sąraše spustelėkite pirmą radinį – jis atsiras sode. Ieškoti galima ir kalbų, sąvokų ar giminiškų žodžių rinkinių.
+2452	Pradėti pamoką
+2453	Pradėti sodo pamoką
+2455	saulė
+2456	Sodo pavadinimas ir kiti jūsų sodai; ＋ – naujas sodas. Kiekvienas sodas – atskiras tyrimas.
+2457	Sodą galima atsisiųsti kaip SVG, PNG ar JSON. Prie kiekvienos bylos pridedami naudotų duomenų ir paties Sodo bibliografiniai įrašai. 📚 – tie patys įrašai atskirai.
+2458	Spustelėję ženklą SODAS sužinosite apie aplinką, kaip ją cituoti, ir galėsite pakartoti šią pamoką. Sėkmingo sodininkavimo!
+2459	Sveiki atvykę į Sodą!
+2461	Toliau
+2462	Trumpa pamoka parodys, kaip ieškoti žodžių, auginti savo sodą ir jį tyrinėti (apie 2 min.).
+2463	Čia auginate savo tyrimo sodą – kalbų, žodžių, jų reikšmių ir sąvokų grafą iš daugelio duomenynų. Pamoka trunka apie dvi minutes. Ją bet kada galite nutraukti (Esc), o pakartoti – spustelėję ženklą SODAS.
+2464	Šio puslapio pamoka ruošiama. Sodo pamoką rasite sodo lange – spustelėkite ten ženklą SODAS.
+2466	👁 – mazgų ir ryšių pavadinimai bei sode esantys tipai: nuėmus varnelę tipas paslepiamas, sodas tampa aiškesnis.
+2467	🗺 atsiranda, kai sode yra mazgų su vieta: jie nukeliami į savo vietas žemėlapyje. Pažymėjus sąvoką ar reikšmę (Sense), žemėlapyje parodomi visi jų žodžiai.
+2468	🧺 – tyrimo krepšys: čia dedami mazgai, su kuriais vėliau dirba Vaivos tyrimai (pvz. garsų atitikmenys, kalbų medžiai).
+2469	Grąžinti prie aiškinamos dalies
+2470	Tempkite, kad perkeltumėte
+2471	; reikšmė – tikslo pavadinimas. Leidžiamas tik kelio aprašas, užklausa vykdoma tik skaitymui.
+2472	dar neatsisiųstas
+2485	sukurtas ryšys {0}: {1} → {2}
+2492	{0} · {1} · ~{2} MB
+2493	šaltinis ↗
+2494	⭳ Atsisiųsti
+2495	⭳ Atsisiųsti visus trūkstamus
+2496	Neatsisiųsta duomenynų: {0} (~{1} MB). Duomenynai su programa nepateikiami – atsisiųskite juos (reikia interneto), tada pažymėkite ir importuokite į Neo4j. Kiekvienas duomenynas turi savo licenciją: dauguma CC BY 4.0, D-PLACE ir NoRaRe – CC BY-NC 4.0 (ne komerciniam naudojimui).
+2497	Neo4j slaptažodis nenurodytas (neo4j.yaml arba KALBA_NEO4J_PASSWORD)
+2498	Atsisiųsti sodą kaip bylą (JSON), kurią kitas sodininkas galės įkelti į savo Sodą
+2499	CUSTOM: savo pavadintas ryšys
+2500	Duomenyną galima laikinai išjungti, pvz. kai darbui nereikia sunkiasvorių duomenynų. Išjungto duomenyno mazgai neieškomi, neišskleidžiami, nerodomi keliuose ir žemėlapyje, o sode esantys – paslepiami (ne pašalinami). Įjungus vėl – jie iškart grįžta. Duomenys iš Neo4j netrinami ir iš naujo neįkeliami: tai tik jungtukas.
+2501	Ištrinti ryšį „{0}“ iš duomenų bazės?
+2502	Kalba ir nustatymai
+2503	Laikinai išjungti duomenynus
+2504	nubrėžta sode · {0}
+2505	nubrėžta {0}
+2506	Programos klaidos ir įspėjimai (ir naršyklėje įvykusios klaidos).
+2507	Ryšiai, kuriuos nubrėžėte sode (pažymėkite du mazgus ir spauskite Ctrl+J). Jie įrašyti į Neo4j (duomenynas „Papildymai“) ir rodomi kaip visi kiti ryšiai – išskleidus mazgą, kelių paieškoje.
+2508	Ryšys įrašomas į Neo4j (duomenynas „Papildymai“); jų sąrašas – ⚙ → Mano ryšiai.
+2509	savo pavadintas ryšys (tipas CUSTOM)
+2510	Sodai išsaugomi patys. Raidės – sąsajos kalba; ⚙ – nustatymai: tema, spalvos, mazgų išvaizda, duomenynai, sodų tvarkymas.
+2511	Sodas: {0} (žemė: /zeme, sodas: /, Vaiva: /vaiva, nustatymai: /nustatymai; Ctrl+C sustabdo)
+2512	Sode nubrėžti ryšiai (Ctrl+J)
+2513	Sodo byloje – jo mazgai, ryšiai, vaizdas ir naudotų duomenynų sąrašas (bibliografijai).
+2514	su šiuo užrašu – jį sode matysite vietoj tipo.
+2515	Sukurtas ryšys „{0}“
+2516	sukurti ryšį tarp dviejų pažymėtų mazgų (įrašomas į Neo4j, duomenynas „Papildymai“)
+2517	Visi nustatymai (tema, spalvos, paveiksliukai, ribos) grąžinami į tokius, su kokiais programa pateikiama; išjungti duomenynai lieka išjungti.
+2518	Žemė – duomenynai, iš kurių auga sodai; Vaiva – tyrimai su krepšio mazgais.

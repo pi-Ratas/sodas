@@ -1,0 +1,24 @@
+contract: kalba-neo4j/1.1
+dataset_id: clts
+path_name: clts
+title: CLTS
+profile_version: 0.2.0
+verified: true
+input:
+  kind: cldf
+  metadata_glob: cldf-metadata.json
+  require_metadata: true
+  extra_files:
+    - data/references.bib
+    - pkg/transcriptionsystems/transcription-system-metadata.json
+  # cldf-metadata.json declares these CSVW tables without dc:conformsTo.
+  table_roles:
+    sources/index.tsv: {role: CltsSource}
+    data/features.tsv: {role: CltsFeature}
+    data/sounds.tsv: {role: CltsSound}
+    data/graphemes.tsv: {role: CltsGrapheme}
+requires:
+  authorities: []
+semantics:
+  authority_ids: [clts:bipa]
+  notes: "BIPA sounds with CLTS feature values; graphemes stay scoped to their transcription system / data / sound-class set and only point to the Sound they represent."

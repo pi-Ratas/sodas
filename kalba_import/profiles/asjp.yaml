@@ -1,0 +1,15 @@
+contract: kalba-neo4j/1.1
+dataset_id: asjp
+path_name: asjp
+title: ASJP
+profile_version: 0.1.0
+verified: true
+input:
+  kind: cldf
+  metadata_glob: cldf/cldf-metadata.json
+  require_exactly_one_metadata: true
+  extra_files: []
+requires:
+  authorities: [glottolog, concepticon]
+semantics:
+  table_intent: "ASJP wordlist forms remain source-local; similarity does not establish cross-dataset lexical identity."

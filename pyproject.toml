@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sodas"
+version = "1.0.0"
+description = "Sodas: a research garden over CLDF linguistic datasets in Neo4j (importer, graph explorer, Vaiva studies)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "AGPL-3.0-only"}
+authors = [{name = "Kęstutis Račkaitis"}]
+dependencies = ["PyYAML>=6"]
+
+[project.optional-dependencies]
+neo4j = ["neo4j>=5"]
+vaiva = ["numpy>=1.24"]
+test = ["pytest>=8"]
+
+[project.scripts]
+kalba-import = "kalba_import.cli:main"
+sodas = "kalba_sodas.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["kalba_import*", "kalba_sodas*", "kalba_lkezdb*"]
+
+[tool.setuptools.package-data]
+kalba_import = ["profiles/*.yaml", "ui/*"]
+kalba_sodas = ["static/*", "static/ikonos/*", "i18n/*.tsv"]
+kalba_lkezdb = ["uzklausos/*.md", "puslapiai_schema.sql"]
