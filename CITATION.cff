@@ -1,16 +1,16 @@
 cff-version: 1.2.0
-message: "Jei naudojate Sodą moksliniame darbe, prašome jį cituoti. / If you use Sodas in research, please cite it."
-title: "Sodas: a research garden over CLDF linguistic datasets in Neo4j"
+message: "If you use Sodas in research, please cite it."
+title: "Sodas: a research tool over CLDF and other linguistic datasets"
 type: software
 authors:
   - family-names: "Račkaitis"
     given-names: "Kęstutis"
 license: AGPL-3.0-only
 version: "1.0.0"
-date-released: "2026-10-03"
+date-released: "2026-10-04"
 keywords:
   - linguistics
   - CLDF
   - Neo4j
   - cognates
-  - Lithuanian
+  - spectral analysis
