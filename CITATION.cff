@@ -7,6 +7,7 @@ authors:
     given-names: "Kęstutis"
 license: AGPL-3.0-only
 version: "1.0.0"
+doi: 10.5281/zenodo.23383262 
 date-released: "2026-10-04"
 keywords:
   - linguistics
